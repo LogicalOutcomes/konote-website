@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
   <meta name="description" content="Frequently asked questions about KoNote: licensing, support, limitations, and honest answers about what to expect.">
   <title>FAQ — KoNote</title>
   <link rel="stylesheet" href="css/style.css">
@@ -212,12 +213,15 @@
           </button>
           <div class="faq-answer">
             <p>
-              No. KoNote is a web application that requires an internet connection
-              to access. There's no offline mode or mobile app with local storage.
+              KoNote is a web application that requires an internet connection
+              for full functionality. However, a service worker provides a graceful
+              offline fallback — if connectivity drops, you'll see a friendly message
+              and the app resumes automatically when you're back online.
             </p>
             <p>
-              If staff need to work in locations without internet, they would need
-              to take notes elsewhere and enter them into KoNote later.
+              There is no offline data entry or local storage. If staff need to work
+              in locations without internet, they would need to take notes elsewhere
+              and enter them into KoNote later.
             </p>
           </div>
         </div>
@@ -330,18 +334,23 @@
           <div class="faq-answer">
             <p>
               KoNote includes optional AI-assisted features that help staff with
-              documentation tasks:
+              goal writing, documentation, and analysis:
             </p>
             <ul>
+              <li>AI-assisted goal building — natural language goal writing with research-grounded validation</li>
               <li>Suggesting metrics based on outcome target descriptions</li>
               <li>Improving goal statement wording</li>
               <li>Helping structure progress notes</li>
+              <li>Suggestion themes — grouping qualitative feedback into patterns</li>
               <li>Generating funder narrative summaries from aggregate data</li>
+              <li>Outcome insights — AI-generated program summaries</li>
             </ul>
             <p>
-              AI features are privacy-safe — no participant identifying information is ever
-              sent to the AI service. The feature can be disabled entirely via a toggle
-              if your organisation prefers not to use it.
+              AI features use a two-tier toggle: tools-only mode (no participant data,
+              enabled by default) and de-identified analysis mode (participant data with
+              identifiers removed, disabled by default). No participant identifying
+              information is ever sent to the AI service. Both tiers can be disabled
+              entirely if your organisation prefers not to use AI.
             </p>
           </div>
         </div>
