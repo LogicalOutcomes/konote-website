@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="description" content="Try the KoNote self-service registration form. See how participants can register for programs online.">
+  <meta name="description" content="Try KoNote's self-service registration and survey forms. See how participants register and how staff collect feedback — all in a live demo.">
   <title>Try It — KoNote</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.ico" sizes="32x32">
@@ -116,8 +116,8 @@
       <div class="container">
         <h1>Try It</h1>
         <p class="hero-tagline">
-          This is a live registration form connected to a real KoNote instance.
-          Register yourself, then log in to see how staff manage participants.
+          These are live forms connected to a real KoNote instance.
+          Try the registration form, fill out a survey, then log in to see how staff manage everything.
         </p>
       </div>
     </section>
@@ -241,9 +241,73 @@
     </section>
 
     <section class="alt-bg">
+      <div class="container">
+        <h2>Try a Survey</h2>
+        <p>
+          KoNote includes a full survey engine for intake forms, satisfaction questionnaires,
+          and standardised assessments. Staff create surveys in the admin panel, then share
+          them with participants in three ways: a public link (no login needed), the
+          participant portal, or staff-assisted data entry.
+        </p>
+        <p>
+          The form below is a live shareable link &mdash; the same kind you would send to
+          participants or post on your website. Fill it out to see how it works, then log in
+          as the demo user to view the results.
+        </p>
+
+        <div class="workflow-steps" style="counter-reset: step;">
+          <div class="workflow-step">
+            <h3>Fill Out the Survey</h3>
+            <p>Complete the form below. Your answers go to the demo environment &mdash; no real data is collected.</p>
+          </div>
+          <div class="workflow-step">
+            <h3>Log In as Staff</h3>
+            <p>Open the <a href="https://konote-dev.llewelyn.ca/" target="_blank" rel="noopener">KoNote demo app</a> and sign in with the demo credentials above.</p>
+          </div>
+          <div class="workflow-step">
+            <h3>View Results</h3>
+            <p>Go to <strong>Surveys</strong> in the main menu. Open the survey to see all responses, including yours.</p>
+          </div>
+        </div>
+
+        <!-- TODO: Replace DEMO_TOKEN with the actual shareable link token
+             from konote-dev once the demo survey is created.
+             Steps: 1) Create a survey on konote-dev
+                    2) Generate a shareable link (Surveys > survey > Shareable Links)
+                    3) Copy the token and paste it below -->
+        <div class="demo-frame-container">
+          <div class="demo-frame-header">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M8 5v3M8 10h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            Live survey &mdash; submissions go to a test environment, not real data
+          </div>
+          <iframe
+            src="https://konote-dev.llewelyn.ca/s/DEMO_TOKEN/"
+            title="KoNote Survey Demo"
+            loading="lazy"
+            scrolling="no"
+            allow="forms">
+          </iframe>
+        </div>
+
+        <div class="notice notice-info" style="margin-top: var(--space-8);">
+          <p class="notice-title">What staff see</p>
+          <p>
+            After you submit, log in as <code>demo-worker-1</code> and go to
+            <strong>Surveys</strong>. You can view individual responses, see
+            response counts, and export results to CSV. Staff can also assign
+            surveys to specific participants and track completion.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
       <div class="container text-center">
         <p class="text-muted mb-8">
-          Registration is one of many features in KoNote.
+          Registration and surveys are just two of many features in KoNote.
           See the <a href="features.html">features overview</a> or
           read the <a href="getting-started.html">getting started guide</a>
           to learn more.
@@ -276,13 +340,15 @@
       });
     }
 
-    // Auto-resize embedded registration form to eliminate iframe scrollbar
+    // Auto-resize embedded forms to eliminate iframe scrollbars
     window.addEventListener('message', function(event) {
       if (event.data && event.data.type === 'konote-embed-resize') {
-        var iframe = document.querySelector('.demo-frame-container iframe');
-        if (iframe) {
-          iframe.style.height = event.data.height + 'px';
-        }
+        var iframes = document.querySelectorAll('.demo-frame-container iframe');
+        iframes.forEach(function(iframe) {
+          if (iframe.contentWindow === event.source) {
+            iframe.style.height = event.data.height + 'px';
+          }
+        });
       }
     });
   </script>
