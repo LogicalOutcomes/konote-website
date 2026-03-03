@@ -402,12 +402,12 @@
             </p>
             <ul>
               <li>Individual participant export in PDF, CSV, and JSON formats</li>
-              <li>Secure, time-limited export links (SecureExportLink with 24-hour expiry and nonce deduplication)</li>
+              <li>Secure, time-limited download links (24-hour expiry, single-use protection)</li>
               <li>Elevated export controls — large exports trigger admin notification and delay</li>
               <li>Download tracking and admin revocation</li>
               <li>CSV export of participant data and metrics</li>
               <li>Audit log export</li>
-              <li>Agency-wide offboarding export — AES-256-GCM encrypted, automatic model discovery, nested client-centric JSON, Diceware passphrase</li>
+              <li>Agency-wide offboarding export — fully encrypted, password-protected, includes all participant data organised by person</li>
               <li>Full audit trail on all exports — who downloaded, when, how many times</li>
             </ul>
           </div>
@@ -420,10 +420,10 @@
             <ul>
               <li>CIDS metadata fields on programs, outcomes, and indicators</li>
               <li>Organisation profile with CIDS sector, geography, and legal status</li>
-              <li>CIDS code lists imported and mapped via TaxonomyMapping model</li>
+              <li>CIDS code lists imported and mapped to your programs and outcomes</li>
               <li>Admin UI for tagging outcomes and indicators with CIDS codes</li>
               <li>Standards Alignment appendix automatically included in funder reports</li>
-              <li>JSON-LD export for machine-readable, standards-compliant data sharing</li>
+              <li>Machine-readable export for sharing data with other standards-compliant systems</li>
               <li>Impact dimensions for structured outcome categorisation</li>
             </ul>
           </div>
@@ -436,14 +436,14 @@
             </p>
             <ul>
               <li>Semantic HTML structure with proper heading hierarchy</li>
-              <li>Full keyboard navigation with roving tabindex patterns</li>
+              <li>Full keyboard navigation — use Tab and arrow keys to reach every control</li>
               <li>Skip navigation links on every page</li>
               <li>WCAG 2.2 AA colour contrast compliance</li>
-              <li>WAI-ARIA roles for menus, tabs, and interactive elements</li>
-              <li>Touch target sizes meeting WCAG 2.5.8 minimum (24px)</li>
+              <li>Screen reader-friendly menus, tabs, and interactive elements</li>
+              <li>Touch-friendly button and control sizes for tablet and mobile</li>
               <li>Screen reader compatible — tested with NVDA and VoiceOver</li>
-              <li>axe-core accessibility tests integrated into CI pipeline</li>
-              <li>Service worker provides graceful offline fallback</li>
+              <li>Automated accessibility checks run on every code change</li>
+              <li>Graceful offline fallback when internet connection drops</li>
             </ul>
           </div>
 
@@ -469,8 +469,8 @@
               while maintaining strict data separation between agencies.
             </p>
             <ul>
-              <li>Isolated database schemas per agency — no data mixing</li>
-              <li>Per-agency encryption keys (KEK pattern with thread-local cache)</li>
+              <li>Each agency's data is completely separated — no mixing between organisations</li>
+              <li>Each agency gets its own encryption key, managed independently</li>
               <li>Shared infrastructure for cost optimisation ($4&ndash;10/month per agency vs. $35&ndash;100 standalone)</li>
               <li>Independent configuration per agency (terminology, features, programs)</li>
               <li>Consortium model for agencies that want to share aggregate reporting</li>

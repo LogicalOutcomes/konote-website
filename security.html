@@ -73,7 +73,7 @@
               <li><strong>Encrypted fields:</strong> Participant names, birth dates, emails, phone numbers, progress note content, sensitive custom fields, registration submissions</li>
               <li><strong>Key storage:</strong> Your encryption key, stored as an environment variable (Azure Key Vault recommended for production)</li>
               <li><strong>Key rotation:</strong> Built-in key rotation command for changing encryption keys</li>
-              <li><strong>Per-agency keys:</strong> In multi-agency deployments, each agency has its own encryption key (KEK pattern with thread-local cache)</li>
+              <li><strong>Per-agency keys:</strong> In multi-agency deployments, each agency has its own encryption key — one agency's key cannot decrypt another's data</li>
             </ul>
             <p class="text-muted">
               Even if someone gains access to the database, encrypted fields
