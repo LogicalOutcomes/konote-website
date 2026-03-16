@@ -9,15 +9,19 @@
         redir * /en/ temporary
     }
 
+    # Shared static assets (CSS, JS, images, favicons)
+    @static path /css/* /js/* /img/* /favicon* /robots.txt /sitemap.xml
+    handle @static {
+        file_server
+    }
+
     # Custom 404 pages per language subtree
     handle /en/* {
-        root * /srv
         try_files {path} {path}/index.html /en/404.html
         file_server
     }
 
     handle /fr/* {
-        root * /srv
         try_files {path} {path}/index.html /fr/404.html
         file_server
     }
