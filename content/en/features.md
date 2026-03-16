@@ -1,0 +1,623 @@
+---
+title: "Features"
+description: "KoNote features: participant records, outcome plans, progress notes, metrics tracking, surveys, funder reporting, CIDS compliance, participant portal, executive dashboard, group circles, AI-assisted goal writing, and more."
+layout: "wide"
+hero: true
+hero_title: "Features"
+hero_tagline: "What KoNote does — and what it doesn't do. We believe in being upfront about capabilities and limitations."
+---
+
+<section>
+  <div class="container">
+    <h2>What KoNote Does</h2>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>Participant Records</h3>
+        <p>
+          Maintain records for each participant with personal information,
+          program enrolment, and custom intake fields.
+        </p>
+        <ul>
+          <li>Encrypted storage for all personal information</li>
+          <li>Custom fields defined by your agency</li>
+          <li>Preferred name / display name support</li>
+          <li>Multi-program enrolment</li>
+          <li>Program transfer with audit trail and cross-program sharing consent</li>
+          <li>Status tracking (active, inactive, discharged)</li>
+          <li>Duplicate detection with automatic matching</li>
+          <li>Merge workflow for duplicate records</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Outcome Plans</h3>
+        <p>
+          Define measurable outcomes and track progress toward goals.
+        </p>
+        <ul>
+          <li>Plan sections for organising outcomes (e.g., "Employment", "Housing")</li>
+          <li>Specific, measurable targets within each section</li>
+          <li>Metrics library with common measures (PHQ-9, housing stability, etc.)</li>
+          <li>Custom metrics defined by your agency</li>
+          <li>Reusable plan templates</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Progress Notes</h3>
+        <p>
+          Document participant interactions and track metric values over time.
+        </p>
+        <ul>
+          <li>Quick notes for brief interactions</li>
+          <li>Structured notes with sections and templates</li>
+          <li>Participant reflection — capture what the participant is taking away</li>
+          <li>Interaction types (phone, in-person, virtual, etc.)</li>
+          <li>Record metric values within notes</li>
+          <li>Full-text search across note content</li>
+          <li>Backdate notes with full audit trail</li>
+          <li>Follow-up tracking</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Metrics &amp; Visualisation</h3>
+        <p>
+          Track quantifiable outcomes and visualise progress over time.
+        </p>
+        <ul>
+          <li>Pre-built metrics library</li>
+          <li>Custom metrics with min/max values</li>
+          <li>Progress charts showing change over time</li>
+          <li>Compare actual values against targets</li>
+          <li>CSV import/export for metric definitions</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Group Tracking</h3>
+        <p>
+          Deliver and document group-based services alongside individual work.
+        </p>
+        <ul>
+          <li>Programs configured as individual, group, or both</li>
+          <li>Group rosters with membership management</li>
+          <li>Attendance tracking per session</li>
+          <li>Group progress notes linked to all attendees</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Circles (Family &amp; Network Groups)</h3>
+        <p>
+          Link participants who share a household, family, or support network
+          into a named group for coordinated service delivery.
+        </p>
+        <ul>
+          <li>Named circles with relationship roles (parent, child, partner, etc.)</li>
+          <li>View all circle members from any participant's profile</li>
+          <li>Shared timeline across circle members</li>
+          <li>Cross-program circle membership</li>
+          <li>Privacy controls — circle membership doesn't grant data access</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Events &amp; Alerts</h3>
+        <p>
+          Record significant milestones and flag important information.
+        </p>
+        <ul>
+          <li>Customisable event types (intake, discharge, crisis, etc.)</li>
+          <li>Colour-coded event categories</li>
+          <li>Safety alerts attached to participant records</li>
+          <li>Two-person safety rule — alerts require a second person to cancel</li>
+          <li>Timeline view of participant events</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Messaging &amp; Communication Logging</h3>
+        <p>
+          Log and track all participant communications in one place.
+        </p>
+        <ul>
+          <li>Log phone calls, texts, emails, and in-person visits</li>
+          <li>Quick-log buttons for common interaction types</li>
+          <li>Communication history on participant timeline</li>
+          <li>Optional SMS and email integration (Twilio, SMTP)</li>
+          <li>Automated appointment reminders (36 hours in advance)</li>
+          <li>Delivery tracking (sent, delivered, failed, bounced)</li>
+          <li>System health monitoring with admin alerts on channel failures</li>
+          <li>CASL consent tracking for electronic messages</li>
+          <li>Channel-level contact preferences per participant</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Meetings &amp; Calendar</h3>
+        <p>
+          Schedule and track meetings with participants.
+        </p>
+        <ul>
+          <li>Schedule meetings with date, time, location, and status</li>
+          <li>Meeting types: in-person, virtual, phone, home visit</li>
+          <li>iCal feed — sync meetings to Outlook, Google Calendar, or Apple Calendar</li>
+          <li>Upcoming meetings on the dashboard</li>
+          <li>Meeting history on participant timeline</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Consent Management</h3>
+        <p>
+          Record and track participant consent with a full audit trail.
+        </p>
+        <ul>
+          <li>Consent records linked to participant files</li>
+          <li>Immutable records — consent can be withdrawn but never deleted</li>
+          <li>Withdrawal tracking with reason and date</li>
+          <li>CASL compliance for electronic communications</li>
+          <li>Preferred language and contact preferences</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Role-Based Access</h3>
+        <p>
+          Control who can see and do what, based on their role.
+        </p>
+        <ul>
+          <li>Five roles: Admin, Program Manager, Direct Service, Front Desk, Executive</li>
+          <li>Program-scoped access (staff only see their programs)</li>
+          <li>Program Managers get scoped admin access (templates, metrics, team members within their programs)</li>
+          <li>Field-level visibility controls per role</li>
+          <li>Confidential programs hidden from unauthorised staff</li>
+          <li>Program context switcher for multi-program staff</li>
+          <li>Admins blocked from participant data by default</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Executive Dashboard</h3>
+        <p>
+          High-level outcome monitoring for directors and executives who
+          need the big picture without accessing individual participant records.
+        </p>
+        <ul>
+          <li>Agency-wide outcome statistics at a glance</li>
+          <li>Program cards with enrolment, active participants, and achievement rates</li>
+          <li>Aggregate demographic breakdowns</li>
+          <li>No access to individual participant data — monitoring only</li>
+          <li>Accessible to the Executive role</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Audit Logging</h3>
+        <p>
+          Complete record of who accessed what and when.
+        </p>
+        <ul>
+          <li>All data changes logged with before/after values</li>
+          <li>Participant record access logged</li>
+          <li>Login/logout events</li>
+          <li>Separate, immutable audit database</li>
+          <li>Searchable audit log viewer</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Customisation</h3>
+        <p>
+          Adapt KoNote to match your agency's language and workflow.
+        </p>
+        <ul>
+          <li>Rename "Client" to "Participant", "Member", etc.</li>
+          <li>Customise all terminology in English and French</li>
+          <li>Enable/disable features via toggles</li>
+          <li>Full bilingual interface (English/French) following canada.ca conventions</li>
+          <li>CSV import/export for metric library management</li>
+          <li>Agency-configurable custom fields for participant profiles</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Self-Service Registration</h3>
+        <p>
+          Let participants register themselves via a shareable link.
+        </p>
+        <ul>
+          <li>Program-specific registration links</li>
+          <li>Customisable registration fields</li>
+          <li>Auto-approval or manual review</li>
+          <li>Capacity limits and deadlines</li>
+          <li>Waitlist management</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Demo &amp; Training Mode</h3>
+        <p>
+          Built-in demo accounts for training and evaluation, with
+          safeguards that keep demo activity completely separate from real data.
+        </p>
+        <ul>
+          <li>Pre-configured demo user accounts with realistic sample data</li>
+          <li>Training data isolation — demo records excluded from all reports, exports, and dashboards</li>
+          <li>Demo admin accounts restricted to view-only for agency settings</li>
+          <li>Persistent training-mode banner so staff always know they are in demo</li>
+          <li>Visually separated "Training Accounts" section on the login page</li>
+          <li>Demo login events audited for operational awareness</li>
+          <li>Regenerate demo data anytime to start fresh — no risk to real participant records</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Participant Portal</h3>
+        <p>
+          Optional self-service portal where participants can view their own
+          progress, complete surveys, access resources, and stay connected to their plans.
+        </p>
+        <ul>
+          <li>Participants log in to view their own outcome plans and progress</li>
+          <li>Complete assigned surveys and check-ins directly in the portal</li>
+          <li>Auto-save on survey responses — pick up where you left off if the browser closes</li>
+          <li>Self-report on metrics between sessions</li>
+          <li>View progress charts and milestone history</li>
+          <li>Access shared resources and program materials</li>
+          <li>Private journal for participant reflections</li>
+          <li>Send messages to assigned worker</li>
+          <li>Request corrections to notes or records</li>
+          <li>Secure invite workflow with optional verbal code for identity verification</li>
+          <li>Consent flow during portal onboarding</li>
+          <li>Multi-factor authentication (TOTP app or email codes)</li>
+          <li>Account lockout after failed attempts</li>
+          <li>Staff can revoke access or reset MFA from the participant file</li>
+          <li>Agency controls which fields and plans are visible</li>
+          <li>Optional feature — disabled by default</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Surveys &amp; Assessments</h3>
+        <p>
+          Collect structured feedback from participants — intake forms, satisfaction
+          surveys, standardised assessments, and recurring check-ins.
+        </p>
+        <ul>
+          <li>Six question types: short text, long text, single choice, multiple choice, rating scale, yes/no</li>
+          <li>Multi-page forms with section-based navigation</li>
+          <li>Conditional logic — show or hide sections based on previous answers</li>
+          <li>Section scoring (sum or average) for standardised instruments</li>
+          <li>Three delivery channels: shareable public links, participant portal, or staff data entry</li>
+          <li>Shareable public links — collect feedback without requiring login or a portal account</li>
+          <li>Automatic assignment rules — trigger surveys on events, enrolment, time-based schedule, or participant characteristics</li>
+          <li>Configurable repeat policies: once per participant, once per enrolment, or recurring</li>
+          <li>CSV import for existing instruments (PHQ-9, SPDAT, etc.) with custom score values</li>
+          <li>Draft, active, closed, and archived lifecycle management</li>
+          <li>Full bilingual support (English/French) for all survey content</li>
+          <li>Free-text answers encrypted at rest</li>
+          <li>Auto-save on portal responses — participants can resume mid-survey</li>
+          <li>Response export as CSV</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Data Erasure Workflow</h3>
+        <p>
+          PIPEDA and GDPR-ready data erasure with multi-stage approval.
+        </p>
+        <ul>
+          <li>Erasure requests with reason categories</li>
+          <li>Multi-program manager approval workflow</li>
+          <li>Automatic execution when all approvals received</li>
+          <li>Tiered anonymisation (partial or full erasure)</li>
+          <li>PDF erasure receipts</li>
+          <li>Permanent audit record preserved after erasure</li>
+          <li>Data summary snapshot before deletion</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>AI-Assisted Writing &amp; Analysis</h3>
+        <p>
+          Optional AI features to help staff with goal writing, documentation, and analysis.
+        </p>
+        <ul>
+          <li>AI-assisted goal building — natural language goal writing with research-grounded validation</li>
+          <li>Metric suggestions based on target descriptions</li>
+          <li>Outcome goal improvement suggestions</li>
+          <li>Note structure assistance</li>
+          <li>Funder narrative generation from aggregate metrics</li>
+          <li>Suggestion themes — qualitative feedback grouping and pattern analysis</li>
+          <li>Outcome insights — AI-generated program summaries with transparency timestamps</li>
+          <li>Two-tier toggle: tools-only mode (no participant data) or de-identified analysis mode</li>
+          <li>Privacy-safe — no participant identifying information sent to AI</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Funder Reporting</h3>
+        <p>
+          Generate templated reports for funders and partners with the data they need.
+        </p>
+        <ul>
+          <li>Configurable funder report templates</li>
+          <li>Demographic breakdowns by program or agency</li>
+          <li>Achievement rate summaries (% of participants meeting targets)</li>
+          <li>Multi-step approval workflow for funder reports</li>
+          <li>Partner report approval — share draft reports with partner agencies for review before submission</li>
+          <li>Common Impact Data Standard (CIDS) metadata tagging</li>
+          <li>JSON-LD export for standards-compliant data sharing</li>
+          <li>AI-generated funder narrative summaries from aggregate data</li>
+          <li>Date presets and PDF export for executive dashboard reports</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Data Export &amp; Offboarding</h3>
+        <p>
+          Get data out when you need it — for individual participants or
+          full agency offboarding — with controls to prevent misuse.
+        </p>
+        <ul>
+          <li>Individual participant export in PDF, CSV, and JSON formats</li>
+          <li>Secure, time-limited download links (24-hour expiry, single-use protection)</li>
+          <li>Elevated export controls — large exports trigger admin notification and delay</li>
+          <li>Download tracking and admin revocation</li>
+          <li>CSV export of participant data and metrics</li>
+          <li>Audit log export</li>
+          <li>Agency-wide offboarding export — fully encrypted, password-protected, includes all participant data organised by person</li>
+          <li>Full audit trail on all exports — who downloaded, when, how many times</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>CIDS &amp; Common Approach Compliance</h3>
+        <p>
+          FullTier compliance with the
+          <a href="https://commonapproach.org" target="_blank" rel="noopener">Common Impact Data Standard (CIDS) v3.2.0</a>
+          — the highest tier defined in the standard. Staff never see CIDS fields;
+          the system maps their normal work to CIDS automatically.
+        </p>
+        <ul>
+          <li>FullTier compliance — all three tiers (Basic, Essential, Full) covered</li>
+          <li>All 17 official CIDS code lists imported (SDG, IRIS+, sectors, populations)</li>
+          <li>Auto-populated CIDS metadata on programs, outcomes, and indicators</li>
+          <li>Organisation profile with sector, geography, and legal status</li>
+          <li>JSON-LD export using the official CIDS context for machine-readable data sharing</li>
+          <li>Impact dimensions: scale, depth, and duration computed from service data</li>
+          <li>Standards Alignment appendix automatically included in funder reports</li>
+          <li>Privacy-safe — exports contain aggregate data only, never individual records</li>
+          <li>Validated against the CIDS 3.2.0 ontology and SHACL shape files</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Accessibility (WCAG 2.2 AA)</h3>
+        <p>
+          Built with accessibility as a core requirement, not an afterthought.
+          Tested with automated tools and manual review.
+        </p>
+        <ul>
+          <li>Semantic HTML structure with proper heading hierarchy</li>
+          <li>Full keyboard navigation — use Tab and arrow keys to reach every control</li>
+          <li>Skip navigation links on every page</li>
+          <li>WCAG 2.2 AA colour contrast compliance</li>
+          <li>Screen reader-friendly menus, tabs, and interactive elements</li>
+          <li>Touch-friendly button and control sizes for tablet and mobile</li>
+          <li>Screen reader compatible — tested with NVDA and VoiceOver</li>
+          <li>Automated accessibility checks run on every code change</li>
+          <li>Graceful offline fallback when internet connection drops</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Offline Field Collection</h3>
+        <p>
+          Collect data in the field without an internet connection,
+          then sync it to KoNote when connectivity is available.
+        </p>
+        <ul>
+          <li>Integration with ODK Central for offline-capable mobile data collection</li>
+          <li>Works on Android devices in locations with no internet</li>
+          <li>PII protection tiers — control what identifiers are sent to field devices</li>
+          <li>Sync collected data back to KoNote when connected</li>
+          <li>Device loss protocol to protect data if a device is lost or stolen</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Multi-Agency Hosting</h3>
+        <p>
+          Multiple organisations can share a single server to reduce hosting costs,
+          while maintaining strict data separation between agencies.
+        </p>
+        <ul>
+          <li>Each agency's data is completely separated — no mixing between organisations</li>
+          <li>Each agency gets its own encryption key, managed independently</li>
+          <li>Shared infrastructure for cost optimisation ($4&ndash;10/month per agency vs. $35&ndash;100 standalone)</li>
+          <li>Independent configuration per agency (terminology, features, programs)</li>
+          <li>Consortium model for agencies that want to share aggregate reporting</li>
+          <li>Consent-based aggregate reporting across consortium members</li>
+          <li>Ideal for umbrella organisations, consortia, or regional networks</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt-bg">
+  <div class="container">
+    <h2>What KoNote Does NOT Do</h2>
+    <p class="text-muted mb-8">
+      We believe in being clear about limitations. KoNote is purpose-built for
+      outcome tracking — not a general-purpose system.
+    </p>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>Billing &amp; Invoicing</h3>
+        <p>
+          No financial features. KoNote doesn't track payments, generate invoices,
+          or integrate with accounting systems.
+        </p>
+        <p class="text-muted">
+          <strong>Alternative:</strong> Use QuickBooks, Wave, or your existing accounting software.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Clinical Assessments</h3>
+        <p>
+          KoNote doesn't include standardised clinical assessment tools
+          (GAD-7, AUDIT-C, etc.) out of the box. It's an outcome tracking system,
+          not a clinical EMR.
+        </p>
+        <p class="text-muted">
+          <strong>Note:</strong> You can import standardised instruments as surveys
+          via CSV, or create custom metrics that mirror these assessments.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Public API</h3>
+        <p>
+          KoNote is designed for staff use through the web interface.
+          There's no REST API for external integrations.
+        </p>
+        <p class="text-muted">
+          <strong>For developers:</strong> You can extend the Django codebase directly.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Mobile App</h3>
+        <p>
+          KoNote is web-only. The interface is responsive and works on tablets
+          and phones, but there's no native app.
+        </p>
+        <p class="text-muted">
+          <strong>Note:</strong> A service worker provides a graceful offline
+          fallback — you'll see a friendly message if connectivity drops, and
+          the app resumes when you're back online. Add to home screen for an
+          app-like experience.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Complex Workflow Automation</h3>
+        <p>
+          KoNote has basic automation (appointment reminders, health alerts),
+          but no rules engine or complex triggers. You won't get notified automatically
+          if a participant hasn't been seen in 30 days.
+        </p>
+        <p class="text-muted">
+          <strong>Note:</strong> Manual filtering and reports can surface this information.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Video/Telehealth</h3>
+        <p>
+          KoNote is a notes and outcomes system. No video conferencing or
+          telehealth features.
+        </p>
+        <p class="text-muted">
+          <strong>Alternative:</strong> Use Zoom, Teams, or a dedicated telehealth platform.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Vendor Support</h3>
+        <p>
+          This is open source software. There's no vendor hotline, no guaranteed
+          response times, no SLA.
+        </p>
+        <p class="text-muted">
+          <strong>Support options:</strong> Community via GitHub, or <a href="/en/services/">professional services</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Technical Specifications</h2>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Component</th>
+            <th>Technology</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Backend Framework</td>
+            <td>Django 5.1, Python 3.12</td>
+          </tr>
+          <tr>
+            <td>Database</td>
+            <td>PostgreSQL 16 (two databases: operational + audit)</td>
+          </tr>
+          <tr>
+            <td>Frontend</td>
+            <td>Server-rendered Django templates + HTMX + Pico CSS</td>
+          </tr>
+          <tr>
+            <td>Charts</td>
+            <td>Chart.js</td>
+          </tr>
+          <tr>
+            <td>Authentication</td>
+            <td>Azure AD SSO (primary) or local with Argon2</td>
+          </tr>
+          <tr>
+            <td>Encryption</td>
+            <td>Fernet (AES-128-CBC + HMAC-SHA256)</td>
+          </tr>
+          <tr>
+            <td>Deployment</td>
+            <td>Docker Compose (Railway, Azure, OVHcloud, Elestio, or self-hosted)</td>
+          </tr>
+          <tr>
+            <td>Canadian Hosting</td>
+            <td>OVHcloud Beauharnois data centre (QC) for Canadian data residency</td>
+          </tr>
+          <tr>
+            <td>License</td>
+            <td>MIT (free, open source)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="notice notice-info">
+      <p class="notice-title">Scaling Notes</p>
+      <p>
+        KoNote has been tested with up to ~2,000 active participants. The encrypted search
+        works by loading accessible participants into memory and filtering in Python,
+        which may slow down at larger scales. For organisations with more participants,
+        performance testing is recommended.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="alt-bg">
+  <div class="container text-center">
+    <h2>Want to try it?</h2>
+    <p class="text-muted mb-8">
+      Read the getting started guide to evaluate KoNote for your organisation.
+    </p>
+    <div class="btn-group" style="justify-content: center;">
+      <a href="/en/getting-started/" class="btn btn-primary">Getting Started</a>
+      <a href="/en/documentation/" class="btn btn-secondary">Full Documentation</a>
+    </div>
+  </div>
+</section>
