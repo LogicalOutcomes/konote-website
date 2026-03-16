@@ -1,0 +1,27 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="{{ "/" | relLangURL }}" class="site-logo" aria-label="{{ .Site.Title }} — {{ i18n "nav_home" }}">
+      <img src="/img/konote-mark.png" alt="" width="24" height="22" class="site-logo-mark">
+      <span class="site-logo-text"><span class="site-logo-ko">KO</span>NOTE</span>
+    </a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">
+      Menu
+    </button>
+
+    {{- partial "nav.html" . -}}
+
+    <div class="header-actions">
+      {{- partial "lang-switcher.html" . -}}
+      <button class="search-trigger" id="search-trigger" aria-label="{{ i18n "search_button" }}">Search</button>
+    </div>
+  </div>
+</header>
+
+<script>
+  document.querySelector('.nav-toggle')?.addEventListener('click', function() {
+    const nav = document.querySelector('.site-nav');
+    const isOpen = nav.classList.toggle('is-open');
+    this.setAttribute('aria-expanded', isOpen);
+  });
+</script>

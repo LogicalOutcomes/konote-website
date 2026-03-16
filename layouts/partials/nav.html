@@ -1,0 +1,12 @@
+{{ $currentPath := .RelPermalink }}
+{{ $lang := .Language.Lang }}
+<nav class="site-nav" id="main-nav" aria-label="{{ i18n "nav_label" | default "Main navigation" }}">
+  {{ $pages := slice "features" "evidence" "getting-started" "documentation" "security" "services" "faq" }}
+  {{ $keys := slice "nav_features" "nav_evidence" "nav_getting_started" "nav_documentation" "nav_security" "nav_services" "nav_faq" }}
+  {{ range $i, $slug := $pages }}
+    {{ $key := index $keys $i }}
+    {{ $href := printf "/%s/%s/" $lang $slug }}
+    {{ $isCurrent := eq $currentPath $href }}
+    <a href="{{ $href }}"{{ if $isCurrent }} aria-current="page"{{ end }}>{{ i18n $key }}</a>
+  {{ end }}
+</nav>
