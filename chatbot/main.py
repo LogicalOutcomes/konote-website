@@ -1,4 +1,4 @@
-"""KoNote chatbot API — context stuffing with OpenRouter."""
+"""KoNote chatbot API — structured context assembly with OpenRouter."""
 
 import os
 from contextlib import asynccontextmanager
@@ -20,12 +20,17 @@ from config import (
     SYSTEM_PROMPTS,
     WEBSITE_URL,
 )
-from content_loader import load_content
+from content_loader import load_section_index, load_core_pack
+from context_selector import select_context, format_context
 
-# --- Load knowledge base ---
-knowledge = {
-    "en": load_content("knowledge/site/en/") + "\n" + load_content("knowledge/curated/en/"),
-    "fr": load_content("knowledge/site/fr/") + "\n" + load_content("knowledge/curated/fr/"),
+# --- Load structured knowledge base at startup ---
+section_index = {
+    "en": load_section_index("en"),
+    "fr": load_section_index("fr"),
+}
+core_packs = {
+    "en": load_core_pack("en"),
+    "fr": load_core_pack("fr"),
 }
 
 # --- HTTP client lifecycle ---
@@ -70,12 +75,19 @@ class HistoryMessage(BaseModel):
 class ChatRequest(BaseModel):
     query: str = Field(min_length=1, max_length=MAX_QUERY_LENGTH)
     language: str = "en"
+    current_page: str = ""  # page path, e.g., "/en/features/"
+    current_page_title: str = ""
     history: list[HistoryMessage] = Field(default_factory=list, max_length=MAX_HISTORY_LENGTH)
+
+
+class SourceLink(BaseModel):
+    label: str
+    url: str
 
 
 class ChatResponse(BaseModel):
     response: str
-    sources: list[str] = Field(default_factory=list)
+    sources: list[SourceLink] = Field(default_factory=list)
 
 
 # --- API call ---
@@ -111,8 +123,10 @@ async def call_openrouter(messages: list[dict], lang: str) -> str:
 async def health():
     return {
         "status": "ok",
-        "en_content_length": len(knowledge["en"]),
-        "fr_content_length": len(knowledge["fr"]),
+        "en_sections": len(section_index["en"]),
+        "fr_sections": len(section_index["fr"]),
+        "en_core": len(core_packs["en"]),
+        "fr_core": len(core_packs["fr"]),
     }
 
 
@@ -121,7 +135,18 @@ async def health():
 async def chat(request: Request, body: ChatRequest):
     lang = body.language if body.language in ("en", "fr") else "en"
 
-    system_content = SYSTEM_PROMPTS[lang] + knowledge[lang]
+    # Select targeted context
+    selected, sources = select_context(
+        sections=section_index[lang],
+        query=body.query,
+        current_page=body.current_page,
+        language=lang,
+        core_sections=core_packs[lang],
+    )
+
+    context_text = format_context(selected)
+    system_content = SYSTEM_PROMPTS[lang] + context_text
+
     messages = [
         {"role": "system", "content": system_content},
         *[{"role": m.role, "content": m.content} for m in body.history[-MAX_HISTORY_LENGTH:]],
@@ -130,4 +155,7 @@ async def chat(request: Request, body: ChatRequest):
 
     response_text = await call_openrouter(messages, lang)
 
-    return ChatResponse(response=response_text, sources=[])
+    return ChatResponse(
+        response=response_text,
+        sources=[SourceLink(label=s["label"], url=s["url"]) for s in sources],
+    )
