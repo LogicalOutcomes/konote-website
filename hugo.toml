@@ -1,0 +1,28 @@
+baseURL = "https://konote.ca/"
+languageCode = "en"
+title = "KoNote"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "KoNote — Participant-Centred Case Management"
+    [languages.en.params]
+      description = "Track participant progress, measure outcomes, and demonstrate impact with KoNote."
+
+  [languages.fr]
+    languageName = "Français"
+    weight = 2
+    title = "KoNote — Gestion de cas centrée sur les participants"
+    [languages.fr.params]
+      description = "Suivez les progrès des participants, mesurez les résultats et démontrez l'impact avec KoNote."
+
+[params]
+  chatbotApiUrl = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
