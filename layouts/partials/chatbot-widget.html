@@ -1,1 +1,24 @@
-<!-- Chatbot widget will be added in Chunk 6 -->
+{{ if .Site.Params.chatbotApiUrl }}
+<div id="chatbot-widget">
+  <button id="chatbot-toggle" class="chatbot-toggle-btn" aria-expanded="false" aria-controls="chatbot-panel">
+    <span class="chatbot-toggle-label">{{ i18n "ask_konote" }}</span>
+    <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+  </button>
+
+  <div id="chatbot-panel" class="chatbot-panel" hidden>
+    <div class="chatbot-header">
+      <h2 class="chatbot-title">{{ i18n "ask_konote" }}</h2>
+      <button id="chatbot-close" class="chatbot-close" aria-label="Close">&times;</button>
+    </div>
+    <div id="chatbot-messages" class="chatbot-messages" role="log" aria-live="polite"></div>
+    <p id="chatbot-disclaimer" class="chatbot-disclaimer" hidden>{{ i18n "chatbot_disclaimer" }}</p>
+    <form id="chatbot-form" class="chatbot-form">
+      <label for="chatbot-input" class="visually-hidden">{{ i18n "chatbot_placeholder" }}</label>
+      <input id="chatbot-input" type="text" class="chatbot-input" placeholder="{{ i18n "chatbot_placeholder" }}" maxlength="500" autocomplete="off">
+      <button type="submit" class="chatbot-send btn btn-primary">
+        <svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M2.94 17.06a1 1 0 01-.3-1.02L4.38 10 2.64 3.96a1 1 0 011.32-1.22l14 6a1 1 0 010 1.82l-14 6a1 1 0 01-1.02-.5z"/></svg>
+      </button>
+    </form>
+  </div>
+</div>
+{{ end }}
