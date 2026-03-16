@@ -878,8 +878,8 @@ tr:hover {
   bottom: calc(var(--space-6) + 3.5rem);
   right: var(--space-6);
   z-index: 1001;
-  width: 400px;
-  max-height: 500px;
+  width: 480px;
+  max-height: 70vh;
   display: flex;
   flex-direction: column;
   background: var(--color-bg);
@@ -921,9 +921,8 @@ tr:hover {
 .chatbot-messages {
   flex: 1;
   overflow-y: auto;
-  padding: var(--space-3);
+  padding: var(--space-4);
   min-height: 200px;
-  max-height: 350px;
 }
 
 .chatbot-msg {
@@ -946,6 +945,41 @@ tr:hover {
 .chatbot-msg--assistant {
   background: var(--color-bg-alt);
   color: var(--color-text);
+}
+
+.chatbot-msg--assistant h3,
+.chatbot-msg--assistant h4,
+.chatbot-msg--assistant h5 {
+  margin: 0.5em 0 0.25em;
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  line-height: var(--line-height-tight);
+}
+
+.chatbot-msg--assistant ul {
+  margin: 0.25em 0;
+  padding-left: 1.25em;
+}
+
+.chatbot-msg--assistant li {
+  margin-bottom: 0.15em;
+}
+
+.chatbot-msg--assistant li.nested {
+  margin-left: 1em;
+}
+
+.chatbot-msg--assistant p {
+  margin: 0 0 0.5em;
+}
+
+.chatbot-msg--assistant p:last-child {
+  margin-bottom: 0;
+}
+
+.chatbot-msg--assistant a {
+  color: var(--color-primary);
+  text-decoration: underline;
 }
 
 .chatbot-msg--loading {

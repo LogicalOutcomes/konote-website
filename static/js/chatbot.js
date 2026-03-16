@@ -37,20 +37,37 @@
   }
 
   function renderMarkdown(text) {
-    // Minimal markdown: bold, bullet lists, line breaks. No raw HTML injection.
+    // Markdown to HTML: headings, bold, italic, lists, line breaks. XSS-safe.
     var escaped = text
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;");
-    // Bold: **text** or __text__
+    // Headings: ### Text → <h4>, ## Text → <h3> (downsized for chat context)
+    escaped = escaped.replace(/^#### (.+)$/gm, "<h5>$1</h5>");
+    escaped = escaped.replace(/^### (.+)$/gm, "<h4>$1</h4>");
+    escaped = escaped.replace(/^## (.+)$/gm, "<h3>$1</h3>");
+    // Bold + italic
+    escaped = escaped.replace(/\*\*\*(.+?)\*\*\*/g, "<strong><em>$1</em></strong>");
     escaped = escaped.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
     escaped = escaped.replace(/__(.+?)__/g, "<strong>$1</strong>");
-    // Bullet lists: lines starting with "- " or "* "
+    escaped = escaped.replace(/\*(.+?)\*/g, "<em>$1</em>");
+    // Bullet lists: lines starting with "- " or "* " or "  - " (nested)
+    escaped = escaped.replace(/^  [\-\*] (.+)$/gm, "<li class=\"nested\">$1</li>");
     escaped = escaped.replace(/^[\-\*] (.+)$/gm, "<li>$1</li>");
-    escaped = escaped.replace(/(<li>.*<\/li>\n?)+/g, "<ul>$&</ul>");
-    // Line breaks: double newline → paragraph break
+    // Wrap consecutive <li> into <ul>
+    escaped = escaped.replace(/(<li[^>]*>.*<\/li>\n?)+/g, function (match) {
+      return "<ul>" + match + "</ul>";
+    });
+    // Links: [text](url)
+    escaped = escaped.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+    // Paragraphs: double newline
     escaped = escaped.replace(/\n\n/g, "</p><p>");
+    // Single newlines that aren't between block elements
     escaped = escaped.replace(/\n/g, "<br>");
+    // Clean up empty paragraphs and breaks next to block elements
+    escaped = escaped.replace(/<br>(<\/?(?:ul|li|h[2-5]|p))/g, "$1");
+    escaped = escaped.replace(/(<\/?(?:ul|li|h[2-5])>)<br>/g, "$1");
+    escaped = escaped.replace(/<p><\/p>/g, "");
     return "<p>" + escaped + "</p>";
   }
 
