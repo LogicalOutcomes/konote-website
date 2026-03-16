@@ -30,9 +30,6 @@
     toggleBtn.setAttribute("aria-expanded", isOpen);
     if (isOpen) {
       input.focus();
-      if (messages.children.length === 0 && disclaimer) {
-        disclaimer.hidden = false;
-      }
     }
   }
 
@@ -154,6 +151,7 @@
         if (!data) return;
         setLoading(false);
         addMessage("assistant", data.response, data.sources);
+        if (disclaimer) disclaimer.hidden = false;
         history.push({ role: "user", content: query });
         history.push({ role: "assistant", content: data.response });
         if (history.length > 6) history = history.slice(-6);
@@ -183,5 +181,12 @@
   // Close on Escape
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape" && isOpen) toggle();
+  });
+
+  // Close when clicking outside the panel
+  document.addEventListener("click", function (e) {
+    if (isOpen && !panel.contains(e.target) && !toggleBtn.contains(e.target)) {
+      toggle();
+    }
   });
 })();
