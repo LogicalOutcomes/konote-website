@@ -1,0 +1,170 @@
+<!doctype html><html lang=en><head><meta name=generator content="Hugo 0.157.0"><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noindex, nofollow"><meta name=description content="KoNote is open source participant outcome management software for nonprofits. Track participant progress, measure outcomes, and demonstrate impact."><title>KoNote | KoNote — Participant-Centred Case Management</title><link rel=icon href=/favicon.ico sizes=32x32><link rel=icon href=/favicon.svg type=image/svg+xml><link rel=icon type=image/png sizes=32x32 href=/favicon-32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16.png><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/en/_pagefind/pagefind-ui.css></head><body data-chatbot-api><a href=#main class=skip-nav>Skip to main content</a><header class=site-header><div class="container header-inner"><a href=/en/ class=site-logo aria-label="KoNote — Participant-Centred Case Management — Home"><img src=/img/konote-mark.png alt width=24 height=22 class=site-logo-mark>
+<span class=site-logo-text><span class=site-logo-ko>KO</span>NOTE</span>
+</a><button class=nav-toggle aria-expanded=false aria-controls=main-nav>
+Menu</button><nav class=site-nav id=main-nav aria-label="Main navigation"><a href=/en/features/>Features</a>
+<a href=/en/evidence/>Evidence</a>
+<a href=/en/getting-started/>Getting Started</a>
+<a href=/en/documentation/>Documentation</a>
+<a href=/en/security/>Security & Privacy</a>
+<a href=/en/services/>Services</a>
+<a href=/en/faq/>FAQ</a>
+<a href=/en/design-principles/>Design Principles</a>
+<a href=/en/origins/>Origins</a></nav><div class=header-actions><a href=https://konote.ca/fr/ class=lang-link lang=fr aria-label="Voir cette page en français">Français</a>
+<button class=search-trigger id=search-trigger aria-label=Search>Search</button></div></div></header><script>document.querySelector(".nav-toggle")?.addEventListener("click",function(){const e=document.querySelector(".site-nav"),t=e.classList.toggle("is-open");this.setAttribute("aria-expanded",t)})</script><main id=main><article class=page-content><section class=hero><div class=container><h1>Participant Outcome Management for Nonprofits</h1><p class=hero-tagline>Track participant progress, measure outcomes, and demonstrate the impact of your programs. Open source, self-hosted, and built for Canadian privacy requirements.</p><div class=btn-group><a href=/en/getting-started/ class="btn btn-primary">Get Started</a>
+<a href=/en/features/ class="btn btn-secondary">See Features</a></div></div></section><section><div class=container><div class=disclaimer><p class=disclaimer-title>Before you continue</p><p>KoNote is <strong>self-hosted software</strong>. You deploy it on your own infrastructure,
+you manage your own data, and you're responsible for security, backups, and updates.
+There is no vendor to call if something goes wrong.</p><p>This isn't a limitation — it's a feature. Your participant data stays under your control,
+on servers you choose, without vendor lock-in. But it does mean you need either
+technical capacity on your team or a partner who can help.</p></div></div></section><section class=alt-bg><div class=container><div class=section-header><h2>What is KoNote?</h2><p>KoNote helps social service agencies track participant outcomes systematically.
+Define goals, record progress, measure results, and generate reports that
+demonstrate your programs' impact to funders and stakeholders.</p></div><pre><code>&lt;div class=&quot;feature-grid&quot;&gt;
+  &lt;div class=&quot;feature-item&quot;&gt;
+    &lt;h3&gt;Outcome-Focused&lt;/h3&gt;
+    &lt;p&gt;
+      Built specifically for tracking participant outcomes — not billing, scheduling,
+      or clinical documentation. Do one thing well.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature-item&quot;&gt;
+    &lt;h3&gt;Open Source&lt;/h3&gt;
+    &lt;p&gt;
+      MIT licensed. Free forever, no vendor fees, no per-user pricing.
+      Inspect the code, modify it, or fork it if needed.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature-item&quot;&gt;
+    &lt;h3&gt;Your Data, Your Servers&lt;/h3&gt;
+    &lt;p&gt;
+      Deploy on Railway, Azure, OVHcloud, or your own infrastructure.
+      Canadian data residency available. Participant data never leaves servers you control.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature-item&quot;&gt;
+    &lt;h3&gt;Privacy-First&lt;/h3&gt;
+    &lt;p&gt;
+      Built for Canadian privacy requirements (PHIPA/PIPEDA). Field-level encryption
+      with per-agency keys, audit logging, role-based access, cross-program consent
+      enforcement, and a full data erasure workflow.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature-item&quot;&gt;
+    &lt;h3&gt;Bilingual (EN/FR)&lt;/h3&gt;
+    &lt;p&gt;
+      Full English and French interface, following canada.ca conventions.
+      Customise all terminology in both languages to fit your agency.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature-item&quot;&gt;
+    &lt;h3&gt;Simple Technology&lt;/h3&gt;
+    &lt;p&gt;
+      No JavaScript frameworks. Server-rendered HTML with HTMX that works in
+      any browser, loads quickly, and meets WCAG 2.2 AA accessibility standards.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature-item&quot;&gt;
+    &lt;h3&gt;Surveys &amp;amp; Participant Portal&lt;/h3&gt;
+    &lt;p&gt;
+      Configurable surveys with automatic assignment, conditional logic, and
+      scoring. A self-service participant portal for survey completion, goal
+      tracking, journals, and messaging.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature-item&quot;&gt;
+    &lt;h3&gt;Multi-Agency Hosting&lt;/h3&gt;
+    &lt;p&gt;
+      Share a single server across multiple agencies with strict data isolation,
+      per-agency encryption keys, and independent configuration. Reduce hosting
+      costs from $35&amp;ndash;100/month to $4&amp;ndash;10 per agency.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature-item&quot;&gt;
+    &lt;h3&gt;CIDS &amp;amp; Common Approach&lt;/h3&gt;
+    &lt;p&gt;
+      FullTier compliance with the &lt;a href=&quot;https://commonapproach.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Common Impact Data Standard&lt;/a&gt;.
+      CIDS metadata is auto-populated from staff's normal work — no extra data entry.
+      JSON-LD export for standards-compliant data sharing.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></section><section><div class=container><div class=section-header><h2>Design Philosophy</h2><p>KoNote isn't just a database with a nice interface — it's built on a firm
+theoretical foundation that puts participants first.</p></div><pre><code>&lt;div class=&quot;feature-grid&quot;&gt;
+  &lt;div class=&quot;feature-item&quot;&gt;
+    &lt;h3&gt;Participant Goals Come First&lt;/h3&gt;
+    &lt;p&gt;
+      KoNote was designed around the primacy of
+      participant goals and participant experience. The funder's reporting needs are important,
+      but secondary to the work you're doing with participants.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature-item&quot;&gt;
+    &lt;h3&gt;Feedback-Informed Practice&lt;/h3&gt;
+    &lt;p&gt;
+      KoNote supports feedback-informed practice by making progress visible to both
+      staff and participants. The note-taking process encourages active engagement from
+      participants, not just documentation about them.
+      &lt;a href=&quot;evidence/&quot;&gt;Read the research →&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature-item&quot;&gt;
+    &lt;h3&gt;Consent by Design&lt;/h3&gt;
+    &lt;p&gt;
+      Setting up a participant record requires confirming that consent has been obtained.
+      This isn't a checkbox you can skip — it's built into the workflow because
+      ethical practice requires it.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature-item&quot;&gt;
+    &lt;h3&gt;Works with LogicalOutcomes&lt;/h3&gt;
+    &lt;p&gt;
+      KoNote is designed to be populated by a &lt;a href=&quot;https://logicaloutcomes.net&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;LogicalOutcomes&lt;/a&gt;
+      evaluation plan during setup. This lets you customise indicators, outcomes,
+      and data collection to match your agency's specific evaluation questions.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature-item&quot;&gt;
+    &lt;h3&gt;Focused, Not Sprawling&lt;/h3&gt;
+    &lt;p&gt;
+      KoNote covers outcome tracking, progress notes, surveys, funder reporting,
+      messaging, meetings, a participant portal, and data export — but it is not
+      a billing system, clinical EMR, or all-in-one CRM.
+      It does what social service agencies need without the bloat.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;feature-item&quot;&gt;
+    &lt;h3&gt;A Starting Point&lt;/h3&gt;
+    &lt;p&gt;
+      For many agencies, KoNote is a starter system. Get your team collecting useful
+      outcome data now. When you're ready for something more elaborate, export your
+      data and take it with you.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></section><section class=alt-bg><div class=container><div class=section-header><h2>Who is KoNote for?</h2></div><pre><code>&lt;div class=&quot;two-col&quot;&gt;
+  &lt;div&gt;
+    &lt;h3&gt;Good fit&lt;/h3&gt;
+    &lt;ul class=&quot;check-list&quot;&gt;
+      &lt;li&gt;Social service agencies tracking participant outcomes&lt;/li&gt;
+      &lt;li&gt;Nonprofits that need to demonstrate program impact&lt;/li&gt;
+      &lt;li&gt;Organisations with technical staff or IT partners&lt;/li&gt;
+      &lt;li&gt;Agencies that need full control over participant data&lt;/li&gt;
+      &lt;li&gt;Canadian organisations requiring PIPEDA compliance&lt;/li&gt;
+      &lt;li&gt;Programs serving up to ~2,000 active participants&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h3&gt;Not the right fit&lt;/h3&gt;
+    &lt;ul class=&quot;x-list&quot;&gt;
+      &lt;li&gt;Agencies requiring billing or invoicing features&lt;/li&gt;
+      &lt;li&gt;Clinics needing standardised clinical assessments&lt;/li&gt;
+      &lt;li&gt;Teams without any technical capacity&lt;/li&gt;
+      &lt;li&gt;Organisations wanting a fully managed SaaS solution&lt;/li&gt;
+      &lt;li&gt;Programs needing native mobile apps&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></section><section><div class="container text-center"><div class=section-header><h2>See it in action</h2><p>Try the self-service registration form that participants use to sign up
+for programs. It's a live demo running on a real KoNote instance.</p></div><a href=demo/ class="btn btn-primary">Try the Registration Demo</a></div></section><section class=alt-bg><div class="container text-center"><h2>Ready to evaluate KoNote?</h2><p class="text-muted mb-8">Read the documentation, try a local demo, and decide if it's right for your organisation.</p><div class=btn-group style=justify-content:center><a href=getting-started/ class="btn btn-primary">Getting Started Guide</a>
+<a href=services/ class="btn btn-secondary">Need Help? See Services</a></div></div></section></article></main><footer class=site-footer><div class="container footer-content"><div class=footer-links><a href=https://github.com/LogicalOutcomes/konote>GitHub Repository</a>
+<a href=/en/documentation/>Documentation</a>
+<a href=/en/faq/>FAQ</a>
+<a href=/en/services/>Services</a></div><p class=footer-copyright>KoNote is open source software under the MIT License.</p></div></footer><dialog class=search-dialog id=search-dialog aria-label="Search KoNote"><div class=search-dialog-inner><button class=search-dialog-close aria-label="Close search" id=search-close>&#215;</button><div id=search></div></div></dialog><script src=/en/_pagefind/pagefind-ui.js defer></script><script src=/js/search.js defer></script><script src=/js/chatbot.js defer></script></body></html>

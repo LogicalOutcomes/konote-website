@@ -1,0 +1,352 @@
+<!doctype html><html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noindex, nofollow"><meta name=description content="How KoNote protects participant data: encryption, access control, audit logging, PHIPA/PIPEDA compliance, and Canadian data residency."><title>Security & Privacy | KoNote — Participant-Centred Case Management</title><link rel=icon href=/favicon.ico sizes=32x32><link rel=icon href=/favicon.svg type=image/svg+xml><link rel=icon type=image/png sizes=32x32 href=/favicon-32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16.png><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/en/_pagefind/pagefind-ui.css></head><body data-chatbot-api><a href=#main class=skip-nav>Skip to main content</a><header class=site-header><div class="container header-inner"><a href=/en/ class=site-logo aria-label="KoNote — Participant-Centred Case Management — Home"><img src=/img/konote-mark.png alt width=24 height=22 class=site-logo-mark>
+<span class=site-logo-text><span class=site-logo-ko>KO</span>NOTE</span>
+</a><button class=nav-toggle aria-expanded=false aria-controls=main-nav>
+Menu</button><nav class=site-nav id=main-nav aria-label="Main navigation"><a href=/en/features/>Features</a>
+<a href=/en/evidence/>Evidence</a>
+<a href=/en/getting-started/>Getting Started</a>
+<a href=/en/documentation/>Documentation</a>
+<a href=/en/security/ aria-current=page>Security & Privacy</a>
+<a href=/en/services/>Services</a>
+<a href=/en/faq/>FAQ</a>
+<a href=/en/design-principles/>Design Principles</a>
+<a href=/en/origins/>Origins</a></nav><div class=header-actions><a href=https://konote.ca/fr/security/ class=lang-link lang=fr aria-label="Voir cette page en français">Français</a>
+<button class=search-trigger id=search-trigger aria-label=Search>Search</button></div></div></header><script>document.querySelector(".nav-toggle")?.addEventListener("click",function(){const e=document.querySelector(".site-nav"),t=e.classList.toggle("is-open");this.setAttribute("aria-expanded",t)})</script><main id=main><article class=page-content><section class=hero><div class=container><h1>Security & Privacy</h1><p class=hero-tagline>How KoNote protects participant data — and what you're responsible for.</p></div></section><section><div class="container content-width"><div class=disclaimer><p class=disclaimer-title>Shared Responsibility</p><p>KoNote provides security features, but security is a shared responsibility.
+The software can only protect data if you configure and operate it correctly.
+This page explains both what KoNote does and what you must do.</p></div></div></section><section class=alt-bg><div class=container><h2>What KoNote Does</h2><pre><code>&lt;div class=&quot;card-grid&quot;&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Field-Level Encryption&lt;/h3&gt;
+    &lt;p&gt;
+      All personally identifiable information (PII) is encrypted before
+      being stored in the database.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Algorithm:&lt;/strong&gt; Fernet (AES-128-CBC + HMAC-SHA256) for PII at rest&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Encrypted fields:&lt;/strong&gt; Participant names, birth dates, emails, phone numbers, progress note content, sensitive custom fields, registration submissions&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Key storage:&lt;/strong&gt; Your encryption key, stored as an environment variable (Azure Key Vault recommended for production)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Key rotation:&lt;/strong&gt; Built-in key rotation command for changing encryption keys&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Per-agency keys:&lt;/strong&gt; In multi-agency deployments, each agency has its own encryption key — one agency's key cannot decrypt another's data&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p class=&quot;text-muted&quot;&gt;
+      Even if someone gains access to the database, encrypted fields
+      are unreadable without the encryption key. In shared hosting,
+      one agency's key cannot decrypt another agency's data.
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Dual-Database Architecture&lt;/h3&gt;
+    &lt;p&gt;
+      KoNote uses two separate PostgreSQL databases.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Operational database:&lt;/strong&gt; Participant records, notes, plans (normal CRUD operations)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Audit database:&lt;/strong&gt; Immutable log of all data access and changes (INSERT-only)&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p class=&quot;text-muted&quot;&gt;
+      The audit database cannot be modified or deleted through the application,
+      providing a tamper-resistant record.
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Role-Based Access Control&lt;/h3&gt;
+    &lt;p&gt;
+      Five roles with different permissions, enforced at the middleware level.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Administrator:&lt;/strong&gt; System configuration (no direct participant access)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Program Manager:&lt;/strong&gt; Full access to their programs' participants and staff&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Direct Service:&lt;/strong&gt; Access to participants in their assigned programs&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Front Desk:&lt;/strong&gt; Limited access to specific fields only&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Executive:&lt;/strong&gt; Dashboard and reporting access&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p class=&quot;text-muted&quot;&gt;
+      Staff can only see participants enrolled in programs they're assigned to.
+      Admins are deliberately blocked from participant data.
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Complete Audit Logging&lt;/h3&gt;
+    &lt;p&gt;
+      Every significant action is logged with full context.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Data changes:&lt;/strong&gt; Create, update, delete with before/after values&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Data access:&lt;/strong&gt; Who viewed which participant record and when&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Authentication:&lt;/strong&gt; Login, logout, failed login attempts&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Metadata:&lt;/strong&gt; Timestamp, user ID, IP address&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p class=&quot;text-muted&quot;&gt;
+      Logs are searchable through the admin interface and can be exported.
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Secure Authentication&lt;/h3&gt;
+    &lt;p&gt;
+      Two authentication options, both using modern security practices.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Azure AD SSO:&lt;/strong&gt; Integrate with your organisation's Microsoft 365&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Local authentication:&lt;/strong&gt; Passwords hashed with Argon2 (winner of the Password Hashing Competition)&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p class=&quot;text-muted&quot;&gt;
+      Session tokens are stored in the database with configurable timeouts.
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Secure Data Exports&lt;/h3&gt;
+    &lt;p&gt;
+      Defence-in-depth controls on data exports to prevent unauthorised data extraction.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;SecureExportLink:&lt;/strong&gt; Time-limited download links with 24-hour expiry and nonce deduplication&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Elevated exports:&lt;/strong&gt; Large exports (100+ participants) or exports containing notes trigger admin notification and a 10-minute delay&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Admin oversight:&lt;/strong&gt; Admins can revoke export links before they expire&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Download tracking:&lt;/strong&gt; Every download is logged (who, when, how many times)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Re-validation:&lt;/strong&gt; PII access permissions are re-checked at download time&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Agency-wide export:&lt;/strong&gt; AES-256-GCM encrypted export for full agency offboarding, with automatic model discovery and Diceware passphrase generation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Canadian Data Residency&lt;/h3&gt;
+    &lt;p&gt;
+      For organisations requiring data to stay in Canada, KoNote supports
+      deployment to Canadian infrastructure.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;OVHcloud Beauharnois:&lt;/strong&gt; Dedicated Canadian data centre in Quebec&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Azure Canada Central:&lt;/strong&gt; Microsoft's Canadian cloud region&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Self-hosted:&lt;/strong&gt; Deploy on any Canadian server you control&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Encryption keys:&lt;/strong&gt; Stored in Azure Key Vault or your secure infrastructure&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p class=&quot;text-muted&quot;&gt;
+      Participant data, backups, and encryption keys all stay within Canadian borders.
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Security Headers&lt;/h3&gt;
+    &lt;p&gt;
+      HTTP security headers configured by default.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Content Security Policy (CSP)&lt;/li&gt;
+      &lt;li&gt;HTTP Strict Transport Security (HSTS)&lt;/li&gt;
+      &lt;li&gt;X-Frame-Options (clickjacking protection)&lt;/li&gt;
+      &lt;li&gt;X-Content-Type-Options&lt;/li&gt;
+      &lt;li&gt;CSRF protection on all forms&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;PHIPA Cross-Program Consent&lt;/h3&gt;
+    &lt;p&gt;
+      Enforces Ontario PHIPA requirements for sharing clinical notes
+      across programs within an agency.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Fail-closed design:&lt;/strong&gt; Cross-program notes are hidden by default&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Consent-gated access:&lt;/strong&gt; Clinical notes only visible across programs when the participant or agency has explicitly enabled sharing&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;List and detail enforcement:&lt;/strong&gt; Consent filters applied on both note lists (querysets) and individual note views&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Exempt views:&lt;/strong&gt; Aggregate counts, de-identified reports, and plan views are unaffected&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Rate Limiting &amp;amp; Brute-Force Protection&lt;/h3&gt;
+    &lt;p&gt;
+      Protections against automated attacks on authentication endpoints.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Account lockout:&lt;/strong&gt; Participant portal locks accounts after repeated failed login attempts&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Session security:&lt;/strong&gt; Session tokens stored in the database with configurable timeouts&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Secure cookies:&lt;/strong&gt; Session and CSRF cookies marked secure in production&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;System checks:&lt;/strong&gt; Startup validation ensures encryption keys, security middleware, and cookie flags are correctly configured&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></section><section><div class=container><h2>What You Must Do</h2><p class="text-muted mb-8">KoNote's security features only work if you fulfil your responsibilities.
+These are not optional.</p><pre><code>&lt;div class=&quot;card-grid&quot;&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Protect Your Encryption Key&lt;/h3&gt;
+    &lt;p&gt;
+      &lt;strong&gt;If you lose the encryption key, you lose access to all encrypted data permanently.&lt;/strong&gt;
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Store the key securely (password manager, secure vault)&lt;/li&gt;
+      &lt;li&gt;Keep offline backups in secure locations&lt;/li&gt;
+      &lt;li&gt;Never commit the key to version control&lt;/li&gt;
+      &lt;li&gt;Limit who knows the key to essential personnel&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class=&quot;notice notice-warning mb-0&quot;&gt;
+      &lt;p&gt;There is no &quot;forgot password&quot; for encryption keys. Lost key = lost data.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Configure HTTPS&lt;/h3&gt;
+    &lt;p&gt;
+      All production deployments must use HTTPS. Without it, data
+      (including login credentials) can be intercepted.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Railway and Elestio provide automatic HTTPS&lt;/li&gt;
+      &lt;li&gt;Azure requires configuration&lt;/li&gt;
+      &lt;li&gt;Self-hosted requires a reverse proxy (Caddy, nginx) with certificates&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class=&quot;notice notice-warning mb-0&quot;&gt;
+      &lt;p&gt;Never run KoNote over plain HTTP in production.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Maintain Regular Backups&lt;/h3&gt;
+    &lt;p&gt;
+      You are responsible for backing up both databases and verifying
+      that backups can be restored.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Automated daily backups (minimum)&lt;/li&gt;
+      &lt;li&gt;Store backups in a separate location from the primary database&lt;/li&gt;
+      &lt;li&gt;Test restores regularly (at least quarterly)&lt;/li&gt;
+      &lt;li&gt;Keep backups encrypted and access-controlled&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class=&quot;notice notice-warning mb-0&quot;&gt;
+      &lt;p&gt;If you don't have backups and something goes wrong, the data is gone.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Control User Access&lt;/h3&gt;
+    &lt;p&gt;
+      KoNote provides the tools; you must use them correctly.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Only create accounts for people who need access&lt;/li&gt;
+      &lt;li&gt;Assign the minimum role needed for each user's job&lt;/li&gt;
+      &lt;li&gt;Remove accounts promptly when staff leave&lt;/li&gt;
+      &lt;li&gt;Review user access regularly&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Keep Software Updated&lt;/h3&gt;
+    &lt;p&gt;
+      Security vulnerabilities are discovered over time. Updates address them.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Monitor the GitHub repository for releases&lt;/li&gt;
+      &lt;li&gt;Apply updates promptly, especially security patches&lt;/li&gt;
+      &lt;li&gt;Test updates in a staging environment if possible&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Train Your Staff&lt;/h3&gt;
+    &lt;p&gt;
+      Technical security is only part of the picture.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Train staff on acceptable use and data handling&lt;/li&gt;
+      &lt;li&gt;Establish policies for sharing information&lt;/li&gt;
+      &lt;li&gt;Create procedures for security incidents&lt;/li&gt;
+      &lt;li&gt;Document your organisation's privacy practices&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></section><section class=alt-bg><div class="container content-width"><h2>Compliance Features</h2><pre><code>&lt;div class=&quot;card&quot;&gt;
+  &lt;h3&gt;PHIPA &amp;amp; PIPEDA Readiness&lt;/h3&gt;
+  &lt;p&gt;
+    KoNote includes features to support compliance with Canada's
+    Personal Information Protection and Electronic Documents Act (PIPEDA)
+    and Ontario's Personal Health Information Protection Act (PHIPA).
+  &lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Encryption of personal information (Fernet AES at rest)&lt;/li&gt;
+    &lt;li&gt;Per-agency encryption keys in multi-agency deployments&lt;/li&gt;
+    &lt;li&gt;Access controls and audit logging&lt;/li&gt;
+    &lt;li&gt;Consent recording with immutable withdrawal tracking&lt;/li&gt;
+    &lt;li&gt;Cross-program consent enforcement — clinical notes shared only with participant or agency permission&lt;/li&gt;
+    &lt;li&gt;Data retention configuration&lt;/li&gt;
+    &lt;li&gt;Multi-stage data erasure workflow with approval chain&lt;/li&gt;
+    &lt;li&gt;Privacy policy template&lt;/li&gt;
+    &lt;li&gt;Canadian data residency option (OVHcloud Beauharnois, QC)&lt;/li&gt;
+    &lt;li&gt;Offline field collection data protection — PII tiers and device loss protocols&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p class=&quot;text-muted&quot;&gt;
+    &lt;strong&gt;Note:&lt;/strong&gt; Using KoNote doesn't automatically make you PHIPA- or PIPEDA-compliant.
+    Compliance depends on how you configure and operate the system,
+    your policies, and your staff practices.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;h3&gt;GDPR Readiness&lt;/h3&gt;
+  &lt;p&gt;
+    For organisations serving European participants, KoNote includes:
+  &lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Consent tracking (consent_given_at field)&lt;/li&gt;
+    &lt;li&gt;Data retention periods&lt;/li&gt;
+    &lt;li&gt;Multi-program-manager erasure approval workflow&lt;/li&gt;
+    &lt;li&gt;Automatic erasure execution when all approvals received&lt;/li&gt;
+    &lt;li&gt;Audit trail of data processing preserved after erasure&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p class=&quot;text-muted&quot;&gt;
+    &lt;strong&gt;Note:&lt;/strong&gt; GDPR compliance requires more than software features.
+    Consult with a privacy professional for your specific situation.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;h3&gt;Accessibility (WCAG 2.2 AA)&lt;/h3&gt;
+  &lt;p&gt;
+    KoNote is built with accessibility as a core requirement, not an afterthought:
+  &lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Semantic HTML structure with proper heading hierarchy&lt;/li&gt;
+    &lt;li&gt;Full keyboard navigation with WAI-ARIA roving tabindex patterns&lt;/li&gt;
+    &lt;li&gt;WCAG 2.2 AA colour contrast compliance&lt;/li&gt;
+    &lt;li&gt;Touch target sizes meeting WCAG 2.5.8 minimum (24px)&lt;/li&gt;
+    &lt;li&gt;Screen reader compatible — WAI-ARIA roles for menus, tabs, and interactive elements&lt;/li&gt;
+    &lt;li&gt;Skip navigation links on every page&lt;/li&gt;
+    &lt;li&gt;axe-core automated accessibility tests integrated into CI pipeline&lt;/li&gt;
+    &lt;li&gt;Service worker provides graceful offline fallback&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre></div></section><section><div class="container content-width"><h2>Security Limitations</h2><p>Being honest about what KoNote cannot do:</p><pre><code>&lt;div class=&quot;card&quot;&gt;
+  &lt;h3&gt;No Encrypted Search&lt;/h3&gt;
+  &lt;p&gt;
+    Encrypted fields cannot be searched using SQL queries. Participant search
+    loads accessible participants into memory and filters in Python.
+    This works well up to ~2,000 participants but may slow down at larger scales.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;h3&gt;Staff MFA via SSO Only&lt;/h3&gt;
+  &lt;p&gt;
+    Staff local authentication doesn't include MFA. If you need staff MFA, use Azure AD SSO,
+    which supports your organisation's MFA policies. The participant portal has
+    built-in MFA (TOTP authenticator app or email verification codes).
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+  &lt;h3&gt;No Automatic Intrusion Detection&lt;/h3&gt;
+  &lt;p&gt;
+    KoNote logs access but doesn't automatically alert on suspicious patterns.
+    You need to review audit logs periodically or integrate with external
+    monitoring tools.
+  &lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div></section><section class=alt-bg><div class="container text-center"><h2>Questions About Security?</h2><p class="text-muted mb-8">The technical documentation has more detail on security implementation.
+For organisation-specific questions, consider professional consultation.</p><div class=btn-group style=justify-content:center><a href=/en/documentation/ class="btn btn-primary">Technical Documentation</a>
+<a href=/en/services/ class="btn btn-secondary">Professional Services</a></div></div></section></article></main><footer class=site-footer><div class="container footer-content"><div class=footer-links><a href=https://github.com/LogicalOutcomes/konote>GitHub Repository</a>
+<a href=/en/documentation/>Documentation</a>
+<a href=/en/faq/>FAQ</a>
+<a href=/en/services/>Services</a></div><p class=footer-copyright>KoNote is open source software under the MIT License.</p></div></footer><dialog class=search-dialog id=search-dialog aria-label="Search KoNote"><div class=search-dialog-inner><button class=search-dialog-close aria-label="Close search" id=search-close>&#215;</button><div id=search></div></div></dialog><script src=/en/_pagefind/pagefind-ui.js defer></script><script src=/js/search.js defer></script><script src=/js/chatbot.js defer></script></body></html>

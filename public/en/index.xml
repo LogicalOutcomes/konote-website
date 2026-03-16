@@ -1,0 +1,1664 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KoNote on KoNote — Participant-Centred Case Management</title><link>https://konote.ca/en/</link><description>Recent content in KoNote on KoNote — Participant-Centred Case Management</description><generator>Hugo</generator><language>en</language><atom:link href="https://konote.ca/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Design Principles</title><link>https://konote.ca/en/design-principles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://konote.ca/en/design-principles/</guid><description>&lt;h2 id="our-name"&gt;Our Name&lt;/h2&gt;
+&lt;p&gt;The name KoNote is bilingual by design. &amp;ldquo;Note&amp;rdquo; is the same word in English and French — a record, an annotation, a piece of documentation that carries weight in social services. The &amp;ldquo;Ko-&amp;rdquo; is a stylised prefix for &amp;ldquo;co-&amp;rdquo; — collaboration, cooperation, collectif — a prefix that works identically in both languages. French speakers parse it as &lt;em&gt;co-note&lt;/em&gt;: collaborative notes. English speakers read the same logic. There is also a quiet echo of the French verb &lt;em&gt;connoter&lt;/em&gt; (to connote), suggesting depth and significance beyond surface-level record-keeping — fitting for work where documentation is part of the service, not just paperwork about it.&lt;/p&gt;</description></item><item><title>Documentation</title><link>https://konote.ca/en/documentation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://konote.ca/en/documentation/</guid><description>&lt;section&gt;
+ &lt;div class="container"&gt;
+ &lt;div class="card-grid"&gt;
+&lt;pre&gt;&lt;code&gt; &amp;lt;a href=&amp;quot;https://github.com/LogicalOutcomes/konote/blob/main/docs/using-konote.md&amp;quot; class=&amp;quot;card doc-card&amp;quot; style=&amp;quot;text-decoration: none; color: inherit;&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;User Guide&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;For: Staff and counsellors&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ Day-to-day use of KoNote: finding participants, writing progress notes,
+ viewing outcome plans, recording events, and using the dashboard.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Logging in and navigation&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Finding and filtering participants&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Writing quick and full notes&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Recording events and alerts&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Viewing outcome progress&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/a&amp;gt;
+
+ &amp;lt;a href=&amp;quot;https://github.com/LogicalOutcomes/konote/blob/main/docs/administering-konote.md&amp;quot; class=&amp;quot;card doc-card&amp;quot; style=&amp;quot;text-decoration: none; color: inherit;&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Administrator Guide&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;For: Admins and program managers&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ Setting up and managing KoNote: configuring programs, managing users,
+ customising terminology, and handling backups.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Agency configuration&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;User and role management&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Terminology customisation&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Backup and restore&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Security operations&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/a&amp;gt;
+
+ &amp;lt;a href=&amp;quot;https://github.com/LogicalOutcomes/konote/blob/main/docs/deploying-konote.md&amp;quot; class=&amp;quot;card doc-card&amp;quot; style=&amp;quot;text-decoration: none; color: inherit;&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Deployment Guide&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;For: IT staff and consultants&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ Step-by-step deployment instructions for Railway, Azure, Elestio,
+ and self-hosted Docker environments.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Prerequisites and preparation&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Platform-specific instructions&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Environment configuration&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Post-deployment checklist&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Troubleshooting&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/a&amp;gt;
+
+ &amp;lt;a href=&amp;quot;https://github.com/LogicalOutcomes/konote/blob/main/docs/technical-documentation.md&amp;quot; class=&amp;quot;card doc-card&amp;quot; style=&amp;quot;text-decoration: none; color: inherit;&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Technical Documentation&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;For: Developers&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ Architecture, code structure, database schema, and guidance
+ for developers who want to understand or extend KoNote.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Architecture overview&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Database schema and models&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Security implementation&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Middleware and context processors&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Extension and customisation&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/a&amp;gt;
+
+ &amp;lt;a href=&amp;quot;https://github.com/LogicalOutcomes/konote/blob/main/docs/privacy-policy-template.md&amp;quot; class=&amp;quot;card doc-card&amp;quot; style=&amp;quot;text-decoration: none; color: inherit;&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Privacy Policy Template&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;For: Compliance officers&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ A PIPEDA-compliant privacy policy template you can adapt
+ for your organisation's KoNote deployment.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Data collection practices&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Protection methods&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Access control&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Audit logging&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;PIPEDA rights&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/a&amp;gt;
+
+ &amp;lt;a href=&amp;quot;/en/security/&amp;quot; class=&amp;quot;card doc-card&amp;quot; style=&amp;quot;text-decoration: none; color: inherit;&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Security Overview&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;For: Everyone&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ How KoNote protects participant data, and what you're responsible
+ for as the operator.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Encryption details&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Access control&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Audit logging&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Your responsibilities&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/a&amp;gt;
+
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="alt-bg"&gt;
+ &lt;div class="container content-width"&gt;
+ &lt;h2&gt;Quick Links&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;GitHub Repository&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ The source code, documentation, and issue tracker all live on GitHub.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ &amp;lt;a href=&amp;quot;https://github.com/LogicalOutcomes/konote&amp;quot;&amp;gt;github.com/LogicalOutcomes/konote&amp;lt;/a&amp;gt;
+ &amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Report Issues&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Found a bug? Have a feature request? Open an issue on GitHub.
+ Please search existing issues first.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ &amp;lt;a href=&amp;quot;https://github.com/LogicalOutcomes/konote/issues&amp;quot;&amp;gt;GitHub Issues&amp;lt;/a&amp;gt;
+ &amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Licence&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ KoNote is released under the MIT Licence. You can use, modify,
+ and distribute it freely, including for commercial purposes.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ &amp;lt;a href=&amp;quot;https://github.com/LogicalOutcomes/konote/blob/main/LICENSE&amp;quot;&amp;gt;View Licence&amp;lt;/a&amp;gt;
+ &amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+ &lt;div class="container content-width"&gt;
+ &lt;h2&gt;Documentation Notes&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;notice notice-info&amp;quot;&amp;gt;
+ &amp;lt;p class=&amp;quot;notice-title&amp;quot;&amp;gt;Living Documentation&amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ The documentation is maintained alongside the code in the GitHub repository.
+ If you find errors or gaps, you can submit corrections via pull request
+ or open an issue.
+ &amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;notice notice-warning&amp;quot;&amp;gt;
+ &amp;lt;p class=&amp;quot;notice-title&amp;quot;&amp;gt;Version Compatibility&amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ Documentation reflects the current main branch. If you're running
+ an older version of KoNote, some features or instructions may differ.
+ Check the commit history if you need documentation for a specific version.
+ &amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="alt-bg"&gt;
+ &lt;div class="container text-center"&gt;
+ &lt;h2&gt;Need More Help?&lt;/h2&gt;
+ &lt;p class="text-muted mb-8"&gt;
+ If the documentation doesn't answer your questions, you have options.
+ &lt;/p&gt;</description></item><item><title>Features</title><link>https://konote.ca/en/features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://konote.ca/en/features/</guid><description>&lt;section&gt;
+ &lt;div class="container"&gt;
+ &lt;h2&gt;What KoNote Does&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;card-grid&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Participant Records&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Maintain records for each participant with personal information,
+ program enrolment, and custom intake fields.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Encrypted storage for all personal information&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Custom fields defined by your agency&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Preferred name / display name support&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Multi-program enrolment&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Program transfer with audit trail and cross-program sharing consent&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Status tracking (active, inactive, discharged)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Duplicate detection with automatic matching&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Merge workflow for duplicate records&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Outcome Plans&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Define measurable outcomes and track progress toward goals.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Plan sections for organising outcomes (e.g., &amp;quot;Employment&amp;quot;, &amp;quot;Housing&amp;quot;)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Specific, measurable targets within each section&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Metrics library with common measures (PHQ-9, housing stability, etc.)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Custom metrics defined by your agency&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Reusable plan templates&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Progress Notes&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Document participant interactions and track metric values over time.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Quick notes for brief interactions&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Structured notes with sections and templates&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Participant reflection — capture what the participant is taking away&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Interaction types (phone, in-person, virtual, etc.)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Record metric values within notes&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Full-text search across note content&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Backdate notes with full audit trail&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Follow-up tracking&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Metrics &amp;amp;amp; Visualisation&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Track quantifiable outcomes and visualise progress over time.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Pre-built metrics library&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Custom metrics with min/max values&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Progress charts showing change over time&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Compare actual values against targets&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;CSV import/export for metric definitions&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Group Tracking&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Deliver and document group-based services alongside individual work.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Programs configured as individual, group, or both&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Group rosters with membership management&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Attendance tracking per session&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Group progress notes linked to all attendees&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Circles (Family &amp;amp;amp; Network Groups)&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Link participants who share a household, family, or support network
+ into a named group for coordinated service delivery.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Named circles with relationship roles (parent, child, partner, etc.)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;View all circle members from any participant's profile&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Shared timeline across circle members&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Cross-program circle membership&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Privacy controls — circle membership doesn't grant data access&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Events &amp;amp;amp; Alerts&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Record significant milestones and flag important information.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Customisable event types (intake, discharge, crisis, etc.)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Colour-coded event categories&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Safety alerts attached to participant records&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Two-person safety rule — alerts require a second person to cancel&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Timeline view of participant events&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Messaging &amp;amp;amp; Communication Logging&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Log and track all participant communications in one place.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Log phone calls, texts, emails, and in-person visits&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Quick-log buttons for common interaction types&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Communication history on participant timeline&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Optional SMS and email integration (Twilio, SMTP)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Automated appointment reminders (36 hours in advance)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Delivery tracking (sent, delivered, failed, bounced)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;System health monitoring with admin alerts on channel failures&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;CASL consent tracking for electronic messages&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Channel-level contact preferences per participant&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Meetings &amp;amp;amp; Calendar&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Schedule and track meetings with participants.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Schedule meetings with date, time, location, and status&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Meeting types: in-person, virtual, phone, home visit&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;iCal feed — sync meetings to Outlook, Google Calendar, or Apple Calendar&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Upcoming meetings on the dashboard&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Meeting history on participant timeline&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Consent Management&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Record and track participant consent with a full audit trail.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Consent records linked to participant files&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Immutable records — consent can be withdrawn but never deleted&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Withdrawal tracking with reason and date&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;CASL compliance for electronic communications&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Preferred language and contact preferences&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Role-Based Access&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Control who can see and do what, based on their role.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Five roles: Admin, Program Manager, Direct Service, Front Desk, Executive&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Program-scoped access (staff only see their programs)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Program Managers get scoped admin access (templates, metrics, team members within their programs)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Field-level visibility controls per role&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Confidential programs hidden from unauthorised staff&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Program context switcher for multi-program staff&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Admins blocked from participant data by default&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Executive Dashboard&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ High-level outcome monitoring for directors and executives who
+ need the big picture without accessing individual participant records.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Agency-wide outcome statistics at a glance&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Program cards with enrolment, active participants, and achievement rates&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Aggregate demographic breakdowns&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;No access to individual participant data — monitoring only&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Accessible to the Executive role&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Audit Logging&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Complete record of who accessed what and when.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;All data changes logged with before/after values&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Participant record access logged&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Login/logout events&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Separate, immutable audit database&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Searchable audit log viewer&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Customisation&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Adapt KoNote to match your agency's language and workflow.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Rename &amp;quot;Client&amp;quot; to &amp;quot;Participant&amp;quot;, &amp;quot;Member&amp;quot;, etc.&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Customise all terminology in English and French&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Enable/disable features via toggles&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Full bilingual interface (English/French) following canada.ca conventions&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;CSV import/export for metric library management&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Agency-configurable custom fields for participant profiles&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Self-Service Registration&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Let participants register themselves via a shareable link.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Program-specific registration links&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Customisable registration fields&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Auto-approval or manual review&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Capacity limits and deadlines&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Waitlist management&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Demo &amp;amp;amp; Training Mode&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Built-in demo accounts for training and evaluation, with
+ safeguards that keep demo activity completely separate from real data.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Pre-configured demo user accounts with realistic sample data&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Training data isolation — demo records excluded from all reports, exports, and dashboards&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Demo admin accounts restricted to view-only for agency settings&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Persistent training-mode banner so staff always know they are in demo&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Visually separated &amp;quot;Training Accounts&amp;quot; section on the login page&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Demo login events audited for operational awareness&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Regenerate demo data anytime to start fresh — no risk to real participant records&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Participant Portal&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Optional self-service portal where participants can view their own
+ progress, complete surveys, access resources, and stay connected to their plans.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Participants log in to view their own outcome plans and progress&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Complete assigned surveys and check-ins directly in the portal&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Auto-save on survey responses — pick up where you left off if the browser closes&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Self-report on metrics between sessions&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;View progress charts and milestone history&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Access shared resources and program materials&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Private journal for participant reflections&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Send messages to assigned worker&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Request corrections to notes or records&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Secure invite workflow with optional verbal code for identity verification&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Consent flow during portal onboarding&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Multi-factor authentication (TOTP app or email codes)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Account lockout after failed attempts&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Staff can revoke access or reset MFA from the participant file&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Agency controls which fields and plans are visible&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Optional feature — disabled by default&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Surveys &amp;amp;amp; Assessments&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Collect structured feedback from participants — intake forms, satisfaction
+ surveys, standardised assessments, and recurring check-ins.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Six question types: short text, long text, single choice, multiple choice, rating scale, yes/no&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Multi-page forms with section-based navigation&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Conditional logic — show or hide sections based on previous answers&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Section scoring (sum or average) for standardised instruments&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Three delivery channels: shareable public links, participant portal, or staff data entry&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Shareable public links — collect feedback without requiring login or a portal account&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Automatic assignment rules — trigger surveys on events, enrolment, time-based schedule, or participant characteristics&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Configurable repeat policies: once per participant, once per enrolment, or recurring&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;CSV import for existing instruments (PHQ-9, SPDAT, etc.) with custom score values&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Draft, active, closed, and archived lifecycle management&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Full bilingual support (English/French) for all survey content&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Free-text answers encrypted at rest&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Auto-save on portal responses — participants can resume mid-survey&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Response export as CSV&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Data Erasure Workflow&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ PIPEDA and GDPR-ready data erasure with multi-stage approval.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Erasure requests with reason categories&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Multi-program manager approval workflow&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Automatic execution when all approvals received&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Tiered anonymisation (partial or full erasure)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;PDF erasure receipts&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Permanent audit record preserved after erasure&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Data summary snapshot before deletion&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;AI-Assisted Writing &amp;amp;amp; Analysis&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Optional AI features to help staff with goal writing, documentation, and analysis.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;AI-assisted goal building — natural language goal writing with research-grounded validation&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Metric suggestions based on target descriptions&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Outcome goal improvement suggestions&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Note structure assistance&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Funder narrative generation from aggregate metrics&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Suggestion themes — qualitative feedback grouping and pattern analysis&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Outcome insights — AI-generated program summaries with transparency timestamps&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Two-tier toggle: tools-only mode (no participant data) or de-identified analysis mode&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Privacy-safe — no participant identifying information sent to AI&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Funder Reporting&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Generate templated reports for funders and partners with the data they need.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Configurable funder report templates&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Demographic breakdowns by program or agency&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Achievement rate summaries (% of participants meeting targets)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Multi-step approval workflow for funder reports&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Partner report approval — share draft reports with partner agencies for review before submission&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Common Impact Data Standard (CIDS) metadata tagging&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;JSON-LD export for standards-compliant data sharing&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;AI-generated funder narrative summaries from aggregate data&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Date presets and PDF export for executive dashboard reports&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Data Export &amp;amp;amp; Offboarding&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Get data out when you need it — for individual participants or
+ full agency offboarding — with controls to prevent misuse.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Individual participant export in PDF, CSV, and JSON formats&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Secure, time-limited download links (24-hour expiry, single-use protection)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Elevated export controls — large exports trigger admin notification and delay&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Download tracking and admin revocation&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;CSV export of participant data and metrics&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Audit log export&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Agency-wide offboarding export — fully encrypted, password-protected, includes all participant data organised by person&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Full audit trail on all exports — who downloaded, when, how many times&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;CIDS &amp;amp;amp; Common Approach Compliance&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ FullTier compliance with the
+ &amp;lt;a href=&amp;quot;https://commonapproach.org&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;Common Impact Data Standard (CIDS) v3.2.0&amp;lt;/a&amp;gt;
+ — the highest tier defined in the standard. Staff never see CIDS fields;
+ the system maps their normal work to CIDS automatically.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;FullTier compliance — all three tiers (Basic, Essential, Full) covered&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;All 17 official CIDS code lists imported (SDG, IRIS+, sectors, populations)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Auto-populated CIDS metadata on programs, outcomes, and indicators&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Organisation profile with sector, geography, and legal status&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;JSON-LD export using the official CIDS context for machine-readable data sharing&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Impact dimensions: scale, depth, and duration computed from service data&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Standards Alignment appendix automatically included in funder reports&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Privacy-safe — exports contain aggregate data only, never individual records&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Validated against the CIDS 3.2.0 ontology and SHACL shape files&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Accessibility (WCAG 2.2 AA)&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Built with accessibility as a core requirement, not an afterthought.
+ Tested with automated tools and manual review.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Semantic HTML structure with proper heading hierarchy&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Full keyboard navigation — use Tab and arrow keys to reach every control&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Skip navigation links on every page&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;WCAG 2.2 AA colour contrast compliance&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Screen reader-friendly menus, tabs, and interactive elements&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Touch-friendly button and control sizes for tablet and mobile&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Screen reader compatible — tested with NVDA and VoiceOver&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Automated accessibility checks run on every code change&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Graceful offline fallback when internet connection drops&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Offline Field Collection&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Collect data in the field without an internet connection,
+ then sync it to KoNote when connectivity is available.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Integration with ODK Central for offline-capable mobile data collection&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Works on Android devices in locations with no internet&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;PII protection tiers — control what identifiers are sent to field devices&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Sync collected data back to KoNote when connected&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Device loss protocol to protect data if a device is lost or stolen&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Multi-Agency Hosting&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Multiple organisations can share a single server to reduce hosting costs,
+ while maintaining strict data separation between agencies.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Each agency's data is completely separated — no mixing between organisations&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Each agency gets its own encryption key, managed independently&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Shared infrastructure for cost optimisation ($4&amp;amp;ndash;10/month per agency vs. $35&amp;amp;ndash;100 standalone)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Independent configuration per agency (terminology, features, programs)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Consortium model for agencies that want to share aggregate reporting&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Consent-based aggregate reporting across consortium members&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Ideal for umbrella organisations, consortia, or regional networks&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="alt-bg"&gt;
+ &lt;div class="container"&gt;
+ &lt;h2&gt;What KoNote Does NOT Do&lt;/h2&gt;
+ &lt;p class="text-muted mb-8"&gt;
+ We believe in being clear about limitations. KoNote is purpose-built for
+ outcome tracking — not a general-purpose system.
+ &lt;/p&gt;</description></item><item><title>Frequently Asked Questions</title><link>https://konote.ca/en/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://konote.ca/en/faq/</guid><description>&lt;section&gt;
+ &lt;div class="container content-width"&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;h2&amp;gt;Licensing &amp;amp;amp; Cost&amp;lt;/h2&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item is-open&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;true&amp;quot;&amp;gt;
+ Is KoNote really free?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ Yes. KoNote is released under the MIT Licence, which means you can use,
+ modify, and distribute it freely — including for commercial purposes.
+ There are no licence fees, no per-user pricing, no premium tiers.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ You will have hosting costs (the servers that run KoNote), but those
+ go to your hosting provider, not to us. Typical hosting costs range
+ from $45–150 CAD/month depending on your platform choice.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ What's the catch?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ No catch, but there are trade-offs:
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;You're responsible for deployment, security, and maintenance&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;There's no vendor support — just community help via GitHub&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;You need technical capacity (or a partner who has it)&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p&amp;gt;
+ If you want a fully managed solution where someone else handles everything,
+ KoNote isn't that. If you're comfortable with self-hosting and want
+ full control over your data, KoNote is a good fit.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ Can we modify KoNote for our needs?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ Yes. The MIT Licence explicitly allows modification. You can change
+ the code, add features, or adapt it however you need. You can even
+ redistribute your modified version.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ If you make improvements that would benefit others, we'd welcome
+ contributions back to the main project — but that's optional.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;h2 class=&amp;quot;mt-8&amp;quot;&amp;gt;Support &amp;amp;amp; Updates&amp;lt;/h2&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ What kind of support is available?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ &amp;lt;strong&amp;gt;Community support:&amp;lt;/strong&amp;gt; You can ask questions and report issues
+ on &amp;lt;a href=&amp;quot;https://github.com/LogicalOutcomes/konote/issues&amp;quot;&amp;gt;GitHub&amp;lt;/a&amp;gt;.
+ There are no guaranteed response times — it depends on who's available
+ and whether someone knows the answer.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ &amp;lt;strong&amp;gt;Professional support:&amp;lt;/strong&amp;gt; If you need guaranteed help,
+ we offer &amp;lt;a href=&amp;quot;/en/services/&amp;quot;&amp;gt;professional services&amp;lt;/a&amp;gt; including
+ setup assistance and training.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ How do updates work?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ New versions are released on GitHub. You're responsible for monitoring
+ releases and applying updates to your deployment. The deployment guide
+ includes instructions for updating.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ Updates are not automatic — you control when to update. This means
+ you can test updates before applying them, but it also means you
+ need to actively keep your installation current.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ What if the project is abandoned?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ The MIT Licence means the code is yours forever. If active development
+ stops, you can:
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Continue using your current version indefinitely&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Fork the project and maintain it yourself&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Find someone else to maintain a fork&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p&amp;gt;
+ You're not locked into a vendor relationship that could disappear.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;h2 class=&amp;quot;mt-8&amp;quot;&amp;gt;Technical Questions&amp;lt;/h2&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ How many participants can KoNote handle?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ KoNote has been tested with up to approximately 2,000 active participants.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ The main limitation is encrypted search: because PII is encrypted,
+ participant search loads accessible participants into memory and filters in Python.
+ This works well at smaller scales but may slow down with larger participant bases.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ If you have significantly more participants, we recommend performance testing
+ before committing to KoNote.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ Can we migrate data from another system?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ There are no built-in migration tools. Data migration requires:
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Exporting data from your current system&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Mapping fields to KoNote's data model&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Writing a script to import the data&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p&amp;gt;
+ This is technically possible but requires development work specific
+ to your source system. If you need help with this, mention it when
+ contacting us about &amp;lt;a href=&amp;quot;/en/services/&amp;quot;&amp;gt;professional services&amp;lt;/a&amp;gt;.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ Does KoNote work offline?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ The KoNote web interface requires an internet connection for full
+ functionality. A service worker provides a graceful offline fallback —
+ if connectivity drops, you will see a friendly message and the app
+ resumes automatically when you are back online.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ For field work in locations without internet, KoNote integrates with
+ ODK Central for offline-capable mobile data collection. Staff collect
+ data on Android devices and sync it to KoNote when connectivity is
+ available. PII protection tiers control what identifiers are sent to
+ field devices, and a device loss protocol protects data if a device
+ is lost or stolen.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ Can we integrate KoNote with other systems?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ KoNote doesn't have a public API, so direct integration isn't straightforward.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ Options include:
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;CSV export/import for batch data transfer&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Custom development to add API endpoints (Django makes this possible)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Direct database access (with caution and understanding of the schema)&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;h2 class=&amp;quot;mt-8&amp;quot;&amp;gt;Features&amp;lt;/h2&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ How do surveys work?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ KoNote includes a full survey system for collecting structured feedback.
+ Admins create surveys with six question types, conditional logic, and
+ optional section scoring. Surveys can be delivered three ways:
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Participant portal:&amp;lt;/strong&amp;gt; Assigned surveys appear on the
+ participant's dashboard. Responses auto-save as they go.&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Shareable public links:&amp;lt;/strong&amp;gt; Anyone can complete a survey
+ via a URL — no login required. Useful for community feedback or
+ pre-intake screening.&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Staff data entry:&amp;lt;/strong&amp;gt; Staff enter responses on behalf of
+ a participant during a session.&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p&amp;gt;
+ Surveys can be assigned manually or automatically using trigger rules
+ based on events, program enrolment, time intervals, or participant
+ characteristics. You can import existing instruments (like PHQ-9 or SPDAT)
+ from CSV files.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ What is the participant portal?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ The participant portal is an optional self-service website where
+ participants can:
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;View their outcome plans and progress charts&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Complete assigned surveys&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Write private journal entries&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Send messages to their assigned worker&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Request corrections to their records&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Access shared resources and program materials&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p&amp;gt;
+ Staff invite participants via a secure link with an optional verbal
+ code for identity verification. Participants create their own credentials
+ and go through a consent flow before accessing the portal. The portal
+ supports multi-factor authentication (TOTP app or email codes) and
+ staff can revoke access or reset MFA at any time.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ The portal is disabled by default. Enable it in the Features settings
+ when your agency is ready to offer it.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ How does data export work?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ KoNote provides two levels of data export:
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Individual participant export:&amp;lt;/strong&amp;gt; From a participant's
+ profile, staff can export their data in PDF, CSV, or JSON format.
+ Downloads use secure, time-limited links that expire after 24 hours.
+ Large exports trigger admin notification and a brief delay for oversight.&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Agency-wide offboarding export:&amp;lt;/strong&amp;gt; A management command
+ exports all agency data in AES-256-GCM encrypted format with a Diceware
+ passphrase. This is designed for agency offboarding or data migration —
+ not routine reporting.&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p&amp;gt;
+ All exports are fully audited. Admins can revoke download links, and
+ permissions are re-checked at download time to prevent stale access.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ What is demo mode?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ Demo mode provides pre-configured training accounts with realistic sample
+ data so staff can explore KoNote without affecting real participant records.
+ Key safeguards include:
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Demo records are excluded from all reports, exports, and dashboards&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Demo admin accounts are restricted to view-only for agency settings&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;A persistent training-mode banner appears on every page&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Demo login buttons are visually separated from the real login form
+ under a &amp;quot;Training Accounts&amp;quot; label&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Demo login events are audited separately from production activity&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p&amp;gt;
+ Demo data can be regenerated at any time to reset the training environment.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;h2 class=&amp;quot;mt-8&amp;quot;&amp;gt;Organisational Questions&amp;lt;/h2&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ Why isn't KoNote offered as a SaaS?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ Participant data is sensitive. Many nonprofits need full control over where
+ that data lives — for regulatory compliance, funder requirements, or
+ organisational policy.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ A self-hosted model means:
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;You choose where data is stored (Canadian servers if needed)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;You're not dependent on a vendor's business continuity&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;You can inspect exactly what the software does&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;No risk of a vendor raising prices or changing terms&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ Is KoNote suitable for clinical settings?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ KoNote is designed for outcome tracking in social services, not clinical
+ documentation. It lacks:
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Standardised clinical assessment tools&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Treatment planning features&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Prescription or medication tracking&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Healthcare-specific compliance features (HIPAA, etc.)&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p&amp;gt;
+ If you need a clinical EMR/EHR, KoNote isn't the right tool.
+ If you need to track participant outcomes alongside clinical work,
+ KoNote could complement (not replace) your clinical system.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ Can multiple organisations share one KoNote instance?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ Yes. KoNote supports multi-agency hosting, where multiple organisations
+ share a single server while maintaining strict data separation. Each
+ agency gets its own separate data store and encryption key, with
+ independent configuration for terminology, features, and programs.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ This is designed for umbrella organisations, consortia, or regional
+ networks that want to reduce hosting costs without compromising
+ data privacy. Each agency's data remains fully isolated from
+ other agencies on the same server. Typical per-agency costs drop
+ from $35&amp;amp;ndash;100/month (standalone) to $4&amp;amp;ndash;10/month (shared).
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ What languages does KoNote support?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ KoNote has full English and French bilingual support, following canada.ca
+ conventions. Users can switch languages with a single click, and all
+ terminology, labels, and system text appear in the selected language.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ Agencies can customise all terminology in both languages to match their
+ preferred wording. Full internationalisation to other languages beyond
+ English and French would require development work.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ Does KoNote use AI?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ KoNote includes optional AI-assisted features that help staff with
+ goal writing, documentation, and analysis:
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;AI-assisted goal building — natural language goal writing with research-grounded validation&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Suggesting metrics based on outcome target descriptions&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Improving goal statement wording&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Helping structure progress notes&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Suggestion themes — grouping qualitative feedback into patterns&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Generating funder narrative summaries from aggregate data&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Outcome insights — AI-generated program summaries&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p&amp;gt;
+ AI features use a two-tier toggle: tools-only mode (no participant data,
+ enabled by default) and de-identified analysis mode (participant data with
+ identifiers removed, disabled by default). No participant identifying
+ information is ever sent to the AI service. Both tiers can be disabled
+ entirely if your organisation prefers not to use AI.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="alt-bg"&gt;
+ &lt;div class="container text-center"&gt;
+ &lt;h2&gt;Still Have Questions?&lt;/h2&gt;
+ &lt;p class="text-muted mb-8"&gt;
+ Check the documentation or reach out on GitHub.
+ &lt;/p&gt;</description></item><item><title>Getting Started</title><link>https://konote.ca/en/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://konote.ca/en/getting-started/</guid><description>&lt;section&gt;
+ &lt;div class="container content-width"&gt;
+ &lt;h2&gt;Is KoNote Right for You?&lt;/h2&gt;
+ &lt;p&gt;
+ Before investing time in evaluation, make sure KoNote is a reasonable fit
+ for your organisation. Answer these questions honestly:
+ &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Technical Capacity&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Do you have someone who can:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Deploy a Docker-based application to a cloud platform?&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Configure environment variables and manage secrets?&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Set up and maintain regular database backups?&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Apply software updates when new versions are released?&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Troubleshoot issues using documentation and logs?&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p&amp;gt;
+ If yes to most of these, you have sufficient technical capacity.
+ If no, you'll need an IT partner or our &amp;lt;a href=&amp;quot;/en/services/&amp;quot;&amp;gt;professional services&amp;lt;/a&amp;gt;.
+ &amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Organisational Fit&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Does your organisation:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Track participant outcomes as a core function?&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Need to demonstrate program impact to funders?&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Serve fewer than ~2,000 active participants?&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Require control over where participant data is stored?&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;Value open source software and avoiding vendor lock-in?&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p&amp;gt;
+ If yes to most of these, KoNote is likely a good fit.
+ If no, a commercial SaaS solution might serve you better.
+ &amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="alt-bg"&gt;
+ &lt;div class="container content-width"&gt;
+ &lt;h2&gt;Evaluation Path&lt;/h2&gt;
+ &lt;p&gt;
+ We recommend this sequence for evaluating KoNote:
+ &lt;/p&gt;</description></item><item><title>Origins</title><link>https://konote.ca/en/origins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://konote.ca/en/origins/</guid><description>&lt;h2 id="clinical-origins"&gt;Clinical Origins&lt;/h2&gt;
+&lt;p&gt;KoNote grew out of the work of Dr. David Gotlib, an adolescent psychiatrist at St. Joseph&amp;rsquo;s Health Centre in Toronto and former software developer. Around 2011, drawing on both backgrounds, he began prototyping a clinical documentation system at St. Joseph&amp;rsquo;s. With the help of a programmer, he launched KoNote in 2014, and a prototype ran on a psychiatric inpatient unit there for three years.&lt;/p&gt;
+&lt;p&gt;Having worked with many electronic medical records (EMRs), Gotlib found none of them satisfactory — he described them as &amp;ldquo;glorified spreadsheets with a Windows front-end&amp;rdquo; and was actually faster with paper. The core problem was structural: traditional EMRs mirror the paper chart, with serial entries separated by discipline, and do little to help clinicians track the direction of a client&amp;rsquo;s care over time. In mental health and social services, where narrative information matters and where, as Gotlib put it, &amp;ldquo;you really want to maintain a level of uncertainty,&amp;rdquo; rigid data entry forms are a particularly poor fit.&lt;/p&gt;</description></item><item><title>Page Not Found</title><link>https://konote.ca/en/404/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://konote.ca/en/404/</guid><description>&lt;p&gt;The page you&amp;rsquo;re looking for doesn&amp;rsquo;t exist or has been moved.&lt;/p&gt;</description></item><item><title>Professional Services</title><link>https://konote.ca/en/services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://konote.ca/en/services/</guid><description>&lt;section&gt;
+ &lt;div class="container content-width"&gt;
+ &lt;div class="notice notice-info"&gt;
+ &lt;p class="notice-title"&gt;This is Optional&lt;/p&gt;
+ &lt;p&gt;
+ KoNote is open source software. You can absolutely deploy and configure
+ it yourself using the &lt;a href="https://konote.ca/en/documentation/"&gt;documentation&lt;/a&gt;.
+ These services exist for organisations who prefer professional assistance
+ or lack the technical capacity to self-deploy.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="alt-bg"&gt;
+ &lt;div class="container content-width"&gt;
+ &lt;div class="card service-card"&gt;
+ &lt;h2 style="margin-top: var(--space-4);"&gt;Full Onboarding Package&lt;/h2&gt;
+ &lt;p&gt;
+ A complete setup service to get your organisation running on KoNote
+ with confidence.
+ &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; &amp;lt;h3&amp;gt;What's Included&amp;lt;/h3&amp;gt;
+ &amp;lt;ul class=&amp;quot;check-list&amp;quot;&amp;gt;
+ &amp;lt;li&amp;gt;
+ &amp;lt;strong&amp;gt;Deployment:&amp;lt;/strong&amp;gt;
+ Deploy KoNote to your chosen platform (Railway, Azure, or other).
+ Configure databases, environment variables, and HTTPS.
+ &amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;
+ &amp;lt;strong&amp;gt;Initial Configuration:&amp;lt;/strong&amp;gt;
+ Set up your programs, user accounts, terminology, and feature toggles
+ based on your organisation's needs.
+ &amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;
+ &amp;lt;strong&amp;gt;Training Sessions:&amp;lt;/strong&amp;gt;
+ Training for administrators on system management and for staff on
+ daily use. Typically 2–3 sessions depending on your team size.
+ &amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;
+ &amp;lt;strong&amp;gt;Instance Documentation:&amp;lt;/strong&amp;gt;
+ Documentation specific to your deployment: how to access the system,
+ your backup procedures, and key contacts.
+ &amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;
+ &amp;lt;strong&amp;gt;Support Period:&amp;lt;/strong&amp;gt;
+ A support period during your initial rollout to answer questions and
+ help troubleshoot issues as they arise.
+ &amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+
+ &amp;lt;h3&amp;gt;What's Not Included&amp;lt;/h3&amp;gt;
+ &amp;lt;ul class=&amp;quot;x-list&amp;quot;&amp;gt;
+ &amp;lt;li&amp;gt;
+ &amp;lt;strong&amp;gt;Custom Feature Development:&amp;lt;/strong&amp;gt;
+ The onboarding package covers configuration, not code changes.
+ If you need custom features, that's a separate conversation.
+ &amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;
+ &amp;lt;strong&amp;gt;Indefinite Ongoing Support:&amp;lt;/strong&amp;gt;
+ The support period is time-limited. After that, you're responsible
+ for day-to-day operations (though you can always reach out for follow-up work).
+ &amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;
+ &amp;lt;strong&amp;gt;Data Migration:&amp;lt;/strong&amp;gt;
+ Importing data from other systems requires understanding your existing
+ data structure. This can be discussed separately if needed.
+ &amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+
+ &amp;lt;h3&amp;gt;Pricing&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Contact for a quote. Pricing depends on your organisation's size,
+ complexity, and chosen hosting platform. We'll discuss your needs
+ and provide a clear proposal before any work begins.
+ &amp;lt;/p&amp;gt;
+
+ &amp;lt;h3&amp;gt;Get in Touch&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Email: &amp;lt;a href=&amp;quot;mailto:your-email@example.com&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;your-email@example.com&amp;lt;/strong&amp;gt;&amp;lt;/a&amp;gt;
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p class=&amp;quot;text-muted&amp;quot;&amp;gt;
+ Include a brief description of your organisation and what you're looking to accomplish.
+ We'll schedule a call to discuss your needs.
+ &amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+ &lt;div class="container content-width"&gt;
+ &lt;h2&gt;Frequently Asked Questions About Services&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;faq-item is-open&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;true&amp;quot;&amp;gt;
+ Can we do this ourselves instead?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ Yes, absolutely. The &amp;lt;a href=&amp;quot;/en/documentation/&amp;quot;&amp;gt;documentation&amp;lt;/a&amp;gt; is comprehensive,
+ and many organisations successfully deploy and configure KoNote themselves.
+ These services exist for organisations who prefer professional assistance
+ or want to move faster than self-service allows.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ What if we need ongoing support after the initial period?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ We can discuss ongoing support arrangements if needed. However,
+ the goal of the onboarding package is to leave you self-sufficient.
+ Most organisations don't need ongoing support after the initial period.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ Can you help with custom features?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ Custom development is possible but separate from the onboarding package.
+ If you have specific feature needs, mention them when you reach out
+ and we can discuss whether they're feasible and what they might involve.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ Do you work with organisations outside Canada?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ Yes, though training sessions would be conducted remotely.
+ KoNote itself can be deployed anywhere, though you should consider
+ data residency requirements for your jurisdiction.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;faq-item&amp;quot;&amp;gt;
+ &amp;lt;button class=&amp;quot;faq-question&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;
+ What happens if we're not satisfied?
+ &amp;lt;/button&amp;gt;
+ &amp;lt;div class=&amp;quot;faq-answer&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ We'll work with you to address any concerns. The goal is a successful
+ deployment that meets your needs. We'll discuss expectations clearly
+ upfront so there are no surprises.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="alt-bg"&gt;
+ &lt;div class="container text-center"&gt;
+ &lt;h2&gt;Not Ready for Services?&lt;/h2&gt;
+ &lt;p class="text-muted mb-8"&gt;
+ Start with the documentation and try the demo. You can always reach out
+ later if you decide you want help.
+ &lt;/p&gt;</description></item><item><title>Research Foundation</title><link>https://konote.ca/en/evidence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://konote.ca/en/evidence/</guid><description>&lt;section&gt;
+ &lt;div class="container"&gt;
+ &lt;h2&gt;Why This Matters&lt;/h2&gt;
+ &lt;p&gt;
+ Most outcome tracking software is designed backward. It starts with funder
+ reporting requirements and works down to data collection. Participants become
+ data sources rather than partners in their own progress.
+ &lt;/p&gt;
+ &lt;p&gt;
+ KoNote takes a different approach. We started with research on what actually
+ improves participant outcomes, then designed software to support those practices.
+ The reporting features exist, but they're not the foundation.
+ &lt;/p&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="alt-bg"&gt;
+ &lt;div class="container"&gt;
+ &lt;h2&gt;The Research&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;card-grid&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Feedback-Informed Treatment&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Research by Scott Miller, Barry Duncan, and colleagues has consistently
+ shown that routinely collecting client feedback and using it to guide
+ services leads to significantly better outcomes. Clients are more likely
+ to achieve meaningful change, and at-risk cases show the greatest improvement.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ The key finding: the act of systematically asking clients about their
+ experience strengthens the working relationship — and that relationship
+ is the strongest predictor of outcomes across service types.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p class=&amp;quot;text-muted&amp;quot;&amp;gt;
+ &amp;lt;strong&amp;gt;Key source:&amp;lt;/strong&amp;gt; Miller, S.D., Duncan, B.L., Brown, J., Sorrell, R., &amp;amp;amp; Chalk, M.B. (2006).
+ Using formal client feedback to improve retention and outcome: Making ongoing, real-time assessment feasible.
+ &amp;lt;em&amp;gt;Journal of Brief Therapy&amp;lt;/em&amp;gt;, 5(1), 5-22.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Collaborative Documentation&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Studies on collaborative documentation — where clients participate in
+ creating their own records — show that most clients find it helpful
+ and that it improves treatment adherence. When clients see and contribute
+ to what's being written about them, trust increases.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ Transparency isn't just ethical; it's clinically effective. Clients
+ sense alliance ruptures before service providers do. Routine feedback
+ catches problems early, before clients disengage.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p class=&amp;quot;text-muted&amp;quot;&amp;gt;
+ &amp;lt;strong&amp;gt;Key source:&amp;lt;/strong&amp;gt; Stanhope, V., Ingoglia, C., Schmelter, B., &amp;amp;amp; Marcus, S.C. (2013).
+ Impact of person-centered planning and collaborative documentation on treatment adherence.
+ &amp;lt;em&amp;gt;Psychiatric Services&amp;lt;/em&amp;gt;, 64(1), 76-79.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Brevity and Simplicity&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Implementation research consistently shows that brief tools see better
+ compliance than lengthy ones. Even single-item measures can be
+ psychometrically valid when designed well. The Outcome Rating Scale
+ and Session Rating Scale work because each takes under a minute.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p&amp;gt;
+ When feedback tools feel like administrative burden rather than clinical
+ support, compliance becomes &amp;quot;empty&amp;quot; — going through the motions without
+ genuine engagement.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;p class=&amp;quot;text-muted&amp;quot;&amp;gt;
+ &amp;lt;strong&amp;gt;Key source:&amp;lt;/strong&amp;gt; Campbell, A., &amp;amp;amp; Hemsley, S. (2009).
+ Outcome Rating Scale and Session Rating Scale in psychological practice: Clinical utility of ultra-brief measures.
+ &amp;lt;em&amp;gt;Clinical Psychologist&amp;lt;/em&amp;gt;, 13(1), 1-9.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+ &lt;div class="container"&gt;
+ &lt;h2&gt;How This Shaped KoNote&lt;/h2&gt;
+ &lt;p&gt;
+ Each research finding informed specific design decisions:
+ &lt;/p&gt;</description></item><item><title>Security &amp; Privacy</title><link>https://konote.ca/en/security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://konote.ca/en/security/</guid><description>&lt;section&gt;
+ &lt;div class="container content-width"&gt;
+ &lt;div class="disclaimer"&gt;
+ &lt;p class="disclaimer-title"&gt;Shared Responsibility&lt;/p&gt;
+ &lt;p&gt;
+ KoNote provides security features, but security is a shared responsibility.
+ The software can only protect data if you configure and operate it correctly.
+ This page explains both what KoNote does and what you must do.
+ &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="alt-bg"&gt;
+ &lt;div class="container"&gt;
+ &lt;h2&gt;What KoNote Does&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;card-grid&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Field-Level Encryption&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ All personally identifiable information (PII) is encrypted before
+ being stored in the database.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Algorithm:&amp;lt;/strong&amp;gt; Fernet (AES-128-CBC + HMAC-SHA256) for PII at rest&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Encrypted fields:&amp;lt;/strong&amp;gt; Participant names, birth dates, emails, phone numbers, progress note content, sensitive custom fields, registration submissions&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Key storage:&amp;lt;/strong&amp;gt; Your encryption key, stored as an environment variable (Azure Key Vault recommended for production)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Key rotation:&amp;lt;/strong&amp;gt; Built-in key rotation command for changing encryption keys&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Per-agency keys:&amp;lt;/strong&amp;gt; In multi-agency deployments, each agency has its own encryption key — one agency's key cannot decrypt another's data&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p class=&amp;quot;text-muted&amp;quot;&amp;gt;
+ Even if someone gains access to the database, encrypted fields
+ are unreadable without the encryption key. In shared hosting,
+ one agency's key cannot decrypt another agency's data.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Dual-Database Architecture&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ KoNote uses two separate PostgreSQL databases.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Operational database:&amp;lt;/strong&amp;gt; Participant records, notes, plans (normal CRUD operations)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Audit database:&amp;lt;/strong&amp;gt; Immutable log of all data access and changes (INSERT-only)&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p class=&amp;quot;text-muted&amp;quot;&amp;gt;
+ The audit database cannot be modified or deleted through the application,
+ providing a tamper-resistant record.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Role-Based Access Control&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Five roles with different permissions, enforced at the middleware level.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Administrator:&amp;lt;/strong&amp;gt; System configuration (no direct participant access)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Program Manager:&amp;lt;/strong&amp;gt; Full access to their programs' participants and staff&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Direct Service:&amp;lt;/strong&amp;gt; Access to participants in their assigned programs&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Front Desk:&amp;lt;/strong&amp;gt; Limited access to specific fields only&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Executive:&amp;lt;/strong&amp;gt; Dashboard and reporting access&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p class=&amp;quot;text-muted&amp;quot;&amp;gt;
+ Staff can only see participants enrolled in programs they're assigned to.
+ Admins are deliberately blocked from participant data.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Complete Audit Logging&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Every significant action is logged with full context.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Data changes:&amp;lt;/strong&amp;gt; Create, update, delete with before/after values&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Data access:&amp;lt;/strong&amp;gt; Who viewed which participant record and when&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Authentication:&amp;lt;/strong&amp;gt; Login, logout, failed login attempts&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Metadata:&amp;lt;/strong&amp;gt; Timestamp, user ID, IP address&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p class=&amp;quot;text-muted&amp;quot;&amp;gt;
+ Logs are searchable through the admin interface and can be exported.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Secure Authentication&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Two authentication options, both using modern security practices.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Azure AD SSO:&amp;lt;/strong&amp;gt; Integrate with your organisation's Microsoft 365&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Local authentication:&amp;lt;/strong&amp;gt; Passwords hashed with Argon2 (winner of the Password Hashing Competition)&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p class=&amp;quot;text-muted&amp;quot;&amp;gt;
+ Session tokens are stored in the database with configurable timeouts.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Secure Data Exports&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Defence-in-depth controls on data exports to prevent unauthorised data extraction.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;SecureExportLink:&amp;lt;/strong&amp;gt; Time-limited download links with 24-hour expiry and nonce deduplication&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Elevated exports:&amp;lt;/strong&amp;gt; Large exports (100+ participants) or exports containing notes trigger admin notification and a 10-minute delay&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Admin oversight:&amp;lt;/strong&amp;gt; Admins can revoke export links before they expire&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Download tracking:&amp;lt;/strong&amp;gt; Every download is logged (who, when, how many times)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Re-validation:&amp;lt;/strong&amp;gt; PII access permissions are re-checked at download time&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Agency-wide export:&amp;lt;/strong&amp;gt; AES-256-GCM encrypted export for full agency offboarding, with automatic model discovery and Diceware passphrase generation&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Canadian Data Residency&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ For organisations requiring data to stay in Canada, KoNote supports
+ deployment to Canadian infrastructure.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;OVHcloud Beauharnois:&amp;lt;/strong&amp;gt; Dedicated Canadian data centre in Quebec&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Azure Canada Central:&amp;lt;/strong&amp;gt; Microsoft's Canadian cloud region&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Self-hosted:&amp;lt;/strong&amp;gt; Deploy on any Canadian server you control&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Encryption keys:&amp;lt;/strong&amp;gt; Stored in Azure Key Vault or your secure infrastructure&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;p class=&amp;quot;text-muted&amp;quot;&amp;gt;
+ Participant data, backups, and encryption keys all stay within Canadian borders.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Security Headers&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ HTTP security headers configured by default.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;Content Security Policy (CSP)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;HTTP Strict Transport Security (HSTS)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;X-Frame-Options (clickjacking protection)&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;X-Content-Type-Options&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;CSRF protection on all forms&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;PHIPA Cross-Program Consent&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Enforces Ontario PHIPA requirements for sharing clinical notes
+ across programs within an agency.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Fail-closed design:&amp;lt;/strong&amp;gt; Cross-program notes are hidden by default&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Consent-gated access:&amp;lt;/strong&amp;gt; Clinical notes only visible across programs when the participant or agency has explicitly enabled sharing&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;List and detail enforcement:&amp;lt;/strong&amp;gt; Consent filters applied on both note lists (querysets) and individual note views&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Exempt views:&amp;lt;/strong&amp;gt; Aggregate counts, de-identified reports, and plan views are unaffected&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+ &amp;lt;div class=&amp;quot;card&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Rate Limiting &amp;amp;amp; Brute-Force Protection&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;
+ Protections against automated attacks on authentication endpoints.
+ &amp;lt;/p&amp;gt;
+ &amp;lt;ul&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Account lockout:&amp;lt;/strong&amp;gt; Participant portal locks accounts after repeated failed login attempts&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Session security:&amp;lt;/strong&amp;gt; Session tokens stored in the database with configurable timeouts&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Secure cookies:&amp;lt;/strong&amp;gt; Session and CSRF cookies marked secure in production&amp;lt;/li&amp;gt;
+ &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;System checks:&amp;lt;/strong&amp;gt; Startup validation ensures encryption keys, security middleware, and cookie flags are correctly configured&amp;lt;/li&amp;gt;
+ &amp;lt;/ul&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+ &lt;div class="container"&gt;
+ &lt;h2&gt;What You Must Do&lt;/h2&gt;
+ &lt;p class="text-muted mb-8"&gt;
+ KoNote's security features only work if you fulfil your responsibilities.
+ These are not optional.
+ &lt;/p&gt;</description></item><item><title>Try It</title><link>https://konote.ca/en/demo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://konote.ca/en/demo/</guid><description>&lt;style&gt;
+ .workflow-steps {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+ gap: var(--space-6);
+ margin: var(--space-8) 0;
+ counter-reset: step;
+ }
+
+ .workflow-step {
+ text-align: center;
+ padding: var(--space-6) var(--space-4);
+ position: relative;
+ }
+
+ .workflow-step::before {
+ counter-increment: step;
+ content: counter(step);
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ width: 2.5rem;
+ height: 2.5rem;
+ background: var(--color-primary);
+ color: white;
+ font-weight: 700;
+ font-size: var(--font-size-lg);
+ border-radius: 50%;
+ margin-bottom: var(--space-4);
+ }
+
+ .workflow-step h3 {
+ font-size: var(--font-size-base);
+ margin-bottom: var(--space-2);
+ }
+
+ .workflow-step p {
+ color: var(--color-text-muted);
+ font-size: var(--font-size-sm);
+ margin-bottom: 0;
+ }
+
+ .demo-frame-container {
+ max-width: 720px;
+ margin: 0 auto;
+ border: 1px solid var(--color-border);
+ border-radius: var(--radius-lg);
+ overflow: hidden;
+ background: var(--color-bg);
+ box-shadow: var(--shadow-md);
+ }
+
+ .demo-frame-header {
+ background: var(--color-bg-alt);
+ border-bottom: 1px solid var(--color-border);
+ padding: var(--space-3) var(--space-4);
+ font-size: var(--font-size-sm);
+ color: var(--color-text-muted);
+ display: flex;
+ align-items: center;
+ gap: var(--space-2);
+ }
+
+ .demo-frame-header svg {
+ flex-shrink: 0;
+ }
+
+ .demo-frame-container iframe {
+ display: block;
+ width: 100%;
+ min-height: 820px;
+ border: none;
+ overflow: hidden;
+ transition: height 0.15s ease;
+ }
+&lt;/style&gt;
+&lt;section&gt;
+ &lt;div class="container"&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;h2&amp;gt;How It Works&amp;lt;/h2&amp;gt;
+&amp;lt;div class=&amp;quot;workflow-steps&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;workflow-step&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Register&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;Fill out the form below. Use any name you like &amp;amp;mdash; this is a demo environment.&amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+ &amp;lt;div class=&amp;quot;workflow-step&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Log In&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;Open the &amp;lt;a href=&amp;quot;https://konote-dev.llewelyn.ca/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;KoNote demo app&amp;lt;/a&amp;gt; and sign in as a demo user (credentials below).&amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+ &amp;lt;div class=&amp;quot;workflow-step&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Find Your Registration&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;Go to the Supported Employment program. Your registration appears as a new participant.&amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+ &amp;lt;div class=&amp;quot;workflow-step&amp;quot;&amp;gt;
+ &amp;lt;h3&amp;gt;Explore&amp;lt;/h3&amp;gt;
+ &amp;lt;p&amp;gt;Add an outcome plan, write progress notes, record metrics, and see charts update in real time.&amp;lt;/p&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;h2&amp;gt;Step 1: Register a Participant&amp;lt;/h2&amp;gt;
+&amp;lt;div class=&amp;quot;section-header&amp;quot;&amp;gt;
+ &amp;lt;p&amp;gt;
+ This demo shows a simplified version. KoNote includes over 50 configurable
+ fields across 9 field groups &amp;amp;mdash; contact details, emergency contacts, demographics,
+ accessibility, referral info, consent forms, and more. Your agency chooses which
+ fields and groups to include, and can add custom ones in minutes. No developer needed.
+ &amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;demo-frame-container&amp;quot;&amp;gt;
+ &amp;lt;div class=&amp;quot;demo-frame-header&amp;quot;&amp;gt;
+ &amp;lt;svg width=&amp;quot;16&amp;quot; height=&amp;quot;16&amp;quot; viewBox=&amp;quot;0 0 16 16&amp;quot; fill=&amp;quot;none&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;
+ &amp;lt;circle cx=&amp;quot;8&amp;quot; cy=&amp;quot;8&amp;quot; r=&amp;quot;7&amp;quot; stroke=&amp;quot;currentColor&amp;quot; stroke-width=&amp;quot;1.5&amp;quot;/&amp;gt;
+ &amp;lt;path d=&amp;quot;M8 5v3M8 10h.01&amp;quot; stroke=&amp;quot;currentColor&amp;quot; stroke-width=&amp;quot;1.5&amp;quot; stroke-linecap=&amp;quot;round&amp;quot;/&amp;gt;
+ &amp;lt;/svg&amp;gt;
+ Live demo &amp;amp;mdash; submissions go to a test environment, not real data
+ &amp;lt;/div&amp;gt;
+ &amp;lt;iframe
+ src=&amp;quot;https://konote-dev.llewelyn.ca/register/demo/?embed=1&amp;quot;
+ title=&amp;quot;KoNote Registration Form Demo&amp;quot;
+ loading=&amp;quot;lazy&amp;quot;
+ scrolling=&amp;quot;no&amp;quot;
+ allow=&amp;quot;forms&amp;quot;&amp;gt;
+ &amp;lt;/iframe&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="alt-bg"&gt;
+ &lt;div class="container"&gt;
+ &lt;h2&gt;Step 2: Log In and Find Them&lt;/h2&gt;
+ &lt;p&gt;
+ After submitting the form, your registration is automatically approved and the
+ participant appears in the &lt;strong&gt;Supported Employment&lt;/strong&gt; program.
+ &lt;/p&gt;</description></item></channel></rss>

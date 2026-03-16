@@ -1,44 +1,50 @@
 # KoNote Website
 
-Marketing and documentation website for [KoNote](https://github.com/LogicalOutcomes/konote), an open source participant outcome management system for nonprofits.
+Bilingual (EN/FR) marketing website for [KoNote](https://github.com/LogicalOutcomes/konote), an open source participant outcome management system for nonprofits.
+
+Built with Hugo, served by Caddy, with Pagefind search and an AI chatbot.
 
 ## Structure
 
 ```
 konote-website/
-├── index.html           # Home page
-├── features.html        # What KoNote does and doesn't do
-├── evidence.html        # Research evidence and design principles
-├── demo.html            # Live demo and evaluation
-├── getting-started.html # Evaluation and deployment guide
-├── documentation.html   # Links to full documentation
-├── security.html        # Security features and responsibilities
-├── services.html        # Professional setup services
-├── faq.html            # Frequently asked questions
-├── css/
-│   └── style.css       # Stylesheet
-└── images/             # Screenshots (to be added)
+├── hugo.toml                  # Hugo config (bilingual)
+├── content/
+│   ├── en/                    # English pages (11 pages)
+│   └── fr/                    # French pages (11 pages)
+├── i18n/
+│   ├── en.yaml                # English UI strings
+│   └── fr.yaml                # French UI strings
+├── layouts/                   # Hugo templates and partials
+├── static/
+│   ├── css/style.css          # Stylesheet
+│   ├── js/search.js           # Pagefind search (bilingual)
+│   ├── js/chatbot.js          # Chat widget
+│   └── img/                   # Images
+├── chatbot/                   # FastAPI chatbot API
+│   ├── main.py                # API endpoint
+│   ├── content_loader.py      # Knowledge base loader
+│   ├── Dockerfile             # Chatbot container
+│   └── knowledge/             # Curated knowledge base
+├── Dockerfile                 # Website container (Hugo + Caddy)
+├── Caddyfile                  # Caddy config with language detection
+└── railway.toml               # Railway deployment config
 ```
-
-## Hosting
-
-This site is designed for GitHub Pages. Enable Pages in repository settings, pointing to the main branch.
 
 ## Local Development
 
-Open `index.html` in a browser. No build step required.
+```bash
+# Install Hugo (https://gohugo.io/installation/)
+hugo server
+# Site available at http://localhost:1313/en/ and /fr/
+```
 
-## Adding Screenshots
+## Deployment
 
-1. Add images to the `images/` folder
-2. Replace the placeholder `<div class="screenshot-placeholder">` elements with `<img>` tags
-3. Include descriptive `alt` text for accessibility
+Both services deploy on Railway:
 
-## Customisation
-
-- **Contact email**: Update `your-email@example.com` in `services.html`
-- **GitHub links**: Update repository URLs in footer if the repo location changes
-- **Colours**: Edit CSS custom properties in `css/style.css`
+1. **Website**: Uses root `Dockerfile` (Hugo build + Pagefind + Caddy)
+2. **Chatbot API**: Uses `chatbot/Dockerfile` — see `chatbot/README.md`
 
 ## Licence
 
