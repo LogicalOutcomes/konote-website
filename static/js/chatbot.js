@@ -36,12 +36,32 @@
     }
   }
 
+  function renderMarkdown(text) {
+    // Minimal markdown: bold, bullet lists, line breaks. No raw HTML injection.
+    var escaped = text
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+    // Bold: **text** or __text__
+    escaped = escaped.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+    escaped = escaped.replace(/__(.+?)__/g, "<strong>$1</strong>");
+    // Bullet lists: lines starting with "- " or "* "
+    escaped = escaped.replace(/^[\-\*] (.+)$/gm, "<li>$1</li>");
+    escaped = escaped.replace(/(<li>.*<\/li>\n?)+/g, "<ul>$&</ul>");
+    // Line breaks: double newline → paragraph break
+    escaped = escaped.replace(/\n\n/g, "</p><p>");
+    escaped = escaped.replace(/\n/g, "<br>");
+    return "<p>" + escaped + "</p>";
+  }
+
   function addMessage(role, text, sources) {
     var div = document.createElement("div");
     div.className = "chatbot-msg chatbot-msg--" + role;
-    div.textContent = text;
     if (role === "assistant") {
+      div.innerHTML = renderMarkdown(text);
       div.setAttribute("aria-live", "polite");
+    } else {
+      div.textContent = text;
     }
     messages.appendChild(div);
 
@@ -49,8 +69,13 @@
     if (role === "assistant" && sources && sources.length > 0) {
       var srcDiv = document.createElement("div");
       srcDiv.className = "chatbot-sources";
-      var label = lang === "fr" ? "Sources\u00a0: " : "Sources: ";
-      srcDiv.appendChild(document.createTextNode(label));
+      var srLabel = lang === "fr" ? "Sources\u00a0r\u00e9f\u00e9renc\u00e9es\u00a0: " : "Sources referenced: ";
+      var srSpan = document.createElement("span");
+      srSpan.className = "visually-hidden";
+      srSpan.textContent = srLabel;
+      srcDiv.appendChild(srSpan);
+      var visLabel = lang === "fr" ? "Sources\u00a0: " : "Sources: ";
+      srcDiv.appendChild(document.createTextNode(visLabel));
       sources.forEach(function (src, i) {
         if (i > 0) srcDiv.appendChild(document.createTextNode(", "));
         var a = document.createElement("a");
