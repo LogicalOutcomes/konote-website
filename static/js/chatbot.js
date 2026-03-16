@@ -26,7 +26,13 @@
 
   function toggle() {
     isOpen = !isOpen;
-    panel.hidden = !isOpen;
+    if (isOpen) {
+      panel.classList.add("is-open");
+      panel.removeAttribute("hidden");
+    } else {
+      panel.classList.remove("is-open");
+      panel.setAttribute("hidden", "");
+    }
     toggleBtn.setAttribute("aria-expanded", isOpen);
     if (isOpen) {
       input.focus();
