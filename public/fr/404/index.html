@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Suivez les progrès des participants, mesurez les résultats et démontrez l&#39;impact avec KoNote.">
+<title>Page introuvable | KoNote — Gestion de cas centrée sur les participants</title>
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="stylesheet" href="/css/style.css">
+
+<link rel="stylesheet" href="/fr/_pagefind/pagefind-ui.css">
+</head>
+<body data-chatbot-api="https://konote-chatbot-production.up.railway.app">
+  <a href="#main" class="skip-nav">Passer au contenu principal</a><header class="site-header">
+  <div class="container header-inner">
+    <a href="/fr/" class="site-logo" aria-label="KoNote — Gestion de cas centrée sur les participants — Accueil">
+      <img src="/img/konote-mark.png" alt="" width="24" height="22" class="site-logo-mark">
+      <span class="site-logo-text"><span class="site-logo-ko">KO</span>NOTE</span>
+    </a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">
+      Menu
+    </button>
+
+<nav class="site-nav" id="main-nav" aria-label="Navigation principale">
+  
+  
+  
+    
+    
+    
+    <a href="/fr/features/">Fonctionnalités</a>
+  
+    
+    
+    
+    <a href="/fr/evidence/">Données probantes</a>
+  
+    
+    
+    
+    <a href="/fr/getting-started/">Pour commencer</a>
+  
+    
+    
+    
+    <a href="/fr/documentation/">Documentation</a>
+  
+    
+    
+    
+    <a href="/fr/security/">Sécurité et confidentialité</a>
+  
+    
+    
+    
+    <a href="/fr/services/">Services</a>
+  
+    
+    
+    
+    <a href="/fr/faq/">FAQ</a>
+  
+    
+    
+    
+    <a href="/fr/design-principles/">Principes de conception</a>
+  
+    
+    
+    
+    <a href="/fr/origins/">Origines</a>
+  
+</nav>
+<div class="header-actions">
+  <a href="https://konote-website-production.up.railway.app/en/404/" class="lang-link" lang="en"
+     aria-label="View this page in English">English</a>
+
+<button class="search-trigger" id="search-trigger" aria-label="Rechercher">Rechercher</button>
+    </div>
+  </div>
+</header>
+
+<script>
+  document.querySelector('.nav-toggle')?.addEventListener('click', function() {
+    const nav = document.querySelector('.site-nav');
+    const isOpen = nav.classList.toggle('is-open');
+    this.setAttribute('aria-expanded', isOpen);
+  });
+</script>
+<main id="main">
+<article class="page-content">
+  
+
+  <div class="container content-width">
+    <p>La page que vous recherchez n&rsquo;existe pas ou a été déplacée.</p>
+
+  </div>
+</article>
+
+  </main><footer class="site-footer">
+  <div class="container footer-content">
+    <div class="footer-links">
+      <a href="https://github.com/LogicalOutcomes/konote">Dépôt GitHub</a>
+      <a href="/fr/documentation/">Documentation</a>
+      <a href="/fr/faq/">FAQ</a>
+      <a href="/fr/services/">Services</a>
+    </div>
+    <p class="footer-copyright">
+      KoNote est un logiciel à code source ouvert sous licence MIT.
+    </p>
+  </div>
+</footer>
+<dialog class="search-dialog" id="search-dialog" aria-label="Rechercher sur KoNote">
+  <div class="search-dialog-inner">
+    <button class="search-dialog-close" aria-label="Fermer la recherche" id="search-close">&times;</button>
+    <div id="search"></div>
+  </div>
+</dialog>
+
+
+<script src="/fr/_pagefind/pagefind-ui.js" defer></script>
+
+<div id="chatbot-widget">
+  <button id="chatbot-toggle" class="chatbot-toggle-btn" aria-expanded="false" aria-controls="chatbot-panel">
+    <span class="chatbot-toggle-label">Demandez à KoNote</span>
+    <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+  </button>
+
+  <div id="chatbot-panel" class="chatbot-panel" hidden>
+    <div class="chatbot-header">
+      <h2 class="chatbot-title">Demandez à KoNote</h2>
+      <button id="chatbot-close" class="chatbot-close" aria-label="Fermer">&times;</button>
+    </div>
+    <div id="chatbot-messages" class="chatbot-messages" role="log" aria-live="polite"></div>
+    <p id="chatbot-disclaimer" class="chatbot-disclaimer" hidden>Les réponses générées par l&#39;IA peuvent ne pas être parfaitement exactes.</p>
+    <form id="chatbot-form" class="chatbot-form">
+      <label for="chatbot-input" class="visually-hidden">Posez une question sur KoNote...</label>
+      <input id="chatbot-input" type="text" class="chatbot-input" placeholder="Posez une question sur KoNote..." maxlength="500" autocomplete="off">
+      <button type="submit" class="chatbot-send btn btn-primary">
+        <svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M2.94 17.06a1 1 0 01-.3-1.02L4.38 10 2.64 3.96a1 1 0 011.32-1.22l14 6a1 1 0 010 1.82l-14 6a1 1 0 01-1.02-.5z"/></svg>
+      </button>
+    </form>
+  </div>
+</div>
+
+<script src="/js/search.js" defer></script>
+  <script src="/js/chatbot.js" defer></script>
+</body>
+</html>

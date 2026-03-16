@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="The ideas behind KoNote&#39;s software design: collaborative practice, data sovereignty, security by default, and nonprofit sustainability.">
+<title>Design Principles | KoNote — Participant-Centred Case Management</title>
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="stylesheet" href="/css/style.css">
+
+<link rel="stylesheet" href="/en/_pagefind/pagefind-ui.css">
+</head>
+<body data-chatbot-api="https://konote-chatbot-production.up.railway.app">
+  <a href="#main" class="skip-nav">Skip to main content</a><header class="site-header">
+  <div class="container header-inner">
+    <a href="/en/" class="site-logo" aria-label="KoNote — Participant-Centred Case Management — Home">
+      <img src="/img/konote-mark.png" alt="" width="24" height="22" class="site-logo-mark">
+      <span class="site-logo-text"><span class="site-logo-ko">KO</span>NOTE</span>
+    </a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">
+      Menu
+    </button>
+
+<nav class="site-nav" id="main-nav" aria-label="Main navigation">
+  
+  
+  
+    
+    
+    
+    <a href="/en/features/">Features</a>
+  
+    
+    
+    
+    <a href="/en/evidence/">Evidence</a>
+  
+    
+    
+    
+    <a href="/en/getting-started/">Getting Started</a>
+  
+    
+    
+    
+    <a href="/en/documentation/">Documentation</a>
+  
+    
+    
+    
+    <a href="/en/security/">Security &amp; Privacy</a>
+  
+    
+    
+    
+    <a href="/en/services/">Services</a>
+  
+    
+    
+    
+    <a href="/en/faq/">FAQ</a>
+  
+    
+    
+    
+    <a href="/en/design-principles/" aria-current="page">Design Principles</a>
+  
+    
+    
+    
+    <a href="/en/origins/">Origins</a>
+  
+</nav>
+<div class="header-actions">
+  <a href="https://konote-website-production.up.railway.app/fr/design-principles/" class="lang-link" lang="fr"
+     aria-label="Voir cette page en français">Français</a>
+
+<button class="search-trigger" id="search-trigger" aria-label="Search">Search</button>
+    </div>
+  </div>
+</header>
+
+<script>
+  document.querySelector('.nav-toggle')?.addEventListener('click', function() {
+    const nav = document.querySelector('.site-nav');
+    const isOpen = nav.classList.toggle('is-open');
+    this.setAttribute('aria-expanded', isOpen);
+  });
+</script>
+<main id="main">
+<article class="page-content">
+  
+  <section class="hero">
+  <div class="container">
+    <h1>Design Principles</h1>
+    <p class="hero-tagline">The ideas behind the software.</p>
+    
+  </div>
+</section>
+
+  
+
+  <div class="container content-width">
+    <h2 id="our-name">Our Name</h2>
+<p>The name KoNote is bilingual by design. &ldquo;Note&rdquo; is the same word in English and French — a record, an annotation, a piece of documentation that carries weight in social services. The &ldquo;Ko-&rdquo; is a stylised prefix for &ldquo;co-&rdquo; — collaboration, cooperation, collectif — a prefix that works identically in both languages. French speakers parse it as <em>co-note</em>: collaborative notes. English speakers read the same logic. There is also a quiet echo of the French verb <em>connoter</em> (to connote), suggesting depth and significance beyond surface-level record-keeping — fitting for work where documentation is part of the service, not just paperwork about it.</p>
+<hr>
+<h2 id="introduction">Introduction</h2>
+<p>KoNote is built on four principles that shape every feature, every default, and every decision about what the software does and does not do. These are not aspirational — they are structural. The architecture enforces them, so they hold even when the people configuring the system are not thinking about them.</p>
+<hr>
+<h2 id="1-collaborative-practice--notes-written-together-not-about-you">1. Collaborative Practice — &ldquo;Notes written together, not about you&rdquo;</h2>
+<p>The &ldquo;Ko&rdquo; in KoNote means collaborative. This is not just a name — it is the single most important design decision in the system.</p>
+<p>Most case management software treats documentation as something staff do alone at their desk after a session. KoNote treats it as part of the service itself. Every progress note has two sides: the participant&rsquo;s perspective — their own words, their reflection on the session, their rating of the working relationship — and the worker&rsquo;s observations. Both are structural. A note without the participant&rsquo;s voice is incomplete by design.</p>
+<p>This matters because the research is clear: routine feedback from participants improves outcomes by as much as 65% for people at risk of dropping out. The working relationship between participant and worker — measured from the participant&rsquo;s perspective, not the worker&rsquo;s — is the strongest predictor of whether a program actually helps. KoNote makes these practices the path of least resistance rather than an add-on that requires extra effort.</p>
+<p>The participant portal extends this philosophy beyond the session. Participants do not just read what staff wrote about them — they act on their own information. They set goals in their own words, journal between sessions, rate the working relationship, suggest changes to the program, and request corrections to their records. Every feature in the portal passes a simple test: does this give the participant something meaningful to do?</p>
+<p>Participant suggestions are not collected and forgotten. They are categorised into themes and surfaced on the executive dashboard, so patterns reach leadership in days rather than waiting for an annual satisfaction survey that nobody reads until the next funding cycle.</p>
+<p>All system language — progress descriptors, dashboard labels, relationship anchors — uses strengths-based framing. Progress is described as &ldquo;Something&rsquo;s shifting&rdquo; and &ldquo;In a good place,&rdquo; not deficit labels. This is not cosmetic. It changes how staff think about the people they serve and how participants feel when they read their own records.</p>
+<blockquote>
+<p><strong>What this means in practice:</strong></p>
+<ul>
+<li>A participant reviews their goals in the portal before a session and flags something to discuss. The worker sees the flag and prepares. The session starts with shared context instead of a cold open.</li>
+<li>A program director notices a pattern of suggestions about scheduling across three programs. She adjusts drop-in hours and sees alliance ratings improve the following month.</li>
+<li>Agencies choose their own terminology — client, participant, member, or a word in their community&rsquo;s language — and the entire system adapts. No one is forced into clinical language that does not fit their work.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="2-data-sovereignty--your-data-belongs-to-you">2. Data Sovereignty — &ldquo;Your data belongs to you&rdquo;</h2>
+<p>KoNote is designed so that data belongs to the people and communities it describes — not to KoNote, not to a hosting provider, and not to any government with subpoena powers that override Canadian law.</p>
+<p><strong>Individual rights are built in, not bolted on.</strong> Participants can see their own records through the portal without making a formal access request. They can request corrections — with both informal and formal pathways — and staff must respond within the regulatory timeline. If a participant&rsquo;s data needs to be erased, a two-person process (request plus approval) strips all personally identifiable information while preserving anonymised records for aggregate statistics. Consent is not a one-time checkbox at intake. It is an ongoing state that participants can change at any time, with every change recorded and enforced by the system.</p>
+<p><strong>Community ownership is structural.</strong> KoNote&rsquo;s architecture supports Indigenous data sovereignty (OCAP — Ownership, Control, Access, and Possession) and Black data governance (EGAP — Engagement, Governance, Access, and Protection). Each agency&rsquo;s data lives in an isolated database schema. Cross-agency queries are not merely discouraged — they are architecturally impossible. Communities control what data is collected, who sees it, and whether any of it is shared. When agencies do choose to share, they publish de-identified aggregate reports voluntarily. No agency is forced to contribute to a dataset it cannot review, correct, or withdraw from.</p>
+<p><strong>KoNote deliberately does not combine individual-level data across agencies.</strong> This is not a missing feature. Cross-agency data combination enables surveillance patterns that track individuals across every service they access, building a profile that no single agency intended to create. Whoever controls a combined dataset has analytical power over all participating communities with none of the accountability. KoNote refuses to build that infrastructure.</p>
+<p><strong>Canadian digital sovereignty matters.</strong> All participant data is hosted in Canada (Beauharnois, Quebec). KoNote uses hosting providers not subject to the US CLOUD Act, which allows US courts to compel disclosure of data regardless of where it is stored. AI processing of participant data happens on self-hosted servers in Canada — participant records never leave Canadian infrastructure for cloud AI processing. And because KoNote is open source with standard data formats, any agency can export all their data and move to a different provider at any time. Data portability is a right, not a premium feature.</p>
+<blockquote>
+<p><strong>What this means in practice:</strong></p>
+<ul>
+<li>An Indigenous community agency configures its own demographic fields, decides what gets collected, and controls who can see it. No external body dictates what identity data must be gathered.</li>
+<li>Reports use mandatory small-cell suppression (groups of fewer than five are never shown) to prevent re-identification in small populations — and this protection cannot be turned off by anyone, including funders.</li>
+<li>When a funding partnership ends, the agency exports all their data in a self-contained archive and takes it with them. There is no vendor lock-in and no data held hostage.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="3-security-by-default--secure-even-without-an-it-team">3. Security by Default — &ldquo;Secure even without an IT team&rdquo;</h2>
+<p>Canadian nonprofits handle deeply sensitive information — mental health notes, domestic violence documentation, substance use records, immigration status — but most do not have dedicated IT security staff. KoNote&rsquo;s security is therefore architectural, not configurable. Every protection is on by default, cannot be turned off through the admin interface, and fails closed rather than open.</p>
+<p>All personally identifiable information is encrypted before it reaches the database. This is not a setting that can be toggled — it is how the system works. In shared hosting, each agency has its own encryption key, so one agency&rsquo;s key cannot decrypt another&rsquo;s data. If the encryption key is missing or misconfigured on startup, the application refuses to start. A loud failure is always better than a silent exposure.</p>
+<p>Permissions default to deny. Four staff roles (Front Desk, Direct Service, Program Manager, Executive) are governed by an explicit permission matrix checked at three independent layers. A missing entry in the matrix means no access, not full access. Individual access blocks — essential for domestic violence scenarios where a staff member must never see a specific participant&rsquo;s records — override all role permissions and cannot expire automatically.</p>
+<p>The audit trail lives in a separate database that the application can only write to, never modify or delete. A compromised application cannot alter its own evidence. Safety-critical actions (removing a DV safety flag, erasing a participant&rsquo;s data, cancelling an alert) require two people to complete, protecting against both human error and coercion.</p>
+<p>Sessions time out after 30 minutes because KoNote is used on shared workstations in shelters and community centres where a staff member may walk away from an unlocked screen. Export links expire after 24 hours and can be revoked by an administrator. Large exports trigger a 10-minute delay with admin notification.</p>
+<p>The guiding test for every security decision: <strong>&ldquo;If a nonprofit runs this with zero IT expertise, can they accidentally make it insecure?&rdquo;</strong> If the answer is yes, the protection is not architectural enough.</p>
+<blockquote>
+<p><strong>What this means in practice:</strong></p>
+<ul>
+<li>A new agency deploys KoNote with default settings. Without changing anything, encryption is active, permissions are enforced, sessions time out, and audit logging is running. There is no security setup checklist to forget.</li>
+<li>A staff member who is a participant&rsquo;s former abuser is individually blocked from that participant&rsquo;s records. No role, no override, and no automatic expiry can reverse this — only a Program Manager can clear the block.</li>
+<li>An export of 200 participant records triggers a 10-minute hold and an admin notification, giving the agency time to intervene if the export was not authorised.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="4-nonprofit-sustainability--built-for-a-5-person-agency-not-an-enterprise">4. Nonprofit Sustainability — &ldquo;Built for a 5-person agency, not an enterprise&rdquo;</h2>
+<p>KoNote exists because nonprofits doing critical community work should not need enterprise budgets or dedicated IT teams to track outcomes effectively. Every architectural choice is made with a cost-conscious, non-technical operator in mind.</p>
+<p>The tech stack is deliberately minimal: server-rendered HTML, no JavaScript frameworks, no build pipeline, no node_modules folder. The entire production stack is 46 Python packages. Compare that to a typical modern web application with 500 or more dependencies, each one a potential security vulnerability and a point of failure during upgrades. KoNote does not need React because nonprofits do not need a single-page application — they need forms that work.</p>
+<p>Hosting starts at approximately $13 CAD per month per agency in a shared deployment. This is possible because KoNote uses unmanaged VPS hosting rather than enterprise cloud services, and because the self-healing automation makes unmanaged hosting safe. Docker containers restart themselves. If a server goes unresponsive, external monitoring triggers an automatic reboot. A background process handles backups, disk monitoring, and health reports. The operational burden is roughly 1–5 hours per month per agency — reviewing reports, applying updates — rather than the 10–15 hours it would take without automation.</p>
+<p>Agencies can deploy in three models depending on their capacity: self-managed (run your own server), managed service (a network or intermediary hosts multiple agencies), or consortium (shared infrastructure with voluntary aggregate reporting). Each model reduces cost as more agencies join. No model requires a dedicated IT team.</p>
+<p>Evaluation is not bolted on after the case management is built — it is the structure that everything else rests on. An evaluation framework defines what gets measured and why. Metrics carry full provenance: what instrument they come from, what scoring bands mean, which funder requirements they satisfy. Data collected in a progress note today appears in tonight&rsquo;s automated analysis, tomorrow&rsquo;s dashboard, and next quarter&rsquo;s funder report — without anyone re-entering it. Agencies that use KoNote and align to the Common Impact Data Standard (CIDS) can contribute to sector-wide learning: de-identified aggregate data that helps the entire nonprofit sector understand what works, published voluntarily and controlled by each community.</p>
+<blockquote>
+<p><strong>What this means in practice:</strong></p>
+<ul>
+<li>A five-person employment agency deploys KoNote for less than the cost of a single software licence from a commercial case management vendor. When they grow to serve three programs, the cost does not change.</li>
+<li>A funder asks for a quarterly outcome report. The program manager generates it from the reporting dashboard in minutes because the data was collected as part of normal documentation, not assembled separately for reporting season.</li>
+<li>The software is open source under the MIT licence. If an agency outgrows KoNote, they export their data and move on. If they want to modify it, they can. There are no vendor fees, no per-user pricing, and no exit penalties.</li>
+</ul>
+</blockquote>
+
+  </div>
+</article>
+
+  </main><footer class="site-footer">
+  <div class="container footer-content">
+    <div class="footer-links">
+      <a href="https://github.com/LogicalOutcomes/konote">GitHub Repository</a>
+      <a href="/en/documentation/">Documentation</a>
+      <a href="/en/faq/">FAQ</a>
+      <a href="/en/services/">Services</a>
+    </div>
+    <p class="footer-copyright">
+      KoNote is open source software under the MIT License.
+    </p>
+  </div>
+</footer>
+<dialog class="search-dialog" id="search-dialog" aria-label="Search KoNote">
+  <div class="search-dialog-inner">
+    <button class="search-dialog-close" aria-label="Close search" id="search-close">&times;</button>
+    <div id="search"></div>
+  </div>
+</dialog>
+
+
+<script src="/en/_pagefind/pagefind-ui.js" defer></script>
+
+<div id="chatbot-widget">
+  <button id="chatbot-toggle" class="chatbot-toggle-btn" aria-expanded="false" aria-controls="chatbot-panel">
+    <span class="chatbot-toggle-label">Ask KoNote</span>
+    <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+  </button>
+
+  <div id="chatbot-panel" class="chatbot-panel" hidden>
+    <div class="chatbot-header">
+      <h2 class="chatbot-title">Ask KoNote</h2>
+      <button id="chatbot-close" class="chatbot-close" aria-label="Close">&times;</button>
+    </div>
+    <div id="chatbot-messages" class="chatbot-messages" role="log" aria-live="polite"></div>
+    <p id="chatbot-disclaimer" class="chatbot-disclaimer" hidden>AI-generated answers may not be perfectly accurate.</p>
+    <form id="chatbot-form" class="chatbot-form">
+      <label for="chatbot-input" class="visually-hidden">Ask a question about KoNote...</label>
+      <input id="chatbot-input" type="text" class="chatbot-input" placeholder="Ask a question about KoNote..." maxlength="500" autocomplete="off">
+      <button type="submit" class="chatbot-send btn btn-primary">
+        <svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M2.94 17.06a1 1 0 01-.3-1.02L4.38 10 2.64 3.96a1 1 0 011.32-1.22l14 6a1 1 0 010 1.82l-14 6a1 1 0 01-1.02-.5z"/></svg>
+      </button>
+    </form>
+  </div>
+</div>
+
+<script src="/js/search.js" defer></script>
+  <script src="/js/chatbot.js" defer></script>
+</body>
+</html>
