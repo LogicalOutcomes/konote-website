@@ -8,447 +8,447 @@ hero_tagline: "Honest answers to common questions about KoNote."
 ---
 
 <section>
-  <div class="container content-width">
+<div class="container content-width">
 
-    <h2>Licensing &amp; Cost</h2>
+<h2>Licensing &amp; Cost</h2>
 
-    <div class="faq-item is-open">
-      <button class="faq-question" aria-expanded="true">
+<div class="faq-item is-open">
+<button class="faq-question" aria-expanded="true">
         Is KoNote really free?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           Yes. KoNote is released under the MIT Licence, which means you can use,
           modify, and distribute it freely — including for commercial purposes.
           There are no licence fees, no per-user pricing, no premium tiers.
-        </p>
-        <p>
+</p>
+<p>
           You will have hosting costs (the servers that run KoNote), but those
           go to your hosting provider, not to us. Typical hosting costs range
           from $45–150 CAD/month depending on your platform choice.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         What's the catch?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           No catch, but there are trade-offs:
-        </p>
-        <ul>
-          <li>You're responsible for deployment, security, and maintenance</li>
-          <li>There's no vendor support — just community help via GitHub</li>
-          <li>You need technical capacity (or a partner who has it)</li>
-        </ul>
-        <p>
+</p>
+<ul>
+<li>You're responsible for deployment, security, and maintenance</li>
+<li>There's no vendor support — just community help via GitHub</li>
+<li>You need technical capacity (or a partner who has it)</li>
+</ul>
+<p>
           If you want a fully managed solution where someone else handles everything,
           KoNote isn't that. If you're comfortable with self-hosting and want
           full control over your data, KoNote is a good fit.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         Can we modify KoNote for our needs?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           Yes. The MIT Licence explicitly allows modification. You can change
           the code, add features, or adapt it however you need. You can even
           redistribute your modified version.
-        </p>
-        <p>
+</p>
+<p>
           If you make improvements that would benefit others, we'd welcome
           contributions back to the main project — but that's optional.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <h2 class="mt-8">Support &amp; Updates</h2>
+<h2 class="mt-8">Support &amp; Updates</h2>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         What kind of support is available?
-      </button>
-      <div class="faq-answer">
-        <p>
-          <strong>Community support:</strong> You can ask questions and report issues
+</button>
+<div class="faq-answer">
+<p>
+<strong>Community support:</strong> You can ask questions and report issues
           on <a href="https://github.com/LogicalOutcomes/konote/issues">GitHub</a>.
           There are no guaranteed response times — it depends on who's available
           and whether someone knows the answer.
-        </p>
-        <p>
-          <strong>Professional support:</strong> If you need guaranteed help,
+</p>
+<p>
+<strong>Professional support:</strong> If you need guaranteed help,
           we offer <a href="/en/services/">professional services</a> including
           setup assistance and training.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         How do updates work?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           New versions are released on GitHub. You're responsible for monitoring
           releases and applying updates to your deployment. The deployment guide
           includes instructions for updating.
-        </p>
-        <p>
+</p>
+<p>
           Updates are not automatic — you control when to update. This means
           you can test updates before applying them, but it also means you
           need to actively keep your installation current.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         What if the project is abandoned?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           The MIT Licence means the code is yours forever. If active development
           stops, you can:
-        </p>
-        <ul>
-          <li>Continue using your current version indefinitely</li>
-          <li>Fork the project and maintain it yourself</li>
-          <li>Find someone else to maintain a fork</li>
-        </ul>
-        <p>
+</p>
+<ul>
+<li>Continue using your current version indefinitely</li>
+<li>Fork the project and maintain it yourself</li>
+<li>Find someone else to maintain a fork</li>
+</ul>
+<p>
           You're not locked into a vendor relationship that could disappear.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <h2 class="mt-8">Technical Questions</h2>
+<h2 class="mt-8">Technical Questions</h2>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         How many participants can KoNote handle?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           KoNote has been tested with up to approximately 2,000 active participants.
-        </p>
-        <p>
+</p>
+<p>
           The main limitation is encrypted search: because PII is encrypted,
           participant search loads accessible participants into memory and filters in Python.
           This works well at smaller scales but may slow down with larger participant bases.
-        </p>
-        <p>
+</p>
+<p>
           If you have significantly more participants, we recommend performance testing
           before committing to KoNote.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         Can we migrate data from another system?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           There are no built-in migration tools. Data migration requires:
-        </p>
-        <ul>
-          <li>Exporting data from your current system</li>
-          <li>Mapping fields to KoNote's data model</li>
-          <li>Writing a script to import the data</li>
-        </ul>
-        <p>
+</p>
+<ul>
+<li>Exporting data from your current system</li>
+<li>Mapping fields to KoNote's data model</li>
+<li>Writing a script to import the data</li>
+</ul>
+<p>
           This is technically possible but requires development work specific
           to your source system. If you need help with this, mention it when
           contacting us about <a href="/en/services/">professional services</a>.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         Does KoNote work offline?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           The KoNote web interface requires an internet connection for full
           functionality. A service worker provides a graceful offline fallback —
           if connectivity drops, you will see a friendly message and the app
           resumes automatically when you are back online.
-        </p>
-        <p>
+</p>
+<p>
           For field work in locations without internet, KoNote integrates with
           ODK Central for offline-capable mobile data collection. Staff collect
           data on Android devices and sync it to KoNote when connectivity is
           available. PII protection tiers control what identifiers are sent to
           field devices, and a device loss protocol protects data if a device
           is lost or stolen.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         Can we integrate KoNote with other systems?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           KoNote doesn't have a public API, so direct integration isn't straightforward.
-        </p>
-        <p>
+</p>
+<p>
           Options include:
-        </p>
-        <ul>
-          <li>CSV export/import for batch data transfer</li>
-          <li>Custom development to add API endpoints (Django makes this possible)</li>
-          <li>Direct database access (with caution and understanding of the schema)</li>
-        </ul>
-      </div>
-    </div>
+</p>
+<ul>
+<li>CSV export/import for batch data transfer</li>
+<li>Custom development to add API endpoints (Django makes this possible)</li>
+<li>Direct database access (with caution and understanding of the schema)</li>
+</ul>
+</div>
+</div>
 
-    <h2 class="mt-8">Features</h2>
+<h2 class="mt-8">Features</h2>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         How do surveys work?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           KoNote includes a full survey system for collecting structured feedback.
           Admins create surveys with six question types, conditional logic, and
           optional section scoring. Surveys can be delivered three ways:
-        </p>
-        <ul>
-          <li><strong>Participant portal:</strong> Assigned surveys appear on the
+</p>
+<ul>
+<li><strong>Participant portal:</strong> Assigned surveys appear on the
             participant's dashboard. Responses auto-save as they go.</li>
-          <li><strong>Shareable public links:</strong> Anyone can complete a survey
+<li><strong>Shareable public links:</strong> Anyone can complete a survey
             via a URL — no login required. Useful for community feedback or
             pre-intake screening.</li>
-          <li><strong>Staff data entry:</strong> Staff enter responses on behalf of
+<li><strong>Staff data entry:</strong> Staff enter responses on behalf of
             a participant during a session.</li>
-        </ul>
-        <p>
+</ul>
+<p>
           Surveys can be assigned manually or automatically using trigger rules
           based on events, program enrolment, time intervals, or participant
           characteristics. You can import existing instruments (like PHQ-9 or SPDAT)
           from CSV files.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         What is the participant portal?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           The participant portal is an optional self-service website where
           participants can:
-        </p>
-        <ul>
-          <li>View their outcome plans and progress charts</li>
-          <li>Complete assigned surveys</li>
-          <li>Write private journal entries</li>
-          <li>Send messages to their assigned worker</li>
-          <li>Request corrections to their records</li>
-          <li>Access shared resources and program materials</li>
-        </ul>
-        <p>
+</p>
+<ul>
+<li>View their outcome plans and progress charts</li>
+<li>Complete assigned surveys</li>
+<li>Write private journal entries</li>
+<li>Send messages to their assigned worker</li>
+<li>Request corrections to their records</li>
+<li>Access shared resources and program materials</li>
+</ul>
+<p>
           Staff invite participants via a secure link with an optional verbal
           code for identity verification. Participants create their own credentials
           and go through a consent flow before accessing the portal. The portal
           supports multi-factor authentication (TOTP app or email codes) and
           staff can revoke access or reset MFA at any time.
-        </p>
-        <p>
+</p>
+<p>
           The portal is disabled by default. Enable it in the Features settings
           when your agency is ready to offer it.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         How does data export work?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           KoNote provides two levels of data export:
-        </p>
-        <ul>
-          <li><strong>Individual participant export:</strong> From a participant's
+</p>
+<ul>
+<li><strong>Individual participant export:</strong> From a participant's
             profile, staff can export their data in PDF, CSV, or JSON format.
             Downloads use secure, time-limited links that expire after 24 hours.
             Large exports trigger admin notification and a brief delay for oversight.</li>
-          <li><strong>Agency-wide offboarding export:</strong> A management command
+<li><strong>Agency-wide offboarding export:</strong> A management command
             exports all agency data in AES-256-GCM encrypted format with a Diceware
             passphrase. This is designed for agency offboarding or data migration —
             not routine reporting.</li>
-        </ul>
-        <p>
+</ul>
+<p>
           All exports are fully audited. Admins can revoke download links, and
           permissions are re-checked at download time to prevent stale access.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         What is demo mode?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           Demo mode provides pre-configured training accounts with realistic sample
           data so staff can explore KoNote without affecting real participant records.
           Key safeguards include:
-        </p>
-        <ul>
-          <li>Demo records are excluded from all reports, exports, and dashboards</li>
-          <li>Demo admin accounts are restricted to view-only for agency settings</li>
-          <li>A persistent training-mode banner appears on every page</li>
-          <li>Demo login buttons are visually separated from the real login form
+</p>
+<ul>
+<li>Demo records are excluded from all reports, exports, and dashboards</li>
+<li>Demo admin accounts are restricted to view-only for agency settings</li>
+<li>A persistent training-mode banner appears on every page</li>
+<li>Demo login buttons are visually separated from the real login form
             under a "Training Accounts" label</li>
-          <li>Demo login events are audited separately from production activity</li>
-        </ul>
-        <p>
+<li>Demo login events are audited separately from production activity</li>
+</ul>
+<p>
           Demo data can be regenerated at any time to reset the training environment.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <h2 class="mt-8">Organisational Questions</h2>
+<h2 class="mt-8">Organisational Questions</h2>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         Why isn't KoNote offered as a SaaS?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           Participant data is sensitive. Many nonprofits need full control over where
           that data lives — for regulatory compliance, funder requirements, or
           organisational policy.
-        </p>
-        <p>
+</p>
+<p>
           A self-hosted model means:
-        </p>
-        <ul>
-          <li>You choose where data is stored (Canadian servers if needed)</li>
-          <li>You're not dependent on a vendor's business continuity</li>
-          <li>You can inspect exactly what the software does</li>
-          <li>No risk of a vendor raising prices or changing terms</li>
-        </ul>
-      </div>
-    </div>
+</p>
+<ul>
+<li>You choose where data is stored (Canadian servers if needed)</li>
+<li>You're not dependent on a vendor's business continuity</li>
+<li>You can inspect exactly what the software does</li>
+<li>No risk of a vendor raising prices or changing terms</li>
+</ul>
+</div>
+</div>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         Is KoNote suitable for clinical settings?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           KoNote is designed for outcome tracking in social services, not clinical
           documentation. It lacks:
-        </p>
-        <ul>
-          <li>Standardised clinical assessment tools</li>
-          <li>Treatment planning features</li>
-          <li>Prescription or medication tracking</li>
-          <li>Healthcare-specific compliance features (HIPAA, etc.)</li>
-        </ul>
-        <p>
+</p>
+<ul>
+<li>Standardised clinical assessment tools</li>
+<li>Treatment planning features</li>
+<li>Prescription or medication tracking</li>
+<li>Healthcare-specific compliance features (HIPAA, etc.)</li>
+</ul>
+<p>
           If you need a clinical EMR/EHR, KoNote isn't the right tool.
           If you need to track participant outcomes alongside clinical work,
           KoNote could complement (not replace) your clinical system.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         Can multiple organisations share one KoNote instance?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           Yes. KoNote supports multi-agency hosting, where multiple organisations
           share a single server while maintaining strict data separation. Each
           agency gets its own separate data store and encryption key, with
           independent configuration for terminology, features, and programs.
-        </p>
-        <p>
+</p>
+<p>
           This is designed for umbrella organisations, consortia, or regional
           networks that want to reduce hosting costs without compromising
           data privacy. Each agency's data remains fully isolated from
           other agencies on the same server. Typical per-agency costs drop
           from $35&ndash;100/month (standalone) to $4&ndash;10/month (shared).
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         What languages does KoNote support?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           KoNote has full English and French bilingual support, following canada.ca
           conventions. Users can switch languages with a single click, and all
           terminology, labels, and system text appear in the selected language.
-        </p>
-        <p>
+</p>
+<p>
           Agencies can customise all terminology in both languages to match their
           preferred wording. Full internationalisation to other languages beyond
           English and French would require development work.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-    <div class="faq-item">
-      <button class="faq-question" aria-expanded="false">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
         Does KoNote use AI?
-      </button>
-      <div class="faq-answer">
-        <p>
+</button>
+<div class="faq-answer">
+<p>
           KoNote includes optional AI-assisted features that help staff with
           goal writing, documentation, and analysis:
-        </p>
-        <ul>
-          <li>AI-assisted goal building — natural language goal writing with research-grounded validation</li>
-          <li>Suggesting metrics based on outcome target descriptions</li>
-          <li>Improving goal statement wording</li>
-          <li>Helping structure progress notes</li>
-          <li>Suggestion themes — grouping qualitative feedback into patterns</li>
-          <li>Generating funder narrative summaries from aggregate data</li>
-          <li>Outcome insights — AI-generated program summaries</li>
-        </ul>
-        <p>
+</p>
+<ul>
+<li>AI-assisted goal building — natural language goal writing with research-grounded validation</li>
+<li>Suggesting metrics based on outcome target descriptions</li>
+<li>Improving goal statement wording</li>
+<li>Helping structure progress notes</li>
+<li>Suggestion themes — grouping qualitative feedback into patterns</li>
+<li>Generating funder narrative summaries from aggregate data</li>
+<li>Outcome insights — AI-generated program summaries</li>
+</ul>
+<p>
           AI features use a two-tier toggle: tools-only mode (no participant data,
           enabled by default) and de-identified analysis mode (participant data with
           identifiers removed, disabled by default). No participant identifying
           information is ever sent to the AI service. Both tiers can be disabled
           entirely if your organisation prefers not to use AI.
-        </p>
-      </div>
-    </div>
+</p>
+</div>
+</div>
 
-  </div>
+</div>
 </section>
 
 <section class="alt-bg">
-  <div class="container text-center">
-    <h2>Still Have Questions?</h2>
-    <p class="text-muted mb-8">
+<div class="container text-center">
+<h2>Still Have Questions?</h2>
+<p class="text-muted mb-8">
       Check the documentation or reach out on GitHub.
-    </p>
-    <div class="btn-group" style="justify-content: center;">
-      <a href="/en/documentation/" class="btn btn-primary">Documentation</a>
-      <a href="https://github.com/LogicalOutcomes/konote/issues" class="btn btn-secondary">Ask on GitHub</a>
-    </div>
-  </div>
+</p>
+<div class="btn-group" style="justify-content: center;">
+<a href="/en/documentation/" class="btn btn-primary">Documentation</a>
+<a href="https://github.com/LogicalOutcomes/konote/issues" class="btn btn-secondary">Ask on GitHub</a>
+</div>
+</div>
 </section>
 
 <script>
