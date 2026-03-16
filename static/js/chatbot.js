@@ -1,4 +1,4 @@
-// KoNote chatbot widget — bilingual support
+// KoNote chatbot widget — bilingual, page-aware, with source attribution
 (function () {
   "use strict";
 
@@ -20,6 +20,10 @@
   var history = [];
   var isOpen = false;
 
+  // Get current page context
+  var currentPage = window.location.pathname;
+  var currentPageTitle = document.title.split("|")[0].trim();
+
   function toggle() {
     isOpen = !isOpen;
     panel.hidden = !isOpen;
@@ -32,7 +36,7 @@
     }
   }
 
-  function addMessage(role, text) {
+  function addMessage(role, text, sources) {
     var div = document.createElement("div");
     div.className = "chatbot-msg chatbot-msg--" + role;
     div.textContent = text;
@@ -40,6 +44,24 @@
       div.setAttribute("aria-live", "polite");
     }
     messages.appendChild(div);
+
+    // Render source links for assistant messages
+    if (role === "assistant" && sources && sources.length > 0) {
+      var srcDiv = document.createElement("div");
+      srcDiv.className = "chatbot-sources";
+      var label = lang === "fr" ? "Sources\u00a0: " : "Sources: ";
+      srcDiv.appendChild(document.createTextNode(label));
+      sources.forEach(function (src, i) {
+        if (i > 0) srcDiv.appendChild(document.createTextNode(", "));
+        var a = document.createElement("a");
+        a.href = src.url;
+        a.textContent = src.label;
+        a.className = "chatbot-source-link";
+        srcDiv.appendChild(a);
+      });
+      messages.appendChild(srcDiv);
+    }
+
     messages.scrollTop = messages.scrollHeight;
   }
 
@@ -64,7 +86,13 @@
     fetch(apiUrl + "/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ query: query, language: lang, history: history }),
+      body: JSON.stringify({
+        query: query,
+        language: lang,
+        current_page: currentPage,
+        current_page_title: currentPageTitle,
+        history: history,
+      }),
     })
       .then(function (resp) {
         if (resp.status === 429) {
@@ -83,7 +111,7 @@
       .then(function (data) {
         if (!data) return;
         setLoading(false);
-        addMessage("assistant", data.response);
+        addMessage("assistant", data.response, data.sources);
         history.push({ role: "user", content: query });
         history.push({ role: "assistant", content: data.response });
         if (history.length > 6) history = history.slice(-6);

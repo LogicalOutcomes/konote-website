@@ -955,6 +955,23 @@ tr:hover {
   animation: chatbot-pulse 1.5s ease-in-out infinite;
 }
 
+.chatbot-sources {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  padding: 0 var(--space-3) var(--space-2);
+  line-height: var(--line-height-normal);
+}
+
+.chatbot-source-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+.chatbot-source-link:hover {
+  text-decoration: underline;
+}
+
 @keyframes chatbot-pulse {
   0%, 100% { opacity: 0.6; }
   50% { opacity: 1; }
