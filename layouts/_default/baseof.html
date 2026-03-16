@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ .Language.Lang }}">
+<head>
+  {{- partial "head.html" . -}}
+</head>
+<body data-chatbot-api="{{ .Site.Params.chatbotApiUrl }}">
+  <a href="#main" class="skip-nav">{{ i18n "skip_to_content" }}</a>
+
+  {{- partial "header.html" . -}}
+
+  <main id="main">
+    {{- block "main" . }}{{- end }}
+  </main>
+
+  {{- partial "footer.html" . -}}
+
+  {{- partial "search-dialog.html" . -}}
+  {{- partial "chatbot-widget.html" . -}}
+
+  <script src="/js/search.js" defer></script>
+</body>
+</html>
