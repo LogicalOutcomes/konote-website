@@ -1,0 +1,623 @@
+---
+title: "Fonctionnalités"
+description: "Fonctionnalités de KoNote : dossiers des participant·e·s, plans de résultats, notes d'évolution, suivi des métriques, sondages, rapports aux bailleurs de fonds, conformité CIDS, portail des participant·e·s, tableau de bord de direction, groupes de cercles, rédaction d'objectifs assistée par IA, et plus encore."
+layout: "wide"
+hero: true
+hero_title: "Fonctionnalités"
+hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à la transparence concernant les capacités et les limites."
+---
+
+<section>
+  <div class="container">
+    <h2>Ce que KoNote fait</h2>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>Dossiers des participant·e·s</h3>
+        <p>
+          Tenez des dossiers pour chaque participant·e avec les renseignements personnels,
+          l'inscription aux programmes et les champs d'accueil personnalisés.
+        </p>
+        <ul>
+          <li>Stockage chiffré de tous les renseignements personnels</li>
+          <li>Champs personnalisés définis par votre organisme</li>
+          <li>Prise en charge du nom préféré et du nom d'affichage</li>
+          <li>Inscription à plusieurs programmes</li>
+          <li>Transfert entre programmes avec piste d'audit et consentement de partage entre programmes</li>
+          <li>Suivi de l'état (actif·ve, inactif·ve, congédié·e)</li>
+          <li>Détection des doublons avec correspondance automatique</li>
+          <li>Flux de travail de fusion pour les dossiers en double</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Plans de résultats</h3>
+        <p>
+          Définissez des résultats mesurables et suivez la progression vers les objectifs.
+        </p>
+        <ul>
+          <li>Sections de plan pour organiser les résultats (p. ex., «&nbsp;Emploi&nbsp;», «&nbsp;Logement&nbsp;»)</li>
+          <li>Cibles spécifiques et mesurables dans chaque section</li>
+          <li>Bibliothèque de métriques avec mesures courantes (PHQ-9, stabilité du logement, etc.)</li>
+          <li>Métriques personnalisées définies par votre organisme</li>
+          <li>Modèles de plans réutilisables</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Notes d'évolution</h3>
+        <p>
+          Documentez les interactions avec les participant·e·s et suivez les valeurs des métriques au fil du temps.
+        </p>
+        <ul>
+          <li>Notes rapides pour les interactions brèves</li>
+          <li>Notes structurées avec sections et modèles</li>
+          <li>Réflexion du·de la participant·e — saisissez ce que la personne retient de l'interaction</li>
+          <li>Types d'interaction (téléphone, en personne, virtuel, etc.)</li>
+          <li>Enregistrement des valeurs de métriques dans les notes</li>
+          <li>Recherche en texte intégral dans le contenu des notes</li>
+          <li>Antidatage des notes avec piste d'audit complète</li>
+          <li>Suivi des actions de suivi</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Métriques et visualisation</h3>
+        <p>
+          Suivez les résultats quantifiables et visualisez la progression au fil du temps.
+        </p>
+        <ul>
+          <li>Bibliothèque de métriques prédéfinies</li>
+          <li>Métriques personnalisées avec valeurs minimales/maximales</li>
+          <li>Graphiques de progression montrant l'évolution dans le temps</li>
+          <li>Comparaison des valeurs réelles avec les cibles</li>
+          <li>Import/export CSV pour les définitions de métriques</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Suivi des groupes</h3>
+        <p>
+          Offrez et documentez des services en groupe en parallèle avec le travail individuel.
+        </p>
+        <ul>
+          <li>Programmes configurables en mode individuel, en groupe ou les deux</li>
+          <li>Listes de membres des groupes avec gestion des adhésions</li>
+          <li>Suivi des présences par séance</li>
+          <li>Notes d'évolution de groupe liées à tous les participant·e·s présent·e·s</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Cercles (familles et réseaux de soutien)</h3>
+        <p>
+          Reliez des participant·e·s qui partagent un ménage, une famille ou un réseau de soutien
+          dans un groupe nommé pour une prestation de services coordonnée.
+        </p>
+        <ul>
+          <li>Cercles nommés avec rôles relationnels (parent, enfant, partenaire, etc.)</li>
+          <li>Consultation de tous les membres d'un cercle depuis le profil de tout·e participant·e</li>
+          <li>Chronologie partagée entre les membres du cercle</li>
+          <li>Appartenance à des cercles entre programmes</li>
+          <li>Contrôles de confidentialité — l'appartenance à un cercle ne donne pas accès aux données</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Événements et alertes</h3>
+        <p>
+          Consignez des jalons importants et signalez des informations essentielles.
+        </p>
+        <ul>
+          <li>Types d'événements personnalisables (accueil, congé, crise, etc.)</li>
+          <li>Catégories d'événements avec code de couleur</li>
+          <li>Alertes de sécurité liées aux dossiers des participant·e·s</li>
+          <li>Règle des deux personnes pour la sécurité — les alertes nécessitent une deuxième personne pour être annulées</li>
+          <li>Vue chronologique des événements des participant·e·s</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Messagerie et journal des communications</h3>
+        <p>
+          Consignez et suivez toutes les communications avec les participant·e·s en un seul endroit.
+        </p>
+        <ul>
+          <li>Journalisation des appels téléphoniques, textos, courriels et visites en personne</li>
+          <li>Boutons d'enregistrement rapide pour les types d'interaction courants</li>
+          <li>Historique des communications dans la chronologie du·de la participant·e</li>
+          <li>Intégration optionnelle SMS et courriel (Twilio, SMTP)</li>
+          <li>Rappels automatiques de rendez-vous (36 heures à l'avance)</li>
+          <li>Suivi de la livraison (envoyé, livré, échoué, rebondi)</li>
+          <li>Surveillance de la santé du système avec alertes d'administration en cas de défaillance d'un canal</li>
+          <li>Suivi du consentement LCAP pour les messages électroniques</li>
+          <li>Préférences de contact par canal pour chaque participant·e</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Réunions et calendrier</h3>
+        <p>
+          Planifiez et suivez les réunions avec les participant·e·s.
+        </p>
+        <ul>
+          <li>Planification des réunions avec date, heure, lieu et statut</li>
+          <li>Types de réunions : en personne, virtuel, téléphone, visite à domicile</li>
+          <li>Flux iCal — synchronisez les réunions avec Outlook, Google Agenda ou Apple Calendrier</li>
+          <li>Réunions à venir dans le tableau de bord</li>
+          <li>Historique des réunions dans la chronologie du·de la participant·e</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Gestion du consentement</h3>
+        <p>
+          Consignez et suivez le consentement des participant·e·s avec une piste d'audit complète.
+        </p>
+        <ul>
+          <li>Dossiers de consentement liés aux fichiers des participant·e·s</li>
+          <li>Dossiers immuables — le consentement peut être retiré mais jamais supprimé</li>
+          <li>Suivi des retraits avec motif et date</li>
+          <li>Conformité LCAP pour les communications électroniques</li>
+          <li>Langue préférée et préférences de contact</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Accès basé sur les rôles</h3>
+        <p>
+          Contrôlez qui peut voir et faire quoi, selon son rôle.
+        </p>
+        <ul>
+          <li>Cinq rôles : Administrateur·rice, Gestionnaire de programme, Intervenant·e direct·e, Réception, Direction</li>
+          <li>Accès limité aux programmes (le personnel ne voit que ses programmes)</li>
+          <li>Les gestionnaires de programme bénéficient d'un accès administratif limité à leur périmètre (modèles, métriques, membres de l'équipe dans leurs programmes)</li>
+          <li>Contrôles de visibilité au niveau des champs par rôle</li>
+          <li>Programmes confidentiels masqués au personnel non autorisé</li>
+          <li>Sélecteur de contexte de programme pour le personnel travaillant dans plusieurs programmes</li>
+          <li>Les administrateur·rices sont bloqué·e·s par défaut pour les données des participant·e·s</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Tableau de bord de direction</h3>
+        <p>
+          Suivi des résultats à haut niveau pour les directeur·rices et les cadres qui ont besoin
+          d'une vue d'ensemble sans accéder aux dossiers individuels des participant·e·s.
+        </p>
+        <ul>
+          <li>Statistiques sur les résultats de l'ensemble de l'organisme en un coup d'œil</li>
+          <li>Fiches de programme avec inscriptions, participant·e·s actif·ves et taux de réussite</li>
+          <li>Ventilations démographiques agrégées</li>
+          <li>Aucun accès aux données individuelles des participant·e·s — surveillance uniquement</li>
+          <li>Accessible au rôle Direction</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Journal d'audit</h3>
+        <p>
+          Dossier complet de qui a accédé à quoi et quand.
+        </p>
+        <ul>
+          <li>Toutes les modifications de données consignées avec les valeurs avant/après</li>
+          <li>Accès aux dossiers des participant·e·s journalisé</li>
+          <li>Événements de connexion/déconnexion</li>
+          <li>Base de données d'audit séparée et immuable</li>
+          <li>Visionneuse de journal d'audit avec recherche</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Personnalisation</h3>
+        <p>
+          Adaptez KoNote au langage et aux flux de travail de votre organisme.
+        </p>
+        <ul>
+          <li>Renommez «&nbsp;Client&nbsp;» en «&nbsp;Participant·e&nbsp;», «&nbsp;Membre&nbsp;», etc.</li>
+          <li>Personnalisez toute la terminologie en anglais et en français</li>
+          <li>Activez ou désactivez les fonctionnalités via des boutons bascule</li>
+          <li>Interface entièrement bilingue (anglais/français) selon les conventions de canada.ca</li>
+          <li>Import/export CSV pour la gestion de la bibliothèque de métriques</li>
+          <li>Champs personnalisés configurables par l'organisme pour les profils des participant·e·s</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Inscription libre-service</h3>
+        <p>
+          Permettez aux participant·e·s de s'inscrire eux-mêmes via un lien partageable.
+        </p>
+        <ul>
+          <li>Liens d'inscription propres à chaque programme</li>
+          <li>Champs d'inscription personnalisables</li>
+          <li>Approbation automatique ou révision manuelle</li>
+          <li>Limites de capacité et dates limites</li>
+          <li>Gestion de la liste d'attente</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Mode démonstration et formation</h3>
+        <p>
+          Comptes de démonstration intégrés pour la formation et l'évaluation, avec des
+          protections qui gardent l'activité de démonstration complètement séparée des données réelles.
+        </p>
+        <ul>
+          <li>Comptes d'utilisateur·rice de démonstration préconfigurés avec des données exemples réalistes</li>
+          <li>Isolation des données de formation — les dossiers de démonstration sont exclus de tous les rapports, exportations et tableaux de bord</li>
+          <li>Comptes administrateurs de démonstration limités à la consultation des paramètres de l'organisme</li>
+          <li>Bannière persistante de mode formation pour que le personnel sache toujours qu'il est en démonstration</li>
+          <li>Section «&nbsp;Comptes de formation&nbsp;» visuellement séparée sur la page de connexion</li>
+          <li>Événements de connexion de démonstration audités pour une conscience opérationnelle</li>
+          <li>Régénérez les données de démonstration à tout moment pour repartir à zéro — sans risque pour les vrais dossiers</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Portail des participant·e·s</h3>
+        <p>
+          Portail libre-service optionnel où les participant·e·s peuvent consulter leur propre
+          progression, remplir des sondages, accéder à des ressources et rester en lien avec leurs plans.
+        </p>
+        <ul>
+          <li>Les participant·e·s se connectent pour consulter leurs plans de résultats et leur progression</li>
+          <li>Remplissez les sondages et les bilans directement dans le portail</li>
+          <li>Sauvegarde automatique des réponses aux sondages — reprenez là où vous étiez si le navigateur se ferme</li>
+          <li>Auto-déclaration sur les métriques entre les séances</li>
+          <li>Consultation des graphiques de progression et de l'historique des jalons</li>
+          <li>Accès aux ressources partagées et aux documents du programme</li>
+          <li>Journal privé pour les réflexions des participant·e·s</li>
+          <li>Envoi de messages à l'intervenant·e assigné·e</li>
+          <li>Demandes de corrections aux notes ou aux dossiers</li>
+          <li>Flux d'invitation sécurisé avec code verbal optionnel pour la vérification de l'identité</li>
+          <li>Flux de consentement lors de l'intégration au portail</li>
+          <li>Authentification multifacteur (application TOTP ou codes par courriel)</li>
+          <li>Verrouillage du compte après des tentatives infructueuses</li>
+          <li>Le personnel peut révoquer l'accès ou réinitialiser l'AMF depuis le dossier du·de la participant·e</li>
+          <li>L'organisme contrôle quels champs et plans sont visibles</li>
+          <li>Fonctionnalité optionnelle — désactivée par défaut</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Sondages et évaluations</h3>
+        <p>
+          Recueillez des rétroactions structurées des participant·e·s — formulaires d'accueil, sondages
+          de satisfaction, évaluations normalisées et bilans récurrents.
+        </p>
+        <ul>
+          <li>Six types de questions : texte court, texte long, choix unique, choix multiple, échelle d'évaluation, oui/non</li>
+          <li>Formulaires multipages avec navigation par sections</li>
+          <li>Logique conditionnelle — affichez ou masquez des sections selon les réponses précédentes</li>
+          <li>Notation par section (somme ou moyenne) pour les instruments normalisés</li>
+          <li>Trois canaux de distribution : liens publics partageables, portail des participant·e·s ou saisie par le personnel</li>
+          <li>Liens publics partageables — recueillez des rétroactions sans connexion ni compte de portail</li>
+          <li>Règles d'attribution automatique — déclenchez des sondages selon les événements, l'inscription, un calendrier ou les caractéristiques du·de la participant·e</li>
+          <li>Politiques de répétition configurables : une fois par participant·e, une fois par inscription ou de façon récurrente</li>
+          <li>Import CSV pour les instruments existants (PHQ-9, SPDAT, etc.) avec valeurs de score personnalisées</li>
+          <li>Gestion du cycle de vie : brouillon, actif, fermé et archivé</li>
+          <li>Prise en charge bilingue complète (anglais/français) pour tout le contenu des sondages</li>
+          <li>Réponses en texte libre chiffrées au repos</li>
+          <li>Sauvegarde automatique des réponses dans le portail — les participant·e·s peuvent reprendre un sondage en cours</li>
+          <li>Export des réponses en CSV</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Flux de travail d'effacement des données</h3>
+        <p>
+          Effacement des données conforme à la LPRPDE et au RGPD avec approbation en plusieurs étapes.
+        </p>
+        <ul>
+          <li>Demandes d'effacement avec catégories de motifs</li>
+          <li>Flux de travail d'approbation multi-gestionnaires de programme</li>
+          <li>Exécution automatique lorsque toutes les approbations sont reçues</li>
+          <li>Anonymisation par paliers (effacement partiel ou complet)</li>
+          <li>Reçus d'effacement en PDF</li>
+          <li>Dossier d'audit permanent conservé après l'effacement</li>
+          <li>Instantané de résumé des données avant suppression</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Rédaction et analyse assistées par IA</h3>
+        <p>
+          Fonctionnalités IA optionnelles pour aider le personnel à rédiger des objectifs, à documenter et à analyser.
+        </p>
+        <ul>
+          <li>Rédaction d'objectifs assistée par IA — formulation d'objectifs en langage naturel avec validation fondée sur la recherche</li>
+          <li>Suggestions de métriques basées sur les descriptions des cibles</li>
+          <li>Suggestions d'amélioration des objectifs de résultats</li>
+          <li>Aide à la structure des notes</li>
+          <li>Génération de récits pour les bailleurs de fonds à partir des métriques agrégées</li>
+          <li>Thèmes de suggestions — regroupement et analyse des tendances des rétroactions qualitatives</li>
+          <li>Perspectives sur les résultats — résumés de programmes générés par l'IA avec horodatages de transparence</li>
+          <li>Commutateur à deux niveaux : mode outils uniquement (sans données sur les participant·e·s) ou mode analyse dépersonnalisée</li>
+          <li>Protection de la vie privée — aucune information d'identification des participant·e·s n'est envoyée à l'IA</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Rapports aux bailleurs de fonds</h3>
+        <p>
+          Produisez des rapports basés sur des modèles pour les bailleurs de fonds et les partenaires avec les données dont ils ont besoin.
+        </p>
+        <ul>
+          <li>Modèles de rapports aux bailleurs de fonds configurables</li>
+          <li>Ventilations démographiques par programme ou par organisme</li>
+          <li>Résumés des taux de réussite (% des participant·e·s atteignant les cibles)</li>
+          <li>Flux de travail d'approbation en plusieurs étapes pour les rapports aux bailleurs de fonds</li>
+          <li>Approbation des rapports de partenaires — partagez les ébauches avec les organismes partenaires pour révision avant soumission</li>
+          <li>Balisage des métadonnées selon la Norme commune de données sur l'impact (CIDS)</li>
+          <li>Export JSON-LD pour le partage de données conforme aux normes</li>
+          <li>Résumés narratifs générés par l'IA pour les bailleurs de fonds à partir de données agrégées</li>
+          <li>Préréglages de dates et export PDF pour les rapports du tableau de bord de direction</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Export de données et désaffectation</h3>
+        <p>
+          Récupérez vos données quand vous en avez besoin — pour des participant·e·s individuels ou
+          pour la désaffectation complète de l'organisme — avec des contrôles pour prévenir les utilisations abusives.
+        </p>
+        <ul>
+          <li>Export individuel des participant·e·s en formats PDF, CSV et JSON</li>
+          <li>Liens de téléchargement sécurisés à durée limitée (expiration de 24 heures, protection à usage unique)</li>
+          <li>Contrôles d'export renforcés — les exports volumineux déclenchent une notification et un délai administratif</li>
+          <li>Suivi des téléchargements et révocation par l'administrateur·rice</li>
+          <li>Export CSV des données des participant·e·s et des métriques</li>
+          <li>Export du journal d'audit</li>
+          <li>Export de désaffectation à l'échelle de l'organisme — entièrement chiffré, protégé par mot de passe, inclut toutes les données des participant·e·s organisées par personne</li>
+          <li>Piste d'audit complète sur tous les exports — qui a téléchargé, quand, combien de fois</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Conformité CIDS et Approche commune</h3>
+        <p>
+          Conformité FullTier avec la
+          <a href="https://commonapproach.org" target="_blank" rel="noopener">Norme commune de données sur l'impact (CIDS) v3.2.0</a>
+          — le niveau le plus élevé défini dans la norme. Le personnel ne voit jamais les champs CIDS ;
+          le système fait correspondre automatiquement leur travail habituel aux exigences CIDS.
+        </p>
+        <ul>
+          <li>Conformité FullTier — les trois niveaux (Basic, Essential, Full) sont couverts</li>
+          <li>Les 17 listes de codes officielles CIDS importées (ODD, IRIS+, secteurs, populations)</li>
+          <li>Métadonnées CIDS auto-renseignées sur les programmes, les résultats et les indicateurs</li>
+          <li>Profil organisationnel avec secteur, géographie et statut juridique</li>
+          <li>Export JSON-LD utilisant le contexte CIDS officiel pour le partage de données lisibles par machine</li>
+          <li>Dimensions d'impact : portée, profondeur et durée calculées à partir des données de service</li>
+          <li>Annexe d'alignement des normes incluse automatiquement dans les rapports aux bailleurs de fonds</li>
+          <li>Protection de la vie privée — les exports contiennent uniquement des données agrégées, jamais de dossiers individuels</li>
+          <li>Validé selon l'ontologie CIDS 3.2.0 et les fichiers SHACL</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Accessibilité (WCAG 2.2 AA)</h3>
+        <p>
+          Conçu avec l'accessibilité comme exigence fondamentale, et non comme une réflexion après coup.
+          Testé avec des outils automatisés et une révision manuelle.
+        </p>
+        <ul>
+          <li>Structure HTML sémantique avec hiérarchie des titres appropriée</li>
+          <li>Navigation complète au clavier — utilisez Tab et les touches de direction pour atteindre chaque commande</li>
+          <li>Liens d'évitement sur chaque page</li>
+          <li>Conformité au contraste des couleurs WCAG 2.2 AA</li>
+          <li>Menus, onglets et éléments interactifs compatibles avec les lecteurs d'écran</li>
+          <li>Tailles de boutons et de commandes adaptées au toucher pour tablettes et appareils mobiles</li>
+          <li>Compatible avec les lecteurs d'écran — testé avec NVDA et VoiceOver</li>
+          <li>Vérifications d'accessibilité automatisées à chaque modification du code</li>
+          <li>Mode hors connexion élégant en cas de perte de connexion Internet</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Collecte de données sur le terrain hors connexion</h3>
+        <p>
+          Recueillez des données sur le terrain sans connexion Internet,
+          puis synchronisez-les avec KoNote dès que la connectivité est disponible.
+        </p>
+        <ul>
+          <li>Intégration avec ODK Central pour la collecte de données mobiles hors connexion</li>
+          <li>Fonctionne sur les appareils Android dans les zones sans Internet</li>
+          <li>Niveaux de protection des renseignements personnels — contrôlez quels identifiants sont envoyés aux appareils sur le terrain</li>
+          <li>Synchronisation des données recueillies avec KoNote lors de la connexion</li>
+          <li>Protocole en cas de perte d'appareil pour protéger les données si un appareil est perdu ou volé</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Hébergement multi-organismes</h3>
+        <p>
+          Plusieurs organisations peuvent partager un seul serveur pour réduire les coûts d'hébergement,
+          tout en maintenant une séparation stricte des données entre les organismes.
+        </p>
+        <ul>
+          <li>Les données de chaque organisme sont complètement séparées — aucun mélange entre les organisations</li>
+          <li>Chaque organisme obtient sa propre clé de chiffrement, gérée de façon indépendante</li>
+          <li>Infrastructure partagée pour l'optimisation des coûts (4&ndash;10&nbsp;$/mois par organisme contre 35&ndash;100&nbsp;$ en mode autonome)</li>
+          <li>Configuration indépendante par organisme (terminologie, fonctionnalités, programmes)</li>
+          <li>Modèle de consortium pour les organismes souhaitant partager des rapports agrégés</li>
+          <li>Rapports agrégés entre membres du consortium basés sur le consentement</li>
+          <li>Idéal pour les organismes faîtiers, les consortiums ou les réseaux régionaux</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt-bg">
+  <div class="container">
+    <h2>Ce que KoNote ne fait PAS</h2>
+    <p class="text-muted mb-8">
+      Nous croyons à la clarté concernant nos limites. KoNote est conçu spécifiquement pour
+      le suivi des résultats — ce n'est pas un système polyvalent.
+    </p>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>Facturation et comptabilité</h3>
+        <p>
+          Aucune fonctionnalité financière. KoNote ne suit pas les paiements, ne génère pas de factures
+          et ne s'intègre pas aux systèmes comptables.
+        </p>
+        <p class="text-muted">
+          <strong>Alternative :</strong> Utilisez QuickBooks, Wave ou votre logiciel de comptabilité existant.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Évaluations cliniques</h3>
+        <p>
+          KoNote n'inclut pas d'outils d'évaluation clinique normalisés
+          (GAD-7, AUDIT-C, etc.) par défaut. C'est un système de suivi des résultats,
+          pas un dossier médical électronique clinique.
+        </p>
+        <p class="text-muted">
+          <strong>Note :</strong> Vous pouvez importer des instruments normalisés comme sondages
+          via CSV, ou créer des métriques personnalisées qui reproduisent ces évaluations.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>API publique</h3>
+        <p>
+          KoNote est conçu pour une utilisation par le personnel via l'interface Web.
+          Il n'y a pas d'API REST pour les intégrations externes.
+        </p>
+        <p class="text-muted">
+          <strong>Pour les développeur·euses :</strong> Vous pouvez étendre directement la base de code Django.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Application mobile</h3>
+        <p>
+          KoNote est uniquement Web. L'interface est adaptable et fonctionne sur les tablettes
+          et les téléphones, mais il n'y a pas d'application native.
+        </p>
+        <p class="text-muted">
+          <strong>Note :</strong> Un service worker fournit un mode hors connexion élégant
+          — vous verrez un message convivial si la connexion est perdue, et
+          l'application reprend dès que vous êtes de nouveau en ligne. Ajoutez à l'écran d'accueil pour
+          une expérience similaire à une application.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Automatisation complexe des flux de travail</h3>
+        <p>
+          KoNote dispose d'une automatisation de base (rappels de rendez-vous, alertes de santé),
+          mais pas de moteur de règles ni de déclencheurs complexes. Vous ne serez pas automatiquement
+          averti·e si un·e participant·e n'a pas été vu·e depuis 30 jours.
+        </p>
+        <p class="text-muted">
+          <strong>Note :</strong> Le filtrage manuel et les rapports peuvent faire remonter cette information.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Vidéo/Télésanté</h3>
+        <p>
+          KoNote est un système de notes et de résultats. Aucune fonctionnalité de vidéoconférence ou
+          de télésanté.
+        </p>
+        <p class="text-muted">
+          <strong>Alternative :</strong> Utilisez Zoom, Teams ou une plateforme de télésanté dédiée.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Soutien du fournisseur</h3>
+        <p>
+          C'est un logiciel à code ouvert. Il n'y a pas de ligne d'assistance du fournisseur, pas de délais
+          de réponse garantis, pas de niveau de service (SLA).
+        </p>
+        <p class="text-muted">
+          <strong>Options de soutien :</strong> Communauté via GitHub, ou <a href="/fr/services/">services professionnels</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Spécifications techniques</h2>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Composant</th>
+            <th>Technologie</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cadre applicatif</td>
+            <td>Django 5.1, Python 3.12</td>
+          </tr>
+          <tr>
+            <td>Base de données</td>
+            <td>PostgreSQL 16 (deux bases de données : opérationnelle + audit)</td>
+          </tr>
+          <tr>
+            <td>Interface</td>
+            <td>Gabarits Django rendus côté serveur + HTMX + Pico CSS</td>
+          </tr>
+          <tr>
+            <td>Graphiques</td>
+            <td>Chart.js</td>
+          </tr>
+          <tr>
+            <td>Authentification</td>
+            <td>SSO Azure AD (principal) ou local avec Argon2</td>
+          </tr>
+          <tr>
+            <td>Chiffrement</td>
+            <td>Fernet (AES-128-CBC + HMAC-SHA256)</td>
+          </tr>
+          <tr>
+            <td>Déploiement</td>
+            <td>Docker Compose (Railway, Azure, OVHcloud, Elestio ou auto-hébergé)</td>
+          </tr>
+          <tr>
+            <td>Hébergement canadien</td>
+            <td>Centre de données OVHcloud à Beauharnois (QC) pour la résidence canadienne des données</td>
+          </tr>
+          <tr>
+            <td>Licence</td>
+            <td>MIT (gratuit, code source ouvert)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="notice notice-info">
+      <p class="notice-title">Notes sur la mise à l'échelle</p>
+      <p>
+        KoNote a été testé avec jusqu'à environ 2&nbsp;000 participant·e·s actif·ves. La recherche chiffrée
+        fonctionne en chargeant les participant·e·s accessibles en mémoire et en filtrant en Python,
+        ce qui peut ralentir à plus grande échelle. Pour les organisations avec davantage de participant·e·s,
+        des tests de performance sont recommandés.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="alt-bg">
+  <div class="container text-center">
+    <h2>Vous souhaitez l'essayer&nbsp;?</h2>
+    <p class="text-muted mb-8">
+      Lisez le guide de démarrage pour évaluer KoNote pour votre organisme.
+    </p>
+    <div class="btn-group" style="justify-content: center;">
+      <a href="/fr/premiers-pas/" class="btn btn-primary">Premiers pas</a>
+      <a href="/fr/documentation/" class="btn btn-secondary">Documentation complète</a>
+    </div>
+  </div>
+</section>

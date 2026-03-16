@@ -1,0 +1,7 @@
+{{ define "main" }}
+<div class="container content-width" style="padding: var(--space-16) 0;">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <p><a href="{{ "/" | relLangURL }}">{{ if eq .Language.Lang "fr" }}Retourner à la page d'accueil{{ else }}Return to the homepage{{ end }}</a></p>
+</div>
+{{ end }}

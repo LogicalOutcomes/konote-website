@@ -1,0 +1,13 @@
+<section class="hero">
+  <div class="container">
+    <h1>{{ .Params.hero_title | default .Title }}</h1>
+    {{ with .Params.hero_tagline }}<p class="hero-tagline">{{ . | safeHTML }}</p>{{ end }}
+    {{ with .Params.hero_cta }}
+    <div class="btn-group">
+      {{ range . }}
+      <a href="{{ .url | relLangURL }}" class="btn {{ .class | default "btn-primary" }}">{{ .text }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>

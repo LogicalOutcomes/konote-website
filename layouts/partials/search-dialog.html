@@ -1,0 +1,9 @@
+<dialog class="search-dialog" id="search-dialog" aria-label="{{ i18n "search_dialog_label" }}">
+  <div class="search-dialog-inner">
+    <button class="search-dialog-close" aria-label="{{ i18n "close_search" }}" id="search-close">&times;</button>
+    <div id="search"></div>
+  </div>
+</dialog>
+
+{{ $pagefindJS := printf "/%s/_pagefind/pagefind-ui.js" .Language.Lang }}
+<script src="{{ $pagefindJS }}" defer></script>

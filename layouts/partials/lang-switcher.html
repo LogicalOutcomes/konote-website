@@ -1,0 +1,6 @@
+{{ range .Translations }}
+  <a href="{{ .Permalink }}" class="lang-link" lang="{{ .Language.Lang }}"
+     aria-label="{{ if eq .Language.Lang "fr" }}Voir cette page en français{{ else }}View this page in English{{ end }}">
+    {{- .Language.LanguageName -}}
+  </a>
+{{ end }}
