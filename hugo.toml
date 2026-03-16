@@ -1,4 +1,4 @@
-baseURL = "https://konote.ca/"
+baseURL = "https://konote-website-production.up.railway.app/"
 languageCode = "en"
 title = "KoNote"
 defaultContentLanguage = "en"
@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = true
       description = "Suivez les progrès des participants, mesurez les résultats et démontrez l'impact avec KoNote."
 
 [params]
-  chatbotApiUrl = ""
+  chatbotApiUrl = "https://konote-chatbot-production.up.railway.app"
 
 [markup]
   [markup.goldmark]
