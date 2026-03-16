@@ -1,0 +1,31 @@
+:{$PORT:8080} {
+    root * /srv
+
+    # Root URL: detect browser language preference
+    @root path /
+    handle @root {
+        @french header_regexp Accept-Language (?i)fr
+        redir @french /fr/ temporary
+        redir * /en/ temporary
+    }
+
+    # Custom 404 pages per language subtree
+    handle /en/* {
+        root * /srv
+        try_files {path} {path}/index.html /en/404.html
+        file_server
+    }
+
+    handle /fr/* {
+        root * /srv
+        try_files {path} {path}/index.html /fr/404.html
+        file_server
+    }
+
+    # Fallback for any other path
+    handle {
+        redir * /en/ temporary
+    }
+
+    encode gzip
+}
