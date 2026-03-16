@@ -1,0 +1,38 @@
+- id: nav_home
+  translation: "Home"
+- id: nav_features
+  translation: "Features"
+- id: nav_evidence
+  translation: "Evidence"
+- id: nav_getting_started
+  translation: "Getting Started"
+- id: nav_documentation
+  translation: "Documentation"
+- id: nav_security
+  translation: "Security & Privacy"
+- id: nav_services
+  translation: "Services"
+- id: nav_faq
+  translation: "FAQ"
+- id: nav_demo
+  translation: "Demo"
+- id: nav_label
+  translation: "Main navigation"
+- id: footer_copyright
+  translation: "KoNote is open source software under the MIT License."
+- id: footer_github
+  translation: "GitHub Repository"
+- id: skip_to_content
+  translation: "Skip to main content"
+- id: search_button
+  translation: "Search"
+- id: ask_konote
+  translation: "Ask KoNote"
+- id: chatbot_placeholder
+  translation: "Ask a question about KoNote..."
+- id: chatbot_thinking
+  translation: "Thinking..."
+- id: chatbot_error
+  translation: "Sorry, I couldn't process your question. Please try again."
+- id: chatbot_disclaimer
+  translation: "AI-generated answers may not be perfectly accurate."
