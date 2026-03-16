@@ -9,6 +9,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy chatbot code
 COPY chatbot/*.py /app/
 COPY chatbot/knowledge/curated/ /app/knowledge/curated/
+COPY chatbot/knowledge/core/ /app/knowledge/core/
 
 # Copy website content for context stuffing
 COPY content/en/ /app/knowledge/site/en/
