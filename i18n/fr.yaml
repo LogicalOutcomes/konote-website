@@ -16,6 +16,10 @@
   translation: "FAQ"
 - id: nav_demo
   translation: "Démo"
+- id: nav_design_principles
+  translation: "Principes de conception"
+- id: nav_origins
+  translation: "Origines"
 - id: nav_label
   translation: "Navigation principale"
 - id: footer_copyright
