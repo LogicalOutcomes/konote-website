@@ -4,7 +4,7 @@ import os
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 WEBSITE_URL = os.environ.get("WEBSITE_URL", "https://konote.ca")
-CHAT_MODEL = os.environ.get("CHAT_MODEL", "mistralai/mistral-large-latest")
+CHAT_MODEL = os.environ.get("CHAT_MODEL", "mistralai/mistral-large-2512")
 MAX_QUERY_LENGTH = 500
 MAX_HISTORY_LENGTH = 6
 DAILY_QUERY_LIMIT = 500
