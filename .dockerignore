@@ -1,0 +1,10 @@
+.git/
+.github/
+.gitignore
+.worktrees/
+public/
+content-drafts/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
