@@ -40,3 +40,9 @@
   translation: "Sorry, I couldn't process your question. Please try again."
 - id: chatbot_disclaimer
   translation: "AI-generated answers may not be perfectly accurate."
+- id: close_button
+  translation: "Close"
+- id: close_search
+  translation: "Close search"
+- id: search_dialog_label
+  translation: "Search KoNote"

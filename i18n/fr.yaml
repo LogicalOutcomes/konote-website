@@ -40,3 +40,9 @@
   translation: "Désolé, je n'ai pas pu traiter votre question. Veuillez réessayer."
 - id: chatbot_disclaimer
   translation: "Les réponses générées par l'IA peuvent ne pas être parfaitement exactes."
+- id: close_button
+  translation: "Fermer"
+- id: close_search
+  translation: "Fermer la recherche"
+- id: search_dialog_label
+  translation: "Rechercher sur KoNote"
