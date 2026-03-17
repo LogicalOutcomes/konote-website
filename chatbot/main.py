@@ -104,7 +104,7 @@ async def call_openrouter(messages: list[dict], lang: str) -> str:
             json={
                 "model": CHAT_MODEL,
                 "messages": messages,
-                "max_tokens": 1024,
+                "max_tokens": 4096,
                 "reasoning_effort": "medium",
             },
         )
