@@ -4,7 +4,7 @@ import os
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 WEBSITE_URL = os.environ.get("WEBSITE_URL", "https://konote.ca")
-CHAT_MODEL = os.environ.get("CHAT_MODEL", "qwen/qwen3.5-397b-a17b")
+CHAT_MODEL = os.environ.get("CHAT_MODEL", "google/gemini-3-flash-preview")
 MAX_QUERY_LENGTH = 500
 MAX_HISTORY_LENGTH = 6
 DAILY_QUERY_LIMIT = 500
