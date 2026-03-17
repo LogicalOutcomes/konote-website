@@ -1,6 +1,7 @@
 """KoNote chatbot API — structured context assembly with OpenRouter."""
 
 import os
+import re
 from contextlib import asynccontextmanager
 
 import httpx
@@ -88,6 +89,21 @@ class SourceLink(BaseModel):
 class ChatResponse(BaseModel):
     response: str
     sources: list[SourceLink] = Field(default_factory=list)
+    followups: list[str] = Field(default_factory=list)
+
+
+# --- Followup parser ---
+FOLLOWUP_RE = re.compile(r"^\[followup:\s*(.+?)\]$", re.MULTILINE)
+
+
+def extract_followups(text: str) -> tuple[str, list[str]]:
+    """Extract [followup: ...] lines from response text.
+
+    Returns (cleaned_text, list_of_followup_questions).
+    """
+    followups = FOLLOWUP_RE.findall(text)
+    cleaned = FOLLOWUP_RE.sub("", text).rstrip()
+    return cleaned, followups
 
 
 # --- API call ---
@@ -155,8 +171,10 @@ async def chat(request: Request, body: ChatRequest):
     ]
 
     response_text = await call_openrouter(messages, lang)
+    cleaned_text, followups = extract_followups(response_text)
 
     return ChatResponse(
-        response=response_text,
+        response=cleaned_text,
         sources=[SourceLink(label=s["label"], url=s["url"]) for s in sources],
+        followups=followups,
     )

@@ -74,7 +74,26 @@
     return "<p>" + escaped + "</p>";
   }
 
-  function addMessage(role, text, sources) {
+  function addFollowups(followups) {
+    if (!followups || followups.length === 0) return;
+    var div = document.createElement("div");
+    div.className = "chatbot-followups";
+    followups.forEach(function (q) {
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "chatbot-followup-btn";
+      btn.textContent = q;
+      btn.addEventListener("click", function () {
+        div.remove();
+        sendMessage(q);
+      });
+      div.appendChild(btn);
+    });
+    messages.appendChild(div);
+    messages.scrollTop = messages.scrollHeight;
+  }
+
+  function addMessage(role, text, sources, followups) {
     var div = document.createElement("div");
     div.className = "chatbot-msg chatbot-msg--" + role;
     if (role === "assistant") {
@@ -105,6 +124,11 @@
         srcDiv.appendChild(a);
       });
       messages.appendChild(srcDiv);
+    }
+
+    // Render follow-up suggestion buttons
+    if (role === "assistant") {
+      addFollowups(followups);
     }
 
     messages.scrollTop = messages.scrollHeight;
@@ -156,7 +180,7 @@
       .then(function (data) {
         if (!data) return;
         setLoading(false);
-        addMessage("assistant", data.response, data.sources);
+        addMessage("assistant", data.response, data.sources, data.followups);
         if (disclaimer) disclaimer.hidden = false;
         history.push({ role: "user", content: query });
         history.push({ role: "assistant", content: data.response });
