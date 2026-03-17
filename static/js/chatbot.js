@@ -83,7 +83,8 @@
       btn.type = "button";
       btn.className = "chatbot-followup-btn";
       btn.textContent = q;
-      btn.addEventListener("click", function () {
+      btn.addEventListener("click", function (e) {
+        e.stopPropagation();
         div.remove();
         sendMessage(q);
       });
