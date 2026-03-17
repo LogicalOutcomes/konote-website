@@ -40,7 +40,7 @@ http_client: httpx.AsyncClient | None = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global http_client
-    http_client = httpx.AsyncClient(timeout=60.0)
+    http_client = httpx.AsyncClient(timeout=90.0)
     yield
     await http_client.aclose()
 
@@ -105,6 +105,7 @@ async def call_openrouter(messages: list[dict], lang: str) -> str:
                 "model": CHAT_MODEL,
                 "messages": messages,
                 "max_tokens": 1024,
+                "reasoning_effort": "medium",
             },
         )
         resp.raise_for_status()
