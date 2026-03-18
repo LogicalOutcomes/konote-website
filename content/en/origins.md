@@ -48,40 +48,7 @@ This project required extended stakeholder consultations across multiple agencie
 
 ## What We Learned
 
-Across these projects, we arrived at four conclusions about how evaluation should work in community services. These are built into KoNote's design.
-
-### Use participant data only to improve services
-
-Data collection in community services presents real costs and barriers — to staff, to participants, and to organizations. Unnecessary documentation decreases staff morale (Ommaya et al., 2018; Zegers et al., 2020) and the costs of collection, analysis, and security are rarely adequately funded. The benefits of collecting data must be larger than the costs. If data is not being used to improve services, it should not be collected. This sometimes requires negotiations with funders about mandated surveys to improve their timeliness and usefulness.
-
-When data is collected, the results must engage front-line staff as well as agency decision-makers. Reports need to be relevant, frequent (e.g., monthly), and ideally interactive so that staff can explore results, test hypotheses, and see the impact of service changes. If front-line staff do not value the results of data collection, the data is unlikely to be accurate.
-
-### Use participant-informed practice
-
-Feedback from participants should be continuously collected and used in service delivery. Participant-informed and deliberate practice are associated with lower drop-outs, higher client satisfaction, decreased negative impacts, greater counsellor effectiveness, and higher impact in social services (Gondek et al., 2016; Graßmann et al., 2020; Miller et al., 2020; Swift & Greenberg, 2012). For managers, participant feedback provides a view into service delivery and allows them to spot problems early. Participant feedback can also serve as proxies for outcomes and reduce the need for other types of measurement (Benitez et al., 2022).
-
-In practice, this means collecting feedback (which can happen during sessions or conversations, not only through structured surveys), reviewing it regularly with staff using a standard agenda, discussing it with decision-makers, changing services in response, and repeating the cycle (Brattland et al., 2018). In our experience, open-ended qualitative responses have the most impact on staff, especially when they include appreciation for good work. Aggregated scores and numbers from surveys are difficult to interpret and are often not compelling to the people doing the work.
-
-### Use process metrics to improve program quality
-
-Organizations should track a small number of key metrics that show whether the most important elements of service delivery are on track. This information should be embedded into the client management system as a regular part of service delivery, not bolted on as a separate data collection exercise.
-
-We know from implementation research that program models are not useful in isolation (Fixsen et al., 2005). Without continual tracking and improvement, programs tend to stray from their design. But implementing detailed process metrics requires significant investment and does not necessarily improve services unless the metrics are incorporated into regular management processes (De Vos et al., 2009; Institute for Healthcare Improvement, 2021; Sampath et al., 2021). The goal is to define the key elements — sometimes called the "active ingredients" — of the program model and track those, rather than measuring everything.
-
-### Delay outcome measurement until a client management system is in place
-
-Outcome measures should be integrated into a client management system so that they are part of service delivery, do not require staff to switch platforms, and include demographic data for use in planning and service equity. Until organizations have a CMS in place, they should not invest in outcome measurement.
-
-A basic CMS should include outputs and short-term outcomes, including demographics and participant feedback, that can be used in service improvement as well as evaluations. Mid- and long-term outcome measures are generally not relevant to front-line practice since they are measured too late to influence a participant's services, are not seen as useful by staff, and are probably not statistically valid at the program level.
-
-### Additional design principles
-
-Beyond these methodological conclusions, several other principles shape KoNote's design:
-
-- Participants should hold their own data, be able to share it selectively with the programs they choose, and carry it with them across organizations rather than starting from scratch at every intake.
-- Organizations should be able to define their own indicators and build surveys around measures that their community helped create, rather than being forced into someone else's framework.
-- Organizations should build evaluation capacity incrementally, testing and refining tools with each project rather than starting over every time.
-- The platform needs to export reports in the formats that funders and regulators require, while keeping the burden on staff as low as possible.
+These projects — and hundreds of others — shaped how LogicalOutcomes thinks evaluation should work in community services. Across them, we arrived at four conclusions: collect data only to improve services, not for its own sake; use participant feedback continuously to drive better practice; track a small number of process metrics rather than measuring everything; and delay outcome measurement until a client management system is in place. These conclusions, and the research behind them, are now built into KoNote's design — read more on our [Research Foundation](/en/evidence/) page. The [design principles](/en/design-principles/) behind the software reflect them as well.
 
 ## Data Standards and Metadata
 
@@ -90,6 +57,13 @@ Every funder, partner, and agency has its own framework, its own taxonomy for ou
 KoNote's data model also borrows structural concepts from the HL7 FHIR data dictionary — specifically care plans, goals, encounters, and episodes of care — without implementing the full FHIR API. These concepts provide a tested structure for organizing longitudinal client data across programs and agencies.
 
 This approach to metadata grew partly out of LogicalOutcomes' earlier work with [DHIS2](https://dhis2.org/), the open-source Health Management Information System used in over 100 countries. Beginning in 2015, LogicalOutcomes adapted DHIS2 for smaller non-profit monitoring and evaluation, developing open-source templates, training curricula, and a "Quick Start" methodology. That work included helping The Nature Conservancy adopt DHIS2 for conservation monitoring in Tanzania, one of the earlier documented uses of the platform outside the health sector. It built deep experience with configurable data collection and with using metadata frameworks to structure aggregate data for system-wide analysis.
+
+---
+
+## Read Next
+
+- **[Research Foundation](/en/evidence/)** — the academic research and practice-derived conclusions behind KoNote's design
+- **[Design Principles](/en/design-principles/)** — how these ideas became software architecture
 
 ---
 

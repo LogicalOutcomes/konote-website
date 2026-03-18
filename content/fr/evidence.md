@@ -305,6 +305,132 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 
 <section class="alt-bg">
 <div class="container">
+<h2>De la recherche à la pratique</h2>
+<p>
+      Les données probantes ci-dessus proviennent de milieux cliniques et universitaires. Le propre
+      travail d'évaluation de LogicalOutcomes — auprès de centaines de projets avec des organismes
+      communautaires pendant plus d'une décennie — a confirmé ces constats et y a ajouté des leçons
+      pratiques qui ont façonné la conception de KoNote.
+</p>
+
+<div class="card-grid">
+<div class="card">
+<h3>Ne collecter des données que pour améliorer les services</h3>
+<p>
+          La collecte de données dans les services communautaires présente de véritables coûts — pour
+          le personnel, pour les participant·e·s et pour les organisations. La recherche confirme
+          qu'une documentation inutile nuit au moral du personnel, et les coûts de collecte, d'analyse
+          et de sécurité sont rarement suffisamment financés. Si les données ne sont pas utilisées
+          pour améliorer les services, elles ne devraient pas être collectées. Cela nécessite parfois
+          des négociations avec les bailleurs de fonds au sujet des sondages obligatoires pour
+          améliorer leur utilité et leur opportunité.
+</p>
+<p>
+          Lorsque des données sont collectées, les résultats doivent mobiliser le personnel de première
+          ligne ainsi que les décideur·euses des organismes. Les rapports doivent être pertinents,
+          fréquents et idéalement interactifs pour que le personnel puisse explorer les résultats et
+          voir l'impact des changements de service. Si le personnel de première ligne ne valorise pas
+          les résultats, les données risquent de ne pas être exactes.
+</p>
+<p class="text-muted">
+<strong>Sources principales :</strong> Ommaya, A.K. et coll. (2018). Care-centred clinical
+          documentation. <em>NAM Perspectives</em>.
+          Zegers, S. et coll. (2020). The impact of the electronic health record on
+          nurses' work. <em>International Journal of Environmental Research and
+          Public Health</em>, 17(24).
+</p>
+</div>
+
+<div class="card">
+<h3>Les rétroactions des participant·e·s améliorent les services</h3>
+<p>
+          Les données probantes cliniques sur la pratique éclairée par la rétroaction sont appuyées par
+          des données provenant plus largement des services sociaux. La pratique éclairée par les
+          participant·e·s et la pratique délibérée sont associées à moins d'abandons, à une plus
+          grande satisfaction des client·e·s, à une réduction des impacts négatifs et à une plus
+          grande efficacité des conseiller·ères.
+</p>
+<p>
+          En pratique, cela signifie collecter des rétroactions régulièrement — lors des séances ou
+          des conversations, pas seulement par des sondages structurés — les examiner avec le personnel
+          selon un ordre du jour standard, en discuter avec les décideur·euses et modifier les services
+          en réponse. Les réponses qualitatives ouvertes ont le plus d'impact sur le personnel, surtout
+          lorsqu'elles comprennent des témoignages d'appréciation pour un bon travail. Les scores
+          agrégés sont difficiles à interpréter et souvent pas convaincants pour les personnes qui font
+          le travail.
+</p>
+<p class="text-muted">
+<strong>Sources principales :</strong> Gondek, D. et coll. (2016). Feedback-informed treatment.
+          <em>Clinical Psychology Review</em>, 46.
+          Graßmann, C. et coll. (2020). Coaching effectiveness.
+          <em>International Coaching Psychology Review</em>, 15(2).
+          Brattland, H. et coll. (2018). Routine outcome monitoring.
+          <em>Psychotherapy Research</em>, 28(6).
+          Benitez, C. et coll. (2022). Client feedback as proxy for outcomes.
+          <em>Journal of Clinical Psychology</em>.
+</p>
+</div>
+
+<div class="card">
+<h3>Suivre les métriques de processus, pas tout</h3>
+<p>
+          Les organisations devraient suivre un petit nombre de métriques clés qui montrent si les
+          éléments les plus importants de la prestation de services sont sur la bonne voie. Cette
+          information devrait être intégrée dans le système de gestion de cas comme faisant partie
+          régulière de la prestation de services, et non ajoutée après coup comme un exercice de
+          collecte de données distinct.
+</p>
+<p>
+          La recherche en mise en œuvre montre que sans suivi continu, les programmes ont tendance à
+          s'écarter de leur conception. Mais des métriques de processus détaillées nécessitent des
+          investissements importants et n'améliorent pas nécessairement les services à moins d'être
+          intégrées dans les processus de gestion réguliers. L'objectif est de définir les
+          «&nbsp;ingrédients actifs&nbsp;» du modèle de programme et de les suivre, plutôt que de tout
+          mesurer.
+</p>
+<p class="text-muted">
+<strong>Sources principales :</strong> Fixsen, D. et coll. (2005). <em>Implementation Research:
+          A Synthesis of the Literature</em>.
+          De Vos, M. et coll. (2009). Quality management and process improvement.
+          <em>BMJ Quality &amp; Safety</em>.
+          Sampath, B. et coll. (2021). Quality improvement and measurement.
+          <em>Institute for Healthcare Improvement</em>.
+</p>
+</div>
+
+<div class="card">
+<h3>Retarder la mesure des résultats jusqu'à ce qu'un système soit en place</h3>
+<p>
+          Les mesures de résultats devraient être intégrées dans un système de gestion de cas pour
+          qu'elles fassent partie de la prestation de services, ne nécessitent pas que le personnel
+          change de plateforme et incluent des données démographiques pour la planification et l'équité
+          des services. Jusqu'à ce que les organisations aient un système de gestion de cas en place,
+          elles ne devraient pas investir dans la mesure des résultats.
+</p>
+<p>
+          Un système de gestion de cas de base devrait inclure les extrants et les résultats à court
+          terme — données démographiques et rétroactions des participant·e·s — pouvant être utilisés
+          dans l'amélioration des services ainsi que dans les évaluations. Les mesures de résultats à
+          moyen et long terme ne sont généralement pas pertinentes pour la pratique de première ligne :
+          elles sont mesurées trop tard pour influencer les services d'un·e participant·e, ne sont pas
+          perçues comme utiles par le personnel et ne sont probablement pas statistiquement valides au
+          niveau du programme.
+</p>
+</div>
+</div>
+
+<p>
+      Ces conclusions sont issues du travail de projet de LogicalOutcomes — notamment la Plateforme de
+      mesure des résultats de la Fondation Trillium de l'Ontario, le suivi longitudinal du bien-être
+      avec West Neighbourhood House, et une évaluation sur quatre ans des services aux femmes vivant
+      de la violence familiale dans cinq organismes. <a href="/fr/origines/">Lire l'histoire complète sur
+      notre page Origines</a>.
+</p>
+</div>
+</section>
+
+<section>
+<div class="container">
 <h2>Ce que nous ne prétendons pas</h2>
 
 <div class="notice notice-info">
@@ -340,7 +466,7 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 </div>
 </section>
 
-<section>
+<section class="alt-bg">
 <div class="container">
 <h2>La mise en œuvre compte</h2>
 
@@ -376,7 +502,7 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 </div>
 </section>
 
-<section class="alt-bg">
+<section>
 <div class="container text-center">
 <h2>Des questions&nbsp;?</h2>
 <p class="text-muted mb-8">
