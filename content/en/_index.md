@@ -24,7 +24,7 @@ hero_cta:
         There is no vendor to call if something goes wrong.
 </p>
 <p>
-        This isn't a limitation — it's a feature. Your participant data stays under your control,
+        Your participant data stays under your control,
         on servers you choose, without vendor lock-in. But it does mean you need either
         technical capacity on your team or a partner who can help.
 </p>
@@ -77,7 +77,7 @@ hero_cta:
 <h3>Bilingual (EN/FR)</h3>
 <p>
           Full English and French interface, following canada.ca conventions.
-          Customise all terminology in both languages to fit your agency.
+          Customize all terminology in both languages to fit your agency.
 </p>
 </div>
 <div class="feature-item">
@@ -120,8 +120,8 @@ hero_cta:
 <div class="section-header">
 <h2>Design Philosophy</h2>
 <p>
-        KoNote isn't just a database with a nice interface — it's built on four
-        structural principles that shape every feature and default.
+        KoNote is built on four structural principles that shape every
+        feature and default.
 <a href="design-principles/">Read the full design principles →</a>
 </p>
 </div>
@@ -140,15 +140,15 @@ hero_cta:
 <p>
           Your data belongs to you — not to KoNote, not to a hosting provider.
           Participants can see their own records, request corrections, and carry
-          their data across organisations.
+          their data across organizations.
 </p>
 </div>
 <div class="feature-item">
 <h3>Security by Default</h3>
 <p>
           All personal information is encrypted before it reaches the database.
-          This is not a setting — it's how the system works. Every protection
-          is on by default and <a href="security/">cannot be turned off</a>.
+          Every protection is on by default and <a href="security/">cannot be
+          turned off</a>.
 </p>
 </div>
 <div class="feature-item">
@@ -172,7 +172,7 @@ hero_cta:
 <h3>Works with LogicalOutcomes</h3>
 <p>
           Populated by a <a href="https://logicaloutcomes.net" target="_blank" rel="noopener">LogicalOutcomes</a>
-          evaluation plan during setup — customise indicators, outcomes,
+          evaluation plan during setup — customize indicators, outcomes,
           and data collection to match your agency's evaluation questions.
 </p>
 </div>
@@ -194,7 +194,7 @@ hero_cta:
 <li>Nonprofits that need to demonstrate program impact</li>
 <li>Organisations with technical staff or IT partners</li>
 <li>Agencies that need full control over participant data</li>
-<li>Canadian organisations requiring PIPEDA compliance</li>
+<li>Canadian organizations requiring PIPEDA compliance</li>
 <li>Programs serving up to ~2,000 active participants</li>
 </ul>
 </div>
@@ -202,7 +202,7 @@ hero_cta:
 <h3>Not the right fit</h3>
 <ul class="x-list">
 <li>Agencies requiring billing or invoicing features</li>
-<li>Clinics needing standardised clinical assessments</li>
+<li>Clinics needing standardized clinical assessments</li>
 <li>Teams without any technical capacity</li>
 <li>Organisations wanting a fully managed SaaS solution</li>
 <li>Programs needing native mobile apps</li>
@@ -233,7 +233,7 @@ hero_cta:
 <div class="container text-center">
 <h2>Ready to evaluate KoNote?</h2>
 <p class="text-muted mb-8">
-      Read the documentation, explore the demo, and decide if it's right for your organisation.
+      Read the documentation, explore the demo, and decide if it's right for your organization.
 </p>
 <div class="btn-group" style="justify-content: center;">
 <a href="getting-started/" class="btn btn-primary">Getting Started Guide</a>

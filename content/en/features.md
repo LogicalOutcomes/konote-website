@@ -37,7 +37,7 @@ hero_tagline: "What KoNote does — and what it doesn't do. We believe in being 
           Define measurable outcomes and track progress toward goals.
 </p>
 <ul>
-<li>Plan sections for organising outcomes (e.g., "Employment", "Housing")</li>
+<li>Plan sections for organizing outcomes (e.g., "Employment", "Housing")</li>
 <li>Specific, measurable targets within each section</li>
 <li>Metrics library with common measures (PHQ-9, housing stability, etc.)</li>
 <li>Custom metrics defined by your agency</li>
@@ -63,9 +63,9 @@ hero_tagline: "What KoNote does — and what it doesn't do. We believe in being 
 </div>
 
 <div class="card">
-<h3>Metrics &amp; Visualisation</h3>
+<h3>Metrics &amp; Visualization</h3>
 <p>
-          Track quantifiable outcomes and visualise progress over time.
+          Track quantifiable outcomes and visualize progress over time.
 </p>
 <ul>
 <li>Pre-built metrics library</li>
@@ -110,7 +110,7 @@ hero_tagline: "What KoNote does — and what it doesn't do. We believe in being 
           Record significant milestones and flag important information.
 </p>
 <ul>
-<li>Customisable event types (intake, discharge, crisis, etc.)</li>
+<li>Customizable event types (intake, discharge, crisis, etc.)</li>
 <li>Colour-coded event categories</li>
 <li>Safety alerts attached to participant records</li>
 <li>Two-person safety rule — alerts require a second person to cancel</li>
@@ -174,7 +174,7 @@ hero_tagline: "What KoNote does — and what it doesn't do. We believe in being 
 <li>Program-scoped access (staff only see their programs)</li>
 <li>Program Managers get scoped admin access (templates, metrics, team members within their programs)</li>
 <li>Field-level visibility controls per role</li>
-<li>Confidential programs hidden from unauthorised staff</li>
+<li>Confidential programs hidden from unauthorized staff</li>
 <li>Program context switcher for multi-program staff</li>
 <li>Admins blocked from participant data by default</li>
 </ul>
@@ -210,13 +210,13 @@ hero_tagline: "What KoNote does — and what it doesn't do. We believe in being 
 </div>
 
 <div class="card">
-<h3>Customisation</h3>
+<h3>Customization</h3>
 <p>
           Adapt KoNote to match your agency's language and workflow.
 </p>
 <ul>
 <li>Rename "Client" to "Participant", "Member", etc.</li>
-<li>Customise all terminology in English and French</li>
+<li>Customize all terminology in English and French</li>
 <li>Enable/disable features via toggles</li>
 <li>Full bilingual interface (English/French) following canada.ca conventions</li>
 <li>CSV import/export for metric library management</li>
@@ -231,7 +231,7 @@ hero_tagline: "What KoNote does — and what it doesn't do. We believe in being 
 </p>
 <ul>
 <li>Program-specific registration links</li>
-<li>Customisable registration fields</li>
+<li>Customizable registration fields</li>
 <li>Auto-approval or manual review</li>
 <li>Capacity limits and deadlines</li>
 <li>Waitlist management</li>
@@ -285,13 +285,13 @@ hero_tagline: "What KoNote does — and what it doesn't do. We believe in being 
 <h3>Surveys &amp; Assessments</h3>
 <p>
           Collect structured feedback from participants — intake forms, satisfaction
-          surveys, standardised assessments, and recurring check-ins.
+          surveys, standardized assessments, and recurring check-ins.
 </p>
 <ul>
 <li>Six question types: short text, long text, single choice, multiple choice, rating scale, yes/no</li>
 <li>Multi-page forms with section-based navigation</li>
 <li>Conditional logic — show or hide sections based on previous answers</li>
-<li>Section scoring (sum or average) for standardised instruments</li>
+<li>Section scoring (sum or average) for standardized instruments</li>
 <li>Three delivery channels: shareable public links, participant portal, or staff data entry</li>
 <li>Shareable public links — collect feedback without requiring login or a portal account</li>
 <li>Automatic assignment rules — trigger surveys on events, enrolment, time-based schedule, or participant characteristics</li>
@@ -314,7 +314,7 @@ hero_tagline: "What KoNote does — and what it doesn't do. We believe in being 
 <li>Erasure requests with reason categories</li>
 <li>Multi-program manager approval workflow</li>
 <li>Automatic execution when all approvals received</li>
-<li>Tiered anonymisation (partial or full erasure)</li>
+<li>Tiered anonymization (partial or full erasure)</li>
 <li>PDF erasure receipts</li>
 <li>Permanent audit record preserved after erasure</li>
 <li>Data summary snapshot before deletion</li>
@@ -370,7 +370,7 @@ hero_tagline: "What KoNote does — and what it doesn't do. We believe in being 
 <li>Download tracking and admin revocation</li>
 <li>CSV export of participant data and metrics</li>
 <li>Audit log export</li>
-<li>Agency-wide offboarding export — fully encrypted, password-protected, includes all participant data organised by person</li>
+<li>Agency-wide offboarding export — fully encrypted, password-protected, includes all participant data organized by person</li>
 <li>Full audit trail on all exports — who downloaded, when, how many times</li>
 </ul>
 </div>
@@ -387,7 +387,7 @@ hero_tagline: "What KoNote does — and what it doesn't do. We believe in being 
 <li>FullTier compliance — all three tiers (Basic, Essential, Full) covered</li>
 <li>All 17 official CIDS code lists imported (SDG, IRIS+, sectors, populations)</li>
 <li>Auto-populated CIDS metadata on programs, outcomes, and indicators</li>
-<li>Organisation profile with sector, geography, and legal status</li>
+<li>Organization profile with sector, geography, and legal status</li>
 <li>JSON-LD export using the official CIDS context for machine-readable data sharing</li>
 <li>Impact dimensions: scale, depth, and duration computed from service data</li>
 <li>Standards Alignment appendix automatically included in funder reports</li>
@@ -433,17 +433,17 @@ hero_tagline: "What KoNote does — and what it doesn't do. We believe in being 
 <div class="card">
 <h3>Multi-Agency Hosting</h3>
 <p>
-          Multiple organisations can share a single server to reduce hosting costs,
+          Multiple organizations can share a single server to reduce hosting costs,
           while maintaining strict data separation between agencies.
 </p>
 <ul>
-<li>Each agency's data is completely separated — no mixing between organisations</li>
+<li>Each agency's data is completely separated — no mixing between organizations</li>
 <li>Each agency gets its own encryption key, managed independently</li>
 <li>Shared infrastructure significantly reduces per-agency hosting costs</li>
 <li>Independent configuration per agency (terminology, features, programs)</li>
 <li>Consortium model for agencies that want to share aggregate reporting</li>
 <li>Consent-based aggregate reporting across consortium members</li>
-<li>Ideal for umbrella organisations, consortia, or regional networks</li>
+<li>Ideal for umbrella organizations, consortia, or regional networks</li>
 </ul>
 </div>
 </div>
@@ -473,12 +473,12 @@ hero_tagline: "What KoNote does — and what it doesn't do. We believe in being 
 <div class="card">
 <h3>Clinical Assessments</h3>
 <p>
-          KoNote doesn't include standardised clinical assessment tools
+          KoNote doesn't include standardized clinical assessment tools
           (GAD-7, AUDIT-C, etc.) out of the box. It's an outcome tracking system,
           not a clinical EMR.
 </p>
 <p class="text-muted">
-<strong>Note:</strong> You can import standardised instruments as surveys
+<strong>Note:</strong> You can import standardized instruments as surveys
           via CSV, or create custom metrics that mirror these assessments.
 </p>
 </div>
@@ -603,7 +603,7 @@ hero_tagline: "What KoNote does — and what it doesn't do. We believe in being 
 <p>
         KoNote has been tested with up to ~2,000 active participants. The encrypted search
         works by loading accessible participants into memory and filtering in Python,
-        which may slow down at larger scales. For organisations with more participants,
+        which may slow down at larger scales. For organizations with more participants,
         performance testing is recommended.
 </p>
 </div>

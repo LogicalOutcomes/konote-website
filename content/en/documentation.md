@@ -32,12 +32,12 @@ hero_tagline: "Comprehensive guides for everyone who works with KoNote — from 
 <p><strong>For: Admins and program managers</strong></p>
 <p>
           Setting up and managing KoNote: configuring programs, managing users,
-          customising terminology, and handling backups.
+          customizing terminology, and handling backups.
 </p>
 <ul>
 <li>Agency configuration</li>
 <li>User and role management</li>
-<li>Terminology customisation</li>
+<li>Terminology customization</li>
 <li>Backup and restore</li>
 <li>Security operations</li>
 </ul>
@@ -71,7 +71,7 @@ hero_tagline: "Comprehensive guides for everyone who works with KoNote — from 
 <li>Database schema and models</li>
 <li>Security implementation</li>
 <li>Middleware and context processors</li>
-<li>Extension and customisation</li>
+<li>Extension and customization</li>
 </ul>
 </a>
 
@@ -80,7 +80,7 @@ hero_tagline: "Comprehensive guides for everyone who works with KoNote — from 
 <p><strong>For: Compliance officers</strong></p>
 <p>
           A PIPEDA-compliant privacy policy template you can adapt
-          for your organisation's KoNote deployment.
+          for your organization's KoNote deployment.
 </p>
 <ul>
 <li>Data collection practices</li>

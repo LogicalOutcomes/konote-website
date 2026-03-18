@@ -4,7 +4,7 @@ description: "How to evaluate and deploy KoNote. Deployment options, requirement
 layout: "wide"
 hero: true
 hero_title: "Getting Started"
-hero_tagline: "How to evaluate KoNote and decide if it's right for your organisation."
+hero_tagline: "How to evaluate KoNote and decide if it's right for your organization."
 ---
 
 <section>
@@ -12,7 +12,7 @@ hero_tagline: "How to evaluate KoNote and decide if it's right for your organisa
 <h2>Is KoNote Right for You?</h2>
 <p>
       Before investing time in evaluation, make sure KoNote is a reasonable fit
-      for your organisation. Answer these questions honestly:
+      for your organization. Answer these questions honestly:
 </p>
 
 <div class="card">
@@ -33,7 +33,7 @@ hero_tagline: "How to evaluate KoNote and decide if it's right for your organisa
 
 <div class="card">
 <h3>Organisational Fit</h3>
-<p><strong>Does your organisation:</strong></p>
+<p><strong>Does your organization:</strong></p>
 <ul>
 <li>Track participant outcomes as a core function?</li>
 <li>Need to demonstrate program impact to funders?</li>
@@ -96,7 +96,7 @@ hero_tagline: "How to evaluate KoNote and decide if it's right for your organisa
 <h3>Step 4: Deploy and Configure</h3>
 <p>
         Follow the deployment guide for your chosen platform. Then configure
-        your agency: set up programs, create user accounts, customise terminology.
+        your agency: set up programs, create user accounts, customize terminology.
 </p>
 <p class="text-muted">Time: 2–4 hours for deployment, plus configuration</p>
 </div>
@@ -104,7 +104,7 @@ hero_tagline: "How to evaluate KoNote and decide if it's right for your organisa
 <div class="card">
 <h3>Step 5: Pilot with Real Users</h3>
 <p>
-        Start with a small pilot group before rolling out organisation-wide.
+        Start with a small pilot group before rolling out organization-wide.
         Gather feedback, refine your configuration, and build internal documentation.
 </p>
 </div>
@@ -125,7 +125,7 @@ hero_tagline: "How to evaluate KoNote and decide if it's right for your organisa
 <p><strong>Easiest deployment</strong></p>
 <p>
           One-click deployment from GitHub. Managed PostgreSQL databases.
-          Automatic HTTPS. Good for organisations without dedicated IT staff.
+          Automatic HTTPS. Good for organizations without dedicated IT staff.
 </p>
 <ul>
 <li><strong>Cost:</strong> Low (pay-as-you-go)</li>
@@ -133,7 +133,7 @@ hero_tagline: "How to evaluate KoNote and decide if it's right for your organisa
 <li><strong>Data location:</strong> US (Railway's infrastructure)</li>
 </ul>
 <p class="text-muted">
-          Best for: Small-medium organisations wanting simplicity.
+          Best for: Small-medium organizations wanting simplicity.
 </p>
 </div>
 
@@ -209,7 +209,7 @@ hero_tagline: "How to evaluate KoNote and decide if it's right for your organisa
 <div class="notice notice-warning">
 <p class="notice-title">Data Residency Considerations</p>
 <p>
-        If your organisation requires participant data to stay in Canada,
+        If your organization requires participant data to stay in Canada,
         Railway's US-based infrastructure may not be suitable.
         Consider OVHcloud Beauharnois, Azure (Canada Central region),
         or self-hosting in a Canadian data centre.

@@ -58,8 +58,8 @@ hero_tagline: "KoNote is designed around research on what helps participants suc
           to what's being written about them, trust increases.
 </p>
 <p>
-          Transparency isn't just ethical; it's clinically effective. Clients
-          sense alliance ruptures before service providers do. Routine feedback
+          Transparency is clinically effective. Clients sense alliance
+          ruptures before service providers do. Routine feedback
           catches problems early, before clients disengage.
 </p>
 <p class="text-muted">
@@ -135,7 +135,7 @@ hero_tagline: "KoNote is designed around research on what helps participants suc
 </tr>
 <tr>
 <td>Implementation matters as much as tools</td>
-<td>Customisable terminology and workflows to fit how you actually work</td>
+<td>Customizable terminology and workflows to fit how you actually work</td>
 </tr>
 </tbody>
 </table>
@@ -168,7 +168,7 @@ hero_tagline: "KoNote is designed around research on what helps participants suc
 </p>
 <p>
           This isn't about being pedantic. Specific goals work because they direct
-          attention, energise effort, increase persistence, and trigger strategy
+          attention, energize effort, increase persistence, and trigger strategy
           development. KoNote's AI goal builder pushes coaches toward specificity —
           validating targets against criteria like observable behaviour, conditions,
           and success thresholds — because it genuinely helps participants succeed.
@@ -193,7 +193,7 @@ hero_tagline: "KoNote is designed around research on what helps participants suc
           on exactly this principle.
 </p>
 <p>
-          What makes self-report valid isn't who reports — it's how the question is
+          What makes self-report valid is how the question is
           anchored. Self-efficacy (a person's belief in their ability to perform
           specific tasks) must be measured domain-specifically. You can't just ask
           "are you confident?" You need to ask about specific behaviours: "How sure
@@ -234,10 +234,10 @@ hero_tagline: "KoNote is designed around research on what helps participants suc
 </div>
 
 <div class="card">
-<h3>Individualised Measurement</h3>
+<h3>Individualized Measurement</h3>
 <p>
           Goal Attainment Scaling, developed by Kiresuk and Sherman in 1968, is the
-          gold standard for individualised outcome measurement in social and health
+          gold standard for individualized outcome measurement in social and health
           services. Each participant's goals are scaled on a continuum where the
           "expected" level is defined collaboratively — in concrete, observable terms —
           before the work begins.
@@ -320,7 +320,7 @@ hero_tagline: "KoNote is designed around research on what helps participants suc
 <h3>Collect Data Only to Improve Services</h3>
 <p>
           Data collection in community services presents real costs — to staff,
-          to participants, and to organisations. Research confirms that unnecessary
+          to participants, and to organizations. Research confirms that unnecessary
           documentation decreases staff morale, and the costs of collection, analysis,
           and security are rarely adequately funded. If data is not being used to
           improve services, it should not be collected. This sometimes requires
@@ -403,7 +403,7 @@ hero_tagline: "KoNote is designed around research on what helps participants suc
           Outcome measures should be integrated into a client management system so that
           they are part of service delivery, do not require staff to switch platforms,
           and include demographic data for use in planning and service equity. Until
-          organisations have a CMS in place, they should not invest in outcome measurement.
+          organizations have a CMS in place, they should not invest in outcome measurement.
 </p>
 <p>
           A basic CMS should include outputs and short-term outcomes — demographics
@@ -411,7 +411,7 @@ hero_tagline: "KoNote is designed around research on what helps participants suc
           evaluations. Mid- and long-term outcome measures are generally not relevant to
           front-line practice: they are measured too late to influence a participant's
           services, are not seen as useful by staff, and are probably not statistically
-          valid at the programme level.
+          valid at the program level.
 </p>
 </div>
 </div>
@@ -434,7 +434,7 @@ hero_tagline: "KoNote is designed around research on what helps participants suc
 <p>
         The research cited above studied clinical practices — not this software.
         KoNote is designed to <em>support</em> feedback-informed practice, but
-        we haven't conducted randomised trials of KoNote itself.
+        we haven't conducted randomized trials of KoNote itself.
 </p>
 </div>
 

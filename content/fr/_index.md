@@ -24,7 +24,7 @@ hero_cta:
         Il n'y a aucun fournisseur à appeler si quelque chose tourne mal.
 </p>
 <p>
-        Ce n'est pas une limitation — c'est une caractéristique. Les données de vos participants demeurent sous
+        Les données de vos participants demeurent sous
         votre contrôle, sur les serveurs de votre choix, sans dépendance envers un fournisseur. Cela dit, vous avez
         besoin soit d'une capacité technique au sein de votre équipe, soit d'un partenaire qui peut vous aider.
 </p>
@@ -121,8 +121,8 @@ hero_cta:
 <div class="section-header">
 <h2>Philosophie de conception</h2>
 <p>
-        KoNote n'est pas qu'une base de données avec une belle interface — il repose sur quatre
-        principes structurels qui façonnent chaque fonctionnalité et chaque choix par défaut.
+        KoNote repose sur quatre principes structurels qui façonnent chaque
+        fonctionnalité et chaque choix par défaut.
 <a href="/fr/principes-de-conception/">Lire les principes de conception complets →</a>
 </p>
 </div>
@@ -148,8 +148,8 @@ hero_cta:
 <h3>Sécurité par défaut</h3>
 <p>
           Toutes les informations personnelles sont chiffrées avant d'atteindre la base de données.
-          Ce n'est pas un paramètre — c'est ainsi que le système fonctionne. Chaque protection
-          est activée par défaut et <a href="/fr/securite/">ne peut pas être désactivée</a>.
+          Chaque protection est activée par défaut et <a href="/fr/securite/">ne peut pas
+          être désactivée</a>.
 </p>
 </div>
 <div class="feature-item">

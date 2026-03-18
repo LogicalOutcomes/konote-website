@@ -8,7 +8,7 @@ hero_tagline: "The ideas behind the software."
 
 ## Our Name
 
-The name KoNote is bilingual by design. "Note" is the same word in English and French — a record, an annotation, a piece of documentation that carries weight in social services. The "Ko-" is a stylised prefix for "co-" — collaboration, cooperation, collectif — a prefix that works identically in both languages. French speakers parse it as *co-note*: collaborative notes. English speakers read the same logic. There is also a quiet echo of the French verb *connoter* (to connote), suggesting depth and significance beyond surface-level record-keeping — fitting for work where documentation is part of the service, not just paperwork about it.
+The name KoNote is bilingual by design. "Note" is the same word in English and French — a record, an annotation, a piece of documentation that carries weight in social services. The "Ko-" is a stylized prefix for "co-" — collaboration, cooperation, collectif — a prefix that works identically in both languages. French speakers parse it as *co-note*: collaborative notes. English speakers read the same logic. There is also a quiet echo of the French verb *connoter* (to connote), suggesting depth and significance beyond surface-level record-keeping — fitting for work where documentation is part of the service, not just paperwork about it.
 
 ---
 
@@ -20,7 +20,7 @@ KoNote is built on four principles that shape every feature, every default, and 
 
 ## 1. Collaborative Practice — "Notes written together, not about you"
 
-The "Ko" in KoNote means collaborative. This is not just a name — it is the single most important design decision in the system.
+The "Ko" in KoNote means collaborative. It is the single most important design decision in the system.
 
 Most case management software treats documentation as something staff do alone at their desk after a session. KoNote treats it as part of the service itself. Every progress note has two sides: the participant's perspective — their own words, their reflection on the session, their rating of the working relationship — and the worker's observations. Both are structural. A note without the participant's voice is incomplete by design.
 
@@ -28,7 +28,7 @@ This matters because [the research is clear](/en/evidence/): routine feedback fr
 
 The participant portal extends this philosophy beyond the session. Participants do not just read what staff wrote about them — they act on their own information. They set goals in their own words, journal between sessions, rate the working relationship, suggest changes to the program, and request corrections to their records. Every feature in the portal passes a simple test: does this give the participant something meaningful to do?
 
-Participant suggestions are not collected and forgotten. They are categorised into themes and surfaced on the executive dashboard, so patterns reach leadership in days rather than waiting for an annual satisfaction survey that nobody reads until the next funding cycle.
+Participant suggestions are not collected and forgotten. They are categorized into themes and surfaced on the executive dashboard, so patterns reach leadership in days rather than waiting for an annual satisfaction survey that nobody reads until the next funding cycle.
 
 All system language — progress descriptors, dashboard labels, relationship anchors — uses strengths-based framing. Progress is described as "Something's shifting" and "In a good place," not deficit labels. This is not cosmetic. It changes how staff think about the people they serve and how participants feel when they read their own records.
 
@@ -44,9 +44,9 @@ All system language — progress descriptors, dashboard labels, relationship anc
 
 KoNote is designed so that data belongs to the people and communities it describes — not to KoNote, not to a hosting provider, and not to any government with subpoena powers that override Canadian law.
 
-**Individual rights are built in, not bolted on.** Participants can see their own records through the portal without making a formal access request. They can request corrections — with both informal and formal pathways — and staff must respond within the regulatory timeline. If a participant's data needs to be erased, a two-person process (request plus approval) strips all personally identifiable information while preserving anonymised records for aggregate statistics. Consent is not a one-time checkbox at intake. It is an ongoing state that participants can change at any time, with every change recorded and enforced by the system.
+**Individual rights are built in, not bolted on.** Participants can see their own records through the portal without making a formal access request. They can request corrections — with both informal and formal pathways — and staff must respond within the regulatory timeline. If a participant's data needs to be erased, a two-person process (request plus approval) strips all personally identifiable information while preserving anonymized records for aggregate statistics. Consent is not a one-time checkbox at intake. It is an ongoing state that participants can change at any time, with every change recorded and enforced by the system.
 
-**Community ownership is structural.** KoNote's architecture supports Indigenous data sovereignty (OCAP — Ownership, Control, Access, and Possession) and Black data governance (EGAP — Engagement, Governance, Access, and Protection). Each agency's data lives in an isolated database schema. Cross-agency queries are not merely discouraged — they are architecturally impossible. Communities control what data is collected, who sees it, and whether any of it is shared. When agencies do choose to share, they publish de-identified aggregate reports voluntarily. No agency is forced to contribute to a dataset it cannot review, correct, or withdraw from.
+**Community ownership is structural.** KoNote's architecture supports Indigenous data sovereignty (OCAP — Ownership, Control, Access, and Possession) and Black data governance (EGAP — Engagement, Governance, Access, and Protection). Each agency's data lives in an isolated database schema. Cross-agency queries are architecturally impossible. Communities control what data is collected, who sees it, and whether any of it is shared. When agencies do choose to share, they publish de-identified aggregate reports voluntarily. No agency is forced to contribute to a dataset it cannot review, correct, or withdraw from.
 
 **KoNote deliberately does not combine individual-level data across agencies.** This is not a missing feature. Cross-agency data combination enables surveillance patterns that track individuals across every service they access, building a profile that no single agency intended to create. Whoever controls a combined dataset has analytical power over all participating communities with none of the accountability. KoNote refuses to build that infrastructure.
 
@@ -78,7 +78,7 @@ The guiding test for every security decision: **"If a nonprofit runs this with z
 >
 > - A new agency deploys KoNote with default settings. Without changing anything, encryption is active, permissions are enforced, sessions time out, and audit logging is running. There is no security setup checklist to forget.
 > - A staff member who is a participant's former abuser is individually blocked from that participant's records. No role, no override, and no automatic expiry can reverse this — only a Program Manager can clear the block.
-> - An export of 200 participant records triggers a 10-minute hold and an admin notification, giving the agency time to intervene if the export was not authorised.
+> - An export of 200 participant records triggers a 10-minute hold and an admin notification, giving the agency time to intervene if the export was not authorized.
 
 ---
 
