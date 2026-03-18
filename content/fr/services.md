@@ -87,7 +87,7 @@ hero_tagline: "Aide à la mise en œuvre optionnelle pour les organismes qui sou
 
 <h3>Nous joindre</h3>
 <p>
-        Courriel : <a href="mailto:your-email@example.com"><strong>your-email@example.com</strong></a>
+        Courriel : <a href="mailto:info@logicaloutcomes.net"><strong>info@logicaloutcomes.net</strong></a>
 </p>
 <p class="text-muted">
         Incluez une brève description de votre organisme et de ce que vous souhaitez accomplir.

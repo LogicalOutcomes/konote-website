@@ -95,7 +95,7 @@ hero_tagline: "These are live forms connected to a real KoNote instance. Try the
 </div>
 <div class="workflow-step">
 <h3>Log In</h3>
-<p>Open the <a href="https://konote-dev.llewelyn.ca/" target="_blank" rel="noopener">KoNote demo app</a> and sign in as a demo user (credentials below).</p>
+<p>Open the <a href="https://demo.konote.ca/" target="_blank" rel="noopener">KoNote demo app</a> and sign in as a demo user (credentials below).</p>
 </div>
 <div class="workflow-step">
 <h3>Find Your Registration</h3>
@@ -126,7 +126,7 @@ hero_tagline: "These are live forms connected to a real KoNote instance. Try the
         Live demo &mdash; submissions go to a test environment, not real data
 </div>
 <iframe
-        src="https://konote-dev.llewelyn.ca/register/demo/?embed=1"
+        src="https://demo.konote.ca/register/demo/?embed=1"
         title="KoNote Registration Form Demo"
         loading="lazy"
         scrolling="no"
@@ -148,7 +148,7 @@ hero_tagline: "These are live forms connected to a real KoNote instance. Try the
 <div class="card">
 <h3>Demo Login</h3>
 <p>
-          Open the <a href="https://konote-dev.llewelyn.ca/" target="_blank" rel="noopener"><strong>KoNote demo app</strong></a>
+          Open the <a href="https://demo.konote.ca/" target="_blank" rel="noopener"><strong>KoNote demo app</strong></a>
           and sign in:
 </p>
 <ul>
@@ -224,7 +224,7 @@ hero_tagline: "These are live forms connected to a real KoNote instance. Try the
 </div>
 <div class="workflow-step">
 <h3>Log In as Staff</h3>
-<p>Open the <a href="https://konote-dev.llewelyn.ca/" target="_blank" rel="noopener">KoNote demo app</a> and sign in with the demo credentials above.</p>
+<p>Open the <a href="https://demo.konote.ca/" target="_blank" rel="noopener">KoNote demo app</a> and sign in with the demo credentials above.</p>
 </div>
 <div class="workflow-step">
 <h3>View Results</h3>
@@ -241,7 +241,7 @@ hero_tagline: "These are live forms connected to a real KoNote instance. Try the
         Live survey &mdash; submissions go to a test environment, not real data
 </div>
 <iframe
-        src="https://konote-dev.llewelyn.ca/s/demo-program-feedback/?embed=1"
+        src="https://demo.konote.ca/s/demo-program-feedback/?embed=1"
         title="KoNote Survey Demo"
         loading="lazy"
         scrolling="no"

@@ -2,6 +2,7 @@
 title: "Research Foundation"
 description: "The research foundation behind KoNote's design: feedback-informed practice, collaborative documentation, and participant-centred outcome tracking."
 layout: "wide"
+toc: true
 hero: true
 hero_title: "Research Foundation"
 hero_tagline: "KoNote is designed around research on what helps participants succeed — not just what's convenient for agencies or funders."

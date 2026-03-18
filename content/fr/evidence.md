@@ -2,6 +2,7 @@
 title: "Fondements de la recherche"
 description: "Les fondements de la recherche qui sous-tendent la conception de KoNote : pratique éclairée par la rétroaction, documentation collaborative et suivi des résultats centré sur les participant·e·s."
 layout: "wide"
+toc: true
 hero: true
 hero_title: "Fondements de la recherche"
 hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide les participant·e·s à réussir — et non seulement ce qui est commode pour les organismes ou les bailleurs de fonds."

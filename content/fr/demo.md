@@ -95,7 +95,7 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
 </div>
 <div class="workflow-step">
 <h3>Se connecter</h3>
-<p>Ouvrez l'<a href="https://konote-dev.llewelyn.ca/" target="_blank" rel="noopener">application de démonstration KoNote</a> et connectez-vous en tant qu'utilisateur·rice de démonstration (identifiants ci-dessous).</p>
+<p>Ouvrez l'<a href="https://demo.konote.ca/" target="_blank" rel="noopener">application de démonstration KoNote</a> et connectez-vous en tant qu'utilisateur·rice de démonstration (identifiants ci-dessous).</p>
 </div>
 <div class="workflow-step">
 <h3>Trouver votre inscription</h3>
@@ -126,7 +126,7 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
         Démonstration en direct &mdash; les soumissions vont dans un environnement de test, pas des données réelles
 </div>
 <iframe
-        src="https://konote-dev.llewelyn.ca/register/demo/?embed=1"
+        src="https://demo.konote.ca/register/demo/?embed=1"
         title="Démonstration du formulaire d'inscription KoNote"
         loading="lazy"
         scrolling="no"
@@ -148,7 +148,7 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
 <div class="card">
 <h3>Connexion de démonstration</h3>
 <p>
-          Ouvrez l'<a href="https://konote-dev.llewelyn.ca/" target="_blank" rel="noopener"><strong>application de démonstration KoNote</strong></a>
+          Ouvrez l'<a href="https://demo.konote.ca/" target="_blank" rel="noopener"><strong>application de démonstration KoNote</strong></a>
           et connectez-vous :
 </p>
 <ul>
@@ -224,7 +224,7 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
 </div>
 <div class="workflow-step">
 <h3>Se connecter en tant que personnel</h3>
-<p>Ouvrez l'<a href="https://konote-dev.llewelyn.ca/" target="_blank" rel="noopener">application de démonstration KoNote</a> et connectez-vous avec les identifiants de démonstration ci-dessus.</p>
+<p>Ouvrez l'<a href="https://demo.konote.ca/" target="_blank" rel="noopener">application de démonstration KoNote</a> et connectez-vous avec les identifiants de démonstration ci-dessus.</p>
 </div>
 <div class="workflow-step">
 <h3>Voir les résultats</h3>
@@ -241,7 +241,7 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
         Sondage en direct &mdash; les soumissions vont dans un environnement de test, pas des données réelles
 </div>
 <iframe
-        src="https://konote-dev.llewelyn.ca/s/demo-program-feedback/?embed=1"
+        src="https://demo.konote.ca/s/demo-program-feedback/?embed=1"
         title="Démonstration de sondage KoNote"
         loading="lazy"
         scrolling="no"

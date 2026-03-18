@@ -218,11 +218,16 @@ hero_cta:
 <div class="section-header">
 <h2>Voyez-le en action</h2>
 <p>
-        Essayez le formulaire d'inscription libre-service que les participant·e·s utilisent pour s'inscrire
-        aux programmes. C'est une démonstration en direct fonctionnant sur une vraie instance de KoNote.
+        KoNote offre une démonstration en direct avec du contenu réaliste — un programme complet d'emploi
+        avec soutien comprenant des dossiers de participant·e·s, des plans de résultats, des notes d'évolution
+        et des sondages que vous pouvez explorer. Inscrivez un·e participant·e test, connectez-vous en tant
+        que gestionnaire de programme et essayez le flux de travail complet.
 </p>
 </div>
-<a href="/fr/demo/" class="btn btn-primary">Essayer la démonstration d'inscription</a>
+<div class="btn-group" style="justify-content: center;">
+<a href="/fr/demo/" class="btn btn-primary">Essayer la démo en direct</a>
+<a href="https://demo.konote.ca/" target="_blank" rel="noopener" class="btn btn-secondary">Ouvrir l'application de démo</a>
+</div>
 </div>
 </section>
 
@@ -230,11 +235,11 @@ hero_cta:
 <div class="container text-center">
 <h2>Prêt·e à évaluer KoNote&nbsp;?</h2>
 <p class="text-muted mb-8">
-      Lisez la documentation, essayez une démonstration locale et décidez si c'est la bonne solution pour votre organisme.
+      Lisez la documentation, explorez la démo et décidez si c'est la bonne solution pour votre organisme.
 </p>
 <div class="btn-group" style="justify-content: center;">
 <a href="/fr/premiers-pas/" class="btn btn-primary">Guide de démarrage</a>
-<a href="/fr/services/" class="btn btn-secondary">Besoin d'aide ? Voir les services</a>
+<a href="/fr/donnees-probantes/" class="btn btn-secondary">Lire les données probantes</a>
 </div>
 </div>
 </section>
