@@ -4,7 +4,7 @@ description: "Comment KoNote se compare aux plateformes commerciales et à code 
 layout: "wide"
 hero: true
 hero_title: "Choisir un logiciel de suivi des résultats"
-hero_tagline: "Ce qu'il faut considérer lors de l'évaluation des plateformes de gestion des résultats des participant·e·s — et où KoNote se situe."
+hero_tagline: "Ce qu'il faut considérer lors de l'évaluation des plateformes de gestion des résultats des participants — et où KoNote se situe."
 ---
 
 <section>
@@ -33,7 +33,7 @@ hero_tagline: "Ce qu'il faut considérer lors de l'évaluation des plateformes d
 <tbody>
 <tr>
 <td><strong>Modèle de coûts</strong></td>
-<td>Par utilisateur·rice/mois (15 à 50 $/utilisateur·rice), contrats annuels</td>
+<td>Par utilisateur/mois (15 à 50 $/utilisateur), contrats annuels</td>
 <td>Logiciel gratuit, coûts d'infrastructure auto-hébergée</td>
 <td>Gratuit (licence MIT). Hébergement pour moins de 100 $ CAD par organisme</td>
 </tr>
@@ -58,7 +58,7 @@ hero_tagline: "Ce qu'il faut considérer lors de l'évaluation des plateformes d
 <tr>
 <td><strong>Personnalisation</strong></td>
 <td>Limitée aux options de configuration du fournisseur</td>
-<td>Accès complet au code source mais nécessite des développeur·euses</td>
+<td>Accès complet au code source mais nécessite des développeurs</td>
 <td>Terminologie, champs, sondages et flux de travail configurables via le panneau d'administration. Accès complet au code source si nécessaire</td>
 </tr>
 <tr>
@@ -80,10 +80,10 @@ hero_tagline: "Ce qu'il faut considérer lors de l'évaluation des plateformes d
 <td>Raison d'être. Métriques fondées sur la recherche avec rédaction d'objectifs assistée par IA</td>
 </tr>
 <tr>
-<td><strong>Voix des participant·e·s</strong></td>
+<td><strong>Voix des participants</strong></td>
 <td>Rarement intégrée</td>
 <td>Rarement intégrée</td>
-<td>Structurelle. Les notes d'évolution incluent la perspective des participant·e·s ; portail des participant·e·s optionnel</td>
+<td>Structurelle. Les notes d'évolution incluent la perspective des participants ; portail des participants optionnel</td>
 </tr>
 <tr>
 <td><strong>Rapports aux bailleurs de fonds</strong></td>
@@ -99,9 +99,9 @@ hero_tagline: "Ce qu'il faut considérer lors de l'évaluation des plateformes d
 </tr>
 <tr>
 <td><strong>Échelle</strong></td>
-<td>Prêt pour l'entreprise (milliers d'utilisateur·rices)</td>
+<td>Prêt pour l'entreprise (milliers d'utilisateurs)</td>
 <td>Variable</td>
-<td>Conçu pour les organismes de petite et moyenne taille (jusqu'à ~2 000 participant·e·s actif·ves)</td>
+<td>Conçu pour les organismes de petite et moyenne taille (jusqu'à ~2 000 participants actifs)</td>
 </tr>
 <tr>
 <td><strong>Sécurité</strong></td>
@@ -123,12 +123,12 @@ hero_tagline: "Ce qu'il faut considérer lors de l'évaluation des plateformes d
 <div>
 <h3>Bon choix</h3>
 <ul class="check-list">
-<li>Organismes de services sociaux qui suivent les résultats des participant·e·s</li>
+<li>Organismes de services sociaux qui suivent les résultats des participants</li>
 <li>Organismes à but non lucratif qui doivent démontrer l'impact des programmes aux bailleurs de fonds</li>
 <li>Organisations nécessitant la résidence des données au Canada (LPRPDE/LPRPS)</li>
-<li>Programmes qui valorisent les rétroactions des participant·e·s dans la prestation des services</li>
+<li>Programmes qui valorisent les rétroactions des participants dans la prestation des services</li>
 <li>Organismes qui veulent un contrôle total sur leurs données</li>
-<li>Programmes desservant jusqu'à ~2 000 participant·e·s actif·ves</li>
+<li>Programmes desservant jusqu'à ~2 000 participants actifs</li>
 </ul>
 </div>
 <div>
@@ -138,7 +138,7 @@ hero_tagline: "Ce qu'il faut considérer lors de l'évaluation des plateformes d
 <li>Équipes sans aucune capacité technique et sans partenaire TI</li>
 <li>Organisations souhaitant une solution SaaS entièrement gérée avec soutien téléphonique</li>
 <li>Programmes nécessitant des applications mobiles natives ou la vidéoconférence</li>
-<li>Grandes entreprises nécessitant des dizaines de milliers d'utilisateur·rices simultané·es</li>
+<li>Grandes entreprises nécessitant des dizaines de milliers d'utilisateurs simultanés</li>
 </ul>
 </div>
 </div>

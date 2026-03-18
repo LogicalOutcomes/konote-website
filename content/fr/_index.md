@@ -1,10 +1,10 @@
 ---
 title: "KoNote"
-description: "KoNote est un logiciel à code ouvert de gestion des résultats pour les participants des organismes à but non lucratif. Suivez la progression des participant·e·s, mesurez les résultats et démontrez votre impact."
+description: "KoNote est un logiciel à code ouvert de gestion des résultats pour les participants des organismes à but non lucratif. Suivez la progression des participants, mesurez les résultats et démontrez votre impact."
 layout: "wide"
 hero: true
-hero_title: "Gestion des résultats des participant·e·s pour les OBNL"
-hero_tagline: "Suivez la progression des participant·e·s, mesurez les résultats et démontrez l'impact de vos programmes. À code ouvert, auto-hébergé et conçu pour les exigences canadiennes en matière de protection de la vie privée."
+hero_title: "Gestion des résultats des participants pour les OBNL"
+hero_tagline: "Suivez la progression des participants, mesurez les résultats et démontrez l'impact de vos programmes. À code ouvert, auto-hébergé et conçu pour les exigences canadiennes en matière de protection de la vie privée."
 hero_cta:
   - text: "Premiers pas"
     url: "premiers-pas/"
@@ -24,7 +24,7 @@ hero_cta:
         Il n'y a aucun fournisseur à appeler si quelque chose tourne mal.
 </p>
 <p>
-        Ce n'est pas une limitation — c'est une caractéristique. Les données de vos participant·e·s demeurent sous
+        Ce n'est pas une limitation — c'est une caractéristique. Les données de vos participants demeurent sous
         votre contrôle, sur les serveurs de votre choix, sans dépendance envers un fournisseur. Cela dit, vous avez
         besoin soit d'une capacité technique au sein de votre équipe, soit d'un partenaire qui peut vous aider.
 </p>
@@ -37,7 +37,7 @@ hero_cta:
 <div class="section-header">
 <h2>Qu'est-ce que KoNote&nbsp;?</h2>
 <p>
-        KoNote aide les organismes de services sociaux à suivre systématiquement les résultats des participant·e·s.
+        KoNote aide les organismes de services sociaux à suivre systématiquement les résultats des participants.
         Définissez des objectifs, consignez la progression, mesurez les résultats et produisez des rapports qui
         démontrent l'impact de vos programmes auprès des bailleurs de fonds et des parties prenantes.
 </p>
@@ -47,7 +47,7 @@ hero_cta:
 <div class="feature-item">
 <h3>Axé sur les résultats</h3>
 <p>
-          Conçu spécifiquement pour le suivi des résultats des participant·e·s — pas pour la facturation, la
+          Conçu spécifiquement pour le suivi des résultats des participants — pas pour la facturation, la
           planification ou la documentation clinique. Faire une chose, et la faire bien.
 </p>
 </div>
@@ -62,7 +62,7 @@ hero_cta:
 <h3>Vos données, vos serveurs</h3>
 <p>
           Déployez sur Railway, Azure, OVHcloud ou votre propre infrastructure.
-          La résidence canadienne des données est disponible. Les données des participant·e·s ne quittent jamais
+          La résidence canadienne des données est disponible. Les données des participants ne quittent jamais
           les serveurs que vous contrôlez.
 </p>
 </div>
@@ -89,10 +89,10 @@ hero_cta:
 </p>
 </div>
 <div class="feature-item">
-<h3>Sondages et portail des participant·e·s</h3>
+<h3>Sondages et portail des participants</h3>
 <p>
           Sondages configurables avec attribution automatique, logique conditionnelle et
-          notation. Un portail libre-service pour les participant·e·s : remplissage de sondages, suivi
+          notation. Un portail libre-service pour les participants : remplissage de sondages, suivi
           des objectifs, journaux et messagerie.
 </p>
 </div>
@@ -131,8 +131,8 @@ hero_cta:
 <div class="feature-item">
 <h3>Pratique collaborative</h3>
 <p>
-          Chaque note d'évolution comporte deux volets : la perspective du·de la participant·e
-          et les observations de l'intervenant·e. Les notes sont rédigées ensemble, non à votre sujet.
+          Chaque note d'évolution comporte deux volets : la perspective du participant
+          et les observations de l'intervenant. Les notes sont rédigées ensemble, non à votre sujet.
           <a href="/fr/donnees-probantes/">La recherche démontre</a> que cela améliore les résultats.
 </p>
 </div>
@@ -140,7 +140,7 @@ hero_cta:
 <h3>Souveraineté des données</h3>
 <p>
           Vos données vous appartiennent — pas à KoNote, pas à un fournisseur d'hébergement.
-          Les participant·e·s peuvent voir leurs propres dossiers, demander des corrections
+          Les participants peuvent voir leurs propres dossiers, demander des corrections
           et emporter leurs données d'un organisme à l'autre.
 </p>
 </div>
@@ -164,7 +164,7 @@ hero_cta:
 <h3>Ciblé, pas tentaculaire</h3>
 <p>
           Suivi des résultats, notes d'évolution, sondages, rapports aux bailleurs de fonds,
-          portail des participant·e·s et exportation des données — mais pas
+          portail des participants et exportation des données — mais pas
           un système de facturation, un DME clinique ni un CRM.
           <a href="/fr/fonctionnalites/">Voir ce qu'il fait et ne fait pas →</a>
 </p>
@@ -191,12 +191,12 @@ hero_cta:
 <div>
 <h3>Bien adapté</h3>
 <ul class="check-list">
-<li>Organismes de services sociaux qui suivent les résultats des participant·e·s</li>
+<li>Organismes de services sociaux qui suivent les résultats des participants</li>
 <li>OBNL devant démontrer l'impact de leurs programmes</li>
 <li>Organisations ayant du personnel technique ou des partenaires TI</li>
-<li>Organismes nécessitant un contrôle total sur les données des participant·e·s</li>
+<li>Organismes nécessitant un contrôle total sur les données des participants</li>
 <li>Organisations canadiennes devant se conformer à la LPRPDE</li>
-<li>Programmes servant jusqu'à environ 2&nbsp;000 participant·e·s actif·ves</li>
+<li>Programmes servant jusqu'à environ 2&nbsp;000 participants actifs</li>
 </ul>
 </div>
 <div>
@@ -219,8 +219,8 @@ hero_cta:
 <h2>Voyez-le en action</h2>
 <p>
         KoNote offre une démonstration en direct avec du contenu réaliste — un programme complet d'emploi
-        avec soutien comprenant des dossiers de participant·e·s, des plans de résultats, des notes d'évolution
-        et des sondages que vous pouvez explorer. Inscrivez un·e participant·e test, connectez-vous en tant
+        avec soutien comprenant des dossiers de participants, des plans de résultats, des notes d'évolution
+        et des sondages que vous pouvez explorer. Inscrivez un participant test, connectez-vous en tant
         que gestionnaire de programme et essayez le flux de travail complet.
 </p>
 </div>
@@ -233,7 +233,7 @@ hero_cta:
 
 <section class="alt-bg">
 <div class="container text-center">
-<h2>Prêt·e à évaluer KoNote&nbsp;?</h2>
+<h2>Prêt à évaluer KoNote&nbsp;?</h2>
 <p class="text-muted mb-8">
       Lisez la documentation, explorez la démo et décidez si c'est la bonne solution pour votre organisme.
 </p>

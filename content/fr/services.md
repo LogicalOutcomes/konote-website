@@ -39,12 +39,12 @@ hero_tagline: "Aide à la mise en œuvre optionnelle pour les organismes qui sou
 </li>
 <li>
 <strong>Configuration initiale :</strong>
-          Mise en place de vos programmes, comptes d'utilisateur·rices, terminologie et boutons
+          Mise en place de vos programmes, comptes d'utilisateurs, terminologie et boutons
           bascule de fonctionnalités selon les besoins de votre organisme.
 </li>
 <li>
 <strong>Sessions de formation :</strong>
-          Formation des administrateur·rices sur la gestion du système et du personnel sur
+          Formation des administrateurs sur la gestion du système et du personnel sur
           l'utilisation quotidienne. Généralement 2 à 3 sessions selon la taille de votre équipe.
 </li>
 <li>
@@ -171,7 +171,7 @@ hero_tagline: "Aide à la mise en œuvre optionnelle pour les organismes qui sou
 
 <section class="alt-bg">
 <div class="container text-center">
-<h2>Pas encore prêt·e pour les services ?</h2>
+<h2>Pas encore prêt pour les services ?</h2>
 <p class="text-muted mb-8">
       Commencez par la documentation et essayez la démonstration. Vous pouvez toujours nous contacter
       plus tard si vous décidez que vous souhaitez de l'aide.

@@ -1,11 +1,11 @@
 ---
 title: "Fondements de la recherche"
-description: "Les fondements de la recherche qui sous-tendent la conception de KoNote : pratique éclairée par la rétroaction, documentation collaborative et suivi des résultats centré sur les participant·e·s."
+description: "Les fondements de la recherche qui sous-tendent la conception de KoNote : pratique éclairée par la rétroaction, documentation collaborative et suivi des résultats centré sur les participants."
 layout: "wide"
 toc: true
 hero: true
 hero_title: "Fondements de la recherche"
-hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide les participant·e·s à réussir — et non seulement ce qui est commode pour les organismes ou les bailleurs de fonds."
+hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide les participants à réussir — et non seulement ce qui est commode pour les organismes ou les bailleurs de fonds."
 ---
 
 <section>
@@ -13,12 +13,12 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 <h2>Pourquoi cela importe</h2>
 <p>
       La plupart des logiciels de suivi des résultats sont conçus à l'envers. Ils partent des
-      exigences de reddition de comptes des bailleurs de fonds et descendent jusqu'à la collecte de données. Les participant·e·s
+      exigences de reddition de comptes des bailleurs de fonds et descendent jusqu'à la collecte de données. Les participants
       deviennent des sources de données plutôt que des partenaires dans leur propre progression.
 </p>
 <p>
       KoNote adopte une approche différente. Nous avons commencé par les données probantes sur ce qui améliore
-      réellement les résultats des participant·e·s, puis nous avons conçu un logiciel pour soutenir ces pratiques.
+      réellement les résultats des participants, puis nous avons conçu un logiciel pour soutenir ces pratiques.
       Les fonctionnalités de rapport existent, mais elles ne constituent pas les fondements.
 </p>
 </div>
@@ -33,12 +33,12 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 <h3>Traitement éclairé par la rétroaction</h3>
 <p>
           Les recherches de Scott Miller, Barry Duncan et leurs collègues ont montré de façon constante
-          que la collecte systématique des rétroactions des client·e·s et leur utilisation pour orienter
-          les services mènent à des résultats significativement meilleurs. Les client·e·s sont plus susceptibles
+          que la collecte systématique des rétroactions des clients et leur utilisation pour orienter
+          les services mènent à des résultats significativement meilleurs. Les clients sont plus susceptibles
           d'atteindre un changement significatif, et les cas à risque montrent la plus grande amélioration.
 </p>
 <p>
-          La conclusion principale : le simple fait de demander systématiquement aux client·e·s ce qu'ils·elles
+          La conclusion principale : le simple fait de demander systématiquement aux clients ce qu'ils
           pensent de leur expérience renforce la relation de travail — et cette relation est le prédicteur
           le plus puissant des résultats, tous types de services confondus.
 </p>
@@ -52,15 +52,15 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 <div class="card">
 <h3>Documentation collaborative</h3>
 <p>
-          Des études sur la documentation collaborative — où les client·e·s participent à la
-          création de leurs propres dossiers — montrent que la plupart des client·e·s la trouvent utile
-          et qu'elle améliore l'adhésion au traitement. Lorsque les client·e·s voient et contribuent
+          Des études sur la documentation collaborative — où les clients participent à la
+          création de leurs propres dossiers — montrent que la plupart des clients la trouvent utile
+          et qu'elle améliore l'adhésion au traitement. Lorsque les clients voient et contribuent
           à ce qui est écrit à leur sujet, la confiance augmente.
 </p>
 <p>
-          La transparence n'est pas seulement éthique ; elle est cliniquement efficace. Les client·e·s
+          La transparence n'est pas seulement éthique ; elle est cliniquement efficace. Les clients
           perçoivent les ruptures d'alliance avant les prestataires de services. La rétroaction régulière
-          détecte les problèmes tôt, avant que les client·e·s ne se désengagent.
+          détecte les problèmes tôt, avant que les clients ne se désengagent.
 </p>
 <p class="text-muted">
 <strong>Source principale :</strong> Stanhope, V., Ingoglia, C., Schmelter, B., &amp; Marcus, S.C. (2013).
@@ -111,15 +111,15 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 <tbody>
 <tr>
 <td>Demander une rétroaction renforce la relation</td>
-<td>Les notes d'évolution sollicitent la perspective du·de la participant·e, pas seulement les observations du personnel</td>
+<td>Les notes d'évolution sollicitent la perspective du participant, pas seulement les observations du personnel</td>
 </tr>
 <tr>
-<td>Les client·e·s savent quand quelque chose ne fonctionne pas</td>
-<td>Les graphiques de progression sont conçus pour être partagés avec les participant·e·s, pas cachés dans des rapports</td>
+<td>Les clients savent quand quelque chose ne fonctionne pas</td>
+<td>Les graphiques de progression sont conçus pour être partagés avec les participants, pas cachés dans des rapports</td>
 </tr>
 <tr>
 <td>La transparence crée la confiance</td>
-<td>L'interface est conçue pour que le personnel puisse montrer aux participant·e·s leurs propres dossiers</td>
+<td>L'interface est conçue pour que le personnel puisse montrer aux participants leurs propres dossiers</td>
 </tr>
 <tr>
 <td>La brièveté améliore la conformité</td>
@@ -131,7 +131,7 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 </tr>
 <tr>
 <td>Le consentement est fondamental</td>
-<td>La configuration d'un·e participant·e exige la confirmation du consentement avant toute saisie de données</td>
+<td>La configuration d'un participant exige la confirmation du consentement avant toute saisie de données</td>
 </tr>
 <tr>
 <td>La mise en œuvre importe autant que les outils</td>
@@ -150,9 +150,9 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
       Les métriques de KoNote ne sont pas arbitraires — elles s'appuient sur plus de 50 ans de recherche
       en établissement d'objectifs, en auto-efficacité et en mesure des résultats. Trois dimensions distinctes
       — Progression vers les objectifs, Auto-efficacité et Satisfaction — captent le tableau complet du
-      changement chez les participant·e·s. Chacune est mesurée par l'auto-déclaration des participant·e·s, qui est
+      changement chez les participants. Chacune est mesurée par l'auto-déclaration des participants, qui est
       la méthode valide pour les résultats subjectifs. Et l'outil de formulation d'objectifs par IA de KoNote applique
-      huit critères fondés sur la recherche pour aider les intervenant·e·s à rédiger des cibles qui favorisent
+      huit critères fondés sur la recherche pour aider les intervenants à rédiger des cibles qui favorisent
       réellement de meilleurs résultats.
 </p>
 
@@ -164,14 +164,14 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
           montre qu'il mène à des résultats considérablement moins bons. Les méta-analyses de Locke et Latham
           sur 35 ans ont montré que les objectifs spécifiques produisent des performances 250&nbsp;% meilleures
           que les objectifs vagues du type «&nbsp;faites de votre mieux&nbsp;» — pas seulement une meilleure mesure, mais une
-          véritable amélioration de la progression des participant·e·s.
+          véritable amélioration de la progression des participants.
 </p>
 <p>
           Ce n'est pas une question de pedanterie. Les objectifs spécifiques fonctionnent parce qu'ils orientent
           l'attention, mobilisent les efforts, augmentent la persévérance et déclenchent le développement de
-          stratégies. L'outil de formulation d'objectifs par IA de KoNote pousse les intervenant·e·s vers la
+          stratégies. L'outil de formulation d'objectifs par IA de KoNote pousse les intervenants vers la
           spécificité — en validant les cibles selon des critères tels que le comportement observable, les conditions
-          et les seuils de réussite — parce que cela aide réellement les participant·e·s à réussir.
+          et les seuils de réussite — parce que cela aide réellement les participants à réussir.
 </p>
 <p class="text-muted">
 <strong>Sources principales :</strong> Locke, E.A. &amp; Latham, G.P. (2002). Building a practically
@@ -187,7 +187,7 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 <p>
           Une préoccupation courante est que les métriques d'auto-déclaration sont «&nbsp;molles&nbsp;» ou moins fiables que
           les mesures objectives. Les données probantes indiquent le contraire. Pour les expériences subjectives —
-          la confiance, la satisfaction, la progression perçue — le rapport du·de la participant·e lui-même·elle-même
+          la confiance, la satisfaction, la progression perçue — le rapport du participant lui-même
           n'est pas un pis-aller. C'est la mesure valide principale. Le cadre PROMIS du NIH,
           le système de résultats rapportés par les patients le plus complet jamais construit, repose
           précisément sur ce principe.
@@ -196,7 +196,7 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
           Ce qui rend l'auto-déclaration valide, ce n'est pas qui déclare — c'est comment la question est
           ancrée. L'auto-efficacité (la croyance d'une personne en sa capacité à accomplir des tâches
           spécifiques) doit être mesurée de façon spécifique au domaine. On ne peut pas simplement demander
-          «&nbsp;êtes-vous confiant·e ?&nbsp;» Il faut poser des questions sur des comportements spécifiques : «&nbsp;Dans quelle
+          «&nbsp;êtes-vous confiant ?&nbsp;» Il faut poser des questions sur des comportements spécifiques : «&nbsp;Dans quelle
           mesure vous sentez-vous capable de préparer un repas sain ?&nbsp;» KoNote suit ce principe — chaque
           métrique est ancrée dans le comportement cible spécifique.
 </p>
@@ -218,7 +218,7 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
           modérément corrélées mais peuvent diverger de façon cliniquement significative.
 </p>
 <p>
-          Chaque schéma de divergence renseigne l'intervenant·e différemment. Une progression élevée
+          Chaque schéma de divergence renseigne l'intervenant différemment. Une progression élevée
           mais une faible auto-efficacité signifie «&nbsp;je le fais mais je ne me fais pas encore confiance&nbsp;» —
           un changement fragile qui a besoin d'encouragement. Une progression élevée mais une faible satisfaction
           signifie que l'objectif lui-même est peut-être mal aligné. Mesurer les trois dimensions capture des
@@ -238,14 +238,14 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 <p>
           La mise à l'échelle de l'atteinte des objectifs (Goal Attainment Scaling), développée par Kiresuk et Sherman en 1968, est la
           référence pour la mesure individualisée des résultats dans les services sociaux et de santé.
-          Les objectifs de chaque participant·e sont gradués sur un continuum où le niveau «&nbsp;attendu&nbsp;»
+          Les objectifs de chaque participant sont gradués sur un continuum où le niveau «&nbsp;attendu&nbsp;»
           est défini en collaboration — en termes concrets et observables —
           avant le début du travail.
 </p>
 <p>
           Les métriques spécifiques aux cibles générées par l'IA de KoNote s'inspirent de cette approche. Chaque
           niveau décrit un état observable défini lors de la création de l'objectif — pas des niveaux génériques
-          appliqués de la même façon à tou·te·s les participant·e·s. Les intervenant·e·s peuvent accepter, modifier
+          appliqués de la même façon à tous les participants. Les intervenants peuvent accepter, modifier
           ou refuser ces échelles générées par l'IA, gardant l'humain au cœur du processus.
 </p>
 <p class="text-muted">
@@ -285,14 +285,14 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 </tr>
 <tr>
 <td>L'auto-déclaration est la référence pour les résultats subjectifs (PROMIS)</td>
-<td>Les trois métriques sont des auto-déclarations des participant·e·s avec des niveaux comportementaux ancrés</td>
+<td>Les trois métriques sont des auto-déclarations des participants avec des niveaux comportementaux ancrés</td>
 </tr>
 <tr>
 <td>Trois dimensions distinctes émergent des analyses factorielles</td>
 <td>Trois métriques universelles par cible : Progression vers les objectifs, Auto-efficacité, Satisfaction</td>
 </tr>
 <tr>
-<td>«&nbsp;Dans quelle mesure vous sentez-vous capable&nbsp;» est moins chargé que «&nbsp;dans quelle mesure êtes-vous confiant·e&nbsp;»</td>
+<td>«&nbsp;Dans quelle mesure vous sentez-vous capable&nbsp;» est moins chargé que «&nbsp;dans quelle mesure êtes-vous confiant&nbsp;»</td>
 <td>L'auto-efficacité utilise une formulation plus douce qui convient à la pratique tenant compte des traumatismes</td>
 </tr>
 <tr>
@@ -320,7 +320,7 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 <h3>Ne collecter des données que pour améliorer les services</h3>
 <p>
           La collecte de données dans les services communautaires présente de véritables coûts — pour
-          le personnel, pour les participant·e·s et pour les organisations. La recherche confirme
+          le personnel, pour les participants et pour les organisations. La recherche confirme
           qu'une documentation inutile nuit au moral du personnel, et les coûts de collecte, d'analyse
           et de sécurité sont rarement suffisamment financés. Si les données ne sont pas utilisées
           pour améliorer les services, elles ne devraient pas être collectées. Cela nécessite parfois
@@ -329,7 +329,7 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 </p>
 <p>
           Lorsque des données sont collectées, les résultats doivent mobiliser le personnel de première
-          ligne ainsi que les décideur·euses des organismes. Les rapports doivent être pertinents,
+          ligne ainsi que les décideurs des organismes. Les rapports doivent être pertinents,
           fréquents et idéalement interactifs pour que le personnel puisse explorer les résultats et
           voir l'impact des changements de service. Si le personnel de première ligne ne valorise pas
           les résultats, les données risquent de ne pas être exactes.
@@ -344,18 +344,18 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 </div>
 
 <div class="card">
-<h3>Les rétroactions des participant·e·s améliorent les services</h3>
+<h3>Les rétroactions des participants améliorent les services</h3>
 <p>
           Les données probantes cliniques sur la pratique éclairée par la rétroaction sont appuyées par
           des données provenant plus largement des services sociaux. La pratique éclairée par les
-          participant·e·s et la pratique délibérée sont associées à moins d'abandons, à une plus
-          grande satisfaction des client·e·s, à une réduction des impacts négatifs et à une plus
-          grande efficacité des conseiller·ères.
+          participants et la pratique délibérée sont associées à moins d'abandons, à une plus
+          grande satisfaction des clients, à une réduction des impacts négatifs et à une plus
+          grande efficacité des conseillers.
 </p>
 <p>
           En pratique, cela signifie collecter des rétroactions régulièrement — lors des séances ou
           des conversations, pas seulement par des sondages structurés — les examiner avec le personnel
-          selon un ordre du jour standard, en discuter avec les décideur·euses et modifier les services
+          selon un ordre du jour standard, en discuter avec les décideurs et modifier les services
           en réponse. Les réponses qualitatives ouvertes ont le plus d'impact sur le personnel, surtout
           lorsqu'elles comprennent des témoignages d'appréciation pour un bon travail. Les scores
           agrégés sont difficiles à interpréter et souvent pas convaincants pour les personnes qui font
@@ -411,10 +411,10 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 </p>
 <p>
           Un système de gestion de cas de base devrait inclure les extrants et les résultats à court
-          terme — données démographiques et rétroactions des participant·e·s — pouvant être utilisés
+          terme — données démographiques et rétroactions des participants — pouvant être utilisés
           dans l'amélioration des services ainsi que dans les évaluations. Les mesures de résultats à
           moyen et long terme ne sont généralement pas pertinentes pour la pratique de première ligne :
-          elles sont mesurées trop tard pour influencer les services d'un·e participant·e, ne sont pas
+          elles sont mesurées trop tard pour influencer les services d'un participant, ne sont pas
           perçues comme utiles par le personnel et ne sont probablement pas statistiquement valides au
           niveau du programme.
 </p>
@@ -445,13 +445,13 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 </div>
 
 <p>
-      Pour être clair·e sur ce que nous affirmons :
+      Pour être clair sur ce que nous affirmons :
 </p>
 
 <ul>
 <li>
 <strong>Nous affirmons :</strong> La recherche montre que la pratique éclairée par la rétroaction
-        et la documentation collaborative améliorent les résultats des client·e·s.
+        et la documentation collaborative améliorent les résultats des clients.
         KoNote est conçu pour faciliter la mise en œuvre de ces pratiques.
 </li>
 <li>
@@ -462,7 +462,7 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 </ul>
 
 <p>
-      KoNote est un logiciel récent. Nous serions ravis de nouer des partenariats avec des chercheur·euses intéressé·e·s
+      KoNote est un logiciel récent. Nous serions ravis de nouer des partenariats avec des chercheurs intéressés
       à évaluer son efficacité dans des contextes réels.
 </p>
 </div>
@@ -490,8 +490,8 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 
 <ul>
 <li>L'engagement de la direction à utiliser la rétroaction, pas seulement à la recueillir</li>
-<li>La formation du personnel sur la façon d'inviter une rétroaction honnête des participant·e·s</li>
-<li>Une culture où les contributions des participant·e·s façonnent véritablement la prestation des services</li>
+<li>La formation du personnel sur la façon d'inviter une rétroaction honnête des participants</li>
+<li>Une culture où les contributions des participants façonnent véritablement la prestation des services</li>
 <li>Des attentes réalistes sur ce que les données peuvent et ne peuvent pas vous apprendre</li>
 </ul>
 
