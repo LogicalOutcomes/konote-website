@@ -1,8 +1,8 @@
 {{ $currentPath := .RelPermalink }}
 {{ $lang := .Language.Lang }}
 <nav class="site-nav" id="main-nav" aria-label="{{ i18n "nav_label" | default "Main navigation" }}">
-  {{ $pages := slice "features" "evidence" "demo" "getting-started" "documentation" "faq" }}
-  {{ $keys := slice "nav_features" "nav_evidence" "nav_demo" "nav_getting_started" "nav_documentation" "nav_faq" }}
+  {{ $pages := slice "features" "evidence" "compare" "demo" "getting-started" "documentation" "faq" }}
+  {{ $keys := slice "nav_features" "nav_evidence" "nav_compare" "nav_demo" "nav_getting_started" "nav_documentation" "nav_faq" }}
   {{ range $i, $slug := $pages }}
     {{ $key := index $keys $i }}
     {{ $href := printf "/%s/%s/" $lang $slug }}

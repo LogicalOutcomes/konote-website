@@ -16,6 +16,8 @@
   translation: "FAQ"
 - id: nav_demo
   translation: "Demo"
+- id: nav_compare
+  translation: "Compare"
 - id: nav_design_principles
   translation: "Design Principles"
 - id: nav_origins
