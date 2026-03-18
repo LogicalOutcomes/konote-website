@@ -1,6 +1,6 @@
 ---
 title: "Fonctionnalités"
-description: "Fonctionnalités de KoNote : dossiers des participant·e·s, plans de résultats, notes d'évolution, suivi des métriques, sondages, rapports aux bailleurs de fonds, conformité CIDS, portail des participant·e·s, tableau de bord de direction, groupes de cercles, rédaction d'objectifs assistée par IA, et plus encore."
+description: "Fonctionnalités de KoNote : dossiers des participants, plans de résultats, notes d'évolution, suivi des métriques, sondages, rapports aux bailleurs de fonds, conformité CIDS, portail des participants, tableau de bord de direction, groupes de cercles, rédaction d'objectifs assistée par IA, et plus encore."
 layout: "wide"
 toc: true
 hero: true
@@ -14,9 +14,9 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 
 <div class="card-grid">
 <div class="card">
-<h3>Dossiers des participant·e·s</h3>
+<h3>Dossiers des participants</h3>
 <p>
-          Tenez des dossiers pour chaque participant·e avec les renseignements personnels,
+          Tenez des dossiers pour chaque participant avec les renseignements personnels,
           l'inscription aux programmes et les champs d'accueil personnalisés.
 </p>
 <ul>
@@ -25,7 +25,7 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 <li>Prise en charge du nom préféré et du nom d'affichage</li>
 <li>Inscription à plusieurs programmes</li>
 <li>Transfert entre programmes avec piste d'audit et consentement de partage entre programmes</li>
-<li>Suivi de l'état (actif·ve, inactif·ve, congédié·e)</li>
+<li>Suivi de l'état (actif, inactif, congédié)</li>
 <li>Détection des doublons avec correspondance automatique</li>
 <li>Flux de travail de fusion pour les dossiers en double</li>
 </ul>
@@ -48,12 +48,12 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 <div class="card">
 <h3>Notes d'évolution</h3>
 <p>
-          Documentez les interactions avec les participant·e·s et suivez les valeurs des métriques au fil du temps.
+          Documentez les interactions avec les participants et suivez les valeurs des métriques au fil du temps.
 </p>
 <ul>
 <li>Notes rapides pour les interactions brèves</li>
 <li>Notes structurées avec sections et modèles</li>
-<li>Réflexion du·de la participant·e — saisissez ce que la personne retient de l'interaction</li>
+<li>Réflexion du participant — saisissez ce que la personne retient de l'interaction</li>
 <li>Types d'interaction (téléphone, en personne, virtuel, etc.)</li>
 <li>Enregistrement des valeurs de métriques dans les notes</li>
 <li>Recherche en texte intégral dans le contenu des notes</li>
@@ -85,19 +85,19 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 <li>Programmes configurables en mode individuel, en groupe ou les deux</li>
 <li>Listes de membres des groupes avec gestion des adhésions</li>
 <li>Suivi des présences par séance</li>
-<li>Notes d'évolution de groupe liées à tous les participant·e·s présent·e·s</li>
+<li>Notes d'évolution de groupe liées à tous les participants présents</li>
 </ul>
 </div>
 
 <div class="card">
 <h3>Cercles (familles et réseaux de soutien)</h3>
 <p>
-          Reliez des participant·e·s qui partagent un ménage, une famille ou un réseau de soutien
+          Reliez des participants qui partagent un ménage, une famille ou un réseau de soutien
           dans un groupe nommé pour une prestation de services coordonnée.
 </p>
 <ul>
 <li>Cercles nommés avec rôles relationnels (parent, enfant, partenaire, etc.)</li>
-<li>Consultation de tous les membres d'un cercle depuis le profil de tout·e participant·e</li>
+<li>Consultation de tous les membres d'un cercle depuis le profil de tout participant</li>
 <li>Chronologie partagée entre les membres du cercle</li>
 <li>Appartenance à des cercles entre programmes</li>
 <li>Contrôles de confidentialité — l'appartenance à un cercle ne donne pas accès aux données</li>
@@ -112,51 +112,51 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 <ul>
 <li>Types d'événements personnalisables (accueil, congé, crise, etc.)</li>
 <li>Catégories d'événements avec code de couleur</li>
-<li>Alertes de sécurité liées aux dossiers des participant·e·s</li>
+<li>Alertes de sécurité liées aux dossiers des participants</li>
 <li>Règle des deux personnes pour la sécurité — les alertes nécessitent une deuxième personne pour être annulées</li>
-<li>Vue chronologique des événements des participant·e·s</li>
+<li>Vue chronologique des événements des participants</li>
 </ul>
 </div>
 
 <div class="card">
 <h3>Messagerie et journal des communications</h3>
 <p>
-          Consignez et suivez toutes les communications avec les participant·e·s en un seul endroit.
+          Consignez et suivez toutes les communications avec les participants en un seul endroit.
 </p>
 <ul>
 <li>Journalisation des appels téléphoniques, textos, courriels et visites en personne</li>
 <li>Boutons d'enregistrement rapide pour les types d'interaction courants</li>
-<li>Historique des communications dans la chronologie du·de la participant·e</li>
+<li>Historique des communications dans la chronologie du participant</li>
 <li>Intégration optionnelle SMS et courriel (Twilio, SMTP)</li>
 <li>Rappels automatiques de rendez-vous (36 heures à l'avance)</li>
 <li>Suivi de la livraison (envoyé, livré, échoué, rebondi)</li>
 <li>Surveillance de la santé du système avec alertes d'administration en cas de défaillance d'un canal</li>
 <li>Suivi du consentement LCAP pour les messages électroniques</li>
-<li>Préférences de contact par canal pour chaque participant·e</li>
+<li>Préférences de contact par canal pour chaque participant</li>
 </ul>
 </div>
 
 <div class="card">
 <h3>Réunions et calendrier</h3>
 <p>
-          Planifiez et suivez les réunions avec les participant·e·s.
+          Planifiez et suivez les réunions avec les participants.
 </p>
 <ul>
 <li>Planification des réunions avec date, heure, lieu et statut</li>
 <li>Types de réunions : en personne, virtuel, téléphone, visite à domicile</li>
 <li>Flux iCal — synchronisez les réunions avec Outlook, Google Agenda ou Apple Calendrier</li>
 <li>Réunions à venir dans le tableau de bord</li>
-<li>Historique des réunions dans la chronologie du·de la participant·e</li>
+<li>Historique des réunions dans la chronologie du participant</li>
 </ul>
 </div>
 
 <div class="card">
 <h3>Gestion du consentement</h3>
 <p>
-          Consignez et suivez le consentement des participant·e·s avec une piste d'audit complète.
+          Consignez et suivez le consentement des participants avec une piste d'audit complète.
 </p>
 <ul>
-<li>Dossiers de consentement liés aux fichiers des participant·e·s</li>
+<li>Dossiers de consentement liés aux fichiers des participants</li>
 <li>Dossiers immuables — le consentement peut être retiré mais jamais supprimé</li>
 <li>Suivi des retraits avec motif et date</li>
 <li>Conformité LCAP pour les communications électroniques</li>
@@ -170,27 +170,27 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
           Contrôlez qui peut voir et faire quoi, selon son rôle.
 </p>
 <ul>
-<li>Cinq rôles : Administrateur·rice, Gestionnaire de programme, Intervenant·e direct·e, Réception, Direction</li>
+<li>Cinq rôles : Administrateur, Gestionnaire de programme, Intervenant direct, Réception, Direction</li>
 <li>Accès limité aux programmes (le personnel ne voit que ses programmes)</li>
 <li>Les gestionnaires de programme bénéficient d'un accès administratif limité à leur périmètre (modèles, métriques, membres de l'équipe dans leurs programmes)</li>
 <li>Contrôles de visibilité au niveau des champs par rôle</li>
 <li>Programmes confidentiels masqués au personnel non autorisé</li>
 <li>Sélecteur de contexte de programme pour le personnel travaillant dans plusieurs programmes</li>
-<li>Les administrateur·rices sont bloqué·e·s par défaut pour les données des participant·e·s</li>
+<li>Les administrateurs sont bloqués par défaut pour les données des participants</li>
 </ul>
 </div>
 
 <div class="card">
 <h3>Tableau de bord de direction</h3>
 <p>
-          Suivi des résultats à haut niveau pour les directeur·rices et les cadres qui ont besoin
-          d'une vue d'ensemble sans accéder aux dossiers individuels des participant·e·s.
+          Suivi des résultats à haut niveau pour les directeurs et les cadres qui ont besoin
+          d'une vue d'ensemble sans accéder aux dossiers individuels des participants.
 </p>
 <ul>
 <li>Statistiques sur les résultats de l'ensemble de l'organisme en un coup d'œil</li>
-<li>Fiches de programme avec inscriptions, participant·e·s actif·ves et taux de réussite</li>
+<li>Fiches de programme avec inscriptions, participants actifs et taux de réussite</li>
 <li>Ventilations démographiques agrégées</li>
-<li>Aucun accès aux données individuelles des participant·e·s — surveillance uniquement</li>
+<li>Aucun accès aux données individuelles des participants — surveillance uniquement</li>
 <li>Accessible au rôle Direction</li>
 </ul>
 </div>
@@ -202,7 +202,7 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 </p>
 <ul>
 <li>Toutes les modifications de données consignées avec les valeurs avant/après</li>
-<li>Accès aux dossiers des participant·e·s journalisé</li>
+<li>Accès aux dossiers des participants journalisé</li>
 <li>Événements de connexion/déconnexion</li>
 <li>Base de données d'audit séparée et immuable</li>
 <li>Visionneuse de journal d'audit avec recherche</li>
@@ -215,19 +215,19 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
           Adaptez KoNote au langage et aux flux de travail de votre organisme.
 </p>
 <ul>
-<li>Renommez «&nbsp;Client&nbsp;» en «&nbsp;Participant·e&nbsp;», «&nbsp;Membre&nbsp;», etc.</li>
+<li>Renommez «&nbsp;Client&nbsp;» en «&nbsp;Participant&nbsp;», «&nbsp;Membre&nbsp;», etc.</li>
 <li>Personnalisez toute la terminologie en anglais et en français</li>
 <li>Activez ou désactivez les fonctionnalités via des boutons bascule</li>
 <li>Interface entièrement bilingue (anglais/français) selon les conventions de canada.ca</li>
 <li>Import/export CSV pour la gestion de la bibliothèque de métriques</li>
-<li>Champs personnalisés configurables par l'organisme pour les profils des participant·e·s</li>
+<li>Champs personnalisés configurables par l'organisme pour les profils des participants</li>
 </ul>
 </div>
 
 <div class="card">
 <h3>Inscription libre-service</h3>
 <p>
-          Permettez aux participant·e·s de s'inscrire eux-mêmes via un lien partageable.
+          Permettez aux participants de s'inscrire eux-mêmes via un lien partageable.
 </p>
 <ul>
 <li>Liens d'inscription propres à chaque programme</li>
@@ -245,7 +245,7 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
           protections qui gardent l'activité de démonstration complètement séparée des données réelles.
 </p>
 <ul>
-<li>Comptes d'utilisateur·rice de démonstration préconfigurés avec des données exemples réalistes</li>
+<li>Comptes d'utilisateur de démonstration préconfigurés avec des données exemples réalistes</li>
 <li>Isolation des données de formation — les dossiers de démonstration sont exclus de tous les rapports, exportations et tableaux de bord</li>
 <li>Comptes administrateurs de démonstration limités à la consultation des paramètres de l'organisme</li>
 <li>Bannière persistante de mode formation pour que le personnel sache toujours qu'il est en démonstration</li>
@@ -256,26 +256,26 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 </div>
 
 <div class="card">
-<h3>Portail des participant·e·s</h3>
+<h3>Portail des participants</h3>
 <p>
-          Portail libre-service optionnel où les participant·e·s peuvent consulter leur propre
+          Portail libre-service optionnel où les participants peuvent consulter leur propre
           progression, remplir des sondages, accéder à des ressources et rester en lien avec leurs plans.
 </p>
 <ul>
-<li>Les participant·e·s se connectent pour consulter leurs plans de résultats et leur progression</li>
+<li>Les participants se connectent pour consulter leurs plans de résultats et leur progression</li>
 <li>Remplissez les sondages et les bilans directement dans le portail</li>
 <li>Sauvegarde automatique des réponses aux sondages — reprenez là où vous étiez si le navigateur se ferme</li>
 <li>Auto-déclaration sur les métriques entre les séances</li>
 <li>Consultation des graphiques de progression et de l'historique des jalons</li>
 <li>Accès aux ressources partagées et aux documents du programme</li>
-<li>Journal privé pour les réflexions des participant·e·s</li>
-<li>Envoi de messages à l'intervenant·e assigné·e</li>
+<li>Journal privé pour les réflexions des participants</li>
+<li>Envoi de messages à l'intervenant assigné</li>
 <li>Demandes de corrections aux notes ou aux dossiers</li>
 <li>Flux d'invitation sécurisé avec code verbal optionnel pour la vérification de l'identité</li>
 <li>Flux de consentement lors de l'intégration au portail</li>
 <li>Authentification multifacteur (application TOTP ou codes par courriel)</li>
 <li>Verrouillage du compte après des tentatives infructueuses</li>
-<li>Le personnel peut révoquer l'accès ou réinitialiser l'AMF depuis le dossier du·de la participant·e</li>
+<li>Le personnel peut révoquer l'accès ou réinitialiser l'AMF depuis le dossier du participant</li>
 <li>L'organisme contrôle quels champs et plans sont visibles</li>
 <li>Fonctionnalité optionnelle — désactivée par défaut</li>
 </ul>
@@ -284,7 +284,7 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 <div class="card">
 <h3>Sondages et évaluations</h3>
 <p>
-          Recueillez des rétroactions structurées des participant·e·s — formulaires d'accueil, sondages
+          Recueillez des rétroactions structurées des participants — formulaires d'accueil, sondages
           de satisfaction, évaluations normalisées et bilans récurrents.
 </p>
 <ul>
@@ -292,15 +292,15 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 <li>Formulaires multipages avec navigation par sections</li>
 <li>Logique conditionnelle — affichez ou masquez des sections selon les réponses précédentes</li>
 <li>Notation par section (somme ou moyenne) pour les instruments normalisés</li>
-<li>Trois canaux de distribution : liens publics partageables, portail des participant·e·s ou saisie par le personnel</li>
+<li>Trois canaux de distribution : liens publics partageables, portail des participants ou saisie par le personnel</li>
 <li>Liens publics partageables — recueillez des rétroactions sans connexion ni compte de portail</li>
-<li>Règles d'attribution automatique — déclenchez des sondages selon les événements, l'inscription, un calendrier ou les caractéristiques du·de la participant·e</li>
-<li>Politiques de répétition configurables : une fois par participant·e, une fois par inscription ou de façon récurrente</li>
+<li>Règles d'attribution automatique — déclenchez des sondages selon les événements, l'inscription, un calendrier ou les caractéristiques du participant</li>
+<li>Politiques de répétition configurables : une fois par participant, une fois par inscription ou de façon récurrente</li>
 <li>Import CSV pour les instruments existants (PHQ-9, SPDAT, etc.) avec valeurs de score personnalisées</li>
 <li>Gestion du cycle de vie : brouillon, actif, fermé et archivé</li>
 <li>Prise en charge bilingue complète (anglais/français) pour tout le contenu des sondages</li>
 <li>Réponses en texte libre chiffrées au repos</li>
-<li>Sauvegarde automatique des réponses dans le portail — les participant·e·s peuvent reprendre un sondage en cours</li>
+<li>Sauvegarde automatique des réponses dans le portail — les participants peuvent reprendre un sondage en cours</li>
 <li>Export des réponses en CSV</li>
 </ul>
 </div>
@@ -334,8 +334,8 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 <li>Génération de récits pour les bailleurs de fonds à partir des métriques agrégées</li>
 <li>Thèmes de suggestions — regroupement et analyse des tendances des rétroactions qualitatives</li>
 <li>Perspectives sur les résultats — résumés de programmes générés par l'IA avec horodatages de transparence</li>
-<li>Commutateur à deux niveaux : mode outils uniquement (sans données sur les participant·e·s) ou mode analyse dépersonnalisée</li>
-<li>Protection de la vie privée — aucune information d'identification des participant·e·s n'est envoyée à l'IA</li>
+<li>Commutateur à deux niveaux : mode outils uniquement (sans données sur les participants) ou mode analyse dépersonnalisée</li>
+<li>Protection de la vie privée — aucune information d'identification des participants n'est envoyée à l'IA</li>
 </ul>
 </div>
 
@@ -347,7 +347,7 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 <ul>
 <li>Modèles de rapports aux bailleurs de fonds configurables</li>
 <li>Ventilations démographiques par programme ou par organisme</li>
-<li>Résumés des taux de réussite (% des participant·e·s atteignant les cibles)</li>
+<li>Résumés des taux de réussite (% des participants atteignant les cibles)</li>
 <li>Flux de travail d'approbation en plusieurs étapes pour les rapports aux bailleurs de fonds</li>
 <li>Approbation des rapports de partenaires — partagez les ébauches avec les organismes partenaires pour révision avant soumission</li>
 <li>Balisage des métadonnées selon la Norme commune de données sur l'impact (CIDS)</li>
@@ -360,17 +360,17 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 <div class="card">
 <h3>Export de données et désaffectation</h3>
 <p>
-          Récupérez vos données quand vous en avez besoin — pour des participant·e·s individuels ou
+          Récupérez vos données quand vous en avez besoin — pour des participants individuels ou
           pour la désaffectation complète de l'organisme — avec des contrôles pour prévenir les utilisations abusives.
 </p>
 <ul>
-<li>Export individuel des participant·e·s en formats PDF, CSV et JSON</li>
+<li>Export individuel des participants en formats PDF, CSV et JSON</li>
 <li>Liens de téléchargement sécurisés à durée limitée (expiration de 24 heures, protection à usage unique)</li>
 <li>Contrôles d'export renforcés — les exports volumineux déclenchent une notification et un délai administratif</li>
-<li>Suivi des téléchargements et révocation par l'administrateur·rice</li>
-<li>Export CSV des données des participant·e·s et des métriques</li>
+<li>Suivi des téléchargements et révocation par l'administrateur</li>
+<li>Export CSV des données des participants et des métriques</li>
 <li>Export du journal d'audit</li>
-<li>Export de désaffectation à l'échelle de l'organisme — entièrement chiffré, protégé par mot de passe, inclut toutes les données des participant·e·s organisées par personne</li>
+<li>Export de désaffectation à l'échelle de l'organisme — entièrement chiffré, protégé par mot de passe, inclut toutes les données des participants organisées par personne</li>
 <li>Piste d'audit complète sur tous les exports — qui a téléchargé, quand, combien de fois</li>
 </ul>
 </div>
@@ -490,7 +490,7 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
           Il n'y a pas d'API REST pour les intégrations externes.
 </p>
 <p class="text-muted">
-<strong>Pour les développeur·euses :</strong> Vous pouvez étendre directement la base de code Django.
+<strong>Pour les développeurs :</strong> Vous pouvez étendre directement la base de code Django.
 </p>
 </div>
 
@@ -513,7 +513,7 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 <p>
           KoNote dispose d'une automatisation de base (rappels de rendez-vous, alertes de santé),
           mais pas de moteur de règles ni de déclencheurs complexes. Vous ne serez pas automatiquement
-          averti·e si un·e participant·e n'a pas été vu·e depuis 30 jours.
+          averti si un participant n'a pas été vu depuis 30 jours.
 </p>
 <p class="text-muted">
 <strong>Note :</strong> Le filtrage manuel et les rapports peuvent faire remonter cette information.
@@ -601,9 +601,9 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 <div class="notice notice-info">
 <p class="notice-title">Notes sur la mise à l'échelle</p>
 <p>
-        KoNote a été testé avec jusqu'à environ 2&nbsp;000 participant·e·s actif·ves. La recherche chiffrée
-        fonctionne en chargeant les participant·e·s accessibles en mémoire et en filtrant en Python,
-        ce qui peut ralentir à plus grande échelle. Pour les organisations avec davantage de participant·e·s,
+        KoNote a été testé avec jusqu'à environ 2&nbsp;000 participants actifs. La recherche chiffrée
+        fonctionne en chargeant les participants accessibles en mémoire et en filtrant en Python,
+        ce qui peut ralentir à plus grande échelle. Pour les organisations avec davantage de participants,
         des tests de performance sont recommandés.
 </p>
 </div>
@@ -614,7 +614,7 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 <div class="container text-center">
 <h2>Vous souhaitez l'essayer&nbsp;?</h2>
 <p class="text-muted mb-8">
-      Explorez une instance KoNote en direct avec du contenu réaliste — inscrivez un·e participant·e
+      Explorez une instance KoNote en direct avec du contenu réaliste — inscrivez un participant
       test, rédigez des notes d'évolution et voyez les graphiques se mettre à jour en temps réel.
 </p>
 <div class="btn-group" style="justify-content: center;">

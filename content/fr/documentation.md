@@ -1,10 +1,10 @@
 ---
 title: "Documentation"
-description: "Documentation de KoNote pour les administrateur·rices, le personnel, les développeur·euses et les responsables de la conformité."
+description: "Documentation de KoNote pour les administrateurs, le personnel, les développeurs et les responsables de la conformité."
 layout: "wide"
 hero: true
 hero_title: "Documentation"
-hero_tagline: "Des guides complets pour toutes les personnes qui travaillent avec KoNote — des utilisateur·rices quotidien·nes aux administrateur·rices système en passant par les développeur·euses."
+hero_tagline: "Des guides complets pour toutes les personnes qui travaillent avec KoNote — des utilisateurs quotidiens aux administrateurs système en passant par les développeurs."
 ---
 
 <section>
@@ -12,15 +12,15 @@ hero_tagline: "Des guides complets pour toutes les personnes qui travaillent ave
 <div class="card-grid">
 
 <a href="https://github.com/LogicalOutcomes/konote/blob/main/docs/using-konote.md" class="card doc-card" style="text-decoration: none; color: inherit;">
-<h3>Guide de l'utilisateur·rice</h3>
-<p><strong>Pour : le personnel et les conseiller·ères</strong></p>
+<h3>Guide de l'utilisateur</h3>
+<p><strong>Pour : le personnel et les conseillers</strong></p>
 <p>
-          Utilisation quotidienne de KoNote : trouver des participant·e·s, rédiger des notes d'évolution,
+          Utilisation quotidienne de KoNote : trouver des participants, rédiger des notes d'évolution,
           consulter des plans de résultats, consigner des événements et utiliser le tableau de bord.
 </p>
 <ul>
 <li>Connexion et navigation</li>
-<li>Recherche et filtrage des participant·e·s</li>
+<li>Recherche et filtrage des participants</li>
 <li>Rédaction de notes rapides et de notes complètes</li>
 <li>Consignation d'événements et d'alertes</li>
 <li>Consultation de la progression des résultats</li>
@@ -28,15 +28,15 @@ hero_tagline: "Des guides complets pour toutes les personnes qui travaillent ave
 </a>
 
 <a href="https://github.com/LogicalOutcomes/konote/blob/main/docs/administering-konote.md" class="card doc-card" style="text-decoration: none; color: inherit;">
-<h3>Guide de l'administrateur·rice</h3>
-<p><strong>Pour : les administrateur·rices et les gestionnaires de programme</strong></p>
+<h3>Guide de l'administrateur</h3>
+<p><strong>Pour : les administrateurs et les gestionnaires de programme</strong></p>
 <p>
-          Configuration et gestion de KoNote : paramétrage des programmes, gestion des utilisateur·rices,
+          Configuration et gestion de KoNote : paramétrage des programmes, gestion des utilisateurs,
           personnalisation de la terminologie et gestion des sauvegardes.
 </p>
 <ul>
 <li>Configuration de l'organisme</li>
-<li>Gestion des utilisateur·rices et des rôles</li>
+<li>Gestion des utilisateurs et des rôles</li>
 <li>Personnalisation de la terminologie</li>
 <li>Sauvegarde et restauration</li>
 <li>Opérations de sécurité</li>
@@ -45,7 +45,7 @@ hero_tagline: "Des guides complets pour toutes les personnes qui travaillent ave
 
 <a href="https://github.com/LogicalOutcomes/konote/blob/main/docs/deploying-konote.md" class="card doc-card" style="text-decoration: none; color: inherit;">
 <h3>Guide de déploiement</h3>
-<p><strong>Pour : le personnel TI et les consultant·e·s</strong></p>
+<p><strong>Pour : le personnel TI et les consultants</strong></p>
 <p>
           Instructions de déploiement étape par étape pour Railway, Azure, Elestio
           et les environnements Docker auto-hébergés.
@@ -61,10 +61,10 @@ hero_tagline: "Des guides complets pour toutes les personnes qui travaillent ave
 
 <a href="https://github.com/LogicalOutcomes/konote/blob/main/docs/technical-documentation.md" class="card doc-card" style="text-decoration: none; color: inherit;">
 <h3>Documentation technique</h3>
-<p><strong>Pour : les développeur·euses</strong></p>
+<p><strong>Pour : les développeurs</strong></p>
 <p>
           Architecture, structure du code, schéma de base de données et orientations
-          pour les développeur·euses qui souhaitent comprendre ou étendre KoNote.
+          pour les développeurs qui souhaitent comprendre ou étendre KoNote.
 </p>
 <ul>
 <li>Aperçu de l'architecture</li>
@@ -95,8 +95,8 @@ hero_tagline: "Des guides complets pour toutes les personnes qui travaillent ave
 <h3>Aperçu de la sécurité</h3>
 <p><strong>Pour : tout le monde</strong></p>
 <p>
-          Comment KoNote protège les données des participant·e·s et ce dont vous êtes responsable
-          en tant qu'opérateur·rice.
+          Comment KoNote protège les données des participants et ce dont vous êtes responsable
+          en tant qu'opérateur.
 </p>
 <ul>
 <li>Détails du chiffrement</li>

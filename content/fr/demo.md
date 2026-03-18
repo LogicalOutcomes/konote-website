@@ -1,6 +1,6 @@
 ---
 title: "Essayez-le"
-description: "Essayez les formulaires d'inscription et de sondage en libre-service de KoNote. Voyez comment les participant·e·s s'inscrivent et comment le personnel recueille les rétroactions — dans une démonstration en direct."
+description: "Essayez les formulaires d'inscription et de sondage en libre-service de KoNote. Voyez comment les participants s'inscrivent et comment le personnel recueille les rétroactions — dans une démonstration en direct."
 layout: "wide"
 hero: true
 hero_title: "Essayez-le"
@@ -95,11 +95,11 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
 </div>
 <div class="workflow-step">
 <h3>Se connecter</h3>
-<p>Ouvrez l'<a href="https://demo.konote.ca/" target="_blank" rel="noopener">application de démonstration KoNote</a> et connectez-vous en tant qu'utilisateur·rice de démonstration (identifiants ci-dessous).</p>
+<p>Ouvrez l'<a href="https://demo.konote.ca/" target="_blank" rel="noopener">application de démonstration KoNote</a> et connectez-vous en tant qu'utilisateur de démonstration (identifiants ci-dessous).</p>
 </div>
 <div class="workflow-step">
 <h3>Trouver votre inscription</h3>
-<p>Allez dans le programme Emploi avec soutien. Votre inscription apparaît comme un·e nouveau·elle participant·e.</p>
+<p>Allez dans le programme Emploi avec soutien. Votre inscription apparaît comme un nouveau participant.</p>
 </div>
 <div class="workflow-step">
 <h3>Explorer</h3>
@@ -107,7 +107,7 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
 </div>
 </div>
 
-<h2>Étape 1 : Inscrire un·e participant·e</h2>
+<h2>Étape 1 : Inscrire un participant</h2>
 <div class="section-header">
 <p>
         Cette démonstration présente une version simplifiée. KoNote comprend plus de 50 champs configurables
@@ -140,8 +140,8 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
 <div class="container">
 <h2>Étape 2 : Se connecter et trouver la personne</h2>
 <p>
-      Après la soumission du formulaire, votre inscription est automatiquement approuvée et le·la
-      participant·e apparaît dans le programme <strong>Emploi avec soutien</strong>.
+      Après la soumission du formulaire, votre inscription est automatiquement approuvée et le
+      participant apparaît dans le programme <strong>Emploi avec soutien</strong>.
 </p>
 
 <div class="card-grid">
@@ -152,7 +152,7 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
           et connectez-vous :
 </p>
 <ul>
-<li><strong>Nom d'utilisateur·rice :</strong> <code>demo-worker-1</code></li>
+<li><strong>Nom d'utilisateur :</strong> <code>demo-worker-1</code></li>
 <li><strong>Mot de passe :</strong> <code>demo1234</code></li>
 </ul>
 <p class="text-muted" style="font-size: var(--font-size-sm); margin-top: var(--space-3);">
@@ -160,8 +160,8 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
 </p>
 </div>
 <div class="card">
-<h3>Trouver le·la participant·e</h3>
-<p>Une fois connecté·e :</p>
+<h3>Trouver le participant</h3>
+<p>Une fois connecté :</p>
 <ol>
 <li>Tapez le nom que vous avez inscrit dans la <strong>barre de recherche</strong></li>
 <li>Cliquez sur son nom pour ouvrir son dossier</li>
@@ -175,7 +175,7 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
 <section>
 <div class="container">
 <h2>Étape 3 : Essayer le flux de travail complet</h2>
-<p>Maintenant que vous avez un·e participant·e, essayez ces fonctionnalités :</p>
+<p>Maintenant que vous avez un participant, essayez ces fonctionnalités :</p>
 
 <div class="card-grid">
 <div class="card">
@@ -184,7 +184,7 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
 </div>
 <div class="card">
 <h3>Rédiger une note d'évolution</h3>
-<p>Allez dans l'onglet <strong>Notes</strong> et cliquez sur <strong>+ Note d'évolution</strong>. Sélectionnez des cibles, ajoutez des métriques et saisissez une réflexion du·de la participant·e.</p>
+<p>Allez dans l'onglet <strong>Notes</strong> et cliquez sur <strong>+ Note d'évolution</strong>. Sélectionnez des cibles, ajoutez des métriques et saisissez une réflexion du participant.</p>
 </div>
 <div class="card">
 <h3>Voir les graphiques de progression</h3>
@@ -195,7 +195,7 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
 <div class="notice notice-info">
 <p class="notice-title">C'est une démonstration partagée</p>
 <p>
-        D'autres visiteur·euses peuvent également essayer la démonstration, vous pourriez donc voir des participant·e·s que vous n'avez pas créé·e·s.
+        D'autres visiteurs peuvent également essayer la démonstration, vous pourriez donc voir des participants que vous n'avez pas créés.
         La démonstration se réinitialise périodiquement. Utilisez le nom que vous souhaitez &mdash; aucune vraie donnée n'est collectée.
 </p>
 </div>
@@ -208,13 +208,13 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
 <p>
       KoNote comprend un moteur de sondage complet pour les formulaires d'accueil, les questionnaires de satisfaction
       et les évaluations normalisées. Le personnel crée des sondages dans le panneau d'administration, puis les partage
-      avec les participant·e·s de trois façons : un lien public (aucune connexion requise), le
-      portail des participant·e·s ou la saisie de données assistée par le personnel.
+      avec les participants de trois façons : un lien public (aucune connexion requise), le
+      portail des participants ou la saisie de données assistée par le personnel.
 </p>
 <p>
       Le formulaire ci-dessous est un lien partageable en direct &mdash; le même type que vous enverriez aux
-      participant·e·s ou publieriez sur votre site Web. Remplissez-le pour voir comment ça fonctionne, puis connectez-vous
-      en tant qu'utilisateur·rice de démonstration pour voir les résultats.
+      participants ou publieriez sur votre site Web. Remplissez-le pour voir comment ça fonctionne, puis connectez-vous
+      en tant qu'utilisateur de démonstration pour voir les résultats.
 </p>
 
 <div class="workflow-steps" style="counter-reset: step;">
@@ -255,7 +255,7 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
         Après votre soumission, connectez-vous en tant que <code>demo-worker-1</code> et allez dans
 <strong>Sondages</strong>. Vous pouvez consulter les réponses individuelles, voir
         le nombre de réponses et exporter les résultats en CSV. Le personnel peut également assigner
-        des sondages à des participant·e·s spécifiques et suivre leur complétion.
+        des sondages à des participants spécifiques et suivre leur complétion.
 </p>
 </div>
 </div>

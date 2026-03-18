@@ -20,7 +20,7 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
 <p>
           Oui. KoNote est publié sous la licence MIT, ce qui signifie que vous pouvez l'utiliser,
           le modifier et le distribuer librement — y compris à des fins commerciales.
-          Il n'y a pas de frais de licence, pas de tarification par utilisateur·rice, pas de niveaux premium.
+          Il n'y a pas de frais de licence, pas de tarification par utilisateur, pas de niveaux premium.
 </p>
 <p>
           Vous aurez des frais d'hébergement (les serveurs qui exécutent KoNote), mais ceux-ci
@@ -131,19 +131,19 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
 
 <div class="faq-item">
 <button class="faq-question" aria-expanded="false">
-        Combien de participant·e·s KoNote peut-il gérer ?
+        Combien de participants KoNote peut-il gérer ?
 </button>
 <div class="faq-answer">
 <p>
-          KoNote a été testé avec jusqu'à environ 2 000 participant·e·s actif·ves.
+          KoNote a été testé avec jusqu'à environ 2 000 participants actifs.
 </p>
 <p>
           La principale limite est la recherche chiffrée : parce que les RPI sont chiffrés,
-          la recherche de participant·e·s charge les participant·e·s accessibles en mémoire et filtre en Python.
-          Cela fonctionne bien à plus petite échelle, mais peut ralentir avec des bases de participant·e·s plus importantes.
+          la recherche de participants charge les participants accessibles en mémoire et filtre en Python.
+          Cela fonctionne bien à plus petite échelle, mais peut ralentir avec des bases de participants plus importantes.
 </p>
 <p>
-          Si vous avez beaucoup plus de participant·e·s, nous recommandons des tests de performance
+          Si vous avez beaucoup plus de participants, nous recommandons des tests de performance
           avant de vous engager avec KoNote.
 </p>
 </div>
@@ -220,22 +220,22 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
 <div class="faq-answer">
 <p>
           KoNote comprend un système de sondage complet pour collecter des rétroactions structurées.
-          Les administrateur·rices créent des sondages avec six types de questions, une logique conditionnelle et
+          Les administrateurs créent des sondages avec six types de questions, une logique conditionnelle et
           une notation optionnelle par section. Les sondages peuvent être distribués de trois façons :
 </p>
 <ul>
-<li><strong>Portail des participant·e·s :</strong> Les sondages assignés apparaissent dans le
-            tableau de bord du·de la participant·e. Les réponses se sauvegardent automatiquement en cours de saisie.</li>
+<li><strong>Portail des participants :</strong> Les sondages assignés apparaissent dans le
+            tableau de bord du participant. Les réponses se sauvegardent automatiquement en cours de saisie.</li>
 <li><strong>Liens publics partageables :</strong> N'importe qui peut compléter un sondage
             via une URL — aucune connexion requise. Utile pour les rétroactions communautaires ou
             la présélection avant l'admission.</li>
 <li><strong>Saisie de données par le personnel :</strong> Le personnel saisit les réponses au nom
-            d'un·e participant·e lors d'une séance.</li>
+            d'un participant lors d'une séance.</li>
 </ul>
 <p>
           Les sondages peuvent être assignés manuellement ou automatiquement à l'aide de règles de déclenchement
           basées sur des événements, l'inscription à un programme, des intervalles de temps ou les
-          caractéristiques du·de la participant·e. Vous pouvez importer des instruments existants (comme le PHQ-9 ou le SPDAT)
+          caractéristiques du participant. Vous pouvez importer des instruments existants (comme le PHQ-9 ou le SPDAT)
           depuis des fichiers CSV.
           <a href="/fr/fonctionnalites/">Voir les détails complets des sondages dans Fonctionnalités →</a>
 </p>
@@ -244,24 +244,24 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
 
 <div class="faq-item">
 <button class="faq-question" aria-expanded="false">
-        Qu'est-ce que le portail des participant·e·s ?
+        Qu'est-ce que le portail des participants ?
 </button>
 <div class="faq-answer">
 <p>
-          Le portail des participant·e·s est un site Web libre-service optionnel où
-          les participant·e·s peuvent :
+          Le portail des participants est un site Web libre-service optionnel où
+          les participants peuvent :
 </p>
 <ul>
 <li>Consulter leurs plans de résultats et graphiques de progression</li>
 <li>Remplir des sondages assignés</li>
 <li>Rédiger des entrées de journal privées</li>
-<li>Envoyer des messages à leur intervenant·e assigné·e</li>
+<li>Envoyer des messages à leur intervenant assigné</li>
 <li>Demander des corrections à leurs dossiers</li>
 <li>Accéder aux ressources partagées et aux documents du programme</li>
 </ul>
 <p>
-          Le personnel invite les participant·e·s via un lien sécurisé avec un code verbal optionnel
-          pour la vérification de l'identité. Les participant·e·s créent leurs propres identifiants
+          Le personnel invite les participants via un lien sécurisé avec un code verbal optionnel
+          pour la vérification de l'identité. Les participants créent leurs propres identifiants
           et passent par un flux de consentement avant d'accéder au portail. Le portail
           prend en charge l'authentification multifacteur (application TOTP ou codes par courriel) et
           le personnel peut révoquer l'accès ou réinitialiser l'AMF à tout moment.
@@ -283,17 +283,17 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
           KoNote offre deux niveaux d'exportation de données :
 </p>
 <ul>
-<li><strong>Exportation individuelle du·de la participant·e :</strong> Depuis le profil d'un·e participant·e,
+<li><strong>Exportation individuelle du participant :</strong> Depuis le profil d'un participant,
             le personnel peut exporter ses données en format PDF, CSV ou JSON.
             Les téléchargements utilisent des liens sécurisés à durée limitée qui expirent après 24 heures.
-            Les exportations volumineuses déclenchent une notification à l'administrateur·rice et un bref délai de supervision.</li>
+            Les exportations volumineuses déclenchent une notification à l'administrateur et un bref délai de supervision.</li>
 <li><strong>Exportation de désaffectation à l'échelle de l'organisme :</strong> Une commande de gestion
             exporte toutes les données de l'organisme en format chiffré AES-256-GCM avec une phrase de passe Diceware.
             Ceci est conçu pour la désaffectation de l'organisme ou la migration de données —
             pas pour les rapports courants.</li>
 </ul>
 <p>
-          Toutes les exportations sont entièrement auditées. Les administrateur·rices peuvent révoquer les liens de téléchargement et
+          Toutes les exportations sont entièrement auditées. Les administrateurs peuvent révoquer les liens de téléchargement et
           les permissions sont revérifiées au moment du téléchargement pour éviter les accès périmés.
 </p>
 </div>
@@ -306,12 +306,12 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
 <div class="faq-answer">
 <p>
           Le mode démonstration fournit des comptes de formation préconfigurés avec des données exemples réalistes
-          pour que le personnel puisse explorer KoNote sans affecter les vrais dossiers de participant·e·s.
+          pour que le personnel puisse explorer KoNote sans affecter les vrais dossiers de participants.
           Les principales mesures de protection comprennent :
 </p>
 <ul>
 <li>Les dossiers de démonstration sont exclus de tous les rapports, exportations et tableaux de bord</li>
-<li>Les comptes d'administrateur·rice de démonstration sont limités à la consultation des paramètres de l'organisme</li>
+<li>Les comptes d'administrateur de démonstration sont limités à la consultation des paramètres de l'organisme</li>
 <li>Une bannière persistante de mode formation apparaît sur chaque page</li>
 <li>Les boutons de connexion de démonstration sont visuellement séparés du vrai formulaire de connexion
             sous une étiquette «&nbsp;Comptes de formation&nbsp;»</li>
@@ -331,7 +331,7 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
 </button>
 <div class="faq-answer">
 <p>
-          Les données des participant·e·s sont sensibles. De nombreux organismes à but non lucratif ont besoin d'un contrôle total sur
+          Les données des participants sont sensibles. De nombreux organismes à but non lucratif ont besoin d'un contrôle total sur
           l'emplacement de ces données — pour la conformité réglementaire, les exigences des bailleurs de fonds ou
           la politique organisationnelle.
 </p>
@@ -367,7 +367,7 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
 </ul>
 <p>
           Si vous avez besoin d'un DME/DSE clinique, KoNote n'est pas le bon outil.
-          Si vous devez suivre les résultats des participant·e·s en parallèle avec le travail clinique,
+          Si vous devez suivre les résultats des participants en parallèle avec le travail clinique,
           KoNote pourrait compléter (mais non remplacer) votre système clinique.
           <a href="/fr/fonctionnalites/">Voir ce que KoNote fait et ne fait pas →</a>
 </p>
@@ -402,7 +402,7 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
 <div class="faq-answer">
 <p>
           KoNote offre une prise en charge bilingue complète en anglais et en français, selon les
-          conventions de canada.ca. Les utilisateur·rices peuvent changer de langue d'un seul clic et tous
+          conventions de canada.ca. Les utilisateurs peuvent changer de langue d'un seul clic et tous
           les termes, étiquettes et textes du système s'affichent dans la langue choisie.
 </p>
 <p>
@@ -432,9 +432,9 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
 <li>Perspectives sur les résultats — résumés de programmes générés par l'IA</li>
 </ul>
 <p>
-          Les fonctionnalités IA utilisent un commutateur à deux niveaux : mode outils uniquement (sans données sur les participant·e·s,
-          activé par défaut) et mode analyse dépersonnalisée (données des participant·e·s avec
-          identifiants supprimés, désactivé par défaut). Aucune information d'identification des participant·e·s
+          Les fonctionnalités IA utilisent un commutateur à deux niveaux : mode outils uniquement (sans données sur les participants,
+          activé par défaut) et mode analyse dépersonnalisée (données des participants avec
+          identifiants supprimés, désactivé par défaut). Aucune information d'identification des participants
           n'est jamais envoyée au service d'IA. Les deux niveaux peuvent être entièrement désactivés
           si votre organisme préfère ne pas utiliser l'IA.
           <a href="/fr/fonctionnalites/">Voir les détails complets des fonctionnalités IA →</a>

@@ -35,10 +35,10 @@ hero_tagline: "Comment évaluer KoNote et décider s'il convient à votre organi
 <h3>Adéquation organisationnelle</h3>
 <p><strong>Votre organisme&nbsp;:</strong></p>
 <ul>
-<li>Suit-il les résultats des participant·e·s comme fonction principale&nbsp;?</li>
+<li>Suit-il les résultats des participants comme fonction principale&nbsp;?</li>
 <li>Doit-il démontrer l'impact des programmes aux bailleurs de fonds&nbsp;?</li>
-<li>Sert-il moins d'environ 2&nbsp;000 participant·e·s actif·ves&nbsp;?</li>
-<li>Nécessite-t-il un contrôle sur l'emplacement de stockage des données des participant·e·s&nbsp;?</li>
+<li>Sert-il moins d'environ 2&nbsp;000 participants actifs&nbsp;?</li>
+<li>Nécessite-t-il un contrôle sur l'emplacement de stockage des données des participants&nbsp;?</li>
 <li>Valorise-t-il le logiciel à code ouvert et l'évitement de la dépendance envers un fournisseur&nbsp;?</li>
 </ul>
 <p>
@@ -60,7 +60,7 @@ hero_tagline: "Comment évaluer KoNote et décider s'il convient à votre organi
 <h3>Étape 1 : Lire la documentation</h3>
 <p>
         Commencez par la <a href="/fr/documentation/">documentation</a> pour comprendre
-        ce que fait KoNote. Le guide de l'utilisateur·rice vous montrera les flux de travail quotidiens ; la
+        ce que fait KoNote. Le guide de l'utilisateur vous montrera les flux de travail quotidiens ; la
         documentation technique aidera votre équipe TI à comprendre l'architecture.
 </p>
 <p class="text-muted">Temps estimé : 1–2 heures</p>
@@ -71,7 +71,7 @@ hero_tagline: "Comment évaluer KoNote et décider s'il convient à votre organi
 <p>
 <strong>Démonstration en ligne (aucune configuration requise) :</strong>
 <a href="/fr/demo/">Essayez le formulaire d'inscription en direct</a> pour voir comment
-        les participant·e·s s'inscrivent aux programmes dans KoNote. Cela fonctionne sur une vraie instance
+        les participants s'inscrivent aux programmes dans KoNote. Cela fonctionne sur une vraie instance
         — aucune installation requise.
 </p>
 <p>
@@ -96,13 +96,13 @@ hero_tagline: "Comment évaluer KoNote et décider s'il convient à votre organi
 <h3>Étape 4 : Déployer et configurer</h3>
 <p>
         Suivez le guide de déploiement pour la plateforme choisie. Ensuite, configurez
-        votre organisme : mettez en place des programmes, créez des comptes utilisateur·rice, personnalisez la terminologie.
+        votre organisme : mettez en place des programmes, créez des comptes utilisateur, personnalisez la terminologie.
 </p>
 <p class="text-muted">Temps estimé : 2–4 heures pour le déploiement, plus la configuration</p>
 </div>
 
 <div class="card">
-<h3>Étape 5 : Pilote avec de vrais utilisateur·rices</h3>
+<h3>Étape 5 : Pilote avec de vrais utilisateurs</h3>
 <p>
         Commencez avec un petit groupe pilote avant de déployer à l'échelle de l'organisme.
         Recueillez des rétroactions, affinez votre configuration et élaborez une documentation interne.
@@ -209,7 +209,7 @@ hero_tagline: "Comment évaluer KoNote et décider s'il convient à votre organi
 <div class="notice notice-warning">
 <p class="notice-title">Considérations sur la résidence des données</p>
 <p>
-        Si votre organisme exige que les données des participant·e·s restent au Canada,
+        Si votre organisme exige que les données des participants restent au Canada,
         l'infrastructure américaine de Railway peut ne pas convenir.
         Envisagez OVHcloud Beauharnois, Azure (région Canada Centre)
         ou l'auto-hébergement dans un centre de données canadien.
@@ -249,7 +249,7 @@ hero_tagline: "Comment évaluer KoNote et décider s'il convient à votre organi
         Une fois déployé, vous êtes responsable de :
 </p>
 <ul>
-<li><strong>Sécurité :</strong> Protéger votre clé de chiffrement, configurer HTTPS, gérer l'accès des utilisateur·rices</li>
+<li><strong>Sécurité :</strong> Protéger votre clé de chiffrement, configurer HTTPS, gérer l'accès des utilisateurs</li>
 <li><strong>Sauvegardes :</strong> Sauvegardes régulières de la base de données et tests de restauration</li>
 <li><strong>Mises à jour :</strong> Application des nouvelles versions de KoNote lors de leur sortie</li>
 <li><strong>Formation :</strong> Former votre personnel à utiliser le système</li>
@@ -265,7 +265,7 @@ hero_tagline: "Comment évaluer KoNote et décider s'il convient à votre organi
 
 <section>
 <div class="container text-center">
-<h2>Prêt·e à continuer&nbsp;?</h2>
+<h2>Prêt à continuer&nbsp;?</h2>
 <p class="text-muted mb-8">
       Le guide de déploiement complet contient des instructions étape par étape pour chaque plateforme.
 </p>

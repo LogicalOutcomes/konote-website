@@ -1,10 +1,10 @@
 ---
 title: "Sécurité et confidentialité"
-description: "Comment KoNote protège les données des participant·e·s : chiffrement, contrôle d'accès, journal d'audit, conformité LPRPS/LPRPDE et résidence canadienne des données."
+description: "Comment KoNote protège les données des participants : chiffrement, contrôle d'accès, journal d'audit, conformité LPRPS/LPRPDE et résidence canadienne des données."
 layout: "wide"
 hero: true
 hero_title: "Sécurité et confidentialité"
-hero_tagline: "Comment KoNote protège les données des participant·e·s — et ce dont vous êtes responsable."
+hero_tagline: "Comment KoNote protège les données des participants — et ce dont vous êtes responsable."
 ---
 
 <section>
@@ -33,7 +33,7 @@ hero_tagline: "Comment KoNote protège les données des participant·e·s — et
 </p>
 <ul>
 <li><strong>Algorithme :</strong> Fernet (AES-128-CBC + HMAC-SHA256) pour les RPI au repos</li>
-<li><strong>Champs chiffrés :</strong> Noms des participant·e·s, dates de naissance, courriels, numéros de téléphone, contenu des notes d'évolution, champs personnalisés sensibles, soumissions d'inscription</li>
+<li><strong>Champs chiffrés :</strong> Noms des participants, dates de naissance, courriels, numéros de téléphone, contenu des notes d'évolution, champs personnalisés sensibles, soumissions d'inscription</li>
 <li><strong>Stockage de la clé :</strong> Votre clé de chiffrement, stockée comme variable d'environnement (Azure Key Vault recommandé en production)</li>
 <li><strong>Rotation des clés :</strong> Commande intégrée de rotation des clés de chiffrement</li>
 <li><strong>Clés par organisme :</strong> Dans les déploiements multi-organismes, chaque organisme possède sa propre clé de chiffrement — la clé d'un organisme ne peut pas déchiffrer les données d'un autre</li>
@@ -51,7 +51,7 @@ hero_tagline: "Comment KoNote protège les données des participant·e·s — et
           KoNote utilise deux bases de données PostgreSQL distinctes.
 </p>
 <ul>
-<li><strong>Base de données opérationnelle :</strong> Dossiers des participant·e·s, notes, plans (opérations CRUD normales)</li>
+<li><strong>Base de données opérationnelle :</strong> Dossiers des participants, notes, plans (opérations CRUD normales)</li>
 <li><strong>Base de données d'audit :</strong> Journal immuable de tous les accès et modifications de données (insertion uniquement)</li>
 </ul>
 <p class="text-muted">
@@ -66,15 +66,15 @@ hero_tagline: "Comment KoNote protège les données des participant·e·s — et
           Cinq rôles avec des permissions différentes, appliquées au niveau de l'intergiciel.
 </p>
 <ul>
-<li><strong>Administrateur·rice :</strong> Configuration du système (aucun accès direct aux données des participant·e·s)</li>
-<li><strong>Gestionnaire de programme :</strong> Accès complet aux participant·e·s et au personnel de ses programmes</li>
-<li><strong>Intervenant·e direct·e :</strong> Accès aux participant·e·s des programmes qui lui sont assignés</li>
+<li><strong>Administrateur :</strong> Configuration du système (aucun accès direct aux données des participants)</li>
+<li><strong>Gestionnaire de programme :</strong> Accès complet aux participants et au personnel de ses programmes</li>
+<li><strong>Intervenant direct :</strong> Accès aux participants des programmes qui lui sont assignés</li>
 <li><strong>Réception :</strong> Accès limité à certains champs seulement</li>
 <li><strong>Direction :</strong> Accès au tableau de bord et aux rapports</li>
 </ul>
 <p class="text-muted">
-          Le personnel ne peut voir que les participant·e·s inscrit·e·s dans les programmes qui lui sont assignés.
-          Les administrateur·rices sont délibérément bloqué·e·s des données des participant·e·s.
+          Le personnel ne peut voir que les participants inscrits dans les programmes qui lui sont assignés.
+          Les administrateurs sont délibérément bloqués des données des participants.
 </p>
 </div>
 
@@ -85,9 +85,9 @@ hero_tagline: "Comment KoNote protège les données des participant·e·s — et
 </p>
 <ul>
 <li><strong>Modifications de données :</strong> Création, mise à jour, suppression avec les valeurs avant/après</li>
-<li><strong>Accès aux données :</strong> Qui a consulté quel dossier de participant·e et quand</li>
+<li><strong>Accès aux données :</strong> Qui a consulté quel dossier de participant et quand</li>
 <li><strong>Authentification :</strong> Connexion, déconnexion, tentatives de connexion échouées</li>
-<li><strong>Métadonnées :</strong> Horodatage, identifiant de l'utilisateur·rice, adresse IP</li>
+<li><strong>Métadonnées :</strong> Horodatage, identifiant de l'utilisateur, adresse IP</li>
 </ul>
 <p class="text-muted">
           Les journaux sont consultables depuis l'interface d'administration et peuvent être exportés.
@@ -115,8 +115,8 @@ hero_tagline: "Comment KoNote protège les données des participant·e·s — et
 </p>
 <ul>
 <li><strong>SecureExportLink :</strong> Liens de téléchargement à durée limitée avec expiration de 24 heures et déduplication par nonce</li>
-<li><strong>Exportations importantes :</strong> Les exportations volumineuses (100+ participant·e·s) ou contenant des notes déclenchent une notification à l'administrateur·rice et un délai de 10 minutes</li>
-<li><strong>Supervision administrative :</strong> Les administrateur·rices peuvent révoquer les liens d'exportation avant leur expiration</li>
+<li><strong>Exportations importantes :</strong> Les exportations volumineuses (100+ participants) ou contenant des notes déclenchent une notification à l'administrateur et un délai de 10 minutes</li>
+<li><strong>Supervision administrative :</strong> Les administrateurs peuvent révoquer les liens d'exportation avant leur expiration</li>
 <li><strong>Suivi des téléchargements :</strong> Chaque téléchargement est consigné (qui, quand, combien de fois)</li>
 <li><strong>Revalidation :</strong> Les permissions d'accès aux RPI sont revérifiées au moment du téléchargement</li>
 <li><strong>Exportation à l'échelle de l'organisme :</strong> Exportation chiffrée AES-256-GCM pour la désaffectation complète de l'organisme, avec découverte automatique des modèles et génération de phrase de passe Diceware</li>
@@ -136,7 +136,7 @@ hero_tagline: "Comment KoNote protège les données des participant·e·s — et
 <li><strong>Clés de chiffrement :</strong> Stockées dans Azure Key Vault ou votre infrastructure sécurisée</li>
 </ul>
 <p class="text-muted">
-          Les données des participant·e·s, les sauvegardes et les clés de chiffrement restent toutes à l'intérieur des frontières canadiennes.
+          Les données des participants, les sauvegardes et les clés de chiffrement restent toutes à l'intérieur des frontières canadiennes.
 </p>
 </div>
 
@@ -162,7 +162,7 @@ hero_tagline: "Comment KoNote protège les données des participant·e·s — et
 </p>
 <ul>
 <li><strong>Conception fermée par défaut :</strong> Les notes inter-programmes sont masquées par défaut</li>
-<li><strong>Accès conditionnel au consentement :</strong> Les notes cliniques ne sont visibles entre les programmes que lorsque le·la participant·e ou l'organisme a explicitement autorisé le partage</li>
+<li><strong>Accès conditionnel au consentement :</strong> Les notes cliniques ne sont visibles entre les programmes que lorsque le participant ou l'organisme a explicitement autorisé le partage</li>
 <li><strong>Application sur les listes et les détails :</strong> Les filtres de consentement s'appliquent à la fois sur les listes de notes (ensembles de requêtes) et sur les vues de notes individuelles</li>
 <li><strong>Vues exemptées :</strong> Les totaux agrégés, les rapports dépersonnalisés et les vues de plans ne sont pas affectés</li>
 </ul>
@@ -174,7 +174,7 @@ hero_tagline: "Comment KoNote protège les données des participant·e·s — et
           Protections contre les attaques automatisées sur les points d'accès d'authentification.
 </p>
 <ul>
-<li><strong>Verrouillage de compte :</strong> Le portail des participant·e·s verrouille les comptes après plusieurs tentatives de connexion infructueuses</li>
+<li><strong>Verrouillage de compte :</strong> Le portail des participants verrouille les comptes après plusieurs tentatives de connexion infructueuses</li>
 <li><strong>Sécurité des sessions :</strong> Jetons de session stockés dans la base de données avec des délais d'expiration configurables</li>
 <li><strong>Témoins sécurisés :</strong> Les témoins de session et CSRF sont marqués comme sécurisés en production</li>
 <li><strong>Vérifications au démarrage :</strong> La validation au démarrage assure que les clés de chiffrement, l'intergiciel de sécurité et les indicateurs de témoins sont correctement configurés</li>
@@ -243,7 +243,7 @@ hero_tagline: "Comment KoNote protège les données des participant·e·s — et
 </div>
 
 <div class="card">
-<h3>Contrôler l'accès des utilisateur·rices</h3>
+<h3>Contrôler l'accès des utilisateurs</h3>
 <p>
           KoNote fournit les outils ; vous devez les utiliser correctement.
 </p>
@@ -251,7 +251,7 @@ hero_tagline: "Comment KoNote protège les données des participant·e·s — et
 <li>Ne créez des comptes que pour les personnes qui en ont besoin</li>
 <li>Attribuez le rôle minimal nécessaire à chaque poste</li>
 <li>Supprimez les comptes rapidement lorsque le personnel quitte l'organisme</li>
-<li>Révisez régulièrement les accès des utilisateur·rices</li>
+<li>Révisez régulièrement les accès des utilisateurs</li>
 </ul>
 </div>
 
@@ -298,7 +298,7 @@ hero_tagline: "Comment KoNote protège les données des participant·e·s — et
 <li>Clés de chiffrement par organisme dans les déploiements multi-organismes</li>
 <li>Contrôles d'accès et journal d'audit</li>
 <li>Enregistrement du consentement avec suivi immuable des retraits</li>
-<li>Application du consentement inter-programmes — notes cliniques partagées uniquement avec la permission du·de la participant·e ou de l'organisme</li>
+<li>Application du consentement inter-programmes — notes cliniques partagées uniquement avec la permission du participant ou de l'organisme</li>
 <li>Configuration de la rétention des données</li>
 <li>Flux de travail d'effacement des données en plusieurs étapes avec chaîne d'approbation</li>
 <li>Modèle de politique de confidentialité</li>
@@ -315,7 +315,7 @@ hero_tagline: "Comment KoNote protège les données des participant·e·s — et
 <div class="card">
 <h3>Conformité au RGPD</h3>
 <p>
-        Pour les organismes qui servent des participant·e·s européen·nes, KoNote comprend :
+        Pour les organismes qui servent des participants européens, KoNote comprend :
 </p>
 <ul>
 <li>Suivi du consentement (champ consent_given_at)</li>
@@ -326,7 +326,7 @@ hero_tagline: "Comment KoNote protège les données des participant·e·s — et
 </ul>
 <p class="text-muted">
 <strong>Note :</strong> La conformité au RGPD nécessite davantage que des fonctionnalités logicielles.
-        Consultez un·e professionnel·le de la confidentialité pour votre situation spécifique.
+        Consultez un professionnel de la confidentialité pour votre situation spécifique.
 </p>
 </div>
 
@@ -359,9 +359,9 @@ hero_tagline: "Comment KoNote protège les données des participant·e·s — et
 <div class="card">
 <h3>Pas de recherche chiffrée</h3>
 <p>
-        Les champs chiffrés ne peuvent pas être recherchés par des requêtes SQL. La recherche de participant·e·s
-        charge les participant·e·s accessibles en mémoire et filtre en Python.
-        Cela fonctionne bien jusqu'à environ 2 000 participant·e·s, mais peut ralentir à plus grande échelle.
+        Les champs chiffrés ne peuvent pas être recherchés par des requêtes SQL. La recherche de participants
+        charge les participants accessibles en mémoire et filtre en Python.
+        Cela fonctionne bien jusqu'à environ 2 000 participants, mais peut ralentir à plus grande échelle.
 </p>
 </div>
 
@@ -369,7 +369,7 @@ hero_tagline: "Comment KoNote protège les données des participant·e·s — et
 <h3>AMF du personnel via SSO uniquement</h3>
 <p>
         L'authentification locale du personnel n'inclut pas l'authentification multifacteur (AMF). Si vous avez besoin de l'AMF pour le personnel, utilisez Azure AD SSO,
-        qui prend en charge les politiques AMF de votre organisme. Le portail des participant·e·s dispose
+        qui prend en charge les politiques AMF de votre organisme. Le portail des participants dispose
         d'une AMF intégrée (application d'authentification TOTP ou codes de vérification par courriel).
 </p>
 </div>
