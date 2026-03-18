@@ -305,6 +305,126 @@ hero_tagline: "KoNote is designed around research on what helps participants suc
 
 <section class="alt-bg">
 <div class="container">
+<h2>From Research to Practice</h2>
+<p>
+      The research above comes from clinical and academic settings. LogicalOutcomes'
+      own evaluation work — across hundreds of projects with community agencies over
+      more than a decade — confirmed these findings and added practical lessons that
+      shaped KoNote's design.
+</p>
+
+<div class="card-grid">
+<div class="card">
+<h3>Collect Data Only to Improve Services</h3>
+<p>
+          Data collection in community services presents real costs — to staff,
+          to participants, and to organisations. Research confirms that unnecessary
+          documentation decreases staff morale, and the costs of collection, analysis,
+          and security are rarely adequately funded. If data is not being used to
+          improve services, it should not be collected. This sometimes requires
+          negotiations with funders about mandated surveys to improve their timeliness
+          and usefulness.
+</p>
+<p>
+          When data is collected, the results must engage front-line staff as well as
+          agency decision-makers. Reports need to be relevant, frequent, and ideally
+          interactive so that staff can explore results and see the impact of service
+          changes. If front-line staff do not value the results, the data is unlikely
+          to be accurate.
+</p>
+<p class="text-muted">
+<strong>Key sources:</strong> Ommaya, A.K. et al. (2018). Care-centred clinical
+          documentation. <em>NAM Perspectives</em>.
+          Zegers, S. et al. (2020). The impact of the electronic health record on
+          nurses' work. <em>International Journal of Environmental Research and
+          Public Health</em>, 17(24).
+</p>
+</div>
+
+<div class="card">
+<h3>Participant Feedback Drives Better Services</h3>
+<p>
+          Clinical research on feedback-informed practice is supported by broader
+          evidence from social services. Participant-informed and deliberate practice
+          are associated with lower drop-outs, higher client satisfaction, decreased
+          negative impacts, and greater counsellor effectiveness.
+</p>
+<p>
+          In practice, this means collecting feedback regularly — during sessions or
+          conversations, not only through structured surveys — reviewing it with staff
+          using a standard agenda, discussing it with decision-makers, and changing
+          services in response. Open-ended qualitative responses have the most impact
+          on staff, especially when they include appreciation for good work. Aggregated
+          scores are difficult to interpret and often not compelling to the people doing
+          the work.
+</p>
+<p class="text-muted">
+<strong>Key sources:</strong> Gondek, D. et al. (2016). Feedback-informed treatment.
+          <em>Clinical Psychology Review</em>, 46.
+          Graßmann, C. et al. (2020). Coaching effectiveness.
+          <em>International Coaching Psychology Review</em>, 15(2).
+          Brattland, H. et al. (2018). Routine outcome monitoring.
+          <em>Psychotherapy Research</em>, 28(6).
+          Benitez, C. et al. (2022). Client feedback as proxy for outcomes.
+          <em>Journal of Clinical Psychology</em>.
+</p>
+</div>
+
+<div class="card">
+<h3>Track Process Metrics, Not Everything</h3>
+<p>
+          Organisations should track a small number of key metrics that show whether
+          the most important elements of service delivery are on track. This information
+          should be embedded into the client management system as a regular part of
+          service delivery, not bolted on as a separate data collection exercise.
+</p>
+<p>
+          Implementation research shows that without continual tracking, programs tend
+          to stray from their design. But detailed process metrics require significant
+          investment and do not necessarily improve services unless incorporated into
+          regular management processes. The goal is to define the "active ingredients"
+          of the program model and track those, rather than measuring everything.
+</p>
+<p class="text-muted">
+<strong>Key sources:</strong> Fixsen, D. et al. (2005). <em>Implementation Research:
+          A Synthesis of the Literature</em>.
+          De Vos, M. et al. (2009). Quality management and process improvement.
+          <em>BMJ Quality &amp; Safety</em>.
+          Sampath, B. et al. (2021). Quality improvement and measurement.
+          <em>Institute for Healthcare Improvement</em>.
+</p>
+</div>
+
+<div class="card">
+<h3>Delay Outcome Measurement Until You Have a System</h3>
+<p>
+          Outcome measures should be integrated into a client management system so that
+          they are part of service delivery, do not require staff to switch platforms,
+          and include demographic data for use in planning and service equity. Until
+          organisations have a CMS in place, they should not invest in outcome measurement.
+</p>
+<p>
+          A basic CMS should include outputs and short-term outcomes — demographics
+          and participant feedback — that can be used in service improvement as well as
+          evaluations. Mid- and long-term outcome measures are generally not relevant to
+          front-line practice: they are measured too late to influence a participant's
+          services, are not seen as useful by staff, and are probably not statistically
+          valid at the programme level.
+</p>
+</div>
+</div>
+
+<p>
+      These conclusions grew from LogicalOutcomes' project work — including the Ontario
+      Trillium Foundation's Outcome Measurement Platform, longitudinal wellbeing tracking
+      with West Neighbourhood House, and a four-year family violence services evaluation
+      across five agencies. <a href="/en/origins/">Read the full story on our Origins page</a>.
+</p>
+</div>
+</section>
+
+<section>
+<div class="container">
 <h2>What We're Not Claiming</h2>
 
 <div class="notice notice-info">
@@ -340,7 +460,7 @@ hero_tagline: "KoNote is designed around research on what helps participants suc
 </div>
 </section>
 
-<section>
+<section class="alt-bg">
 <div class="container">
 <h2>Implementation Matters</h2>
 
@@ -376,7 +496,7 @@ hero_tagline: "KoNote is designed around research on what helps participants suc
 </div>
 </section>
 
-<section class="alt-bg">
+<section>
 <div class="container text-center">
 <h2>Questions?</h2>
 <p class="text-muted mb-8">

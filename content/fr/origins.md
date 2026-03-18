@@ -48,40 +48,7 @@ Ce projet a nécessité de longues consultations avec les parties prenantes dans
 
 ## Ce que nous avons appris
 
-À travers ces projets, nous en sommes arrivés à quatre conclusions sur la façon dont l'évaluation devrait fonctionner dans les services communautaires. Celles-ci sont intégrées dans la conception de KoNote.
-
-### Utiliser les données des participant·e·s uniquement pour améliorer les services
-
-La collecte de données dans les services communautaires présente de véritables coûts et obstacles — pour le personnel, pour les participant·e·s et pour les organisations. Une documentation inutile nuit au moral du personnel (Ommaya et coll., 2018 ; Zegers et coll., 2020) et les coûts de collecte, d'analyse et de sécurité sont rarement suffisamment financés. Les avantages de la collecte de données doivent être supérieurs aux coûts. Si les données ne sont pas utilisées pour améliorer les services, elles ne devraient pas être collectées. Cela nécessite parfois des négociations avec les bailleurs de fonds au sujet des sondages obligatoires pour améliorer leur utilité et leur opportunité.
-
-Lorsque des données sont collectées, les résultats doivent mobiliser le personnel de première ligne ainsi que les décideur·euses des organismes. Les rapports doivent être pertinents, fréquents (p. ex., mensuels) et idéalement interactifs pour que le personnel puisse explorer les résultats, tester des hypothèses et voir l'impact des changements de service. Si le personnel de première ligne ne valorise pas les résultats de la collecte de données, les données risquent de ne pas être exactes.
-
-### Utiliser une pratique éclairée par les participant·e·s
-
-Les rétroactions des participant·e·s devraient être collectées en continu et utilisées dans la prestation des services. La pratique éclairée par les participant·e·s et la pratique délibérée sont associées à moins d'abandons, à une plus grande satisfaction des client·e·s, à une réduction des impacts négatifs, à une plus grande efficacité des conseiller·ères et à un impact plus élevé dans les services sociaux (Gondek et coll., 2016 ; Graßmann et coll., 2020 ; Miller et coll., 2020 ; Swift et Greenberg, 2012). Pour les gestionnaires, les rétroactions des participant·e·s fournissent une vue sur la prestation des services et leur permettent de détecter les problèmes tôt. Les rétroactions des participant·e·s peuvent également servir de substituts aux résultats et réduire le besoin d'autres types de mesures (Benitez et coll., 2022).
-
-En pratique, cela signifie collecter des rétroactions (ce qui peut se faire lors des séances ou des conversations, pas seulement par des sondages structurés), les examiner régulièrement avec le personnel selon un ordre du jour standard, en discuter avec les décideur·euses, modifier les services en réponse et répéter le cycle (Brattland et coll., 2018). D'après notre expérience, les réponses qualitatives ouvertes ont le plus d'impact sur le personnel, surtout lorsqu'elles comprennent des témoignages d'appréciation pour un bon travail. Les scores et chiffres agrégés des sondages sont difficiles à interpréter et ne sont souvent pas convaincants pour les personnes qui font le travail.
-
-### Utiliser des métriques de processus pour améliorer la qualité des programmes
-
-Les organisations devraient suivre un petit nombre de métriques clés qui montrent si les éléments les plus importants de la prestation de services sont sur la bonne voie. Cette information devrait être intégrée dans le système de gestion de cas comme faisant partie régulière de la prestation de services, et non ajoutée après coup comme un exercice de collecte de données distinct.
-
-Nous savons d'après la recherche en mise en œuvre que les modèles de programme ne sont pas utiles de façon isolée (Fixsen et coll., 2005). Sans suivi et amélioration continus, les programmes ont tendance à s'écarter de leur conception. Mais la mise en œuvre de métriques de processus détaillées nécessite des investissements importants et n'améliore pas nécessairement les services à moins que les métriques ne soient intégrées dans les processus de gestion réguliers (De Vos et coll., 2009 ; Institute for Healthcare Improvement, 2021 ; Sampath et coll., 2021). L'objectif est de définir les éléments clés — parfois appelés les «&nbsp;ingrédients actifs&nbsp;» — du modèle de programme et de les suivre, plutôt que de tout mesurer.
-
-### Retarder la mesure des résultats jusqu'à ce qu'un système de gestion de cas soit en place
-
-Les mesures de résultats devraient être intégrées dans un système de gestion de cas pour qu'elles fassent partie de la prestation de services, ne nécessitent pas que le personnel change de plateforme et incluent des données démographiques pour la planification et l'équité des services. Jusqu'à ce que les organisations aient un système de gestion de cas en place, elles ne devraient pas investir dans la mesure des résultats.
-
-Un système de gestion de cas de base devrait inclure les extrants et les résultats à court terme, notamment les données démographiques et les rétroactions des participant·e·s, pouvant être utilisés dans l'amélioration des services ainsi que dans les évaluations. Les mesures de résultats à moyen et long terme ne sont généralement pas pertinentes pour la pratique de première ligne puisqu'elles sont mesurées trop tard pour influencer les services d'un·e participant·e, ne sont pas perçues comme utiles par le personnel et ne sont probablement pas statistiquement valides au niveau du programme.
-
-### Principes de conception supplémentaires
-
-Au-delà de ces conclusions méthodologiques, plusieurs autres principes façonnent la conception de KoNote :
-
-- Les participant·e·s devraient détenir leurs propres données, pouvoir les partager sélectivement avec les programmes de leur choix et les emporter d'un organisme à l'autre plutôt que de recommencer depuis le début à chaque accueil.
-- Les organisations devraient pouvoir définir leurs propres indicateurs et construire des sondages autour de mesures que leur communauté a contribué à créer, plutôt que d'être contraintes au cadre de quelqu'un d'autre.
-- Les organisations devraient développer leurs capacités d'évaluation de façon progressive, testant et affinant les outils à chaque projet plutôt que de tout recommencer à chaque fois.
-- La plateforme doit exporter des rapports dans les formats que les bailleurs de fonds et les autorités de réglementation exigent, tout en maintenant le fardeau sur le personnel aussi faible que possible.
+Ces projets — et des centaines d'autres — ont façonné la vision de LogicalOutcomes sur la façon dont l'évaluation devrait fonctionner dans les services communautaires. Nous en sommes arrivés à quatre conclusions : ne collecter des données que pour améliorer les services, et non pour leur propre fin ; utiliser les rétroactions des participant·e·s en continu pour améliorer les pratiques ; suivre un petit nombre de métriques de processus plutôt que de tout mesurer ; et retarder la mesure des résultats jusqu'à ce qu'un système de gestion de cas soit en place. Ces conclusions, et les données probantes qui les soutiennent, sont maintenant intégrées dans la conception de KoNote — consultez notre page [Fondements de la recherche](/fr/donnees-probantes/) pour en savoir plus. Les [principes de conception](/fr/principes-de-conception/) du logiciel les reflètent également.
 
 ## Normes de données et métadonnées
 
@@ -90,6 +57,13 @@ Chaque bailleur de fonds, partenaire et organisme a son propre cadre, sa propre 
 Le modèle de données de KoNote emprunte également des concepts structurels au dictionnaire de données HL7 FHIR — spécifiquement les plans de soins, les objectifs, les rencontres et les épisodes de soins — sans pour autant mettre en œuvre l'API FHIR complète. Ces concepts fournissent une structure éprouvée pour organiser les données longitudinales des client·e·s dans les programmes et les organismes.
 
 Cette approche des métadonnées est issue en partie du travail antérieur de LogicalOutcomes avec [DHIS2](https://dhis2.org/), le Système d'information pour la gestion de la santé à code ouvert utilisé dans plus de 100 pays. À partir de 2015, LogicalOutcomes a adapté DHIS2 pour la surveillance et l'évaluation de plus petits organismes à but non lucratif, développant des gabarits à code ouvert, des programmes de formation et une méthodologie de «&nbsp;démarrage rapide&nbsp;». Ce travail comprenait l'aide à l'adoption de DHIS2 par The Nature Conservancy pour le suivi de la conservation en Tanzanie, l'une des premières utilisations documentées de la plateforme en dehors du secteur de la santé. Ce travail a permis d'acquérir une profonde expérience en matière de collecte de données configurable et d'utilisation de cadres de métadonnées pour structurer les données agrégées en vue d'une analyse à l'échelle du système.
+
+---
+
+## Lire la suite
+
+- **[Fondements de la recherche](/fr/donnees-probantes/)** — les données probantes et les conclusions pratiques derrière la conception de KoNote
+- **[Principes de conception](/fr/principes-de-conception/)** — comment ces idées sont devenues une architecture logicielle
 
 ---
 
