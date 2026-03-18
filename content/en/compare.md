@@ -12,7 +12,7 @@ hero_tagline: "What to look for when evaluating platforms for participant outcom
 <p>
       No single tool is right for every agency. Commercial platforms offer convenience
       and vendor support but come with ongoing costs, data residency concerns, and limited
-      customisation. General-purpose open source tools offer full control but require
+      customization. General-purpose open source tools offer full control but require
       significant technical capacity. KoNote is designed for a specific niche: Canadian
       social service nonprofits that need outcome tracking built on research, privacy
       compliance built into the architecture, and costs that a five-person agency can
@@ -55,7 +55,7 @@ hero_tagline: "What to look for when evaluating platforms for participant outcom
 <td>Built for PIPEDA/PHIPA. Field-level encryption, consent enforcement, data erasure workflow</td>
 </tr>
 <tr>
-<td><strong>Customisation</strong></td>
+<td><strong>Customization</strong></td>
 <td>Limited to vendor's configuration options</td>
 <td>Full source access but requires developers</td>
 <td>Configurable terminology, fields, surveys, and workflows via admin panel. Full source access if needed</td>
@@ -88,7 +88,7 @@ hero_tagline: "What to look for when evaluating platforms for participant outcom
 <td><strong>Funder reporting</strong></td>
 <td>Usually included but rigid</td>
 <td>Minimal or DIY</td>
-<td>Built in. Common Approach (CIDS) compliant, customisable report templates, automated from normal documentation</td>
+<td>Built in. Common Approach (CIDS) compliant, customizable report templates, automated from normal documentation</td>
 </tr>
 <tr>
 <td><strong>Technical requirements</strong></td>

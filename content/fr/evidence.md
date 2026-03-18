@@ -58,7 +58,7 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
           à ce qui est écrit à leur sujet, la confiance augmente.
 </p>
 <p>
-          La transparence n'est pas seulement éthique ; elle est cliniquement efficace. Les clients
+          La transparence est cliniquement efficace. Les clients
           perçoivent les ruptures d'alliance avant les prestataires de services. La rétroaction régulière
           détecte les problèmes tôt, avant que les clients ne se désengagent.
 </p>

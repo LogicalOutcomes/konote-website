@@ -20,7 +20,7 @@ KoNote est fondé sur quatre principes qui façonnent chaque fonctionnalité, ch
 
 ## 1. Pratique collaborative — «&nbsp;Des notes rédigées ensemble, pas sur vous&nbsp;»
 
-Le «&nbsp;Ko&nbsp;» dans KoNote signifie collaboratif. Ce n'est pas seulement un nom — c'est la décision de conception la plus importante du système.
+Le «&nbsp;Ko&nbsp;» dans KoNote signifie collaboratif. C'est la décision de conception la plus importante du système.
 
 La plupart des logiciels de gestion de cas traitent la documentation comme quelque chose que le personnel fait seul à son bureau après une séance. KoNote la traite comme faisant partie du service lui-même. Chaque note d'évolution a deux côtés : la perspective du participant — ses propres mots, sa réflexion sur la séance, son évaluation de la relation de travail — et les observations de l'intervenant. Les deux sont structurels. Une note sans la voix du participant est incomplète par conception.
 

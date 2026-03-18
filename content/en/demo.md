@@ -188,7 +188,7 @@ hero_tagline: "These are live forms connected to a real KoNote instance. Try the
 </div>
 <div class="card">
 <h3>See Progress Charts</h3>
-<p>After recording a few notes with metrics, check the <strong>Analysis</strong> tab to see progress visualised over time.</p>
+<p>After recording a few notes with metrics, check the <strong>Analysis</strong> tab to see progress visualized over time.</p>
 </div>
 </div>
 
@@ -207,7 +207,7 @@ hero_tagline: "These are live forms connected to a real KoNote instance. Try the
 <h2>Try a Survey</h2>
 <p>
       KoNote includes a full survey engine for intake forms, satisfaction questionnaires,
-      and standardised assessments. Staff create surveys in the admin panel, then share
+      and standardized assessments. Staff create surveys in the admin panel, then share
       them with participants in three ways: a public link (no login needed), the
       participant portal, or staff-assisted data entry.
 </p>

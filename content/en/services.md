@@ -1,10 +1,10 @@
 ---
 title: "Professional Services"
-description: "Professional setup and onboarding services for KoNote. Get help deploying and configuring KoNote for your organisation."
+description: "Professional setup and onboarding services for KoNote. Get help deploying and configuring KoNote for your organization."
 layout: "wide"
 hero: true
 hero_title: "Professional Services"
-hero_tagline: "Optional setup assistance for organisations who want help getting started with KoNote."
+hero_tagline: "Optional setup assistance for organizations who want help getting started with KoNote."
 ---
 
 <section>
@@ -14,7 +14,7 @@ hero_tagline: "Optional setup assistance for organisations who want help getting
 <p>
         KoNote is open source software. You can absolutely deploy and configure
         it yourself using the <a href="/en/documentation/">documentation</a>.
-        These services exist for organisations who prefer professional assistance
+        These services exist for organizations who prefer professional assistance
         or lack the technical capacity to self-deploy.
 </p>
 </div>
@@ -26,7 +26,7 @@ hero_tagline: "Optional setup assistance for organisations who want help getting
 <div class="card service-card">
 <h2 style="margin-top: var(--space-4);">Full Onboarding Package</h2>
 <p>
-        A complete setup service to get your organisation running on KoNote
+        A complete setup service to get your organization running on KoNote
         with confidence.
 </p>
 
@@ -40,7 +40,7 @@ hero_tagline: "Optional setup assistance for organisations who want help getting
 <li>
 <strong>Initial Configuration:</strong>
           Set up your programs, user accounts, terminology, and feature toggles
-          based on your organisation's needs.
+          based on your organization's needs.
 </li>
 <li>
 <strong>Training Sessions:</strong>
@@ -80,7 +80,7 @@ hero_tagline: "Optional setup assistance for organisations who want help getting
 
 <h3>Pricing</h3>
 <p>
-        Contact for a quote. Pricing depends on your organisation's size,
+        Contact for a quote. Pricing depends on your organization's size,
         complexity, and chosen hosting platform. We'll discuss your needs
         and provide a clear proposal before any work begins.
 </p>
@@ -90,7 +90,7 @@ hero_tagline: "Optional setup assistance for organisations who want help getting
         Email: <a href="mailto:info@logicaloutcomes.net"><strong>info@logicaloutcomes.net</strong></a>
 </p>
 <p class="text-muted">
-        Include a brief description of your organisation and what you're looking to accomplish.
+        Include a brief description of your organization and what you're looking to accomplish.
         We'll schedule a call to discuss your needs.
 </p>
 </div>
@@ -108,8 +108,8 @@ hero_tagline: "Optional setup assistance for organisations who want help getting
 <div class="faq-answer">
 <p>
           Yes, absolutely. The <a href="/en/documentation/">documentation</a> is comprehensive,
-          and many organisations successfully deploy and configure KoNote themselves.
-          These services exist for organisations who prefer professional assistance
+          and many organizations successfully deploy and configure KoNote themselves.
+          These services exist for organizations who prefer professional assistance
           or want to move faster than self-service allows.
 </p>
 </div>
@@ -123,7 +123,7 @@ hero_tagline: "Optional setup assistance for organisations who want help getting
 <p>
           We can discuss ongoing support arrangements if needed. However,
           the goal of the onboarding package is to leave you self-sufficient.
-          Most organisations don't need ongoing support after the initial period.
+          Most organizations don't need ongoing support after the initial period.
 </p>
 </div>
 </div>
@@ -143,7 +143,7 @@ hero_tagline: "Optional setup assistance for organisations who want help getting
 
 <div class="faq-item">
 <button class="faq-question" aria-expanded="false">
-        Do you work with organisations outside Canada?
+        Do you work with organizations outside Canada?
 </button>
 <div class="faq-answer">
 <p>

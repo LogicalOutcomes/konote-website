@@ -333,7 +333,7 @@ hero_tagline: "Honest answers to common questions about KoNote."
 <p>
           Participant data is sensitive. Many nonprofits need full control over where
           that data lives — for regulatory compliance, funder requirements, or
-          organisational policy.
+          organizational policy.
 </p>
 <p>
           A self-hosted model means:
@@ -360,7 +360,7 @@ hero_tagline: "Honest answers to common questions about KoNote."
           documentation. It lacks:
 </p>
 <ul>
-<li>Standardised clinical assessment tools</li>
+<li>Standardized clinical assessment tools</li>
 <li>Treatment planning features</li>
 <li>Prescription or medication tracking</li>
 <li>Healthcare-specific compliance features (HIPAA, etc.)</li>
@@ -376,17 +376,17 @@ hero_tagline: "Honest answers to common questions about KoNote."
 
 <div class="faq-item">
 <button class="faq-question" aria-expanded="false">
-        Can multiple organisations share one KoNote instance?
+        Can multiple organizations share one KoNote instance?
 </button>
 <div class="faq-answer">
 <p>
-          Yes. KoNote supports multi-agency hosting, where multiple organisations
+          Yes. KoNote supports multi-agency hosting, where multiple organizations
           share a single server while maintaining strict data separation. Each
           agency gets its own separate data store and encryption key, with
           independent configuration for terminology, features, and programs.
 </p>
 <p>
-          This is designed for umbrella organisations, consortia, or regional
+          This is designed for umbrella organizations, consortia, or regional
           networks that want to reduce hosting costs without compromising
           data privacy. Each agency's data remains fully isolated from
           other agencies on the same server. Sharing infrastructure
@@ -406,8 +406,8 @@ hero_tagline: "Honest answers to common questions about KoNote."
           terminology, labels, and system text appear in the selected language.
 </p>
 <p>
-          Agencies can customise all terminology in both languages to match their
-          preferred wording. Full internationalisation to other languages beyond
+          Agencies can customize all terminology in both languages to match their
+          preferred wording. Full internationalization to other languages beyond
           English and French would require development work.
 </p>
 </div>
@@ -436,7 +436,7 @@ hero_tagline: "Honest answers to common questions about KoNote."
           enabled by default) and de-identified analysis mode (participant data with
           identifiers removed, disabled by default). No participant identifying
           information is ever sent to the AI service. Both tiers can be disabled
-          entirely if your organisation prefers not to use AI.
+          entirely if your organization prefers not to use AI.
           <a href="/en/features/">See full AI feature details →</a>
 </p>
 </div>

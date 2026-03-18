@@ -100,7 +100,7 @@ hero_tagline: "How KoNote protects participant data — and what you're responsi
           Two authentication options, both using modern security practices.
 </p>
 <ul>
-<li><strong>Azure AD SSO:</strong> Integrate with your organisation's Microsoft 365</li>
+<li><strong>Azure AD SSO:</strong> Integrate with your organization's Microsoft 365</li>
 <li><strong>Local authentication:</strong> Passwords hashed with Argon2 (winner of the Password Hashing Competition)</li>
 </ul>
 <p class="text-muted">
@@ -111,7 +111,7 @@ hero_tagline: "How KoNote protects participant data — and what you're responsi
 <div class="card">
 <h3>Secure Data Exports</h3>
 <p>
-          Defence-in-depth controls on data exports to prevent unauthorised data extraction.
+          Defense-in-depth controls on data exports to prevent unauthorized data extraction.
 </p>
 <ul>
 <li><strong>SecureExportLink:</strong> Time-limited download links with 24-hour expiry and nonce deduplication</li>
@@ -126,7 +126,7 @@ hero_tagline: "How KoNote protects participant data — and what you're responsi
 <div class="card">
 <h3>Canadian Data Residency</h3>
 <p>
-          For organisations requiring data to stay in Canada, KoNote supports
+          For organizations requiring data to stay in Canada, KoNote supports
           deployment to Canadian infrastructure.
 </p>
 <ul>
@@ -276,7 +276,7 @@ hero_tagline: "How KoNote protects participant data — and what you're responsi
 <li>Train staff on acceptable use and data handling</li>
 <li>Establish policies for sharing information</li>
 <li>Create procedures for security incidents</li>
-<li>Document your organisation's privacy practices</li>
+<li>Document your organization's privacy practices</li>
 </ul>
 </div>
 </div>
@@ -316,7 +316,7 @@ hero_tagline: "How KoNote protects participant data — and what you're responsi
 <div class="card">
 <h3>GDPR Readiness</h3>
 <p>
-        For organisations serving European participants, KoNote includes:
+        For organizations serving European participants, KoNote includes:
 </p>
 <ul>
 <li>Consent tracking (consent_given_at field)</li>
@@ -370,7 +370,7 @@ hero_tagline: "How KoNote protects participant data — and what you're responsi
 <h3>Staff MFA via SSO Only</h3>
 <p>
         Staff local authentication doesn't include MFA. If you need staff MFA, use Azure AD SSO,
-        which supports your organisation's MFA policies. The participant portal has
+        which supports your organization's MFA policies. The participant portal has
         built-in MFA (TOTP authenticator app or email verification codes).
 </p>
 </div>
@@ -391,7 +391,7 @@ hero_tagline: "How KoNote protects participant data — and what you're responsi
 <h2>Questions About Security?</h2>
 <p class="text-muted mb-8">
       The technical documentation has more detail on security implementation.
-      For organisation-specific questions, consider professional consultation.
+      For organization-specific questions, consider professional consultation.
 </p>
 <div class="btn-group" style="justify-content: center;">
 <a href="/en/documentation/" class="btn btn-primary">Technical Documentation</a>
