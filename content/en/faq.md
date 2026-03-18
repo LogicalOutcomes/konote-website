@@ -24,8 +24,8 @@ hero_tagline: "Honest answers to common questions about KoNote."
 </p>
 <p>
           You will have hosting costs (the servers that run KoNote), but those
-          go to your hosting provider, not to us. Typical hosting costs range
-          from $45–150 CAD/month depending on your platform choice.
+          go to your hosting provider, not to us. Hosting costs vary depending
+          on your platform choice and deployment model.
 </p>
 </div>
 </div>
@@ -389,8 +389,8 @@ hero_tagline: "Honest answers to common questions about KoNote."
           This is designed for umbrella organisations, consortia, or regional
           networks that want to reduce hosting costs without compromising
           data privacy. Each agency's data remains fully isolated from
-          other agencies on the same server. Typical per-agency costs drop
-          from $35&ndash;100/month (standalone) to $4&ndash;10/month (shared).
+          other agencies on the same server. Sharing infrastructure
+          significantly reduces per-agency costs.
 </p>
 </div>
 </div>

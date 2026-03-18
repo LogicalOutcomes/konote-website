@@ -128,7 +128,7 @@ hero_tagline: "How to evaluate KoNote and decide if it's right for your organisa
           Automatic HTTPS. Good for organisations without dedicated IT staff.
 </p>
 <ul>
-<li><strong>Cost:</strong> ~$45–50 CAD/month</li>
+<li><strong>Cost:</strong> Low (pay-as-you-go)</li>
 <li><strong>Difficulty:</strong> Low</li>
 <li><strong>Data location:</strong> US (Railway's infrastructure)</li>
 </ul>
@@ -145,7 +145,7 @@ hero_tagline: "How to evaluate KoNote and decide if it's right for your organisa
           Data can stay in Canadian regions. More complex setup.
 </p>
 <ul>
-<li><strong>Cost:</strong> Varies ($50–150 CAD/month typical)</li>
+<li><strong>Cost:</strong> Varies by configuration</li>
 <li><strong>Difficulty:</strong> Medium-High</li>
 <li><strong>Data location:</strong> Your choice (Canada Central available)</li>
 </ul>

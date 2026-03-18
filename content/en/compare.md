@@ -32,9 +32,9 @@ hero_tagline: "What to look for when evaluating platforms for participant outcom
 <tbody>
 <tr>
 <td><strong>Cost model</strong></td>
-<td>Per-user/month ($15–50/user), annual contracts</td>
+<td>Per-user/month, annual contracts</td>
 <td>Free software, self-hosted infrastructure costs</td>
-<td>Free (MIT licence). Hosting for under $100 CAD per agency</td>
+<td>Free (MIT licence). You pay only for hosting</td>
 </tr>
 <tr>
 <td><strong>Data hosting</strong></td>

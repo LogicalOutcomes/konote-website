@@ -100,8 +100,8 @@ hero_cta:
 <h3>Hébergement multi-organismes</h3>
 <p>
           Partagez un seul serveur entre plusieurs organismes avec une isolation stricte des données,
-          des clés de chiffrement propres à chaque organisme et une configuration indépendante. Réduisez
-          les coûts d'hébergement de 35&ndash;100&nbsp;$/mois à 4&ndash;10&nbsp;$ par organisme.
+          des clés de chiffrement propres à chaque organisme et une configuration indépendante.
+          Réduction significative des coûts d'hébergement par organisme.
 </p>
 </div>
 <div class="feature-item">
@@ -155,7 +155,7 @@ hero_cta:
 <div class="feature-item">
 <h3>Durabilité pour les OBNL</h3>
 <p>
-          Pile technologique minimale, hébergement pour moins de 100 $ CAD par organisme,
+          Pile technologique minimale, faibles coûts d'hébergement,
           pas de cadriciel JavaScript, pas de dépendance fournisseur.
           Conçu pour un organisme de cinq personnes, pas une entreprise.
 </p>

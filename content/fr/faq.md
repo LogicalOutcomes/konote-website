@@ -24,8 +24,8 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
 </p>
 <p>
           Vous aurez des frais d'hébergement (les serveurs qui exécutent KoNote), mais ceux-ci
-          vont à votre fournisseur d'hébergement, pas à nous. Les frais d'hébergement typiques varient
-          entre 45 et 150 $ CAD par mois selon la plateforme choisie.
+          vont à votre fournisseur d'hébergement, pas à nous. Les frais d'hébergement varient
+          selon la plateforme choisie et le modèle de déploiement.
 </p>
 </div>
 </div>
@@ -389,8 +389,8 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
           Ceci est conçu pour les organismes faîtiers, les consortiums ou les réseaux régionaux
           qui souhaitent réduire les coûts d'hébergement sans compromettre
           la confidentialité des données. Les données de chaque organisme restent entièrement isolées des
-          autres organismes sur le même serveur. Les coûts typiques par organisme passent
-          de 35&ndash;100&nbsp;$/mois (autonome) à 4&ndash;10&nbsp;$/mois (partagé).
+          autres organismes sur le même serveur. Le partage d'infrastructure
+          réduit considérablement les coûts par organisme.
 </p>
 </div>
 </div>

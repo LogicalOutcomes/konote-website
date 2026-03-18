@@ -439,7 +439,7 @@ hero_tagline: "What KoNote does — and what it doesn't do. We believe in being 
 <ul>
 <li>Each agency's data is completely separated — no mixing between organisations</li>
 <li>Each agency gets its own encryption key, managed independently</li>
-<li>Shared infrastructure for cost optimisation ($4&ndash;10/month per agency vs. $35&ndash;100 standalone)</li>
+<li>Shared infrastructure significantly reduces per-agency hosting costs</li>
 <li>Independent configuration per agency (terminology, features, programs)</li>
 <li>Consortium model for agencies that want to share aggregate reporting</li>
 <li>Consent-based aggregate reporting across consortium members</li>
