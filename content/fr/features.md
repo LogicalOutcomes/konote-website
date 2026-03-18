@@ -2,6 +2,7 @@
 title: "Fonctionnalités"
 description: "Fonctionnalités de KoNote : dossiers des participant·e·s, plans de résultats, notes d'évolution, suivi des métriques, sondages, rapports aux bailleurs de fonds, conformité CIDS, portail des participant·e·s, tableau de bord de direction, groupes de cercles, rédaction d'objectifs assistée par IA, et plus encore."
 layout: "wide"
+toc: true
 hero: true
 hero_title: "Fonctionnalités"
 hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à la transparence concernant les capacités et les limites."

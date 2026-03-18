@@ -2,6 +2,7 @@
 title: "Features"
 description: "KoNote features: participant records, outcome plans, progress notes, metrics tracking, surveys, funder reporting, CIDS compliance, participant portal, executive dashboard, group circles, AI-assisted goal writing, and more."
 layout: "wide"
+toc: true
 hero: true
 hero_title: "Features"
 hero_tagline: "What KoNote does — and what it doesn't do. We believe in being upfront about capabilities and limitations."

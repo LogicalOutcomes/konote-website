@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="page-content">
+<article class="page-content"{{ if .Params.toc }} data-toc{{ end }}>
   {{ if .Params.hero }}
   {{ partial "hero.html" . }}
   {{ end }}
