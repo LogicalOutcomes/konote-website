@@ -87,7 +87,7 @@ hero_tagline: "Optional setup assistance for organisations who want help getting
 
 <h3>Get in Touch</h3>
 <p>
-        Email: <a href="mailto:your-email@example.com"><strong>your-email@example.com</strong></a>
+        Email: <a href="mailto:info@logicaloutcomes.net"><strong>info@logicaloutcomes.net</strong></a>
 </p>
 <p class="text-muted">
         Include a brief description of your organisation and what you're looking to accomplish.
