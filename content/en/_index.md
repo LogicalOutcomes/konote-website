@@ -120,60 +120,60 @@ hero_cta:
 <div class="section-header">
 <h2>Design Philosophy</h2>
 <p>
-        KoNote isn't just a database with a nice interface — it's built on a firm
-        theoretical foundation that puts participants first.
+        KoNote isn't just a database with a nice interface — it's built on four
+        structural principles that shape every feature and default.
+<a href="design-principles/">Read the full design principles →</a>
 </p>
 </div>
 
 <div class="feature-grid">
 <div class="feature-item">
-<h3>Participant Goals Come First</h3>
+<h3>Collaborative Practice</h3>
 <p>
-          KoNote was designed around the primacy of
-          participant goals and participant experience. The funder's reporting needs are important,
-          but secondary to the work you're doing with participants.
+          Every progress note has two sides: the participant's perspective and the
+          worker's observations. Notes are written together, not about you.
+          <a href="evidence/">Research shows</a> this improves outcomes.
 </p>
 </div>
 <div class="feature-item">
-<h3>Feedback-Informed Practice</h3>
+<h3>Data Sovereignty</h3>
 <p>
-          KoNote supports feedback-informed practice by making progress visible to both
-          staff and participants. The note-taking process encourages active engagement from
-          participants, not just documentation about them.
-<a href="evidence/">Read the research →</a>
+          Your data belongs to you — not to KoNote, not to a hosting provider.
+          Participants can see their own records, request corrections, and carry
+          their data across organisations.
 </p>
 </div>
 <div class="feature-item">
-<h3>Consent by Design</h3>
+<h3>Security by Default</h3>
 <p>
-          Setting up a participant record requires confirming that consent has been obtained.
-          This isn't a checkbox you can skip — it's built into the workflow because
-          ethical practice requires it.
+          All personal information is encrypted before it reaches the database.
+          This is not a setting — it's how the system works. Every protection
+          is on by default and <a href="security/">cannot be turned off</a>.
 </p>
 </div>
 <div class="feature-item">
-<h3>Works with LogicalOutcomes</h3>
+<h3>Nonprofit Sustainability</h3>
 <p>
-          KoNote is designed to be populated by a <a href="https://logicaloutcomes.net" target="_blank" rel="noopener">LogicalOutcomes</a>
-          evaluation plan during setup. This lets you customise indicators, outcomes,
-          and data collection to match your agency's specific evaluation questions.
+          Minimal tech stack, hosting for under $100 CAD per agency,
+          no JavaScript frameworks, no vendor lock-in.
+          Built for a five-person agency, not an enterprise.
 </p>
 </div>
 <div class="feature-item">
 <h3>Focused, Not Sprawling</h3>
 <p>
-          KoNote covers outcome tracking, progress notes, surveys, funder reporting,
-          messaging, meetings, a participant portal, and data export — but it is not
-          a billing system, clinical EMR, or all-in-one CRM.
-          It does what social service agencies need without the bloat.
+          Outcome tracking, progress notes, surveys, funder reporting,
+          a participant portal, and data export — but not
+          a billing system, clinical EMR, or CRM.
+          <a href="features/">See what it does and doesn't do →</a>
 </p>
 </div>
 <div class="feature-item">
-<h3>A Starting Point</h3>
+<h3>Works with LogicalOutcomes</h3>
 <p>
-          For many agencies, KoNote is a starter system. Get your team collecting useful
-          outcome data now. When you're ready for something more elaborate, export your
-          data and take it with you.
+          Populated by a <a href="https://logicaloutcomes.net" target="_blank" rel="noopener">LogicalOutcomes</a>
+          evaluation plan during setup — customise indicators, outcomes,
+          and data collection to match your agency's evaluation questions.
 </p>
 </div>
 </div>

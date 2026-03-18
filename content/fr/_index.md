@@ -121,60 +121,60 @@ hero_cta:
 <div class="section-header">
 <h2>Philosophie de conception</h2>
 <p>
-        KoNote n'est pas qu'une base de données avec une belle interface — il repose sur des fondements
-        théoriques solides qui placent les participant·e·s au premier plan.
+        KoNote n'est pas qu'une base de données avec une belle interface — il repose sur quatre
+        principes structurels qui façonnent chaque fonctionnalité et chaque choix par défaut.
+<a href="/fr/principes-de-conception/">Lire les principes de conception complets →</a>
 </p>
 </div>
 
 <div class="feature-grid">
 <div class="feature-item">
-<h3>Les objectifs des participant·e·s en premier</h3>
+<h3>Pratique collaborative</h3>
 <p>
-          KoNote a été conçu autour de la primauté des objectifs et de l'expérience des participant·e·s.
-          Les besoins de reddition de comptes du bailleur de fonds sont importants,
-          mais secondaires par rapport au travail que vous accomplissez avec les participant·e·s.
+          Chaque note d'évolution comporte deux volets : la perspective du·de la participant·e
+          et les observations de l'intervenant·e. Les notes sont rédigées ensemble, non à votre sujet.
+          <a href="/fr/donnees-probantes/">La recherche démontre</a> que cela améliore les résultats.
 </p>
 </div>
 <div class="feature-item">
-<h3>Pratique éclairée par la rétroaction</h3>
+<h3>Souveraineté des données</h3>
 <p>
-          KoNote soutient la pratique éclairée par la rétroaction en rendant la progression visible à la fois
-          pour le personnel et les participant·e·s. Le processus de rédaction de notes encourage l'engagement
-          actif des participant·e·s, pas seulement la documentation à leur sujet.
-<a href="/fr/recherche/">Lire les données probantes →</a>
+          Vos données vous appartiennent — pas à KoNote, pas à un fournisseur d'hébergement.
+          Les participant·e·s peuvent voir leurs propres dossiers, demander des corrections
+          et emporter leurs données d'un organisme à l'autre.
 </p>
 </div>
 <div class="feature-item">
-<h3>Consentement par conception</h3>
+<h3>Sécurité par défaut</h3>
 <p>
-          La création d'un dossier de participant·e nécessite la confirmation que le consentement a été obtenu.
-          Ce n'est pas une case que l'on peut cocher à la hâte — c'est intégré au flux de travail parce que
-          la pratique éthique l'exige.
+          Toutes les informations personnelles sont chiffrées avant d'atteindre la base de données.
+          Ce n'est pas un paramètre — c'est ainsi que le système fonctionne. Chaque protection
+          est activée par défaut et <a href="/fr/securite/">ne peut pas être désactivée</a>.
 </p>
 </div>
 <div class="feature-item">
-<h3>Compatible avec LogicalOutcomes</h3>
+<h3>Durabilité pour les OBNL</h3>
 <p>
-          KoNote est conçu pour être alimenté par un plan d'évaluation de <a href="https://logicaloutcomes.net" target="_blank" rel="noopener">LogicalOutcomes</a>
-          lors de la configuration. Cela vous permet de personnaliser les indicateurs, les résultats
-          et la collecte de données pour correspondre aux questions d'évaluation propres à votre organisme.
+          Pile technologique minimale, hébergement pour moins de 100 $ CAD par organisme,
+          pas de cadriciel JavaScript, pas de dépendance fournisseur.
+          Conçu pour un organisme de cinq personnes, pas une entreprise.
 </p>
 </div>
 <div class="feature-item">
 <h3>Ciblé, pas tentaculaire</h3>
 <p>
-          KoNote couvre le suivi des résultats, les notes d'évolution, les sondages, les rapports aux bailleurs de fonds,
-          la messagerie, les réunions, un portail pour les participant·e·s et l'exportation des données — mais ce n'est pas
-          un système de facturation, un dossier médical électronique clinique ni un CRM tout-en-un.
-          Il fait ce dont les organismes de services sociaux ont besoin, sans superflu.
+          Suivi des résultats, notes d'évolution, sondages, rapports aux bailleurs de fonds,
+          portail des participant·e·s et exportation des données — mais pas
+          un système de facturation, un DME clinique ni un CRM.
+          <a href="/fr/fonctionnalites/">Voir ce qu'il fait et ne fait pas →</a>
 </p>
 </div>
 <div class="feature-item">
-<h3>Un point de départ</h3>
+<h3>Compatible avec LogicalOutcomes</h3>
 <p>
-          Pour beaucoup d'organismes, KoNote est un système de démarrage. Commencez à recueillir des données
-          utiles sur les résultats dès maintenant. Quand vous êtes prêt·e pour quelque chose de plus élaboré,
-          exportez vos données et emportez-les avec vous.
+          Alimenté par un plan d'évaluation de <a href="https://logicaloutcomes.net" target="_blank" rel="noopener">LogicalOutcomes</a>
+          lors de la configuration — personnalisez les indicateurs, les résultats
+          et la collecte de données selon les questions d'évaluation de votre organisme.
 </p>
 </div>
 </div>

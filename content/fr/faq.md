@@ -237,6 +237,7 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
           basées sur des événements, l'inscription à un programme, des intervalles de temps ou les
           caractéristiques du·de la participant·e. Vous pouvez importer des instruments existants (comme le PHQ-9 ou le SPDAT)
           depuis des fichiers CSV.
+          <a href="/fr/fonctionnalites/">Voir les détails complets des sondages dans Fonctionnalités →</a>
 </p>
 </div>
 </div>
@@ -268,6 +269,7 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
 <p>
           Le portail est désactivé par défaut. Activez-le dans les paramètres des fonctionnalités
           lorsque votre organisme est prêt à l'offrir.
+          <a href="/fr/fonctionnalites/">Voir les détails complets du portail dans Fonctionnalités →</a>
 </p>
 </div>
 </div>
@@ -342,6 +344,9 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
 <li>Vous pouvez inspecter exactement ce que fait le logiciel</li>
 <li>Aucun risque qu'un fournisseur augmente les prix ou modifie les conditions</li>
 </ul>
+<p>
+          <a href="/fr/comparer/">Voir comment KoNote se compare aux alternatives commerciales et à code ouvert →</a>
+</p>
 </div>
 </div>
 
@@ -364,6 +369,7 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
           Si vous avez besoin d'un DME/DSE clinique, KoNote n'est pas le bon outil.
           Si vous devez suivre les résultats des participant·e·s en parallèle avec le travail clinique,
           KoNote pourrait compléter (mais non remplacer) votre système clinique.
+          <a href="/fr/fonctionnalites/">Voir ce que KoNote fait et ne fait pas →</a>
 </p>
 </div>
 </div>
@@ -431,6 +437,7 @@ hero_tagline: "Des réponses honnêtes aux questions courantes sur KoNote."
           identifiants supprimés, désactivé par défaut). Aucune information d'identification des participant·e·s
           n'est jamais envoyée au service d'IA. Les deux niveaux peuvent être entièrement désactivés
           si votre organisme préfère ne pas utiliser l'IA.
+          <a href="/fr/fonctionnalites/">Voir les détails complets des fonctionnalités IA →</a>
 </p>
 </div>
 </div>

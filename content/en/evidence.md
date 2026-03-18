@@ -96,7 +96,8 @@ hero_tagline: "KoNote is designed around research on what helps participants suc
 <div class="container">
 <h2>How This Shaped KoNote</h2>
 <p>
-      Each research finding informed specific design decisions:
+      Each research finding informed specific design decisions.
+      <a href="/en/features/">See the full feature list →</a>
 </p>
 
 <div class="table-wrapper">
