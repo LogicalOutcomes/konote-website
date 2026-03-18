@@ -99,8 +99,8 @@ hero_cta:
 <h3>Multi-Agency Hosting</h3>
 <p>
           Share a single server across multiple agencies with strict data isolation,
-          per-agency encryption keys, and independent configuration. Reduce hosting
-          costs from $35&ndash;100/month to $4&ndash;10 per agency.
+          per-agency encryption keys, and independent configuration. Significantly
+          reduce per-agency hosting costs.
 </p>
 </div>
 <div class="feature-item">
@@ -154,7 +154,7 @@ hero_cta:
 <div class="feature-item">
 <h3>Nonprofit Sustainability</h3>
 <p>
-          Minimal tech stack, hosting for under $100 CAD per agency,
+          Minimal tech stack, low hosting costs,
           no JavaScript frameworks, no vendor lock-in.
           Built for a five-person agency, not an enterprise.
 </p>

@@ -33,9 +33,9 @@ hero_tagline: "Ce qu'il faut considérer lors de l'évaluation des plateformes d
 <tbody>
 <tr>
 <td><strong>Modèle de coûts</strong></td>
-<td>Par utilisateur/mois (15 à 50 $/utilisateur), contrats annuels</td>
+<td>Par utilisateur/mois, contrats annuels</td>
 <td>Logiciel gratuit, coûts d'infrastructure auto-hébergée</td>
-<td>Gratuit (licence MIT). Hébergement pour moins de 100 $ CAD par organisme</td>
+<td>Gratuit (licence MIT). Vous ne payez que l'hébergement</td>
 </tr>
 <tr>
 <td><strong>Hébergement des données</strong></td>

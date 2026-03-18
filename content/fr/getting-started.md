@@ -128,7 +128,7 @@ hero_tagline: "Comment évaluer KoNote et décider s'il convient à votre organi
           HTTPS automatique. Bien adapté aux organismes sans personnel TI dédié.
 </p>
 <ul>
-<li><strong>Coût :</strong> Environ 45–50&nbsp;$/mois (CAD)</li>
+<li><strong>Coût :</strong> Faible (paiement à l'utilisation)</li>
 <li><strong>Difficulté :</strong> Faible</li>
 <li><strong>Emplacement des données :</strong> États-Unis (infrastructure de Railway)</li>
 </ul>
@@ -145,7 +145,7 @@ hero_tagline: "Comment évaluer KoNote et décider s'il convient à votre organi
           Les données peuvent rester dans des régions canadiennes. Configuration plus complexe.
 </p>
 <ul>
-<li><strong>Coût :</strong> Variable (généralement 50–150&nbsp;$/mois CAD)</li>
+<li><strong>Coût :</strong> Variable selon la configuration</li>
 <li><strong>Difficulté :</strong> Moyen à élevé</li>
 <li><strong>Emplacement des données :</strong> Votre choix (Canada Centre disponible)</li>
 </ul>

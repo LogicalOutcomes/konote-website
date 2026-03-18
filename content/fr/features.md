@@ -439,7 +439,7 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 <ul>
 <li>Les données de chaque organisme sont complètement séparées — aucun mélange entre les organisations</li>
 <li>Chaque organisme obtient sa propre clé de chiffrement, gérée de façon indépendante</li>
-<li>Infrastructure partagée pour l'optimisation des coûts (4&ndash;10&nbsp;$/mois par organisme contre 35&ndash;100&nbsp;$ en mode autonome)</li>
+<li>L'infrastructure partagée réduit considérablement les coûts d'hébergement par organisme</li>
 <li>Configuration indépendante par organisme (terminologie, fonctionnalités, programmes)</li>
 <li>Modèle de consortium pour les organismes souhaitant partager des rapports agrégés</li>
 <li>Rapports agrégés entre membres du consortium basés sur le consentement</li>
