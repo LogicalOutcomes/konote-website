@@ -614,11 +614,12 @@ hero_tagline: "Ce que KoNote fait — et ce qu'il ne fait pas. Nous croyons à l
 <div class="container text-center">
 <h2>Vous souhaitez l'essayer&nbsp;?</h2>
 <p class="text-muted mb-8">
-      Lisez le guide de démarrage pour évaluer KoNote pour votre organisme.
+      Explorez une instance KoNote en direct avec du contenu réaliste — inscrivez un·e participant·e
+      test, rédigez des notes d'évolution et voyez les graphiques se mettre à jour en temps réel.
 </p>
 <div class="btn-group" style="justify-content: center;">
-<a href="/fr/premiers-pas/" class="btn btn-primary">Premiers pas</a>
-<a href="/fr/documentation/" class="btn btn-secondary">Documentation complète</a>
+<a href="/fr/demo/" class="btn btn-primary">Essayer la démo en direct</a>
+<a href="/fr/premiers-pas/" class="btn btn-secondary">Guide de démarrage</a>
 </div>
 </div>
 </section>

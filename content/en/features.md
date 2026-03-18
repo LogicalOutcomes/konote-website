@@ -614,11 +614,12 @@ hero_tagline: "What KoNote does — and what it doesn't do. We believe in being 
 <div class="container text-center">
 <h2>Want to try it?</h2>
 <p class="text-muted mb-8">
-      Read the getting started guide to evaluate KoNote for your organisation.
+      Explore a live KoNote instance with realistic content — register a test participant,
+      write progress notes, and see charts update in real time.
 </p>
 <div class="btn-group" style="justify-content: center;">
-<a href="/en/getting-started/" class="btn btn-primary">Getting Started</a>
-<a href="/en/documentation/" class="btn btn-secondary">Full Documentation</a>
+<a href="/en/demo/" class="btn btn-primary">Try the Live Demo</a>
+<a href="/en/getting-started/" class="btn btn-secondary">Getting Started Guide</a>
 </div>
 </div>
 </section>

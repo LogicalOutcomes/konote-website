@@ -217,11 +217,15 @@ hero_cta:
 <div class="section-header">
 <h2>See it in action</h2>
 <p>
-        Try the self-service registration form that participants use to sign up
-        for programs. It's a live demo running on a real KoNote instance.
+        KoNote has a live demo with realistic content — a complete Supported Employment program
+        with participant records, outcome plans, progress notes, and surveys you can explore.
+        Register a test participant, log in as a program manager, and try the full workflow.
 </p>
 </div>
-<a href="demo/" class="btn btn-primary">Try the Registration Demo</a>
+<div class="btn-group" style="justify-content: center;">
+<a href="demo/" class="btn btn-primary">Try the Live Demo</a>
+<a href="https://demo.konote.ca/" target="_blank" rel="noopener" class="btn btn-secondary">Open Demo App Directly</a>
+</div>
 </div>
 </section>
 
@@ -229,11 +233,11 @@ hero_cta:
 <div class="container text-center">
 <h2>Ready to evaluate KoNote?</h2>
 <p class="text-muted mb-8">
-      Read the documentation, try a local demo, and decide if it's right for your organisation.
+      Read the documentation, explore the demo, and decide if it's right for your organisation.
 </p>
 <div class="btn-group" style="justify-content: center;">
 <a href="getting-started/" class="btn btn-primary">Getting Started Guide</a>
-<a href="services/" class="btn btn-secondary">Need Help? See Services</a>
+<a href="evidence/" class="btn btn-secondary">Read the Research</a>
 </div>
 </div>
 </section>
