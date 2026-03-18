@@ -237,6 +237,7 @@ hero_tagline: "Honest answers to common questions about KoNote."
           based on events, program enrolment, time intervals, or participant
           characteristics. You can import existing instruments (like PHQ-9 or SPDAT)
           from CSV files.
+          <a href="/en/features/">See full survey details in Features →</a>
 </p>
 </div>
 </div>
@@ -268,6 +269,7 @@ hero_tagline: "Honest answers to common questions about KoNote."
 <p>
           The portal is disabled by default. Enable it in the Features settings
           when your agency is ready to offer it.
+          <a href="/en/features/">See full portal details in Features →</a>
 </p>
 </div>
 </div>
@@ -342,6 +344,9 @@ hero_tagline: "Honest answers to common questions about KoNote."
 <li>You can inspect exactly what the software does</li>
 <li>No risk of a vendor raising prices or changing terms</li>
 </ul>
+<p>
+          <a href="/en/compare/">See how KoNote compares to commercial and open source alternatives →</a>
+</p>
 </div>
 </div>
 
@@ -364,6 +369,7 @@ hero_tagline: "Honest answers to common questions about KoNote."
           If you need a clinical EMR/EHR, KoNote isn't the right tool.
           If you need to track participant outcomes alongside clinical work,
           KoNote could complement (not replace) your clinical system.
+          <a href="/en/features/">See what KoNote does and doesn't do →</a>
 </p>
 </div>
 </div>
@@ -431,6 +437,7 @@ hero_tagline: "Honest answers to common questions about KoNote."
           identifiers removed, disabled by default). No participant identifying
           information is ever sent to the AI service. Both tiers can be disabled
           entirely if your organisation prefers not to use AI.
+          <a href="/en/features/">See full AI feature details →</a>
 </p>
 </div>
 </div>

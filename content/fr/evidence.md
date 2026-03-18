@@ -96,7 +96,8 @@ hero_tagline: "KoNote est conçu autour des données probantes sur ce qui aide l
 <div class="container">
 <h2>Comment cela a façonné KoNote</h2>
 <p>
-      Chaque constat de la recherche a influencé des décisions de conception spécifiques :
+      Chaque constat de la recherche a influencé des décisions de conception spécifiques.
+      <a href="/fr/fonctionnalites/">Voir la liste complète des fonctionnalités →</a>
 </p>
 
 <div class="table-wrapper">
