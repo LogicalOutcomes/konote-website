@@ -1,6 +1,10 @@
 :{$PORT:8080} {
     root * /srv
 
+    # Keep the public origin aligned with the demo app's frame-ancestors CSP.
+    @apex host konote.ca
+    redir @apex https://www.konote.ca{uri} permanent
+
     # Root URL: detect browser language preference
     @root path /
     handle @root {
