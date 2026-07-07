@@ -5,6 +5,30 @@
     @apex host konote.ca
     redir @apex https://www.konote.ca{uri} permanent
 
+    # French demo embeds: proxy to the demo app with an explicit language header.
+    handle /fr/embed/register-demo/ {
+        rewrite * /register/demo/?embed=1
+        reverse_proxy https://demo.konote.ca {
+            header_up Host demo.konote.ca
+            header_up Accept-Language fr
+        }
+    }
+
+    handle /fr/embed/demo-program-feedback/ {
+        rewrite * /s/demo-program-feedback/?embed=1
+        reverse_proxy https://demo.konote.ca {
+            header_up Host demo.konote.ca
+            header_up Accept-Language fr
+        }
+    }
+
+    # Assets referenced by proxied demo embed pages.
+    handle /static/* {
+        reverse_proxy https://demo.konote.ca {
+            header_up Host demo.konote.ca
+        }
+    }
+
     # Root URL: detect browser language preference
     @root path /
     handle @root {

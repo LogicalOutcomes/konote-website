@@ -126,7 +126,7 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
         Démonstration en direct &mdash; les soumissions vont dans un environnement de test, pas des données réelles
 </div>
 <iframe
-        src="https://demo.konote.ca/register/demo/?embed=1"
+        src="/fr/embed/register-demo/"
         title="Démonstration du formulaire d'inscription KoNote"
         loading="lazy"
         scrolling="no"
@@ -241,7 +241,7 @@ hero_tagline: "Ce sont des formulaires en direct connectés à une vraie instanc
         Sondage en direct &mdash; les soumissions vont dans un environnement de test, pas des données réelles
 </div>
 <iframe
-        src="https://demo.konote.ca/s/demo-program-feedback/?embed=1"
+        src="/fr/embed/demo-program-feedback/"
         title="Démonstration de sondage KoNote"
         loading="lazy"
         scrolling="no"
