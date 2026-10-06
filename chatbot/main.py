@@ -1,5 +1,6 @@
 """KoNote chatbot API — structured context assembly with OpenRouter."""
 
+import logging
 import os
 import re
 from contextlib import asynccontextmanager
@@ -23,6 +24,12 @@ from config import (
 )
 from content_loader import load_section_index, load_core_pack
 from context_selector import select_context, format_context
+
+logger = logging.getLogger(__name__)
+PROVIDER_ERROR_MESSAGES = {
+    "en": "I'm having trouble connecting right now. Please try again in a moment.",
+    "fr": "J'ai des difficultés de connexion en ce moment. Veuillez réessayer dans un instant.",
+}
 
 # --- Load structured knowledge base at startup ---
 section_index = {
@@ -107,8 +114,12 @@ def extract_followups(text: str) -> tuple[str, list[str]]:
 
 
 # --- API call ---
-async def call_openrouter(messages: list[dict], lang: str) -> str:
-    """Call OpenRouter API and return the response text."""
+async def call_openrouter(messages: list[dict], lang: str) -> str | None:
+    """Call OpenRouter, returning None on a safely logged provider failure."""
+    if not OPENROUTER_API_KEY:
+        logger.error("OpenRouter API key is not configured")
+        return None
+
     try:
         resp = await http_client.post(
             "https://openrouter.ai/api/v1/chat/completions",
@@ -126,13 +137,21 @@ async def call_openrouter(messages: list[dict], lang: str) -> str:
         )
         resp.raise_for_status()
         data = resp.json()
-        return data["choices"][0]["message"]["content"]
-    except (httpx.HTTPStatusError, httpx.RequestError, KeyError, IndexError):
-        error_msg = {
-            "en": "I'm having trouble connecting right now. Please try again in a moment.",
-            "fr": "J'ai des difficultés de connexion en ce moment. Veuillez réessayer dans un instant.",
-        }
-        return error_msg.get(lang, error_msg["en"])
+        content = data["choices"][0]["message"]["content"]
+        if not isinstance(content, str) or not content.strip():
+            raise ValueError("Empty or non-text model response")
+        return content
+    except httpx.HTTPStatusError as exc:
+        logger.error(
+            "OpenRouter request failed: upstream_status=%s model=%s",
+            exc.response.status_code,
+            CHAT_MODEL,
+        )
+    except httpx.RequestError as exc:
+        logger.error("OpenRouter request failed: transport_error=%s", type(exc).__name__)
+    except (ValueError, KeyError, IndexError, TypeError):
+        logger.error("OpenRouter request failed: malformed_response")
+    return None
 
 
 # --- Endpoints ---
@@ -140,6 +159,7 @@ async def call_openrouter(messages: list[dict], lang: str) -> str:
 async def health():
     return {
         "status": "ok",
+        "provider_configured": bool(OPENROUTER_API_KEY),
         "en_sections": len(section_index["en"]),
         "fr_sections": len(section_index["fr"]),
         "en_core": len(core_packs["en"]),
@@ -147,7 +167,11 @@ async def health():
     }
 
 
-@app.post("/chat", response_model=ChatResponse)
+@app.post(
+    "/chat",
+    response_model=ChatResponse,
+    responses={503: {"model": ChatResponse, "description": "AI provider unavailable"}},
+)
 @limiter.limit("10/minute")
 async def chat(request: Request, body: ChatRequest):
     lang = body.language if body.language in ("en", "fr") else "en"
@@ -171,6 +195,15 @@ async def chat(request: Request, body: ChatRequest):
     ]
 
     response_text = await call_openrouter(messages, lang)
+    if response_text is None:
+        return JSONResponse(
+            status_code=503,
+            content=ChatResponse(
+                response=PROVIDER_ERROR_MESSAGES[lang],
+                sources=[],
+                followups=[],
+            ).model_dump(),
+        )
     cleaned_text, followups = extract_followups(response_text)
 
     return ChatResponse(
