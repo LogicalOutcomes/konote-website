@@ -100,16 +100,16 @@ class ChatResponse(BaseModel):
 
 
 # --- Followup parser ---
-FOLLOWUP_RE = re.compile(r"^\[followup:\s*(.+?)\]$", re.MULTILINE)
+FOLLOWUP_RE = re.compile(r"\[followup:\s*([^\]\r\n]+?)\]", re.IGNORECASE)
 
 
 def extract_followups(text: str) -> tuple[str, list[str]]:
-    """Extract [followup: ...] lines from response text.
+    """Extract [followup: ...] suggestions, even when a model puts them inline.
 
     Returns (cleaned_text, list_of_followup_questions).
     """
-    followups = FOLLOWUP_RE.findall(text)
-    cleaned = FOLLOWUP_RE.sub("", text).rstrip()
+    followups = [question.strip() for question in FOLLOWUP_RE.findall(text)]
+    cleaned = FOLLOWUP_RE.sub("", text).strip()
     return cleaned, followups
 
 

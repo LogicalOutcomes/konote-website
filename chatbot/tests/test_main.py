@@ -8,7 +8,7 @@ from fastapi.testclient import TestClient
 os.environ.setdefault("OPENROUTER_API_KEY", "test-key")
 os.environ.setdefault("WEBSITE_URL", "http://localhost:1313")
 
-from main import app, call_openrouter
+from main import app, call_openrouter, extract_followups
 
 client = TestClient(app)
 
@@ -74,6 +74,18 @@ def test_chat_returns_sources():
         if data["sources"]:
             assert "label" in data["sources"][0]
             assert "url" in data["sources"][0]
+
+
+def test_extract_followups_from_inline_and_separate_lines():
+    answer, followups = extract_followups(
+        "KoNote est auto-hébergé.\n\n"
+        "[followup: Comment commencer ?] [followup: Est-ce bilingue ?]\n"
+        "[followup: Où sont les données ?]"
+    )
+    assert answer == "KoNote est auto-hébergé."
+    assert followups == [
+        "Comment commencer ?", "Est-ce bilingue ?", "Où sont les données ?",
+    ]
 
 
 def test_chat_reports_provider_failure_without_sources():
