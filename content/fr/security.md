@@ -1,5 +1,7 @@
 ---
 title: "Sécurité et confidentialité"
+slug: "securite"
+aliases: ["security"]
 description: "Comment KoNote protège les données des participants : chiffrement, contrôle d'accès, journal d'audit, conformité LPRPS/LPRPDE et résidence canadienne des données."
 layout: "wide"
 hero: true

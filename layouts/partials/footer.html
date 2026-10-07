@@ -1,11 +1,12 @@
 <footer class="site-footer">
+  {{ $site := .Site }}
   <div class="container footer-content">
     <div class="footer-links">
       <a href="https://github.com/LogicalOutcomes/konote">{{ i18n "footer_github" | default "GitHub Repository" }}</a>
-      <a href="{{ "security/" | relLangURL }}">{{ i18n "nav_security" }}</a>
-      <a href="{{ "design-principles/" | relLangURL }}">{{ i18n "nav_design_principles" }}</a>
-      <a href="{{ "origins/" | relLangURL }}">{{ i18n "nav_origins" }}</a>
-      <a href="{{ "services/" | relLangURL }}">{{ i18n "nav_services" }}</a>
+      {{ with $site.GetPage "security" }}<a href="{{ .RelPermalink }}">{{ i18n "nav_security" }}</a>{{ end }}
+      {{ with $site.GetPage "design-principles" }}<a href="{{ .RelPermalink }}">{{ i18n "nav_design_principles" }}</a>{{ end }}
+      {{ with $site.GetPage "origins" }}<a href="{{ .RelPermalink }}">{{ i18n "nav_origins" }}</a>{{ end }}
+      {{ with $site.GetPage "services" }}<a href="{{ .RelPermalink }}">{{ i18n "nav_services" }}</a>{{ end }}
     </div>
     <p class="footer-copyright">
       {{ i18n "footer_copyright" }}

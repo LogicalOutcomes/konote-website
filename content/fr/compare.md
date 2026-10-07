@@ -1,5 +1,7 @@
 ---
 title: "Choisir un logiciel de suivi des résultats"
+slug: "comparer"
+aliases: ["compare"]
 description: "Comment KoNote se compare aux plateformes commerciales et à code ouvert de gestion de cas — coûts, propriété des données, confidentialité, bilinguisme et suivi des résultats."
 layout: "wide"
 hero: true

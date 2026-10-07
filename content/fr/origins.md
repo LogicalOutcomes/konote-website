@@ -1,5 +1,7 @@
 ---
 title: "Origines"
+slug: "origines"
+aliases: ["origins"]
 description: "L'histoire de KoNote : comment il a évolué à partir du travail clinique au St. Joseph's Health Centre, à travers l'expérience en évaluation de LogicalOutcomes, jusqu'à sa forme actuelle."
 hero: true
 hero_title: "Origines"

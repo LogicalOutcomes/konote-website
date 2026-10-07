@@ -1,5 +1,7 @@
 ---
 title: "Principes de conception"
+slug: "principes-de-conception"
+aliases: ["design-principles"]
 description: "Les idées derrière la conception de KoNote : pratique collaborative, souveraineté des données, sécurité par défaut et viabilité des organismes à but non lucratif."
 hero: true
 hero_title: "Principes de conception"

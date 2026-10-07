@@ -1,5 +1,7 @@
 ---
 title: "Fondements de la recherche"
+slug: "donnees-probantes"
+aliases: ["evidence"]
 description: "Les fondements de la recherche qui sous-tendent la conception de KoNote : pratique éclairée par la rétroaction, documentation collaborative et suivi des résultats centré sur les participants."
 layout: "wide"
 toc: true

@@ -175,6 +175,13 @@
           );
           return null;
         }
+        if (resp.status === 503) {
+          return resp.json().then(function (data) {
+            setLoading(false);
+            addMessage("assistant", data.response);
+            return null;
+          });
+        }
         if (!resp.ok) throw new Error("API error: " + resp.status);
         return resp.json();
       })

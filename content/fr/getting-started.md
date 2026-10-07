@@ -1,5 +1,7 @@
 ---
 title: "Premiers pas"
+slug: "premiers-pas"
+aliases: ["getting-started"]
 description: "Comment évaluer et déployer KoNote. Options de déploiement, exigences et guide étape par étape."
 layout: "wide"
 hero: true
