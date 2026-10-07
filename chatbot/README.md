@@ -2,13 +2,21 @@
 
 ## Railway Deployment
 
-1. Create a new service in the Railway project
-2. Set root directory to `/` and Dockerfile path to `chatbot/Dockerfile`
-3. Add environment variables:
+1. Connect the service to the `LogicalOutcomes/konote-website` repository.
+2. Keep Root Directory at `/` (the repository root). The chatbot Dockerfile copies
+   both `chatbot/` and `content/` from this build context.
+3. For an existing Railway service using Config as Code, set its Config File Path
+   to `/chatbot/railway.toml`. The repository-root `railway.toml` configures the
+   Hugo website and must not be used by the chatbot service. Clear any custom
+   Start Command so the chatbot Dockerfile's Uvicorn command runs.
+   For a new service without Config as Code, set
+   `RAILWAY_DOCKERFILE_PATH=/chatbot/Dockerfile` in its Variables and set the
+   Healthcheck Path to `/health` in its Settings instead.
+4. Add environment variables:
    - `OPENROUTER_API_KEY` — your OpenRouter API key
-   - `WEBSITE_URL` — the website's public URL (for CORS)
-   - `CHAT_MODEL` — OpenRouter model ID (default: `mistralai/mistral-large-latest`)
-4. Set health check path to `/health`
+   - `WEBSITE_URL=https://www.konote.ca` — the website's public URL (for CORS)
+   - `CHAT_MODEL` — OpenRouter model ID (default: `google/gemini-3-flash-preview`)
+5. Confirm the deployment builds `chatbot/Dockerfile` and GET `/health` returns 200.
 
 ## Local Development
 
