@@ -91,7 +91,7 @@ hero_tagline: "Des guides complets pour toutes les personnes qui travaillent ave
 </ul>
 </a>
 
-<a href="/fr/security/" class="card doc-card" style="text-decoration: none; color: inherit;">
+<a href="/fr/securite/" class="card doc-card" style="text-decoration: none; color: inherit;">
 <h3>Aperçu de la sécurité</h3>
 <p><strong>Pour : tout le monde</strong></p>
 <p>
